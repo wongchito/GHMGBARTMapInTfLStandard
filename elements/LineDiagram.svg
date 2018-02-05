@@ -1,0 +1,69 @@
+<svg 
+width="345" height="255" 
+xmlns="http://www.w3.org/2000/svg" version="1.1"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+viewBox="40 0 315 185">
+	<title>Line Diagram in SVG based on TfL Standard</title>
+
+<style type="text/css">
+.LineDiagram {fill:none;stroke-width:6}
+.NonMetro {stroke:#fff;stroke-width:2}
+.StationTick {fill:none;stroke-width:4}
+.StationName {
+    font-family:Arial,"Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Hiragino Mincho ProN","PingFang HK","Arial Unicode MS",sans-serif;
+    fill:#0019A8;
+    font-weight:bold;
+}
+.sline8 {stroke:#008C95}
+.TfLLU {fill:#0019A8}
+.CorporateGrey {fill:#868F98}
+</style>
+
+    <defs>
+        <path id="st" class="StationTick" d="M 2,0 H 7"/>
+        <path id="term" class="StationTick" d="M -7,0 H 7"/>
+        <use xlink:href="#st" id="stline8" class="sline8"/>
+        <use xlink:href="#term" id="termline8" class="sline8"/>
+        <g id="int">
+            <circle cx="0" cy="0" r="9" fill="#000"/>
+            <circle cx="0" cy="0" r="6" fill="#fff"/>
+        </g>
+    </defs>
+
+	<rect x="80" y="35" width="115" height="85" style="fill:#fff"/>
+    
+    <path stroke-width="6" class="sline8" d="M 90,50 H 220"/>
+    <use xlink:href="#termline8" transform="translate(90,50)rotate(-90)"/>
+    <use xlink:href="#stline8" transform="translate(160,50)rotate(90)"/>
+    <use xlink:href="#int" transform="translate(230,50)"/>
+    <use xlink:href="#int" transform="translate(300,50)"/>
+
+    <path stroke-width="6" class="sline8" d="M 90,130 H 220"/>
+    <use xlink:href="#termline8" transform="translate(90,130)rotate(-90)"/>
+    <use xlink:href="#stline8" transform="translate(160,130)rotate(90)"/>
+    <use xlink:href="#int" transform="translate(230,130)"/>
+    <use xlink:href="#int" transform="translate(300,130)"/>
+
+    <g class="StationName" font-size="8.5pt" text-anchor="middle">
+        <text x="90" y="35" alignment-baseline="central">Station</text>
+        <text x="160" y="65" alignment-baseline="central">Station<tspan x="160" dy="12" alignment-baseline="central">Name</tspan></text>
+        <text x="230" y="35" alignment-baseline="central">Station</text>
+        <text x="300" y="23" alignment-baseline="central">Station<tspan x="300" dy="12" alignment-baseline="central">Name</tspan></text>
+    </g>
+
+    <g class="StationName" font-size="6.7pt" text-anchor="middle">
+        <text x="90" y="115" alignment-baseline="central">地鐵站</text>
+        <text x="160" y="145" alignment-baseline="central">地鐵站<tspan x="160" dy="12" alignment-baseline="central">名稱</tspan></text>
+        <text x="230" y="115" alignment-baseline="central">地鐵站</text>
+        <text x="300" y="103" alignment-baseline="central">地鐵站<tspan x="300" dy="12" alignment-baseline="central">名稱</tspan></text>
+    </g>
+    
+    <path stroke-width="0.1" stroke="#000" d="
+        M 90,39 H 150
+        M 90,61 H 150
+        M 90,79 H 150
+        M 90,85 H 150
+    "/>
+
+	<rect x="80" y="35" width="115" height="85" style="fill:none;stroke:blue;stroke-width:0.2"/>
+</svg>
