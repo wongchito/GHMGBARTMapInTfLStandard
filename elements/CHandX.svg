@@ -9,7 +9,7 @@ viewBox="75 40 55 20">
     <path stroke-width="0.1" stroke="#000" d="M 90,46 H 115"/>
     <path stroke-width="0.1" stroke="#f00" d="M 90,48 H 115"/>
     <path stroke-width="0.1" stroke="#000" d="M 90,54 H 115"/>
-    <text font-family="Arial" font-weight="bold" font-size="8.5pt" x="95" y="51" alignment-baseline="middle">A x</text>
+    <text font-family="Arial" font-weight="bold" font-size="8.5pt" x="91" y="51" alignment-baseline="middle">Ax<tspan font-size="6.7pt" font-family="Meiryo UI,Meiryo" alignment-baseline="middle">漢</tspan></text>
     <!--CH:8 x:6-->
 	<!--alignment-baseline="middle" if in x-height line-->
 
