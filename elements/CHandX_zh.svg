@@ -1,0 +1,25 @@
+<svg 
+width="275" height="100" 
+xmlns="http://www.w3.org/2000/svg" version="1.1"
+viewBox="75 40 55 20">
+	<title>Cap Height and x Height in SVG based on TfL Standard</title>
+
+	<rect x="70" y="35" width="160" height="30" style="fill:#fff"/>
+
+    <path stroke-width="0.1" stroke="#000" d="M 90,46 H 115"/>
+    <path stroke-width="0.1" stroke="#f00" d="M 90,48 H 115"/>
+    <path stroke-width="0.1" stroke="#000" d="M 90,54 H 115"/>
+    <text font-family="Meiryo" font-weight="bold" font-size="6.7pt" x="95" y="51" alignment-baseline="middle">漢字</text>
+    <!--CH:8 x:6-->
+	<!--alignment-baseline="middle" if in x-height line-->
+
+    <path stroke-width="0.1" stroke="#000" d="M 80,46 H 87"/>
+    <path stroke-width="0.1" stroke="#000" d="M 80,54 H 87"/>
+	<text font-family="Arial" font-size="2pt" text-anchor="middle" x="83.5" y="50" alignment-baseline="middle">CH</text>
+
+	<path stroke-width="0.1" stroke="#000" d="M 118,48 H 125"/>
+    <path stroke-width="0.1" stroke="#000" d="M 118,54 H 125"/>
+	<text font-family="Arial" font-size="2pt" text-anchor="middle" x="121.5" y="51" alignment-baseline="middle">x</text>
+
+	<rect x="75" y="40" width="55" height="20" style="fill:none;stroke:blue;stroke-width:0.2"/>
+</svg>
