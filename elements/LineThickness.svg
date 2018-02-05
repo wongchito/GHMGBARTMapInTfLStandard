@@ -10,7 +10,7 @@ viewBox="80 35 115 85">
 .NonMetro {stroke:#fff;stroke-width:2}
 .StationTick {fill:none;stroke-width:4}
 .StationName {
-    font-family:Arial,Meiryo UI,Meiryo,sans-serif;
+    font-family:Arial,"Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Hiragino Mincho ProN","PingFang HK","Arial Unicode MS",sans-serif;
     fill:#0019A8;
     font-weight:bold;
 }
