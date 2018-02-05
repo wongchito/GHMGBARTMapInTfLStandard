@@ -1174,6 +1174,7 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="488" y="60">Liede</text>
                                 <text x="872" y="90">Dongpu</text>
                                 <text x="902" y="120">Sanxi</text>
+                                <text x="1026" y="170">Dashadong</text>
                         </g>
                         <g text-anchor="middle">
                                 <text x="280" y="-128">Zoo</text>
@@ -1181,7 +1182,7 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="588" y="88">Tancun</text>
                                 <text x="758" y="52">Keyun Lu</text>
                                 <text x="986" y="142">Dashadi</text>
-                                <text x="1036" y="178">Dashadong</text>
+                                
                                 <text x="1086" y="142">Wenchong</text>
                         </g>
                         <g text-anchor="end">
@@ -1204,6 +1205,7 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="576" y="-300">Changban</text>
                                 <text x="606" y="-337">Botanical<tspan x="606" dy="14">Garden</tspan></text>
                                 <text x="912" y="-350">Jinfeng</text>
+                                <text x="1026" y="-270">Luogang</text>
                         </g>
                         <g text-anchor="middle">
                                 <text x="-70" y="122">Yide Lu</text>
@@ -1215,7 +1217,7 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="713" y="-352">Kemulang</text>
                                 <text x="785" y="-388">Gaotangshi</text>
                                 <text x="858" y="-352">Huangbei</text>
-                                <text x="1036" y="-262">Luogang</text>
+                                
                                 <text x="1096" y="-298">Xiangxue</text>
                         </g>
                         <g text-anchor="end">
@@ -1234,6 +1236,11 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="-59" y="742">Chencun</text>
                                 <text x="-29" y="712">Chencun Bei</text>
                                 <text x="549" y="580">Nancun<tspan x="549" dy="14">Wanbo</tspan></text>
+                                <text x="903" y="329">Shenjing</text>
+                                <text x="1028" y="260">Hongshengsha</text>
+                                <text x="1028" y="50">Jitang</text>
+                                <text x="1028" y="-60">Jiazhuang</text>
+                                <text x="1028" y="-170">Kefeng Lu</text>
                         </g>
                         <g text-anchor="middle">
                                 <text x="-223" y="815">Beijiao<tspan x="-223" dy="14">New Town</tspan></text>
@@ -1243,9 +1250,11 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="298" y="552">Zhongcun</text>
                                 <text x="699" y="588">Yuangang</text>
                                 <text x="859" y="588">Banqiao</text>
+                                <text x="913" y="263">Changzhou</text>
                         </g>
                         <g text-anchor="end">
                                 <text x="-19" y="662">Weichong</text>
+                                <text x="965" y="-399">Shuixibei</text>
                         </g>
                 </g>
                 <g id="Line8_station_names">
@@ -1347,6 +1356,7 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="468" y="-10">Xiancun</text>
                                 <text x="828" y="-10">Chebei</text>
                                 <text x="887" y="35">Zhucun</text>
+                                
                                 <text x="1206" y="224">Nangang</text>
                                 <text x="1236" y="194">Shacun</text>
                         </g>
@@ -1359,7 +1369,7 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="578" y="-18">Racecourse</text>
                                 <text x="638" y="18">Baimagang</text>
                                 <text x="758" y="18">Tangxia</text>
-                                <text x="1016" y="212">Yufengwei</text>
+                                
                                 <text x="1066" y="248">Shuanggang</text>
                                 <text x="1116" y="198">Nanhai God<tspan x="1116" dy="14">Temple</tspan></text>
                                 <text x="1166" y="248">Xiayuan</text>
@@ -1377,6 +1387,7 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="-262" y="-180">Songxi</text>
                                 <text x="-234" y="-130">Luochongwei</text>
                                 <text x="404" y="-28">Huacheng<tspan x="404" dy="14">Square</tspan><tspan x="404" dy="14">North</tspan></text>
+                                <text x="1006" y="220">Yufengwei</text>
                                 <text x="1246" y="144">Baijiang</text>
                         </g>
                 </g>
