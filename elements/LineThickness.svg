@@ -9,8 +9,8 @@ viewBox="80 35 115 85">
 .LineDiagram {fill:none;stroke-width:6}
 .NonMetro {stroke:#fff;stroke-width:2}
 .StationTick {fill:none;stroke-width:4}
-.StationNameEN {
-    font-family:Arial,sans-serif;
+.StationName {
+    font-family:Arial,Meiryo UI,Meiryo,sans-serif;
     fill:#0019A8;
     font-weight:bold;
 }
@@ -28,7 +28,7 @@ viewBox="80 35 115 85">
     
     <path stroke-width="6" class="sline8" d="M 90,50 H 120"/>
     <use xlink:href="#stline8" transform="translate(105,50)rotate(-90)"/>
-    <text class="StationNameEN" font-size="8.5pt" x="125" y="50" alignment-baseline="middle">Shayuan</text>
+    <text class="StationName" font-size="8.5pt" x="125" y="50" alignment-baseline="middle">Shayuan</text>
 
     <text class="CorporateGrey" font-family="Arial,sans-serif" font-weight="bold" font-size="8.5pt" x="179" y="50" alignment-baseline="middle" text-anchor="middle">x</text>
     
@@ -37,7 +37,7 @@ viewBox="80 35 115 85">
         M 123,53 H 185
     "/>
 
-    <text class="StationNameEN" font-size="8.5pt" x="115" y="70" alignment-baseline="middle" text-anchor="middle">Baogang<tspan x="115" dy="12" alignment-baseline="middle">Dadao</tspan></text>
+    <text class="StationName" font-size="8.5pt" x="115" y="70" alignment-baseline="middle" text-anchor="middle">Baogang<tspan x="115" dy="12" alignment-baseline="middle">Dadao</tspan></text>
 
     <text class="CorporateGrey" font-family="Arial,sans-serif" font-weight="bold" font-size="8.5pt" x="145" y="70" alignment-baseline="middle" text-anchor="middle">x<tspan x="145" dy="6" alignment-baseline="middle">x</tspan><tspan x="145" dy="6" alignment-baseline="middle">x</tspan></text>
     
