@@ -1,0 +1,80 @@
+<svg 
+width="345" height="255" 
+xmlns="http://www.w3.org/2000/svg" version="1.1"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+viewBox="80 35 115 85">
+	<title>Line Thickness in SVG based on TfL Standard</title>
+
+<style type="text/css">
+.LineDiagram {fill:none;stroke-width:6}
+.NonMetro {stroke:#fff;stroke-width:2}
+.StationTick {fill:none;stroke-width:4}
+.StationNameEN {
+    font-family:Arial,sans-serif;
+    fill:#0019A8;
+    font-weight:bold;
+}
+.sline8 {stroke:#008C95}
+.TfLLU {fill:#0019A8}
+.CorporateGrey {fill:#868F98}
+</style>
+
+    <defs>
+        <path id="st" class="StationTick" d="M 2,0 H 7"/>
+        <use xlink:href="#st" id="stline8" class="sline8"/>
+    </defs>
+
+	<rect x="80" y="35" width="115" height="85" style="fill:#fff"/>
+    
+    <path stroke-width="6" class="sline8" d="M 90,50 H 120"/>
+    <use xlink:href="#stline8" transform="translate(105,50)rotate(-90)"/>
+    <text class="StationNameEN" font-size="8.5pt" x="125" y="50" alignment-baseline="middle">Shayuan</text>
+
+    <text class="CorporateGrey" font-family="Arial,sans-serif" font-weight="bold" font-size="8.5pt" x="179" y="50" alignment-baseline="middle" text-anchor="middle">x</text>
+    
+    <path stroke-width="0.1" stroke="#000" d="
+        M 123,47 H 185
+        M 123,53 H 185
+    "/>
+
+    <text class="StationNameEN" font-size="8.5pt" x="115" y="70" alignment-baseline="middle" text-anchor="middle">Baogang<tspan x="115" dy="12" alignment-baseline="middle">Dadao</tspan></text>
+
+    <text class="CorporateGrey" font-family="Arial,sans-serif" font-weight="bold" font-size="8.5pt" x="145" y="70" alignment-baseline="middle" text-anchor="middle">x<tspan x="145" dy="6" alignment-baseline="middle">x</tspan><tspan x="145" dy="6" alignment-baseline="middle">x</tspan></text>
+    
+    <path stroke-width="0.1" stroke="#000" d="
+        M 90,67 H 150
+        M 90,73 H 150
+        M 90,79 H 150
+        M 90,85 H 150
+    "/>
+
+    <path stroke-width="6" class="sline8" d="M 90,110 H 120"/>
+    <use xlink:href="#stline8" transform="translate(105,110)rotate(-90)"/>
+    <path stroke-width="0.1" stroke="#000" d="
+        M 123,107 H 130
+        M 123,113 H 130
+        M 103,101 V 96
+        M 107,101 V 96
+        M 108,103 H 115
+    "/>
+    <text font-family="Arial" font-size="2pt" text-anchor="middle" x="105" y="94" alignment-baseline="middle">0.66x</text>
+    <text font-family="Arial" font-size="2pt" text-anchor="start" x="108" y="105" alignment-baseline="middle">0.66x</text>
+    <text font-family="Arial" font-size="2pt" text-anchor="start" x="123" y="110" alignment-baseline="middle">x</text>
+
+    <g class="sline8" stroke-width="6">
+        <path id="nonmetro" d="M 135,110 H 165"/>
+    </g>
+    <use xlink:href="#nonmetro" class="NonMetro"/>
+    <use xlink:href="#stline8" transform="translate(150,110)rotate(-90)"/>
+    <path stroke-width="0.1" stroke="#000" d="
+        M 168,107 H 175
+        M 168,109 H 175
+        M 168,111 H 175
+        M 168,113 H 175
+    "/>
+    <text font-family="Arial" font-size="2pt" text-anchor="start" x="175" y="108" alignment-baseline="middle">0.33x</text>
+    <text font-family="Arial" font-size="2pt" text-anchor="start" x="182" y="110" alignment-baseline="middle">0.33x</text>
+    <text font-family="Arial" font-size="2pt" text-anchor="start" x="175" y="112" alignment-baseline="middle">0.33x</text>
+
+	<rect x="80" y="35" width="115" height="85" style="fill:none;stroke:blue;stroke-width:0.2"/>
+</svg>

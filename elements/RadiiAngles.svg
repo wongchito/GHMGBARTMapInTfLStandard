@@ -1,0 +1,75 @@
+<svg 
+width="310" height="140" 
+xmlns="http://www.w3.org/2000/svg" version="1.1"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+viewBox="80 40 155 70">
+	<title>Radii and Angles in SVG based on TfL Standard</title>
+
+<style type="text/css">
+.LineDiagram {fill:none;stroke-width:6}
+.NonMetro {stroke:#fff;stroke-width:2}
+.StationTick {fill:none;stroke-width:4}
+.StationNameEN {
+    font-family:Arial,sans-serif;
+    fill:#0019A8;
+    font-weight:bold;
+}
+.sline8 {stroke:#008C95}
+.sline18 {stroke:#D48BC8}
+.TfLLU {fill:#0019A8}
+.CorporateGrey {fill:#868F98}
+</style>
+
+    <defs>
+        <path id="st" class="StationTick" d="M 2,0 H 7"/>
+        <use xlink:href="#st" id="stline8" class="sline8"/>
+        <path id="outofcity" stroke="none" d="
+                M 0,-2 L -12,-14 V -5.5
+                L 0,6.5 L 12,-5.5 V -14 Z
+                "/>
+    </defs>
+
+	<rect x="80" y="40" width="155" height="70" style="fill:#fff"/>
+    
+    <g class="LineDiagram">
+        <path class="sline18" d="
+            M 90,100
+            V 75 a 21,21 0 0,1 21,-21
+            H 136
+            
+            M 155,80
+            L 175,60 a 21,21 0 0,1 15,-6
+            H 225
+            
+            M 155,96
+            H 190 a 21,21 0 0,0 15,-6
+            L 225,70
+        "/>
+    </g>
+
+    <circle cx="111" cy="75" r="18" stroke="#000" stroke-width="0.1" fill="none"/>
+    <circle cx="111" cy="75" r="24" stroke="#000" stroke-width="0.1" stroke-dasharray="1" fill="none"/>
+
+    <circle cx="190" cy="75" r="18" stroke="#000" stroke-width="0.1" fill="none"/>
+    <circle cx="190" cy="75" r="24" stroke="#000" stroke-width="0.1" stroke-dasharray="1" fill="none"/>
+
+    <path stroke="#000" stroke-width="0.1" d="
+        M 111,75 h 24
+        M 111,75 v -10
+        M 129,75 v -10
+        M 135,75 v -10
+
+        M 190,44 V 106
+
+        M 190,70 a 5,5 0 0,0 -3.54,1.46
+    "/>
+    <path stroke="#000" stroke-width="0.1" stroke-dasharray="1" d="
+        M 168,53
+        L 212,97
+    "/>
+    <text font-family="Arial" font-size="2pt" text-anchor="middle" x="120" y="70" alignment-baseline="middle">R3x</text>
+    <text font-family="Arial" font-size="2pt" text-anchor="middle" x="132" y="70" alignment-baseline="middle">x</text>
+    <text font-family="Arial" font-size="2pt" text-anchor="middle" x="187" y="68" alignment-baseline="middle">45&#176;</text>
+
+	<rect x="80" y="40" width="155" height="70" style="fill:none;stroke:blue;stroke-width:0.2"/>
+</svg>
