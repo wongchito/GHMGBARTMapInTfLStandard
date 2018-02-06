@@ -365,7 +365,8 @@ viewBox="-800 -1060 2800 2060"
                 V 771 a 21,21 0 0,0 21,21
                 H -138 a 21,21 0 0,0 15,-6
                 L 87,576 a 21,21 0 0,1 15,-6
-                H 872 a 21,21 0 0,0 21,-21
+                H 750 a 21,21 0 0,0 15,-6
+                L 887,442 a 21,21 0 0,0 6,-15
                 V 302 a 21,21 0 0,1 21,-21
                 H 995 a 21,21 0 0,0 21,-21
                 V -339 a 21,21 0 0,0 -6,-15
@@ -726,7 +727,7 @@ viewBox="-800 -1060 2800 2060"
                 <use xlink:href="#stline7" transform="translate(298,570)rotate(-90)" id="Zhongcun"/>
                 <use xlink:href="#int" x="539" y="570" id="Nancun_Wanbo"/>
                 <use xlink:href="#stline7" transform="translate(699,570)rotate(90)" id="Yuangang"/>
-                <use xlink:href="#stline7" transform="translate(859,570)rotate(90)" id="Banqiao"/>
+                <use xlink:href="#stline7" transform="translate(826,503)rotate(45)" id="Banqiao"/>
                 <!--HEMC S Line4-->
                 <use xlink:href="#stline7" transform="translate(893,329)" id="Shenjing"/>
                 <use xlink:href="#stline7" transform="translate(924,281)rotate(-90)" id="Changzhou"/>
@@ -1236,6 +1237,7 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="-59" y="742">Chencun</text>
                                 <text x="-29" y="712">Chencun Bei</text>
                                 <text x="549" y="580">Nancun<tspan x="549" dy="14">Wanbo</tspan></text>
+                                <text x="836" y="513">Banqiao</text>
                                 <text x="903" y="329">Shenjing</text>
                                 <text x="1028" y="260">Hongshengsha</text>
                                 <text x="1028" y="50">Jitang</text>
@@ -1249,7 +1251,7 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="188" y="588">Xiecun</text>
                                 <text x="298" y="552">Zhongcun</text>
                                 <text x="699" y="588">Yuangang</text>
-                                <text x="859" y="588">Banqiao</text>
+                                
                                 <text x="913" y="263">Changzhou</text>
                         </g>
                         <g text-anchor="end">
@@ -1723,6 +1725,7 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="-59" y="742">陳村</text>
                                 <text x="-29" y="712">陳村北</text>
                                 <text x="549" y="580">南村萬博</text>
+                                <text x="836" y="513">板橋</text>
                         </g>
                         <g text-anchor="middle">
                                 <text x="-223" y="815">北滘<tspan x="-223" dy="14">新城</tspan></text>
@@ -1731,7 +1734,7 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="188" y="588">謝村</text>
                                 <text x="298" y="552">鍾村</text>
                                 <text x="699" y="588">員崗</text>
-                                <text x="859" y="588">板橋</text>
+                                
                         </g>
                         <g text-anchor="end">
                                 <text x="-19" y="662">韋涌</text>
