@@ -1,12 +1,27 @@
 <svg 
-width="345" height="255" 
+width="590" height="320" 
 xmlns="http://www.w3.org/2000/svg" version="1.1"
 xmlns:xlink="http://www.w3.org/1999/xlink"
-viewBox="40 0 315 185">
+viewBox="60 10 295 160">
 	<title>Line Diagram in SVG based on TfL Standard</title>
 
 <style type="text/css">
 .LineDiagram {fill:none;stroke-width:6}
+.FlagBox {fill:none;stroke-width:8}
+.FlagBoxNameEN {
+    font-family:Arial,"Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Hiragino Mincho ProN","PingFang HK","Arial Unicode MS",sans-serif;
+    font-weight:bold;
+    alignment-baseline:middle;
+    text-anchor:middle;
+    font-size:4.5pt;
+}
+.FlagBoxNameZH {
+    font-family:Arial,"Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Hiragino Mincho ProN","PingFang HK","Arial Unicode MS",sans-serif;
+    font-weight:bold;
+    alignment-baseline:central;
+    text-anchor:middle;
+    font-size:3.7pt;
+}
 .NonMetro {stroke:#fff;stroke-width:2}
 .StationTick {fill:none;stroke-width:4}
 .StationName {
@@ -14,7 +29,9 @@ viewBox="40 0 315 185">
     fill:#0019A8;
     font-weight:bold;
 }
+.sline1 {stroke:#F3D03E}
 .sline8 {stroke:#008C95}
+.sline11 {stroke:#470A68}
 .TfLLU {fill:#0019A8}
 .CorporateGrey {fill:#868F98}
 </style>
@@ -22,8 +39,25 @@ viewBox="40 0 315 185">
     <defs>
         <path id="st" class="StationTick" d="M 2,0 H 7"/>
         <path id="term" class="StationTick" d="M -7,0 H 7"/>
+        <path id="flagbox" class="FlagBox" d="M -30,0 H 30"/>
         <use xlink:href="#st" id="stline8" class="sline8"/>
         <use xlink:href="#term" id="termline8" class="sline8"/>
+        <g id="fbenline1">
+            <use xlink:href="#flagbox" class="sline1"/>
+            <text class="FlagBoxNameEN" fill="#fff">Line 1</text>
+        </g>
+        <g id="fbzhline1">
+            <use xlink:href="#flagbox" class="sline1"/>
+            <text class="FlagBoxNameZH" fill="#fff">一號綫</text>
+        </g>
+        <g id="fbenline11">
+            <use xlink:href="#flagbox" class="sline11"/>
+            <text class="FlagBoxNameEN" fill="#fff">Line 11</text>
+        </g>
+        <g id="fbzhline11">
+            <use xlink:href="#flagbox" class="sline11"/>
+            <text class="FlagBoxNameZH" fill="#fff">十一號綫</text>
+        </g>
         <g id="int">
             <circle cx="0" cy="0" r="9" fill="#000"/>
             <circle cx="0" cy="0" r="6" fill="#fff"/>
@@ -46,7 +80,7 @@ viewBox="40 0 315 185">
         </g>
     </defs>
 
-	<rect x="80" y="35" width="115" height="85" style="fill:#fff"/>
+	<rect x="60" y="10" width="295" height="160" style="fill:#fff"/>
     
     <path stroke-width="6" class="sline8" d="M 90,50 H 340"/>
     <use xlink:href="#termline8" transform="translate(90,50)rotate(-90)"/>
@@ -65,7 +99,9 @@ viewBox="40 0 315 185">
         <text x="160" y="65" alignment-baseline="central">Station<tspan x="160" dy="12" alignment-baseline="central">Name</tspan></text>
         <text x="230" y="35" alignment-baseline="central">Station</text>
         <use xlink:href="#chinarail" x="255" y="35"/>
+        <use xlink:href="#fbenline1" x="230" y="65"/>
         <text x="300" y="23" alignment-baseline="central">Station<tspan x="300" dy="12" alignment-baseline="central">Name</tspan></text>
+        <use xlink:href="#fbenline11" x="300" y="65"/>
     </g>
 
     <g class="StationName" font-size="6.7pt" text-anchor="middle">
@@ -73,7 +109,9 @@ viewBox="40 0 315 185">
         <text x="160" y="145" alignment-baseline="central">地鐵站<tspan x="160" dy="12" alignment-baseline="central">名稱</tspan></text>
         <text x="230" y="115" alignment-baseline="central">地鐵站</text>
         <use xlink:href="#chinarail" x="249" y="115"/>
+        <use xlink:href="#fbzhline1" x="230" y="145"/>
         <text x="300" y="103" alignment-baseline="central">地鐵站<tspan x="300" dy="12" alignment-baseline="central">名稱</tspan></text>
+        <use xlink:href="#fbzhline11" x="300" y="145"/>
     </g>
      
     
@@ -86,6 +124,15 @@ viewBox="40 0 315 185">
         M 251.5,31 V 26
         M 260,31 H 265
         M 260,39 H 265
+        M 193,61 H 198
+        M 193,63.4 H 198
+        M 193,66.6 H 198
+        M 193,69 H 198
+        M 262,61 H 267
+        M 262,69 H 267
+        M 200,71 V 76
+        M 260,71 V 76
+        M 270,71 V 76
     "/>
 
     <text font-family="Arial" font-size="2pt" text-anchor="start" x="110" y="43" alignment-baseline="middle">1.33x</text>
@@ -93,6 +140,12 @@ viewBox="40 0 315 185">
     <text font-family="Arial" font-size="2pt" text-anchor="middle" x="207.5" y="35" alignment-baseline="middle">CH</text>
     <text font-family="Arial" font-size="2pt" text-anchor="middle" x="250" y="24" alignment-baseline="middle">0.5x</text>
     <text font-family="Arial" font-size="2pt" text-anchor="middle" x="262.5" y="35" alignment-baseline="middle">CH</text>
+    <text font-family="Arial" font-size="2pt" text-anchor="end" x="198" y="57" alignment-baseline="middle">1.33x</text>
+    <text font-family="Arial" font-size="2pt" text-anchor="end" x="192" y="62.2" alignment-baseline="middle">0.3CH</text>
+    <text font-family="Arial" font-size="2pt" text-anchor="end" x="192" y="67.8" alignment-baseline="middle">0.3CH</text>
+    <text font-family="Arial" font-size="2pt" text-anchor="middle" x="264.5" y="65" alignment-baseline="middle">CH</text>
+    <text font-family="Arial" font-size="2pt" text-anchor="middle" x="230" y="73.5" alignment-baseline="middle">10x</text>
+    <text font-family="Arial" font-size="2pt" text-anchor="middle" x="265" y="73.5" alignment-baseline="middle">min x</text>
 
     <path stroke-width="0.1" stroke="#000" d="
         M 105,119 H 110
@@ -103,6 +156,13 @@ viewBox="40 0 315 185">
         M 245.8,111 V 106
         M 255,111 H 260
         M 255,119 H 260
+        M 193,141 H 198
+        
+        M 262,141 H 267
+        M 262,149 H 267
+        M 200,151 V 156
+        M 260,151 V 156
+        M 270,151 V 156
     "/>
 
     <text font-family="Arial" font-size="2pt" text-anchor="start" x="105" y="123" alignment-baseline="middle">1.33x</text>
@@ -110,6 +170,10 @@ viewBox="40 0 315 185">
     <text font-family="Arial" font-size="2pt" text-anchor="middle" x="212.5" y="115" alignment-baseline="middle">CH</text>
     <text font-family="Arial" font-size="2pt" text-anchor="middle" x="244.3" y="104" alignment-baseline="middle">0.5x</text>
     <text font-family="Arial" font-size="2pt" text-anchor="middle" x="257.5" y="115" alignment-baseline="middle">CH</text>
+    <text font-family="Arial" font-size="2pt" text-anchor="end" x="198" y="137" alignment-baseline="middle">1.33x</text>
+    <text font-family="Arial" font-size="2pt" text-anchor="middle" x="264.5" y="145" alignment-baseline="middle">CH</text>
+    <text font-family="Arial" font-size="2pt" text-anchor="middle" x="230" y="153.5" alignment-baseline="middle">10x</text>
+    <text font-family="Arial" font-size="2pt" text-anchor="middle" x="265" y="153.5" alignment-baseline="middle">min x</text>
 
-	<rect x="80" y="35" width="115" height="85" style="fill:none;stroke:blue;stroke-width:0.2"/>
+	<rect x="60" y="10" width="295" height="160" style="fill:none;stroke:blue;stroke-width:0.2"/>
 </svg>
