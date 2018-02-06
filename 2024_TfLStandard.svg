@@ -94,6 +94,8 @@ viewBox="-800 -1060 2800 2060"
 .sthz1 {stroke:#44A729}
 .sfmetro2 {stroke:#009900}
 .sfmetro3 {stroke:#0000FF}
+.sfmetro4 {stroke:#FF00FF}
+.sfmetro11 {stroke:#6600CC}
 .sunknown {stroke:#999999}
 
 .osi {fill:none;stroke:#243588;stroke-width:2;cursor:help}
@@ -156,6 +158,10 @@ viewBox="-800 -1060 2800 2060"
                 <use xlink:href="#st" id="stfmetro2" class="sfmetro2"/>
                 <use xlink:href="#term" id="termfmetro3" class="sfmetro3"/>        
                 <use xlink:href="#st" id="stfmetro3" class="sfmetro3"/>
+                <use xlink:href="#term" id="termfmetro4" class="sfmetro4"/>        
+                <use xlink:href="#st" id="stfmetro4" class="sfmetro4"/>
+                <use xlink:href="#term" id="termfmetro11" class="sfmetro11"/>        
+                <use xlink:href="#st" id="stfmetro11" class="sfmetro11"/>
                 <use xlink:href="#term" id="termunknown" class="sunknown"/>        
                 <use xlink:href="#st" id="stunknown" class="sunknown"/>
                 <g id="int">
@@ -541,6 +547,25 @@ viewBox="-800 -1060 2800 2060"
                         "/>
                 </g>
                 <use class="mex" xlink:href="#FMetro3_route"/>
+                <g class="sfmetro4">
+                        <path id="FMetro4_route" d="
+                        M -650,596
+                        H -510 a 21,21 0 0,0 15,-6
+                        L -475,570 a 21,21 0 0,1 15,-6
+                        H -56
+                        "/>
+                </g>
+                <use class="mex" xlink:href="#FMetro4_route"/>
+                <g class="sfmetro11">
+                        <path id="FMetro11_route" d="
+                        M -106,324
+                        V 496 a 21,21 0 0,0 6,15
+                        L -62,549 a 21,21 0 0,1 6,15
+                        V 676 a 21,21 0 0,0 6,15
+                        L -39,702
+                        "/>
+                </g>
+                <use class="mex" xlink:href="#FMetro11_route"/>
                 <g class="sunknown">
                         <path id="NHXJT_route" d="
                         M -374,438
@@ -721,7 +746,7 @@ viewBox="-800 -1060 2800 2060"
                 <use xlink:href="#stline7" transform="translate(-143,792)rotate(90)" id="Nanchong"/>
                 <use xlink:href="#stline7" transform="translate(-99,762)rotate(45)" id="Chencun_New_Town"/>
                 <use xlink:href="#stline7" transform="translate(-69,732)rotate(45)" id="Chencun"/>
-                <use xlink:href="#stline7" transform="translate(-39,702)rotate(45)" id="Chencun_Bei"/>
+                <use xlink:href="#int" transform="translate(-39,702)rotate(45)" id="Chencun_Bei"/>
                 <use xlink:href="#stline7" transform="translate(-9,672)rotate(-135)" id="Weichong"/>
                 <!--Guangzhou South Railway Station Line2-->
                 <!--Shibi Line2-->
@@ -810,7 +835,7 @@ viewBox="-800 -1060 2800 2060"
                 <use xlink:href="#stline11" transform="translate(274.5,285)rotate(90)" id="Yijing_Lu"/>
                 <use xlink:href="#int" transform="translate(233,285)rotate(-90)" id="Wufeng"/>
                 <use xlink:href="#stline11" transform="translate(-4,378)rotate(90)" id="Nanshi_Lu"/>
-                <use xlink:href="#stline11" transform="translate(-106,324)rotate(135)" id="Hedongdong"/>
+                <use xlink:href="#int" transform="translate(-106,324)" id="Hedongdong"/>
                 <use xlink:href="#stline11" transform="translate(-168,262)rotate(-45)" id="Fangcundadaodong"/>
                 <use xlink:href="#stline11" transform="translate(-263,167)rotate(135)" id="Shiweitang"/>
                 <use xlink:href="#stline11" transform="translate(-75,-135)rotate(45)" id="Liuhua_Lu"/>
@@ -989,7 +1014,7 @@ viewBox="-800 -1060 2800 2060"
                 <use xlink:href="#stgfline" transform="translate(-485,690)rotate(90)" id="Shijilian"/>
                 <use xlink:href="#stgfline" transform="translate(-542,656)rotate(180)" id="Lanshi"/>
                 <use xlink:href="#int" transform="translate(-542,626)" id="Kuiqi_Lu"/>
-                <use xlink:href="#stgfline" transform="translate(-542,596)rotate(180)" id="Jihua_Park"/>
+                <use xlink:href="#int" transform="translate(-542,596)" id="Jihua_Park"/>
                 <use xlink:href="#stgfline" transform="translate(-542,566)rotate(180)" id="Tongji_Lu"/>
                 <use xlink:href="#stgfline" transform="translate(-542,536)rotate(180)" id="Foshan_Ancestral_Temple"/>
                 <use xlink:href="#stgfline" transform="translate(-508,502)rotate(-90)" id="Pujun_Beilu"/>
@@ -1036,7 +1061,7 @@ viewBox="-800 -1060 2800 2060"
 		        <title>Linyue Xi interchange</title>
 		</path>
                 <use xlink:href="#int" x="-118" y="626" id="Linyue_Xi"/>
-                <use xlink:href="#stfmetro2" transform="translate(-56,626)rotate(-90)" id="Linyue_Dong"/>
+                <use xlink:href="#int" transform="translate(-56,626)" id="Linyue_Dong"/>
                 <use xlink:href="#int" x="5.5" y="626" id="Guangzhou_South_Railway_Station_F2"/>
                 <g class="intsbw">
                         <path id="GZSS_int" d="
@@ -1056,7 +1081,7 @@ viewBox="-800 -1060 2800 2060"
                 <use xlink:href="#stfmetro3" transform="translate(-428,472)rotate(180)" id="Nanhai_Square"/>
                 <!--Guicheng GF Line-->
                 <use xlink:href="#stfmetro3" transform="translate(-428,533)" id="Zhenan"/>
-                <use xlink:href="#stfmetro3" transform="translate(-428,564)" id="Television Tower"/>
+                <use xlink:href="#int" transform="translate(-428,564)" id="Television_Tower"/>
                 <use xlink:href="#stfmetro3" transform="translate(-428,595)rotate(180)" id="Shencun"/>
                 <!--Wanhua FMetro2-->
                 <!--Dongping GF Line-->
@@ -1067,6 +1092,13 @@ viewBox="-800 -1060 2800 2060"
                 <use xlink:href="#stfmetro3" transform="translate(-268,797)rotate(-90)" id="Gaocun"/>
                 <!--Beijiao New Town Line7-->
                 <use xlink:href="#outofcity" fill="#0000FF" transform="translate(-189,850)" id="Foshan"/>
+        </g>
+        <g id="FMetro4_station_icons">
+                <use xlink:href="#outofcity" fill="#FF00FF" transform="translate(-650,596)rotate(90)" id="Foshan"/>
+                <use xlink:href="#stfmetro4" transform="translate(-485,580)rotate(-135)" id="Wenhua_Park"/>
+        </g>
+        <g id="FMetro11_station_icons">
+                <use xlink:href="#int" transform="translate(-56,564)" id="Gangkou_Lu"/>
         </g>
         <g id="NHXJT_station_icons">
                 <use xlink:href="#int" transform="translate(-374,438)" id="Leigang"/>
