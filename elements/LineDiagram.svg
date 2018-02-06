@@ -9,14 +9,14 @@ viewBox="60 10 295 160">
 .LineDiagram {fill:none;stroke-width:6}
 .FlagBox {fill:none;stroke-width:8}
 .FlagBoxNameEN {
-    font-family:Arial,"Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Hiragino Mincho ProN","PingFang HK","Arial Unicode MS",sans-serif;
+    font-family:Arial,"Hiragino Mincho ProN","PingFang HK","Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Arial Unicode MS",sans-serif;
     font-weight:bold;
     alignment-baseline:middle;
     text-anchor:middle;
     font-size:4.5pt;
 }
 .FlagBoxNameZH {
-    font-family:Arial,"Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Hiragino Mincho ProN","PingFang HK","Arial Unicode MS",sans-serif;
+    font-family:Arial,"Hiragino Mincho ProN","PingFang HK","Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Arial Unicode MS",sans-serif;
     font-weight:bold;
     alignment-baseline:central;
     text-anchor:middle;
@@ -25,7 +25,7 @@ viewBox="60 10 295 160">
 .NonMetro {stroke:#fff;stroke-width:2}
 .StationTick {fill:none;stroke-width:4}
 .StationName {
-    font-family:Arial,"Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Hiragino Mincho ProN","PingFang HK","Arial Unicode MS",sans-serif;
+    font-family:Arial,"Hiragino Mincho ProN","PingFang HK","Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Arial Unicode MS",sans-serif;
     fill:#0019A8;
     font-weight:bold;
 }
