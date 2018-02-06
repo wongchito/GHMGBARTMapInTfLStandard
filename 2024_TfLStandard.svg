@@ -430,8 +430,10 @@ viewBox="-800 -1060 2800 2060"
                 V -123 a 21,21 0 0,0 6,15
                 L 134,-85 a 21,21 0 0,1 6,15
                 V 25 a 21,21 0 0,0 6,15
-                L 264,158 a 21,21 0 0,0 15,6
-                H 415.5 a 21,21 0 0,1 15,6
+                L 196,90 a 21,21 0 0,0 15,6
+                H 284 a 21,21 0 0,1 15,6
+                L 385,188 a 21,21 0 0,0 15,6
+                H 445.5 a 21,21 0 0,1 15,6
                 L 507,246.5 a 21,21 0 0,0 15,6
                 H 584 a 21,21 0 0,1 15,6
                 L 630.5,290 a 21,21 0 0,0 15,6
@@ -829,6 +831,9 @@ viewBox="-800 -1060 2800 2060"
                 <circle cx="408" cy="-210" r="6" fill="#fff"/>
                 <use xlink:href="#stline11" transform="translate(522,-182)rotate(-45)" id="Tianhedong"/>
                 <use xlink:href="#int" x="700.5" y="0" id="Tianhe_Park"/>
+        </g>
+        <g id="Line12_station_icons">
+                <use xlink:href="#stline12" transform="translate(420.5,194)rotate(-90)" id="Lingnan Square"/>
         </g>
         <g id="Line13_station_icons">
                 <use xlink:href="#termline13" transform="translate(-336,-450)rotate(135)" id="Chaoyang"/>
@@ -1351,6 +1356,11 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="-116" y="334">Hedongdong</text>
                                 <text x="-273" y="177">Shiweitang</text>
                                 <text x="688" y="-24">Tianhe<tspan x="688" dy="14">Park</tspan></text>
+                        </g>
+                </g>
+                <g id="Line12_station_names">
+                        <g text-anchor="middle">
+                                <text x="420.5" y="166">Lingnan<tspan x="420.5" dy="14">Square</tspan></text>
                         </g>
                 </g>
                 <g id="Line13_station_names">
