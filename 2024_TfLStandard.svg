@@ -960,6 +960,11 @@ viewBox="-800 -1060 2800 2060"
                 <use xlink:href="#stline14" transform="translate(-40,-291)rotate(180)" id="Gangbei"/>
                 <use xlink:href="#stline14" transform="translate(-40,-361)" id="Gangbei"/>
                 <use xlink:href="#int" transform="translate(-40,-391)" id="Xinshixu"/>
+                <use xlink:href="#stline14" transform="translate(-40,-435)rotate(180)" id="Mawu"/>
+                <use xlink:href="#stline14" transform="translate(-40,-490)rotate(180)" id="Baiyun_TIT"/>
+                <use xlink:href="#stline14" transform="translate(0,-526)rotate(-90)" id="Henan"/>
+                <use xlink:href="#stline14" transform="translate(100,-526)rotate(-90)" id="Pengbian"/>
+                <!--Jiahe Wanggang Line2-->
                 <use xlink:href="#stline14" transform="translate(317,-526)rotate(-90)" id="Dongping"/>
                 <use xlink:href="#stline14" transform="translate(384,-526)rotate(90)" id="Shihu"/>
                 <use xlink:href="#stline14" transform="translate(451,-526)rotate(-90)" id="Taihe"/>
@@ -1185,7 +1190,6 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="203" y="-499">Huangbian</text>
                                 <text x="166" y="-462">Jiangxia</text>
                                 <text x="129" y="-425">Xiao-gang</text>
-                                
                                 <text x="45" y="-341">Baiyun Park</text>
                                 <text x="18" y="-321">Feixiang<tspan x="18" dy="14">Park</tspan></text>
                                 <text x="-12" y="-262">Sanyuanli</text>
@@ -1518,6 +1522,8 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="-30" y="-381">Xinshixu</text>
                         </g>
                         <g text-anchor="middle">
+                                <text x="0" y="-544">Henan</text>
+                                <text x="100" y="-544">Pengbian</text>
                                 <text x="317" y="-544">Dongping</text>
                                 <text x="384" y="-508">Shihu</text>
                                 <text x="451" y="-544">Taihe</text>
@@ -1532,6 +1538,8 @@ viewBox="-800 -1060 2800 2060"
                         </g>
                         <g text-anchor="end">
                                 <text x="-52" y="-291">Lejia Lu</text>
+                                <text x="-52" y="-435">Mawu</text>
+                                <text x="-52" y="-490">Baiyun TIT</text>
                                 <text x="578" y="-556">Zhongluotan</text>
                                 <text x="645" y="-623">Lijiatang</text>
                                 <text x="712" y="-690">Xinhe</text>
