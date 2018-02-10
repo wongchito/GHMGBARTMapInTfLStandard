@@ -790,7 +790,7 @@ viewBox="-800 -1210 2800 2210"
                 <use xlink:href="#stline8" transform="translate(-230,-640)rotate(180)" id="Shuili"/>
                 <use xlink:href="#stline8" transform="translate(-230,-610)rotate(180)" id="Jiangfu"/>
                 <use xlink:href="#stline8" transform="translate(-230,-580)rotate(180)" id="Jiangcun"/>
-                <use xlink:href="#stline8" transform="translate(-230,-550)rotate(180)" id="Jianggao"/>
+                <use xlink:href="#int" transform="translate(-230,-550)" id="Jianggao"/>
                 <use xlink:href="#stline8" transform="translate(-230,-520)rotate(180)" id="Fengxiang_Lu"/>
                 <use xlink:href="#stline8" transform="translate(-224,-478)rotate(-45)" id="Jiaoxin"/>
                 <use xlink:href="#stline8" transform="translate(-195,-449)rotate(-45)" id="Tinggang"/>
@@ -1424,6 +1424,7 @@ viewBox="-800 -1210 2800 2210"
                                 <text x="-242" y="-610">Jiangfu</text>
                                 <text x="-242" y="-580">Jiangcun</text>
                                 <text x="-242" y="-550">Jianggao</text>
+                                <use xlink:href="#prdir" x="-302" y="-550"/>
                                 <text x="-242" y="-520">Fengxiang Lu</text>
                                 <text x="-176" y="-410">Shijing</text>
                                 <text x="-152" y="-380">Xiaoping</text>
@@ -1747,6 +1748,7 @@ viewBox="-800 -1210 2800 2210"
                                 <text x="1" y="722">Chencun Dong</text>
                                 <text x="31" y="752">Bijiang</text>
                                 <text x="44" y="785">Shunde<tspan x="44" dy="14">Railway Station</tspan></text>
+                                <use xlink:href="#prdir" x="144" y="792"/>
                                 <text x="44" y="822">Yongfeng Market</text>
                         </g>
                         <g text-anchor="end">
