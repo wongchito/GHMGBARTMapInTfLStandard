@@ -2329,25 +2329,27 @@ viewBox="-800 -1210 2800 2210"
         
         <g id="keytosymbols">
                 <path class="boxotl" d="
-                M 1530,-50
+                M 1530,-190
                 H 1900
                 "/>
                 <g>
-                        <text x="1545" y="-40" class="legendtitle" transform="translate(0,20)">Key to Lines</text>
+                        <text x="1545" y="-180" class="legendtitle" transform="translate(0,20)">Key to Lines</text>
                         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="hidden"/>
                 </g>
                 <g style="visibility:hidden">
-                        <text x="1545" y="-40" class="chtlegendtitle" transform="translate(0,20)">圖例</text>
+                        <text x="1545" y="-180" class="chtlegendtitle" transform="translate(0,20)">圖例</text>
                         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="visible"/>
                 </g>
-                <use xlink:href="#int" x="1550" y="5"/>
-                <use xlink:href="#airport" x="1550" y="43"/>
-                <use xlink:href="#chinarail" x="1735" y="43"/>
+                <use xlink:href="#int" x="1550" y="-135"/>
+                <use xlink:href="#airport" x="1550" y="-97"/>
+                <use xlink:href="#chinarail" x="1735" y="-97"/>
+                <use xlink:href="#prdir" x="1550" y="-62"/>
                 <g text-anchor="start" class="stname" id="text_labels" font-size="18px" transform="translate(0,6)">
                         <!--dy=14 not 12-->
-                        <text x="1564" y="5">Interchange stations</text>
-                        <text x="1564" y="40">Airport</text>
-                        <text x="1749" y="40">China Railway</text>
+                        <text x="1564" y="-135">Interchange stations</text>
+                        <text x="1564" y="-100">Airport</text>
+                        <text x="1749" y="-100">China Railway</text>
+                        <text x="1564" y="-65">Pearl River Delta Intercity Railway</text>
                         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="hidden"/>
                 </g>
                 <g text-anchor="start" class="chtstname" id="text_labels" font-size="18px" transform="translate(0,6)" style="visibility:hidden">
@@ -2361,17 +2363,17 @@ viewBox="-800 -1210 2800 2210"
 
         <g id="keytolines">
                 <path class="boxotl" d="
-                M 1530,75
+                M 1530,-30
                 H 1900
                 M 1530,900
                 H 1900
                 "/>
                 <g>
-                        <text x="1540" y="85" class="legendtitle" transform="translate(0,20)">Key to Lines</text>
+                        <text x="1540" y="-20" class="legendtitle" transform="translate(0,20)">Key to Lines</text>
                         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="hidden"/>
                 </g>
                 <g style="visibility:hidden">
-                        <text x="1540" y="85" class="chtlegendtitle" transform="translate(0,20)">各路綫顏色</text>
+                        <text x="1540" y="-20" class="chtlegendtitle" transform="translate(0,20)">各路綫顏色</text>
                         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="visible"/>
                 </g>
                 <g class="melegend">
@@ -2379,85 +2381,97 @@ viewBox="-800 -1210 2800 2210"
                                 <path id="NHXJT_legend" d="M 1550,865 H 1680"/>
                         </g>
                         <use class="mexlegend" xlink:href="#NHXJT_legend"/>
+                        <g class="sfmetro11">
+                                <path id="FMetro11_legend" d="M 1550,830 H 1680"/>
+                        </g>
+                        <use class="mexlegend" xlink:href="#FMetro11_legend"/>
+                        <g class="sfmetro4">
+                                <path id="FMetro4_legend" d="M 1550,795 H 1680"/>
+                        </g>
+                        <use class="mexlegend" xlink:href="#FMetro4_legend"/>
                         <g class="sfmetro3">
-                                <path id="FMetro3_legend" d="M 1550,830 H 1680"/>
+                                <path id="FMetro3_legend" d="M 1550,760 H 1680"/>
                         </g>
                         <use class="mexlegend" xlink:href="#FMetro3_legend"/>
                         <g class="sfmetro2">
-                                <path id="FMetro2_legend" d="M 1550,795 H 1680"/>
+                                <path id="FMetro2_legend" d="M 1550,725 H 1680"/>
                         </g>
                         <use class="mexlegend" xlink:href="#FMetro2_legend"/>
                         <g class="sthz1">
-                                <path id="THZ1_legend" d="M 1550,760 H 1680"/>
+                                <path id="THZ1_legend" d="M 1550,690 H 1680"/>
                         </g>
                         <use class="mexlegend" xlink:href="#THZ1_legend"/>
-                        <path class="sapmline" d="M 1550,725 H 1680"/>
-                        <path class="sgfline" d="M 1550,690 H 1680"/>
-                        <path class="sline22" d="M 1550,655 H 1680"/>
-                        <path class="sline21" d="M 1550,620 H 1680"/>
-                        <path class="sline18" d="M 1550,585 H 1680"/>
-                        <path class="sline14" d="M 1550,550 H 1680"/>
-                        <path class="sline13" d="M 1550,515 H 1680"/>
-                        <path class="sline11" d="M 1550,480 H 1680"/>
-                        <path class="sline10" d="M 1550,445 H 1680"/>
-                        <path class="sline9" d="M 1550,410 H 1680"/>
-                        <path class="sline8" d="M 1550,375 H 1680"/>
-                        <path class="sline7" d="M 1550,340 H 1680"/>
-                        <path class="sline6" d="M 1550,305 H 1680"/>
-                        <path class="sline5" d="M 1550,270 H 1680"/>
-                        <path class="sline4" d="M 1550,235 H 1680"/>
-                        <path class="sline3" d="M 1550,200 H 1680"/>
-                        <path class="sline2" d="M 1550,165 H 1680"/>
-                        <path class="sline1" d="M 1550,130 H 1680"/>
+                        <path class="sapmline" d="M 1550,655 H 1680"/>
+                        <path class="sgfline" d="M 1550,620 H 1680"/>
+                        <path class="sline22" d="M 1550,585 H 1680"/>
+                        <path class="sline21" d="M 1550,550 H 1680"/>
+                        <path class="sline18" d="M 1550,515 H 1680"/>
+                        <path class="sline14" d="M 1550,480 H 1680"/>
+                        <path class="sline13" d="M 1550,445 H 1680"/>
+                        <path class="sline12" d="M 1550,410 H 1680"/>
+                        <path class="sline11" d="M 1550,375 H 1680"/>
+                        <path class="sline10" d="M 1550,340 H 1680"/>
+                        <path class="sline9" d="M 1550,305 H 1680"/>
+                        <path class="sline8" d="M 1550,270 H 1680"/>
+                        <path class="sline7" d="M 1550,235 H 1680"/>
+                        <path class="sline6" d="M 1550,200 H 1680"/>
+                        <path class="sline5" d="M 1550,165 H 1680"/>
+                        <path class="sline4" d="M 1550,130 H 1680"/>
+                        <path class="sline3" d="M 1550,95 H 1680"/>
+                        <path class="sline2" d="M 1550,60 H 1680"/>
+                        <path class="sline1" d="M 1550,25 H 1680"/>
                 </g>
                 <g text-anchor="start" class="stname" id="text_labels" font-size="18px" transform="translate(0,6)">
                         <text x="1700" y="865">Nanhai Xinjiaotong</text>
-                        <text x="1700" y="830">Foshan Metro Line 3</text>
-                        <text x="1700" y="795">Foshan Metro Line 2</text>
-                        <text x="1700" y="760">Tram</text>
-                        <text x="1700" y="725">APM Line</text>
-                        <text x="1700" y="690">Guangfo Line</text>
-                        <text x="1700" y="655">Line 22</text>
-                        <text x="1700" y="620">Line 21</text>
-                        <text x="1700" y="585">Line 18</text>
-                        <text x="1700" y="550">Line 14</text>
-                        <text x="1700" y="515">Line 13</text>
-                        <text x="1700" y="480">Line 11</text>
-                        <text x="1700" y="445">Line 10</text>
-                        <text x="1700" y="410">Line 9</text>
-                        <text x="1700" y="375">Line 8</text>
-                        <text x="1700" y="340">Line 7</text>
-                        <text x="1700" y="305">Line 6</text>
-                        <text x="1700" y="270">Line 5</text>
-                        <text x="1700" y="235">Line 4</text>
-                        <text x="1700" y="200">Line 3</text>
-                        <text x="1700" y="165">Line 2</text>
-                        <text x="1700" y="130">Line 1</text>
+                        <text x="1700" y="830">Foshan Metro Line 11</text>
+                        <text x="1700" y="795">Foshan Metro Line 4</text>
+                        <text x="1700" y="760">Foshan Metro Line 3</text>
+                        <text x="1700" y="725">Foshan Metro Line 2</text>
+                        <text x="1700" y="690">Tram</text>
+                        <text x="1700" y="655">APM Line</text>
+                        <text x="1700" y="620">Guangfo Line</text>
+                        <text x="1700" y="585">Line 22</text>
+                        <text x="1700" y="550">Line 21</text>
+                        <text x="1700" y="515">Line 18</text>
+                        <text x="1700" y="480">Line 14</text>
+                        <text x="1700" y="445">Line 13</text>
+                        <text x="1700" y="410">Line 12</text>
+                        <text x="1700" y="375">Line 11</text>
+                        <text x="1700" y="340">Line 10</text>
+                        <text x="1700" y="305">Line 9</text>
+                        <text x="1700" y="270">Line 8</text>
+                        <text x="1700" y="235">Line 7</text>
+                        <text x="1700" y="200">Line 6</text>
+                        <text x="1700" y="165">Line 5</text>
+                        <text x="1700" y="130">Line 4</text>
+                        <text x="1700" y="95">Line 3</text>
+                        <text x="1700" y="60">Line 2</text>
+                        <text x="1700" y="25">Line 1</text>
                         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="hidden"/>
                 </g>
                 <g text-anchor="start" class="chtstname" id="text_labels" font-size="18px" transform="translate(0,6)" style="visibility:hidden">
                         <text x="1700" y="865">南海新交通</text>
-                        <text x="1700" y="830">佛山地鐵3號綫</text>
-                        <text x="1700" y="795">佛山地鐵2號綫</text>
-                        <text x="1700" y="760">有軌電車</text>
-                        <text x="1700" y="725">APM綫</text>
-                        <text x="1700" y="690">廣佛綫</text>
-                        <text x="1700" y="655">22號綫</text>
-                        <text x="1700" y="620">21號綫</text>
-                        <text x="1700" y="585">18號綫</text>
-                        <text x="1700" y="550">14號綫</text>
-                        <text x="1700" y="515">13號綫</text>
-                        <text x="1700" y="480">11號綫</text>
-                        <text x="1700" y="445">10號綫</text>
-                        <text x="1700" y="410">9號綫</text>
-                        <text x="1700" y="375">8號綫</text>
-                        <text x="1700" y="340">7號綫</text>
-                        <text x="1700" y="305">6號綫</text>
-                        <text x="1700" y="270">5號綫</text>
-                        <text x="1700" y="235">4號綫</text>
-                        <text x="1700" y="200">3號綫</text>
-                        <text x="1700" y="165">2號綫</text>
-                        <text x="1700" y="130">1號綫</text>
+                        <text x="1700" y="830">佛山地鐵11號綫</text>
+                        <text x="1700" y="795">佛山地鐵4號綫</text>
+                        <text x="1700" y="760">佛山地鐵3號綫</text>
+                        <text x="1700" y="725">佛山地鐵2號綫</text>
+                        <text x="1700" y="690">有軌電車</text>
+                        <text x="1700" y="655">APM綫</text>
+                        <text x="1700" y="620">廣佛綫</text>
+                        <text x="1700" y="585">22號綫</text>
+                        <text x="1700" y="550">21號綫</text>
+                        <text x="1700" y="515">18號綫</text>
+                        <text x="1700" y="480">14號綫</text>
+                        <text x="1700" y="445">13號綫</text>
+                        <text x="1700" y="410">12號綫</text>
+                        <text x="1700" y="375">11號綫</text>
+                        <text x="1700" y="340">10號綫</text>
+                        <text x="1700" y="305">9號綫</text>
+                        <text x="1700" y="270">8號綫</text>
+                        <text x="1700" y="235">7號綫</text>
+                        <text x="1700" y="200">6號綫</text>
+                        <text x="1700" y="165">5號綫</text>
+                        <text x="1700" y="130">4號綫</text>
                         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="visible"/>
                 </g>
                 
