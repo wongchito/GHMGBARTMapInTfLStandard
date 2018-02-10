@@ -1039,9 +1039,9 @@ viewBox="-800 -1060 2800 2060"
                 <circle cx="-230" cy="220" r="6" fill="#fff"/>
                 <circle cx="-210" cy="220" r="6" fill="#fff"/>
                 <!--Xilang Line1-->
-                <use xlink:href="#stline22" transform="translate(-150,434)rotate(-45)" id="Dongsha_Industrial_Park"/>
-                <use xlink:href="#stline22" transform="translate(-50,458)rotate(90)" id="Xisan"/>
-                <use xlink:href="#stline22" transform="translate(33.5,553)rotate(180)" id="Chentougang"/>
+                <use xlink:href="#stline22" transform="translate(-40,491)rotate(90)" id="Dongsha_Industrial_Park"/>
+                <use xlink:href="#stline22" transform="translate(33.5,533)" id="Xisan"/>
+                <use xlink:href="#stline22" transform="translate(33.5,583)rotate(180)" id="Chentougang"/>
                 <use xlink:href="#int" x="33.5" y="654" id="Guangzhou_South_Railway_Stattion_22"/>
                 <use xlink:href="#stline22" transform="translate(250,688)rotate(90)" id="Clifford"/>
                 <use xlink:href="#stline22" transform="translate(750,850)rotate(-90)" id="Hengli"/>
@@ -1593,17 +1593,17 @@ viewBox="-800 -1060 2800 2060"
                 </g>
                 <g id="Line22_station_names">
                         <g text-anchor="start">
-                                <text x="-140" y="417">Dongsha<tspan x="-140" dy="14">Industrial Park</tspan></text>
+                                <text x="45.5" y="533">Xisan</text>
                                 <text x="45.5" y="647">Guangzhou South<tspan x="45.5" dy="14">Railway Station</tspan></text>
                                 <use xlink:href="#chinarail" x="155" y="654"/>
                                 <use xlink:href="#prdir" x="167" y="654"/>
                         </g>
                         <g text-anchor="middle">
-                                <text x="-50" y="476">Xisan</text>
+                                <text x="-40" y="509">Dongsha<tspan x="-40" dy="14">Industrial Park</tspan></text>
                                 <text x="250" y="706">Clifford</text>
                         </g>
                         <g text-anchor="end">
-                                <text x="21.5" y="553">Chentougang</text>
+                                <text x="21.5" y="583">Chentougang</text>
                         </g>
                 </g>
                 <g id="GF_Line_station_names">
@@ -1643,6 +1643,7 @@ viewBox="-800 -1060 2800 2060"
                 <g id="FMetro2_station_names">
                         <g text-anchor="start">
                                 <text x="-418" y="636">Wanhua</text>
+                                <text x="-46" y="602">Linyue<tspan x="-46" dy="14">Dong</tspan></text>
                         </g>
                         <g text-anchor="middle">
                                 <text x="-599" y="644">Shagang</text>
@@ -1652,7 +1653,7 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="-242" y="608">Xianchong</text>
                                 <text x="-180" y="644">Shizhou</text>
                                 <text x="-118" y="644">Linyue<tspan x="-118" dy="14">Xi</tspan></text>
-                                <text x="-56" y="608">Linyue Dong</text>
+                                
                         </g>
                 </g>
                 <g id="FMetro3_station_names">
