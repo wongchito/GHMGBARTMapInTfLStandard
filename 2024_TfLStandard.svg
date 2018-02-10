@@ -658,6 +658,10 @@ viewBox="-800 -1060 2800 2060"
                 <use xlink:href="#int" x="408" y="570" id="Hanxi_Chimelong"/>
                 <use xlink:href="#stline3" transform="translate(466.5,722)rotate(135)" id="Shiqiao"/>
                 <use xlink:href="#int" x="536.5" y="792" id="Panyu_Square"/>
+                <use xlink:href="#stline3" transform="translate(803,699)rotate(45)" id="Panyu_Coach_Terminal"/>
+                <use xlink:href="#stline3" transform="translate(873,629)rotate(45)" id="Guangzhou_New_Town_West"/>
+                <use xlink:href="#stline3" transform="translate(943,559)rotate(45)" id="Jinguang_Dadao"/>
+                <!--Haibang Line4-->
         </g>
         <g id="Line4_station_icons">
                 <use xlink:href="#int" transform="translate(818,-84)" id="Huangcun"/>
@@ -1244,6 +1248,9 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="420" y="519">Dashi</text>
                                 <use xlink:href="#prdir" x="462" y="519"/>
                                 <text x="418" y="580">Hanxi<tspan x="418" dy="14">Chimelong</tspan></text>
+                                <text x="813" y="702">Panyu<tspan x="813" dy="14">Coach Terminal</tspan></text>
+                                <text x="883" y="632">Guangzhou<tspan x="883" dy="14">New Town West</tspan></text>
+                                <text x="953" y="562">Jinguang<tspan x="953" dy="14">Dadao</tspan></text>
                         </g>
                         <g text-anchor="end">
                                 <text x="238" y="-556">Longgui</text>
