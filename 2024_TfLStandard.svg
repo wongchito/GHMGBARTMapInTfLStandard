@@ -2242,128 +2242,87 @@ viewBox="-800 -1210 2800 2210"
                 <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="visible"/>
         </g>
 
-        <g id="chkbefore">
-                <path class="boxotl" d="
-                M 1530,-800
-                H 1900
-                M 1530,-564
-                H 1900
-                "/>
-                <text x="1545" y="-790" class="legendtitle" transform="translate(0,20)">Check before you travel</text>
-                <g text-anchor="start" id="text_labels" font-size="18px" transform="translate(0,6)" class="longtext">
-                        <text x="1530" y="-750" class="dagger">&#8224;</text>
-                        <text x="1545" y="-750" class="stname">Tiyu Xilu</text>
-                        <text x="1545" y="-727">Line 3 train from <tspan class="stname">Panyu Square</tspan> will continue
-                        <tspan x="1545" dy="23">its journey to <tspan class="stname">Tianhe Coach Terminal</tspan> through</tspan>
-                        <tspan x="1545" dy="23">Line 10 from this station. Passengers for <tspan class="stname">Airport</tspan></tspan>
-                        <tspan x="1545" dy="23"><tspan class="stname">N.</tspan> should change train at this station. </tspan>
-                        <tspan x="1545" dy="23">Line 3 train from <tspan class="stname">Airport N.</tspan> stops service at</tspan>
-                        <tspan x="1545" dy="23">this station. Passengers for <tspan class="stname">Panyu Square</tspan></tspan>
-                        <tspan x="1545" dy="23">should change train at this station. </tspan></text>
-                        <!--end height 26-->    
-                </g>
-                <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="hidden"/>
-        </g>
-
-        <g id="chtchkbefore" style="visibility:hidden">
-                <path class="boxotl" d="
-                M 1530,-800
-                H 1900
-                M 1530,-610
-                H 1900
-                "/>
-                <text x="1545" y="-790" class="chtlegendtitle" transform="translate(0,20)">出發前睇真啲</text>
-                <g text-anchor="start" id="text_labels" font-size="18px" transform="translate(0,6)" class="chtlongtext">
-                        <text x="1530" y="-750" class="dagger">&#8224;</text>
-                        <text x="1545" y="-750" class="chtstname">體育西路</text>
-                        <text x="1545" y="-727">自<tspan class="chtstname">番禺廣場</tspan>開出的3號綫列車將駛經本站進入
-                        <tspan x="1545" dy="23">10號綫，並以<tspan class="chtstname">天河客運站</tspan>為終點站。往<tspan class="chtstname">機場北</tspan></tspan>
-                        <tspan x="1545" dy="23">的乘客請在此站轉車。</tspan>
-                        <tspan x="1545" dy="23">自<tspan class="chtstname">機場北</tspan>開出的3號綫列車將以本站為終點站。</tspan>
-                        <tspan x="1545" dy="23">往<tspan class="chtstname">番禺廣場</tspan>的乘客請在此站轉車。</tspan></text>
-                        <!--end height 26-->
-                </g>
-                <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="visible"/>
-        </g>
 
         <g id="APM_explanation">
                 <path class="boxotl" d="
-                M 1530,-460
+                M 1530,-950
+                H 1900
+                M 1530,-540
                 H 1900
                 "/>
                 <g>
-                        <text x="1545" y="-450" class="legendtitle" transform="translate(0,25)">Stations of APM Line</text>
+                        <text x="1545" y="-940" class="legendtitle" transform="translate(0,25)">Stations of APM Line</text>
                         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="hidden"/>
                 </g>
                 <g style="visibility:hidden">
-                        <text x="1545" y="-450" class="chtlegendtitle" transform="translate(0,25)">APM綫沿途各站</text>
+                        <text x="1545" y="-940" class="chtlegendtitle" transform="translate(0,25)">APM綫沿途各站</text>
                         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="visible"/>
                 </g>
                 <g class="me">
                         <path class="sapmline" d="
-                        M 1550,-405
-                        V -85
+                        M 1550,-895
+                        V -575
                         "/>
                 </g>
-                <use xlink:href="#int" x="1550" y="-405" id="Linhexi_ex"/>
-                <use xlink:href="#stapmline" x="1550" y="-365" id="Tianhe_Sports_Center_S"/>
-                <use xlink:href="#stapmline" x="1550" y="-325" id="Tianhenan"/>
-                <use xlink:href="#int" x="1550" y="-285" id="Huangpu_Dadao"/>
-                <use xlink:href="#stapmline" x="1550" y="-245" id="GZWCMC"/>
-                <use xlink:href="#stapmline" x="1550" y="-205" id="Huacheng_Dadao"/>
-                <use xlink:href="#stapmline" x="1550" y="-165" id="Guangzhou_Opera_House"/>
-                <use xlink:href="#stapmline" x="1550" y="-125" id="Guangzhou_Opera_House"/>
-                <use xlink:href="#int" x="1550" y="-85" id="Canton_Tower_ex"/>
+                <use xlink:href="#int" x="1550" y="-895" id="Linhexi_ex"/>
+                <use xlink:href="#stapmline" x="1550" y="-855" id="Tianhe_Sports_Center_S"/>
+                <use xlink:href="#stapmline" x="1550" y="-815" id="Tianhenan"/>
+                <use xlink:href="#int" x="1550" y="-775" id="Huangpu_Dadao"/>
+                <use xlink:href="#stapmline" x="1550" y="-735" id="GZWCMC"/>
+                <use xlink:href="#stapmline" x="1550" y="-695" id="Huacheng_Dadao"/>
+                <use xlink:href="#stapmline" x="1550" y="-655" id="Guangzhou_Opera_House"/>
+                <use xlink:href="#stapmline" x="1550" y="-615" id="Guangzhou_Opera_House"/>
+                <use xlink:href="#int" x="1550" y="-575" id="Canton_Tower_ex"/>
                 <g text-anchor="start" class="stname" id="text_labels" font-size="18px" transform="translate(0,6)">
-                        <text x="1562" y="-405">Linhexi</text>
-                        <text x="1562" y="-365">Tianhe Sports Center South</text>
-                        <text x="1562" y="-325">Tianhenan</text>
-                        <text x="1562" y="-285">Huangpu Dadao</text>
-                        <text x="1562" y="-252">Guangzhou Women and<tspan x="1562" dy="18">Children's Medical Center</tspan></text>
-                        <text x="1562" y="-205">Huacheng Dadao</text>
-                        <text x="1562" y="-165">Guangzhou Opera House</text>
-                        <text x="1562" y="-125">Haixinsha</text>
-                        <text x="1562" y="-85">Canton Tower</text>
+                        <text x="1562" y="-895">Linhexi</text>
+                        <text x="1562" y="-855">Tianhe Sports Center South</text>
+                        <text x="1562" y="-815">Tianhenan</text>
+                        <text x="1562" y="-775">Huangpu Dadao</text>
+                        <text x="1562" y="-742">Guangzhou Women and<tspan x="1562" dy="18">Children's Medical Center</tspan></text>
+                        <text x="1562" y="-695">Huacheng Dadao</text>
+                        <text x="1562" y="-655">Guangzhou Opera House</text>
+                        <text x="1562" y="-615">Haixinsha</text>
+                        <text x="1562" y="-575">Canton Tower</text>
                         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="hidden"/>
                 </g>
                 <g text-anchor="start" class="chtstname" id="text_labels" font-size="18px" transform="translate(0,6)" style="visibility:hidden">
-                        <text x="1562" y="-405">林和西</text>
-                        <text x="1562" y="-365">體育中心南</text>
-                        <text x="1562" y="-325">天河南</text>
-                        <text x="1562" y="-285">黃埔大道</text>
-                        <text x="1562" y="-245">婦兒中心</text>
-                        <text x="1562" y="-205">花城大道</text>
-                        <text x="1562" y="-165">大劇院</text>
-                        <text x="1562" y="-125">海心沙</text>
-                        <text x="1562" y="-85">廣州塔</text>
+                        <text x="1562" y="-895">林和西</text>
+                        <text x="1562" y="-855">體育中心南</text>
+                        <text x="1562" y="-815">天河南</text>
+                        <text x="1562" y="-775">黃埔大道</text>
+                        <text x="1562" y="-735">婦兒中心</text>
+                        <text x="1562" y="-695">花城大道</text>
+                        <text x="1562" y="-655">大劇院</text>
+                        <text x="1562" y="-615">海心沙</text>
+                        <text x="1562" y="-575">廣州塔</text>
                         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="visible"/>
                 </g>
                 <g class="meint">
-                        <path class="sline3" d="M 1630,-405 H 1730"/>
-                        <path class="sline13" d="M 1695,-285 H 1795"/>
-                        <path class="sline3" d="M 1685,-92.5 H 1785"/>
-                        <path class="sthz1" d="M 1685,-77.5 H 1785"/>
+                        <path class="sline3" d="M 1630,-895 H 1730"/>
+                        <path class="sline13" d="M 1695,-775 H 1795"/>
+                        <path class="sline3" d="M 1685,-582.5 H 1785"/>
+                        <path class="sthz1" d="M 1685,-567.5 H 1785"/>
                         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="hidden"/>
                 </g>
                 <g class="meint" style="visibility:hidden">
-                        <path class="sline3" d="M 1635,-405 H 1735"/>
-                        <path class="sline13" d="M 1653,-285 H 1753"/>
-                        <path class="sline3" d="M 1635,-92.5 H 1735"/>
-                        <path class="sthz1" d="M 1635,-77.5 H 1735"/>
+                        <path class="sline3" d="M 1635,-895 H 1735"/>
+                        <path class="sline13" d="M 1653,-775 H 1753"/>
+                        <path class="sline3" d="M 1635,-582.5 H 1735"/>
+                        <path class="sthz1" d="M 1635,-567.5 H 1735"/>
                         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="visible"/>
                 </g>
                 <g text-anchor="middle" class="stname" font-size="15px" transform="translate(0,5)">
-                        <text x="1680" y="-405" fill="#fff">Line 3</text>
-                        <text x="1745" y="-285" fill="#fff">Line 13</text>
-                        <text x="1735" y="-92.5" fill="#fff">Line 3</text>
-                        <text x="1735" y="-77.5" fill="#fff">Tram</text>
+                        <text x="1680" y="-895" fill="#fff">Line 3</text>
+                        <text x="1745" y="-775" fill="#fff">Line 13</text>
+                        <text x="1735" y="-582.5" fill="#fff">Line 3</text>
+                        <text x="1735" y="-567.5" fill="#fff">Tram</text>
                         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="hidden"/>
                 </g>
                 <g text-anchor="middle" class="chtstname" font-size="15px" transform="translate(0,5)" style="visibility:hidden">
-                        <text x="1685" y="-405" fill="#fff">3號綫</text>
-                        <text x="1703" y="-285" fill="#fff">13號綫</text>
-                        <text x="1685" y="-92.5" fill="#fff">3號綫</text>
-                        <text x="1685" y="-77.5" fill="#fff">有軌電車</text>
+                        <text x="1685" y="-895" fill="#fff">3號綫</text>
+                        <text x="1703" y="-775" fill="#fff">13號綫</text>
+                        <text x="1685" y="-582.5" fill="#fff">3號綫</text>
+                        <text x="1685" y="-567.5" fill="#fff">有軌電車</text>
                         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="visible"/>
                 </g>
         </g>
