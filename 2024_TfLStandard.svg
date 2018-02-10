@@ -879,7 +879,14 @@ viewBox="-800 -1060 2800 2060"
                 <use xlink:href="#stline12" transform="translate(105,-298)" id="Jingyun Lu"/>
                 <!--Guangyuan Xincun Line11-->
                 <use xlink:href="#stline12" transform="translate(105,-210)" id="Hengfu Lu"/>
+                <!--Jianshe Liumalu Line13-->
+                <!--Martyrs' Park Line1-->
+                <!--Donghu Line6-->
+                <use xlink:href="#stline12" transform="translate(245,96)rotate(90)" id="Ersha_Island"/>
                 <use xlink:href="#stline12" transform="translate(420.5,194)rotate(-90)" id="Lingnan Square"/>
+                <use xlink:href="#stline12" transform="translate(605.5,265)rotate(-45)" id="Chisha"/>
+                <!--Chishajiao Line11-->
+                <use xlink:href="#stline12" transform="translate(680,296)rotate(90)" id="Luntou"/>
                 <use xlink:href="#int" transform="translate(803,296)" id="Guanzhou_12"/>
                 <g class="intsbw">
                         <path id="GZ_int" d="
@@ -889,6 +896,8 @@ viewBox="-800 -1060 2800 2060"
                 <use xlink:href="#GZ_int" class="intsbwfil"/>
                 <circle cx="818" cy="280" r="6" fill="#fff"/>
                 <circle cx="803" cy="296" r="6" fill="#fff"/>
+                <!--HEMC N Line4-->
+                <!--HEMC S Line4-->
         </g>
         <g id="Line13_station_icons">
                 <use xlink:href="#termline13" transform="translate(-336,-450)rotate(135)" id="Chaoyang"/>
@@ -1417,16 +1426,16 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="532" y="-192">Tianhedong</text>
                         </g>
                         <g text-anchor="middle">
-                                <text x="348" y="303">Shangchong<tspan x="341.25" dy="14">Park</tspan></text>
+                                <text x="348" y="303">Shangchong<tspan x="348" dy="14">Park</tspan></text>
                                 <text x="285" y="303">Yijing Lu</text>
                                 <text x="207.75" y="267">Wufeng</text>
                                 <text x="-4" y="396">Nanshi Lu</text>
-                                
                                 <text x="162" y="-256">Dajinzhong</text>
                                 <text x="216" y="-306">Yuntai<tspan x="216" dy="14">Garden</tspan></text>
                                 <text x="270" y="-256">Tianxincun</text>
                         </g>
                         <g text-anchor="end">
+                                <text x="615.5" y="295">Chishajiao</text>
                                 <text x="-116" y="334">Hedongdong</text>
                                 <text x="-273" y="177">Shiweitang</text>
                                 <text x="95" y="-298">Guangyuan<tspan x="95" dy="14">Xincun</tspan></text>
@@ -1439,11 +1448,14 @@ viewBox="-800 -1060 2800 2060"
                                <text x="117" y="-346">Yunxi Park</text>
                                <text x="117" y="-323">Xiaojinzhong</text>
                                <text x="117" y="-298">Jingyun Lu</text>
-                               <text x="117" y="-210">Hengfu Lu</text> 
+                               <text x="117" y="-210">Hengfu Lu</text>
+                               <text x="615.5" y="255">Chisha</text>
                         </g>
                         <g text-anchor="middle">
                                 <text x="-475" y="-318">Liheng Lu</text>
+                                <text x="245" y="114">Ersha Island</text>
                                 <text x="420.5" y="166">Lingnan<tspan x="420.5" dy="14">Square</tspan></text>
+                                <text x="680" y="314">Luntou</text>
                         </g>
                         <g text-anchor="end">
                                 <text x="-79" y="-379">Nanhang<tspan x="-79" dy="14">Xincun</tspan></text>
@@ -1458,7 +1470,6 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="1176" y="240">Xiayuan</text>
                                 <text x="1246" y="224">Nangang</text>
                                 <text x="1276" y="194">Shacun</text>
-                                
                         </g>
                         <g text-anchor="middle">
                                 <text x="70" y="-88">Cangbian Lu</text>
@@ -1522,7 +1533,6 @@ viewBox="-800 -1060 2800 2060"
                 </g>
                 <g id="Line18_station_names">
                         <g text-anchor="start">
-                                <text x="549" y="295">Shiliugang</text>
                                 <text x="551" y="443">Shaxi</text>
                         </g>
                         <g text-anchor="middle">
@@ -1531,6 +1541,7 @@ viewBox="-800 -1060 2800 2060"
                         </g>
                         <g text-anchor="end">
                                 <text x="529" y="182">West Pazhou<tspan x="529" dy="14">District</tspan></text>
+                                <text x="529" y="275">Shiliugang</text>
                         </g>
                 </g>
                 <g id="Line21_station_names">
