@@ -895,7 +895,7 @@ viewBox="-800 -1210 2800 2210"
                 <use xlink:href="#stline12" transform="translate(-475,-300)rotate(-90)" id="Liheng_Lu"/>
                 <!--Chatou Line13-->
                 <!--Dekang Line8-->
-                <use xlink:href="#stline12" transform="translate(-107,-325)rotate(45)" id="Tangxi"/>
+                <use xlink:href="#int" transform="translate(-107,-325)rotate(45)" id="Tangxi"/>
                 <use xlink:href="#stline12" transform="translate(-69,-362)rotate(-135)" id="Nanhang_Xincun"/>
                 <!--Xinshixu Line14-->
                 <!--Baiyun Cultrual Park Line2-->
@@ -1509,6 +1509,7 @@ viewBox="-800 -1210 2800 2210"
                 <g id="Line12_station_names">
                         <g text-anchor="start">
                                <text x="-97" y="-315">Tangxi</text>
+                               <use xlink:href="#chinarail" x="-52" y="-315"/>
                                <text x="117" y="-346">Yunxi Park</text>
                                <text x="117" y="-323">Xiaojinzhong</text>
                                <text x="117" y="-298">Jingyun Lu</text>
@@ -1604,8 +1605,8 @@ viewBox="-800 -1210 2800 2210"
                                 <text x="551" y="443">Shaxi</text>
                         </g>
                         <g text-anchor="middle">
-                                <text x="750" y="805.5">Hengli</text>
-                                <text x="950" y="805.5">Wanqingsha</text>
+                                <text x="750" y="826">Hengli</text>
+                                <text x="950" y="826">Wanqingsha</text>
                         </g>
                         <g text-anchor="end">
                                 <text x="529" y="182">West Pazhou<tspan x="529" dy="14">District</tspan></text>
@@ -1699,13 +1700,11 @@ viewBox="-800 -1210 2800 2210"
                                 <text x="-242" y="608">Xianchong</text>
                                 <text x="-180" y="644">Shizhou</text>
                                 <text x="-118" y="644">Linyue<tspan x="-118" dy="14">Xi</tspan></text>
-                                
                         </g>
                 </g>
                 <g id="FMetro3_station_names">
                         <g text-anchor="start">
                                <text x="-416" y="533">Zhen'an</text>
-                               
                         </g>
                         <g text-anchor="middle">
                                 <text x="-622" y="456">Foshan<tspan x="-622" dy="14">Railway Station</tspan></text>
@@ -1732,7 +1731,8 @@ viewBox="-800 -1210 2800 2210"
                                 <text x="-335" y="532">Jihua<tspan x="-335" dy="14">Lu Dong</tspan></text>
                                 <text x="-288.5" y="582">Pingsheng</text>
                                 <text x="-242" y="546">Guabu</text><text x="-195.5" y="582">Pingnan<tspan x="-195.5" dy="14">Industiral Zone</tspan></text>
-                                <text x="-149" y="546">Pingsheng Donglu</text><text x="-102.5" y="582">Taishan Lu</text>
+                                <text x="-149" y="546">Pingsheng Donglu</text>
+                                \<text x="-102.5" y="582">Taishan Lu</text>
                         </g>
                         <g text-anchor="end">
                                 <text x="-495" y="563">Wenhua<tspan x="-495" dy="14">Park</tspan></text>
@@ -2059,72 +2059,105 @@ viewBox="-800 -1210 2800 2210"
                                 <text x="532" y="-192">天河東</text>
                         </g>
                         <g text-anchor="middle">
-                                <text x="341.25" y="267">上涌公園</text>
-                                <text x="274.5" y="303">逸景路</text>
+                                <text x="348" y="267">上涌公園</text>
+                                <text x="285" y="303">逸景路</text>
                                 <text x="207.75" y="267">五鳳</text>
                                 <text x="-4" y="396">南石路</text>
-                                <text x="105" y="-292">廣園新村</text>
+                                
                                 <text x="162" y="-256">大金鐘</text>
                                 <text x="216" y="-292">雲台花園</text>
                                 <text x="270" y="-256">田心村</text>
                         </g>
                         <g text-anchor="end">
+                                <text x="615.5" y="295">赤沙滘</text>
                                 <text x="-116" y="334">鶴洞東</text>
                                 <text x="-273" y="177">石圍塘</text>
+                                <text x="95" y="-284">廣園新村</text>
                                 <text x="688" y="-24">天河<tspan x="688" dy="14">公園</tspan></text>
+                        </g>
+                </g>
+                <g id="Line12_station_names">
+                        <g text-anchor="start">
+                               <text x="-97" y="-315">棠溪</text>
+                               <use xlink:href="#chinarail" x="-62" y="-315"/>
+                               <text x="117" y="-346">雲溪公園</text>
+                               <text x="117" y="-323">小金鐘</text>
+                               <text x="117" y="-298">景雲路</text>
+                               <text x="117" y="-210">恆福路</text>
+                               <text x="615.5" y="255">赤沙</text>
+                        </g>
+                        <g text-anchor="middle">
+                                <text x="-475" y="-318">里橫路</text>
+                                <text x="245" y="114">二沙島</text>
+                                <text x="420.5" y="180">嶺南廣場</text>
+                                <text x="680" y="314">崙頭</text>
+                        </g>
+                        <g text-anchor="end">
+                                <text x="-79" y="-372">南航新村</text>
                         </g>
                 </g>
                 <g id="Line13_station_names">
                         <g text-anchor="start">
+                                <text x="-286" y="-420">朝陽</text>
+                                <text x="150" y="-60">建設<tspan x="150" dy="14">六馬路</tspan></text>
                                 <text x="468" y="-10">冼村</text>
                                 <text x="828" y="-10">車陂</text>
                                 <text x="887" y="35">珠村</text>
-                                <text x="1206" y="224">南崗</text>
-                                <text x="1236" y="194">沙村</text>
+                                <text x="1176" y="240">夏園</text>
+                                <text x="1246" y="224">南崗</text>
+                                <text x="1276" y="194">沙村</text>
                         </g>
                         <g text-anchor="middle">
                                 <text x="70" y="-88">倉邊路</text>
-                                <text x="140" y="-52">建設六馬路</text>
                                 <text x="230" y="-52">農林<tspan x="230" dy="14">下路</tspan></text>
                                 <text x="290" y="-52">梅東路</text>
                                 <text x="518" y="18">石牌南</text>
                                 <text x="578" y="-18">馬場</text>
                                 <text x="638" y="18">白馬崗</text>
                                 <text x="758" y="18">棠下</text>
-                                <text x="1016" y="212">裕豐圍</text>
                                 <text x="1066" y="248">雙崗</text>
                                 <text x="1116" y="212">南海神廟</text>
-                                <text x="1166" y="248">夏園</text>
-                                <text x="1286" y="120">新塘</text>
-                                <text x="1336" y="156">官湖</text>
-                                <text x="1386" y="120">新沙</text>
+                                <text x="1326" y="120">新塘</text>
+                                <use xlink:href="#prdir" x="1348" y="120"/>
+                                <text x="1376" y="156">官湖</text>
+                                <text x="1426" y="120">新沙</text>
                         </g>
                         <g text-anchor="end">
-                                <text x="-346" y="-440">朝陽</text>
-                                <text x="-296" y="-390">慶豐</text>
-                                <text x="-262" y="-350">凰崗</text>
-                                <text x="-262" y="-300">槎頭</text>
+                                <text x="-276" y="-370">慶豐</text>
+                                <text x="-262" y="-335">凰崗</text>
+                                <text x="-260" y="-290">槎頭</text>
                                 <text x="-262" y="-240">西洲</text>
                                 <text x="-262" y="-180">松溪</text>
                                 <text x="-234" y="-130">羅沖圍</text>
                                 <text x="404" y="-21">花城<tspan x="404" dy="14">廣場北</tspan></text>
-                                <text x="1246" y="144">白江</text>
+                                <text x="1006" y="220">裕豐圍</text>
+                                <text x="1286" y="144">白江</text>
                         </g>
                 </g>
                 <g id="Line14_station_names">
+                        <g text-anchor="start">
+                                <text x="-28" y="-361">崗貝</text>
+                                <text x="-30" y="-381">新市墟</text>
+                        </g>
                         <g text-anchor="middle">
+                                <text x="0" y="-544">鶴南</text>
+                                <text x="100" y="-544">彭邊</text>
                                 <text x="317" y="-544">東平</text>
                                 <text x="384" y="-508">石湖</text>
                                 <text x="451" y="-544">太和</text>
                                 <text x="518" y="-508">竹料</text>
-                                <text x="792" y="-708">太平</text>
-                                <text x="862" y="-672">神崗</text>
-                                <text x="932" y="-708">鄧村</text>
-                                <text x="1002" y="-672">江埔</text>
-                                <text x="1082" y="-708">街口</text>
+                                <use xlink:href="#prdir" x="541" y="-508"/>
+                                <text x="842" y="-758">太平</text>
+                                <text x="912" y="-722">神崗</text>
+                                <text x="982" y="-758">鄧村</text>
+                                <text x="1052" y="-722">江埔</text>
+                                <text x="1132" y="-758">街口</text>
                                 <text x="976" y="-436">鎮龍北</text>
                         </g>
                         <g text-anchor="end">
+                                <text x="-52" y="-291">樂嘉路</text>
+                                <text x="-52" y="-435">馬務</text>
+                                <text x="-52" y="-490">創意園</text>
                                 <text x="578" y="-556">鐘落潭</text>
                                 <text x="645" y="-623">黎家塘</text>
                                 <text x="712" y="-690">新和</text>
@@ -2139,15 +2172,15 @@ viewBox="-800 -1210 2800 2210"
                 </g>
                 <g id="Line18_station_names">
                         <g text-anchor="start">
-                                <text x="549" y="295">石榴崗</text>
                                 <text x="551" y="443">沙溪</text>
                         </g>
                         <g text-anchor="middle">
-                                <text x="750" y="805.5">橫瀝</text>
-                                <text x="950" y="805.5">萬頃沙</text>
+                                <text x="750" y="826">橫瀝</text>
+                                <text x="950" y="826">萬頃沙</text>
                         </g>
                         <g text-anchor="end">
                                 <text x="529" y="196">琶洲西區</text>
+                                <text x="529" y="275">石榴崗</text>
                         </g>
                 </g>
                 <g id="Line21_station_names">
@@ -2177,17 +2210,17 @@ viewBox="-800 -1210 2800 2210"
                 </g>
                 <g id="Line22_station_names">
                         <g text-anchor="start">
-                                <text x="-140" y="424">東沙工業園</text>
+                                <text x="45.5" y="523">西三</text>
                                 <text x="45.5" y="654">廣州南站</text>
                                 <use xlink:href="#chinarail" x="110" y="654"/>
                                 <use xlink:href="#prdir" x="122" y="654"/>
                         </g>
                         <g text-anchor="middle">
-                                <text x="-50" y="476">西三</text>
+                                <text x="-40" y="509">東沙工業園</text>
                                 <text x="250" y="706">祈福</text>
                         </g>
                         <g text-anchor="end">
-                                <text x="21.5" y="553">陳頭崗</text>
+                                <text x="21.5" y="583">陳頭崗</text>
                         </g>
                 </g>
                 <g id="GF_Line_station_names">
@@ -2196,6 +2229,7 @@ viewBox="-800 -1210 2800 2210"
                                 <text x="-382" y="468">南桂路</text>
                                 <text x="-364" y="428">𧒽崗</text>
                                 <text x="-168" y="364">鶴洞</text>
+                                <text x="150" y="388">石溪</text>
                         </g>
                         <g text-anchor="middle">
                                 <text x="-371" y="708">新城東</text>
@@ -2205,17 +2239,16 @@ viewBox="-800 -1210 2800 2210"
                                 <text x="-360" y="356">金融高新區</text>
                                 <text x="-310" y="392">龍溪</text>
                                 <text x="-260" y="356">菊樹</text>
-                                <text x="140" y="396">石溪</text>
                         </g>
                         <g text-anchor="end">
                                 <text x="-438" y="680">東平</text>
                                 <text x="-554" y="656">瀾石</text>
-                                <text x="-554" y="596">季華園</text>
+                                <text x="-552" y="586">季華園</text>
                                 <text x="-554" y="566">同濟路</text>
                                 <text x="-554" y="536">祖廟</text>
                                 <text x="-406" y="408">千燈湖</text>
                                 <text x="-138" y="304">沙涌</text>
-                                <text x="58" y="358">燕崗</text>
+                                <text x="56" y="368">燕崗</text>
                         </g>
                 </g>
                 <g id="APM_Line_station_names">
@@ -2226,6 +2259,7 @@ viewBox="-800 -1210 2800 2210"
                 <g id="FMetro2_station_names">
                         <g text-anchor="start">
                                 <text x="-418" y="636">灣華</text>
+                                <text x="-46" y="616">林岳東</text>
                         </g>
                         <g text-anchor="middle">
                                 <text x="-599" y="644">沙崗</text>
@@ -2235,13 +2269,11 @@ viewBox="-800 -1210 2800 2210"
                                 <text x="-242" y="608">仙涌</text>
                                 <text x="-180" y="644">石洲</text>
                                 <text x="-118" y="644">林岳西</text>
-                                <text x="-56" y="608">林岳東</text>
                         </g>
                 </g>
                 <g id="FMetro3_station_names">
                         <g text-anchor="start">
                                <text x="-416" y="533">鎮安</text>
-                               <text x="-416" y="564">電視塔</text>
                         </g>
                         <g text-anchor="middle">
                                 <text x="-622" y="456">佛山火車站</text>
@@ -2255,8 +2287,37 @@ viewBox="-800 -1210 2800 2210"
                         </g>
                         <g text-anchor="end">
                                 <text x="-440" y="465">南海<tspan x="-440" dy="14">廣場</tspan></text>
+                                <text x="-438" y="554">電視塔</text>
                                 <text x="-440" y="595">深村</text>
                                 <text x="-440" y="743">大墩</text>
+                        </g>
+                </g>
+                <g id="FMetro4_station_names">
+                        <g text-anchor="middle">
+                                <text x="-599" y="614">創意產業園</text>
+                                <text x="-381.5" y="582">石肯</text>
+                                <text x="-335" y="546">季華路東</text>
+                                <text x="-288.5" y="582">平勝</text>
+                                <text x="-242" y="546">瓜步</text><text x="-195.5" y="582">平南工業區</text>
+                                <text x="-149" y="546">平勝東路</text>
+                                <text x="-102.5" y="582">泰山路</text>
+                        </g>
+                        <g text-anchor="end">
+                                <text x="-495" y="570">文華<tspan x="-495" dy="14">公園</tspan></text>
+                        </g>
+                </g>
+                <g id="FMetro11_station_names">
+                        <g text-anchor="start">
+                                <text x="-55" y="536">創智園</text>
+                                <text x="-44" y="564">港口路</text>
+                                <text x="1" y="722">陳村東</text>
+                                <text x="31" y="752">碧江</text>
+                                <text x="44" y="792">順德站</text>
+                                <use xlink:href="#prdir" x="94" y="792"/>
+                                <text x="44" y="822">永豐市場</text>
+                        </g>
+                        <g text-anchor="end">
+                                <text x="-110" y="522">三山新城</text>
                         </g>
                 </g>
                 <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="visible"/>
