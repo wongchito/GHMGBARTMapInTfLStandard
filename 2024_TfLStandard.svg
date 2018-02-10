@@ -571,8 +571,8 @@ viewBox="-800 -1060 2800 2060"
                 <g class="sunknown">
                         <path id="NHXJT_route" d="
                         M -374,438
-                        H -281 a 21,21 0 0,1 15,6
-                        L -124,586 a 21,21 0 0,1 6,15
+                        H -262 a 21,21 0 0,1 15,6
+                        L -124,567 a 21,21 0 0,1 6,15
                         V 606
                         "/>
                 </g>
@@ -1041,7 +1041,7 @@ viewBox="-800 -1060 2800 2060"
                 <circle cx="-210" cy="220" r="6" fill="#fff"/>
                 <!--Xilang Line1-->
                 <use xlink:href="#stline22" transform="translate(-40,491)rotate(90)" id="Dongsha_Industrial_Park"/>
-                <use xlink:href="#stline22" transform="translate(33.5,533)" id="Xisan"/>
+                <use xlink:href="#stline22" transform="translate(33.5,523)" id="Xisan"/>
                 <use xlink:href="#stline22" transform="translate(33.5,583)rotate(180)" id="Chentougang"/>
                 <use xlink:href="#int" x="33.5" y="654" id="Guangzhou_South_Railway_Stattion_22"/>
                 <use xlink:href="#stline22" transform="translate(250,688)rotate(90)" id="Clifford"/>
@@ -1135,7 +1135,18 @@ viewBox="-800 -1060 2800 2060"
         </g>
         <g id="FMetro4_station_icons">
                 <use xlink:href="#outofcity" fill="#FF00FF" transform="translate(-650,596)rotate(90)" id="Foshan"/>
+                <use xlink:href="#stfmetro4" transform="translate(-599,596)rotate(90)" id="Pioneer_Industrial_Park"/>
+                <!--Jihua Park GF Line-->
                 <use xlink:href="#stfmetro4" transform="translate(-485,580)rotate(-135)" id="Wenhua_Park"/>
+                <!--Television Tower FMetro Line3-->
+                <use xlink:href="#stfmetro4" transform="translate(-381.5,564)rotate(90)" id="Shiken"/>
+                <use xlink:href="#stfmetro4" transform="translate(-335,564)rotate(-90)" id="Jihua_Lu_Dong"/>
+                <use xlink:href="#stfmetro4" transform="translate(-288.5,564)rotate(90)" id="Pingsheng"/>
+                <use xlink:href="#stfmetro4" transform="translate(-242,564)rotate(-90)" id="Guabu"/>
+                <use xlink:href="#stfmetro4" transform="translate(-195.5,564)rotate(90)" id="Pingnan_Industrial_Zone"/>
+                <use xlink:href="#stfmetro4" transform="translate(-149,564)rotate(-90)" id="Pingsheng_Donglu"/>
+                <use xlink:href="#stfmetro4" transform="translate(-102.5,564)rotate(90)" id="Taishan_Lu"/>
+                <!--Gangkou Lu FMetro Line11-->
         </g>
         <g id="FMetro11_station_icons">
                 <!--Hedongdong Line11-->
@@ -1604,7 +1615,7 @@ viewBox="-800 -1060 2800 2060"
                 </g>
                 <g id="Line22_station_names">
                         <g text-anchor="start">
-                                <text x="45.5" y="533">Xisan</text>
+                                <text x="45.5" y="523">Xisan</text>
                                 <text x="45.5" y="647">Guangzhou South<tspan x="45.5" dy="14">Railway Station</tspan></text>
                                 <use xlink:href="#chinarail" x="155" y="654"/>
                                 <use xlink:href="#prdir" x="167" y="654"/>
@@ -1637,7 +1648,7 @@ viewBox="-800 -1060 2800 2060"
                         <g text-anchor="end">
                                 <text x="-438" y="680">Dongping</text>
                                 <text x="-554" y="656">Lanshi</text>
-                                <text x="-554" y="596">Jihua Park</text>
+                                <text x="-552" y="586">Jihua Park</text>
                                 <text x="-554" y="566">Tongji Lu</text>
                                 <text x="-554" y="529">Foshan<tspan x="-554" dy="14">Ancestral Temple</tspan></text>
                                 <text x="-406" y="401">Qiandenghu<tspan x="-406" dy="14">Lake</tspan></text>
@@ -1669,7 +1680,7 @@ viewBox="-800 -1060 2800 2060"
                 <g id="FMetro3_station_names">
                         <g text-anchor="start">
                                <text x="-416" y="533">Zhen'an</text>
-                               <text x="-416" y="564">Televesion Tower</text>
+                               
                         </g>
                         <g text-anchor="middle">
                                 <text x="-622" y="456">Foshan<tspan x="-622" dy="14">Railway Station</tspan></text>
@@ -1684,8 +1695,22 @@ viewBox="-800 -1060 2800 2060"
                         </g>
                         <g text-anchor="end">
                                 <text x="-440" y="465">Nanhai<tspan x="-440" dy="14">Square</tspan></text>
+                                <text x="-438" y="540">Televesion<tspan x="-438" dy="14">Tower</tspan></text>
                                 <text x="-440" y="595">Shencun</text>
                                 <text x="-440" y="743">Dadun</text>
+                        </g>
+                </g>
+                <g id="FMetro4_station_names">
+                        <g text-anchor="middle">
+                                <text x="-599" y="608">Pioneer<tspan x="-599" dy="10">Industrial Park</tspan></text>
+                                <text x="-381.5" y="582">Shiken</text>
+                                <text x="-335" y="532">Jihua<tspan x="-335" dy="14">Lu Dong</tspan></text>
+                                <text x="-288.5" y="582">Pingsheng</text>
+                                <text x="-242" y="546">Guabu</text><text x="-195.5" y="582">Pingnan<tspan x="-195.5" dy="14">Industiral Zone</tspan></text>
+                                <text x="-149" y="546">Pingsheng Donglu</text><text x="-102.5" y="582">Taishan Lu</text>
+                        </g>
+                        <g text-anchor="end">
+                                <text x="-495" y="563">Wenhua<tspan x="-495" dy="14">Park</tspan></text>
                         </g>
                 </g>
                 <g id="FMetro11_station_names">
