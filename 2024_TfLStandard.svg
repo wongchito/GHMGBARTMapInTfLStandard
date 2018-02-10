@@ -821,10 +821,18 @@ viewBox="-800 -1060 2800 2060"
                 <!--Gaozeng Line3-->
         </g>
         <g id="Line10_station_icons">
+                <!--Xilang Line1-->
+                <use xlink:href="#int" x="-106" y="458" id="GISE_New_Town"/>
+                <use xlink:href="#stline10" transform="translate(20,458)rotate(-90)" id="Dongsha"/>
+                <use xlink:href="#stline10" transform="translate(110,408)rotate(-135)" id="Daganwei"/>
+                <!--Shixi GF Line-->
+                <!--Dongxiaonan Line2-->
+                <!--Wufeng Line11-->
                 <use xlink:href="#stline10" transform="translate(242,250)" id="SYSU_South_Entrance"/>
                 <use xlink:href="#stline10" transform="translate(211,170)rotate(-45)" id="Binjiang_Donglu"/>
                 <use xlink:href="#stline10" transform="translate(230,35)rotate(90)" id="Shuqian_Lu"/>
                 <use xlink:href="#stline10" transform="translate(290,35)rotate(90)" id="Siyou_Xinmalu"/>
+                <use xlink:href="#stline10" transform="translate(361,14)" id="Guangzhoudadaozhong"/>
                 <use xlink:href="#int" x="422" y="-84" id="Tianhe_Lu"/>
                 <use xlink:href="#stline10" transform="translate(504,-84)rotate(90)" id="Shipaiqiao"/>
                 <use xlink:href="#stline10" transform="translate(544,-84)rotate(-90)" id="Gangding"/>
@@ -841,7 +849,7 @@ viewBox="-800 -1060 2800 2060"
                 <use xlink:href="#stline11" transform="translate(348,285)rotate(90)" id="Shangchong_Park"/>
                 <use xlink:href="#stline11" transform="translate(285,285)rotate(90)" id="Yijing_Lu"/>
                 <use xlink:href="#int" transform="translate(233,285)rotate(-90)" id="Wufeng"/>
-                <use xlink:href="#stline11" transform="translate(-4,378)rotate(90)" id="Nanshi_Lu"/>
+                <use xlink:href="#stline11" transform="translate(-14,378)rotate(90)" id="Nanshi_Lu"/>
                 <use xlink:href="#int" transform="translate(-106,324)" id="Hedongdong"/>
                 <use xlink:href="#stline11" transform="translate(-168,262)rotate(-45)" id="Fangcundadaodong"/>
                 <use xlink:href="#stline11" transform="translate(-263,167)rotate(135)" id="Shiweitang"/>
@@ -1143,16 +1151,15 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="490" y="-154">Tianhe<tspan x="490" dy="14">Sports</tspan><tspan x="490" dy="14">Center</tspan></text>
                         </g>
                         <g text-anchor="middle">
-                                
                                 <text x="-70" y="-18">Ximenkou</text>
                                 <text x="70" y="-32">Peasant Movement<tspan x="70" dy="14">Institute</tspan></text>
-                                
                         </g>
                         <g text-anchor="end">
                                 <text x="-223" y="384">Xilang</text>
                                 <text x="-222" y="302">Kengkou</text>
                                 <text x="-222" y="261">Huadiwan</text>
                                 <text x="304" y="-10">Yangji</text>
+                                <text x="398" y="-80">Tiyu Xilu</text>
                         </g>
                 </g>
                 <g id="Line2_station_names">
@@ -1403,18 +1410,24 @@ viewBox="-800 -1060 2800 2060"
                 </g>
                 <g id="Line10_station_names">
                         <g text-anchor="start">
+                                <text x="-96" y="434">GISE<tspan x="-96" dy="14">New Town</tspan></text>
                                 <text x="221" y="153">Binjiang<tspan x="221" dy="14">Donglu</tspan></text>
                                 <text x="254" y="236">Sun Yat-sen<tspan x="254" dy="14">University</tspan><tspan x="254" dy="14">South Entrance</tspan></text>
+                                <text x="373" y="7">Guangzhou<tspan x="373" dy="14">Dadaozhong</tspan></text>
                                 <text x="588" y="-130">South China<tspan x="588" dy="14">Normal</tspan><tspan x="588" dy="14">University</tspan></text>
                                 <text x="590" y="-210">Wushan</text>
                                 <text x="532" y="-270">Tianhe Coach Terminal</text>
                         </g>
                         <g text-anchor="middle">
+                                <text x="20" y="440">Dongsha</text>
+                                <text x="230" y="53">Shuqian<tspan x="230" dy="14">Lu</tspan></text>
+                                <text x="290" y="53">Siyou<tspan x="290" dy="14">Xinmalu</tspan></text>
                                 <text x="504" y="-66">Shipaiqiao</text>
                                 <text x="544" y="-102">Gangding</text>
                         </g>
                         <g text-anchor="end">
-                                <!--Tiyu Xilu dagger-->
+                                <text x="100" y="398">Daganwei</text>
+                                <text x="422" y="-102">Tianhe Lu</text>
                         </g>
                 </g>
                 <g id="Line11_station_names">
@@ -1429,7 +1442,7 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="348" y="303">Shangchong<tspan x="348" dy="14">Park</tspan></text>
                                 <text x="285" y="303">Yijing Lu</text>
                                 <text x="207.75" y="267">Wufeng</text>
-                                <text x="-4" y="396">Nanshi Lu</text>
+                                <text x="-14" y="396">Nanshi Lu</text>
                                 <text x="162" y="-256">Dajinzhong</text>
                                 <text x="216" y="-306">Yuntai<tspan x="216" dy="14">Garden</tspan></text>
                                 <text x="270" y="-256">Tianxincun</text>
@@ -1494,7 +1507,7 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="-262" y="-240">Xizhou</text>
                                 <text x="-262" y="-180">Songxi</text>
                                 <text x="-234" y="-130">Luochongwei</text>
-                                <text x="404" y="-28">Huacheng<tspan x="404" dy="14">Square</tspan><tspan x="404" dy="14">North</tspan></text>
+                                <text x="404" y="-35">Huacheng<tspan x="404" dy="14">Square North</tspan></text>
                                 <text x="1006" y="220">Yufengwei</text>
                                 <text x="1286" y="144">Baijiang</text>
                         </g>
@@ -2134,21 +2147,13 @@ viewBox="-800 -1060 2800 2060"
 
         <g id="text_labels_with_dagger" font-size="15px" transform="translate(0,5)">
                 <g text-anchor="end">
-                        <text x="382" y="-91">
-                                <tspan class="dagger">&#8224;</tspan>
-                                <tspan class="stname">Tiyu</tspan>
-                                <tspan x="382" dy="14" class="stname">Xilu</tspan>
-                        </text>
+                        
                 </g>
                 <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="hidden"/>
         </g>
         <g id="text_labels_with_dagger" font-size="15px" transform="translate(0,5)" style="visibility:hidden">
                 <g text-anchor="end">
-                        <text x="382" y="-91">
-                                <tspan class="dagger">&#8224;</tspan>
-                                <tspan class="chtstname">體育</tspan>
-                                <tspan x="382" dy="14" class="chtstname">西路</tspan>
-                        </text>
+                        
                 </g>
                 <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="visible"/>
         </g>
@@ -2221,7 +2226,7 @@ viewBox="-800 -1060 2800 2060"
                 <use xlink:href="#stapmline" x="1550" y="-325" id="Tianhenan"/>
                 <use xlink:href="#int" x="1550" y="-285" id="Huangpu_Dadao"/>
                 <use xlink:href="#stapmline" x="1550" y="-245" id="GZWCMC"/>
-                <use xlink:href="#stapmline" x="1550" y="-205" id="Huacheng Dadao"/>
+                <use xlink:href="#stapmline" x="1550" y="-205" id="Huacheng_Dadao"/>
                 <use xlink:href="#stapmline" x="1550" y="-165" id="Guangzhou_Opera_House"/>
                 <use xlink:href="#stapmline" x="1550" y="-125" id="Guangzhou_Opera_House"/>
                 <use xlink:href="#int" x="1550" y="-85" id="Canton_Tower_ex"/>
