@@ -1953,6 +1953,8 @@ viewBox="-800 -1210 2800 2210"
                 </g>
                 <g id="Line8_station_names">
                         <g text-anchor="start">
+                                <text x="-214" y="-488">滘心</text>
+                                <text x="-185" y="-459">亭崗</text>
                                 <text x="-130" y="-60">彩虹橋</text>
                                 <text x="-128" y="80">華林寺</text>
                                 <text x="-130" y="150">文化公園</text>
@@ -1962,26 +1964,34 @@ viewBox="-800 -1210 2800 2210"
                                 <text x="551" y="238">磨碟沙</text>
                         </g>
                         <g text-anchor="middle">
-                                <text x="177" y="202">曉港</text>
-                                <text x="254" y="202">中大</text>
-                                <text x="331" y="202">鷺江</text>
-                                <text x="480.5" y="238">赤崗</text>
+                                <text x="157" y="238">曉港</text>
+                                <text x="188" y="202">中大</text>
+                                <text x="321" y="202">鷺江</text>
                                 <text x="625.5" y="202">新港東</text>
                         </g>
                         <g text-anchor="end">
-                                <text x="-256" y="-490">滘心</text>
-                                <text x="-216" y="-450">亭崗</text>
+                                <text x="-242" y="-730">雅瑤</text>
+                                <text x="-242" y="-700">鏡湖大道</text>
+                                <text x="-242" y="-670">神山</text>
+                                <text x="-242" y="-640">水瀝</text>
+                                <text x="-242" y="-610">江府</text>
+                                <text x="-242" y="-580">江村</text>
+                                <text x="-242" y="-550">江高</text>
+                                <use xlink:href="#prdir" x="-302" y="-550"/>
+                                <text x="-242" y="-520">鳳翔路</text>
                                 <text x="-176" y="-410">石井</text>
                                 <text x="-152" y="-380">小坪</text>
                                 <text x="-152" y="-340">石潭</text>
-                                <text x="-152" y="-300">德康</text>
+                                <text x="-150" y="-290">德康</text>
                                 <text x="-152" y="-260">上埗</text>
                                 <text x="-152" y="-220">同德圍</text>
                                 <text x="-152" y="-180">鵝掌坦</text>
                                 <text x="-150" y="-150">西村</text>
                                 <text x="-5.5" y="312">沙園</text>
                                 <text x="398" y="230">客村</text>
+                                <text x="470.5" y="230">赤崗</text>
                                 <text x="688" y="230">琶洲</text>
+                                <use xlink:href="#prdir" x="653" y="230"/>
                                 <text x="808" y="230">萬勝圍</text>
                         </g>
                 </g>
