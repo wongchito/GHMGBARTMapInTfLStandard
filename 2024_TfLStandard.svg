@@ -563,7 +563,8 @@ viewBox="-800 -1060 2800 2060"
                         V 496 a 21,21 0 0,0 6,15
                         L -62,549 a 21,21 0 0,1 6,15
                         V 676 a 21,21 0 0,0 6,15
-                        L -39,702
+                        L 26,767 a 21,21 0 0,1 6,15
+                        V 850
                         "/>
                 </g>
                 <use class="mex" xlink:href="#FMetro11_route"/>
@@ -1137,7 +1138,18 @@ viewBox="-800 -1060 2800 2060"
                 <use xlink:href="#stfmetro4" transform="translate(-485,580)rotate(-135)" id="Wenhua_Park"/>
         </g>
         <g id="FMetro11_station_icons">
+                <!--Hedongdong Line11-->
+                <!--GISE New Town Line10-->
+                <use xlink:href="#stfmetro11" transform="translate(-100,511)rotate(135)" id="Sanshan_New_Town"/>
+                <use xlink:href="#stfmetro11" transform="translate(-65,546)rotate(-45)" id="Enterprise_City"/>
                 <use xlink:href="#int" transform="translate(-56,564)" id="Gangkou_Lu"/>
+                <!--Linyue Dong FMetro Line2-->
+                <!--Chencun Bei Line7-->
+                <use xlink:href="#stfmetro11" transform="translate(-9,732)rotate(-45)" id="Chencun_Dong"/>
+                <use xlink:href="#stfmetro11" transform="translate(21,762)rotate(-45)" id="Bijiang"/>
+                <use xlink:href="#int" transform="translate(32,792)" id="Shunde_Railway_Station"/>
+                <use xlink:href="#stfmetro11" transform="translate(32,822)" id="Yongfeng_Market"/>
+                <use xlink:href="#outofcity" fill="#6600CC" transform="translate(32,850)" id="Foshan"/>
         </g>
         <g id="NHXJT_station_icons">
                 <use xlink:href="#int" transform="translate(-374,438)" id="Leigang"/>
@@ -1332,7 +1344,6 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="-245" y="735">Meidi<tspan x="-245" dy="14">Dadao</tspan></text>
                                 <text x="-89" y="765">Chencun<tspan x="-89" dy="14">New Town</tspan></text>
                                 <text x="-59" y="742">Chencun</text>
-                                <text x="-29" y="712">Chencun Bei</text>
                                 <text x="549" y="580">Nancun<tspan x="549" dy="14">Wanbo</tspan></text>
                                 <text x="836" y="513">Banqiao</text>
                                 <text x="903" y="329">Shenjing</text>
@@ -1348,10 +1359,10 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="188" y="588">Xiecun</text>
                                 <text x="298" y="552">Zhongcun</text>
                                 <text x="699" y="588">Yuangang</text>
-                                
                                 <text x="913" y="263">Changzhou</text>
                         </g>
                         <g text-anchor="end">
+                                <text x="-51" y="702">Chencun Bei</text>
                                 <text x="-19" y="662">Weichong</text>
                                 <text x="965" y="-399">Shuixibei</text>
                         </g>
@@ -1622,7 +1633,6 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="-360" y="342">Financial<tspan x="-360" dy="14">Hi-Tech Zone</tspan></text>
                                 <text x="-310" y="392">Longxi</text>
                                 <text x="-260" y="356">Jushu</text>
-                                
                         </g>
                         <g text-anchor="end">
                                 <text x="-438" y="680">Dongping</text>
@@ -1676,6 +1686,19 @@ viewBox="-800 -1060 2800 2060"
                                 <text x="-440" y="465">Nanhai<tspan x="-440" dy="14">Square</tspan></text>
                                 <text x="-440" y="595">Shencun</text>
                                 <text x="-440" y="743">Dadun</text>
+                        </g>
+                </g>
+                <g id="FMetro11_station_names">
+                        <g text-anchor="start">
+                                <text x="-55" y="536">Enterprise City</text>
+                                <text x="-44" y="564">Gangkou Lu</text>
+                                <text x="1" y="722">Chencun Dong</text>
+                                <text x="31" y="752">Bijiang</text>
+                                <text x="44" y="785">Shunde<tspan x="44" dy="14">Railway Station</tspan></text>
+                                <text x="44" y="822">Yongfeng Market</text>
+                        </g>
+                        <g text-anchor="end">
+                                <text x="-110" y="515">Sanshan<tspan x="-110" dy="14">New Town</tspan></text>
                         </g>
                 </g>
                 <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="hidden"/>
