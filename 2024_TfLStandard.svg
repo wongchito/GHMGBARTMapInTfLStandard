@@ -2354,9 +2354,10 @@ viewBox="-800 -1210 2800 2210"
                 </g>
                 <g text-anchor="start" class="chtstname" id="text_labels" font-size="18px" transform="translate(0,6)" style="visibility:hidden">
                         <!--dy=14 not 12-->
-                        <text x="1564" y="5">轉車站</text>
-                        <text x="1564" y="40">機場</text>
-                        <text x="1749" y="40">中國鐵路</text>
+                        <text x="1564" y="-135">轉車站</text>
+                        <text x="1564" y="-100">機場</text>
+                        <text x="1749" y="-100">中國鐵路</text>
+                        <text x="1564" y="-65">珠江三角洲地區城際軌道交通</text>
                         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="visible"/>
                 </g>
         </g>
@@ -2472,6 +2473,9 @@ viewBox="-800 -1210 2800 2210"
                         <text x="1700" y="200">6號綫</text>
                         <text x="1700" y="165">5號綫</text>
                         <text x="1700" y="130">4號綫</text>
+                        <text x="1700" y="95">3號綫</text>
+                        <text x="1700" y="60">2號綫</text>
+                        <text x="1700" y="25">1號綫</text>
                         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="visible"/>
                 </g>
                 
