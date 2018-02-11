@@ -28,6 +28,7 @@ viewBox="60 10 295 160">
     font-family:Arial,"Hiragino Mincho ProN","PingFang HK","Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Arial Unicode MS",sans-serif;
     fill:#0019A8;
     font-weight:bold;
+    alignment-baseline:central;
 }
 .sline1 {stroke:#F3D03E}
 .sline8 {stroke:#008C95}
@@ -94,9 +95,9 @@ viewBox="60 10 295 160">
     <use xlink:href="#int" transform="translate(230,130)"/>
     <use xlink:href="#int" transform="translate(300,130)"/>
 
-    <g class="StationName" font-size="8.5pt" text-anchor="middle">
-        <text x="90" y="35" alignment-baseline="central">Station</text>
-        <text x="160" y="65" alignment-baseline="central">Station<tspan x="160" dy="12" alignment-baseline="central">Name</tspan></text>
+    <g font-size="8.5pt" text-anchor="middle">
+        <text x="90" y="35" class="StationName">Station</text>
+        <text x="160" y="65" class="StationName">Station<tspan x="160" dy="12" class="StationName">Name</tspan></text>
         <text x="230" y="35" alignment-baseline="central">Station</text>
         <use xlink:href="#chinarail" x="255" y="35"/>
         <use xlink:href="#fbenline1" x="230" y="65"/>

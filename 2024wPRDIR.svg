@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="2800" height="2210"
+viewBox="-800 -1210 2800 2210"
+>
+    <title>Guangzhou Metro Map in London Style (2024) with PRDIR</title>
+
+    <style type="text/css">
+        .LineDiagram {fill:none;stroke-width:6}
+        .FlagBox {fill:none;stroke-width:8}
+        .FlagBoxNameEN {
+            font-family:Arial,"Hiragino Mincho ProN","PingFang HK","Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Arial Unicode MS",sans-serif;
+            font-weight:bold;
+            alignment-baseline:middle;
+            text-anchor:middle;
+            font-size:4.5pt;
+        }
+        .FlagBoxNameZH {
+            font-family:Arial,"Hiragino Mincho ProN","PingFang HK","Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Arial Unicode MS",sans-serif;
+            font-weight:bold;
+            alignment-baseline:central;
+            text-anchor:middle;
+            font-size:3.7pt;
+        }
+        .NonMetro {stroke:#fff;stroke-width:2}
+        .StationTick {fill:none;stroke-width:4}
+        .StationName {
+            font-family:Arial,"Hiragino Mincho ProN","PingFang HK","Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Arial Unicode MS",sans-serif;
+            fill:#0019A8;
+            font-weight:bold;
+            alignment-baseline:central;
+        }
+        .cgz1 {stroke:#F3D03E}
+        .cgz2 {stroke:#00629B}
+        .cgz3 {stroke:#ECA154}
+        .cgz4 {stroke:#00843D}
+        .cgz5 {stroke:#C5003E}
+        .cgz6 {stroke:#80225F}
+        .cgz7 {stroke:#97D700}
+        .cgz8 {stroke:#008C95}
+        .cgz9 {stroke:#71CC98}
+        .cgz10 {stroke:#7D9BC1}
+        .cgz11 {stroke:#470A68}
+        .cgz12 {stroke:#59621D}
+        .cgz13 {stroke:#8E8C13}
+        .cgz14 {stroke:#81312F}
+        .cgz18 {stroke:#D48BC8}
+        .cgz21 {stroke:#201747}
+        .cgz22 {stroke:#041E42}
+        .cgf {stroke:#C4D600}
+        .capm {stroke:#00B5E2}
+        .TfLLU {fill:#0019A8}
+        .CorporateGrey {fill:#868F98}
+    </style>
+
+    <defs>
+        <path id="st" class="StationTick" d="M 2,0 H 7"/>
+        <path id="term" class="StationTick" d="M -7,0 H 7"/>
+        <g id="int">
+            <circle cx="0" cy="0" r="9" fill="#000"/>
+            <circle cx="0" cy="0" r="6" fill="#fff"/>
+        </g>
+        <path id="flagbox" class="FlagBox" d="M -30,0 H 30"/>
+        <use xlink:href="#st" id="stgz1" class="cgz1"/>
+        <use xlink:href="#term" id="termgz1" class="cgz1"/>
+        <use xlink:href="#st" id="stgz8" class="cgz8"/>
+        <use xlink:href="#term" id="termgz8" class="cgz8"/>
+        <use xlink:href="#st" id="stgz13" class="cgz13"/>
+    </defs>
+
+    <g id="cht_switch" style="opacity:0;cursor:pointer">
+		<g id="cht_switch_base">
+			<rect x="-690" y="-1040" width="10" height="10" style="fill:#fff;stroke:#000;stroke-width:1"/>
+			<text x="-675" y="-1030" font-size="14px" class="stname">Traditional Chinese</text>
+		</g>
+		<g id="cht_switch_over" style="visibility:hidden;opacity:0">
+            <use xlink:href="#enabled" x="-690" y="-1040"/>
+			<text x="-675" y="-1030" style="stroke:#243588;stroke-width:0.5;font-size:14px" class="stname">Traditional Chinese</text>
+			<set
+			begin="cht_switch_base.click"
+			end="cht_switch_over.click"
+			attributeName="visibility" attributeType="CSS" to="visible"/>
+			<set
+			begin="cht_switch_base.click"
+			end="cht_switch_over.click"
+			attributeName="opacity" attributeType="CSS" to="1"/>
+		</g>
+		<animate
+		attributeName="opacity" attributeType="CSS" values="0; 1" keyTimes="0; 1" dur="0.5s" fill="freeze"/>
+	</g>
+
+    <g class="LineDiagram">
+        <path id="Line1_route" class="cgz1" d="
+            M -100,0
+            H 200
+        "/>
+        <path id="Line2_route" class="cgz2" d="
+            M 0,-100
+            V 100
+        "/>
+        <path id="Line12_route" class="cgz12" d="
+            M 140,-100
+            V 100
+        "/>
+        <path id="Line13_route" class="cgz13" d="
+            M -100,-70
+            H 200
+        "/>
+    </g>
+
+    <g id="GZ1_station_icons">
+        <use xlink:href="#int" x="0" y="0" id="Gongyuanqian"/>
+        <use xlink:href="#stgz1" transform="translate(70,0)rotate(-90)" id="Peasants_Movement_Institute"/>
+        <use xlink:href="#int" x="140" y="0" id="Martyrs_Park"/>
+    </g>
+    <g id="GZ2_station_icons">
+        <use xlink:href="#int" x="0" y="-70" id="SYS_Memorial_Hall"/>
+        <!--Gongyuanqian GZ1-->
+    </g>
+    <g id="GZ13_station_icons">
+        <use xlink:href="#stgz13" transform="translate(70,-70)rotate(-90)" id="Cangbian_Lu"/>
+    </g>
+
+    <g id="Station_names_EN" font-size="8.5pt" style="visibility:visible">
+        <g id="GZ1_names_EN">
+            <g text-anchor="start">
+                <text x="9" y="13" class="StationName">People's<tspan x="9" dy="12" class="StationName">Park</tspan></text>
+                <text x="149" y="13" class="StationName">Martyrs'<tspan x="149" dy="12" class="StationName">Park</tspan></text>
+            </g>
+            <g text-anchor="middle">
+                <text x="70" y="-15" class="StationName">Institute<tspan x="70" dy="-12" class="StationName">Peasant Movement</tspan></text>
+            </g>
+        </g>
+        <g id="GZ13_names_EN">
+            <g text-anchor="start">
+                
+            </g>
+            <g text-anchor="middle">
+                <text x="70" y="-85" class="StationName">Road<tspan x="70" dy="-12" class="StationName">Cangbian</tspan></text>
+            </g>
+        </g>
+        <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="hidden"/>
+    </g>
+
+    <g id="Station_names_ZH" font-size="6.7pt" style="visibility:hidden">
+        <g id="GZ1_names_ZH">
+            <g text-anchor="start">
+                <text x="9" y="13" class="StationName">公園前</text>
+                <text x="149" y="13" class="StationName">烈士陵園</text>
+            </g>
+            <g text-anchor="middle">
+                <text x="70" y="-15" class="StationName">農講所</text>
+            </g>
+        </g>
+        <g id="GZ13_names_ZH">
+            <g text-anchor="start">
+                
+            </g>
+            <g text-anchor="middle">
+                <text x="70" y="-85" class="StationName">倉邊路</text>
+            </g>
+        </g>
+        <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="visible"/>
+    </g>
+</svg>
