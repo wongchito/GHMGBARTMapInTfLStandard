@@ -26,7 +26,13 @@ viewBox="-800 -1210 2800 2210"
         }
         .NonMetro {stroke:#fff;stroke-width:2}
         .StationTick {fill:none;stroke-width:4}
-        .StationName {
+        .StationNameEN {
+            font-family:Arial,"Hiragino Mincho ProN","PingFang HK","Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Arial Unicode MS",sans-serif;
+            fill:#0019A8;
+            font-weight:bold;
+            alignment-baseline:middle;
+        }
+        .StationNameZH {
             font-family:Arial,"Hiragino Mincho ProN","PingFang HK","Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Arial Unicode MS",sans-serif;
             fill:#0019A8;
             font-weight:bold;
@@ -94,11 +100,25 @@ viewBox="-800 -1210 2800 2210"
     <g class="LineDiagram">
         <path id="Line1_route" class="cgz1" d="
             M -100,0
-            H 200
+            H 400
         "/>
         <path id="Line2_route" class="cgz2" d="
             M 0,-100
             V 100
+        "/>
+        <path id="Line5_route" class="cgz5" d="
+            M 350,-100
+            V 100
+        "/>
+        <path id="Line6_route" class="cgz6" d="
+            M 179,70
+            H 189 a 21,21 0 0,0 21,-21
+            V -100
+        "/>
+        <path id="Line10_route" class="cgz10" d="
+            M 179,70
+            V 60 a 21,21 0 0,1 21,-21
+            H 300
         "/>
         <path id="Line12_route" class="cgz12" d="
             M 140,-100
@@ -106,7 +126,7 @@ viewBox="-800 -1210 2800 2210"
         "/>
         <path id="Line13_route" class="cgz13" d="
             M -100,-70
-            H 200
+            H 400
         "/>
     </g>
 
@@ -114,31 +134,50 @@ viewBox="-800 -1210 2800 2210"
         <use xlink:href="#int" x="0" y="0" id="Gongyuanqian"/>
         <use xlink:href="#stgz1" transform="translate(70,0)rotate(-90)" id="Peasants_Movement_Institute"/>
         <use xlink:href="#int" x="140" y="0" id="Martyrs_Park"/>
+        <use xlink:href="#int" x="210" y="0" id="Dongshankou"/>
+        <use xlink:href="#int" x="350" y="0" id="Yangji"/>
     </g>
     <g id="GZ2_station_icons">
         <use xlink:href="#int" x="0" y="-70" id="SYS_Memorial_Hall"/>
         <!--Gongyuanqian GZ1-->
     </g>
+    <g id="GZ6_station_icons">
+        <use xlink:href="#int" x="179" y="70" id="Donghu"/>
+    </g>
     <g id="GZ13_station_icons">
         <use xlink:href="#stgz13" transform="translate(70,-70)rotate(-90)" id="Cangbian_Lu"/>
+        <use xlink:href="#int" x="140" y="-70" id="Jianshe_Liumalu"/>
+        <use xlink:href="#stgz13" transform="translate(239,-70)rotate(90)" id="Nonglin_Xialu"/>
+        <use xlink:href="#stgz13" transform="translate(319,-70)rotate(90)" id="Meidong_Lu"/>
     </g>
 
     <g id="Station_names_EN" font-size="8.5pt" style="visibility:visible">
         <g id="GZ1_names_EN">
             <g text-anchor="start">
-                <text x="9" y="13" class="StationName">People's<tspan x="9" dy="12" class="StationName">Park</tspan></text>
-                <text x="149" y="13" class="StationName">Martyrs'<tspan x="149" dy="12" class="StationName">Park</tspan></text>
+                <text x="9" y="14" class="StationNameEN">People's<tspan x="9" dy="12" class="StationNameEN">Park</tspan></text>
+                <text x="149" y="14" class="StationNameEN">Martyrs'<tspan x="149" dy="12" class="StationNameEN">Park</tspan></text>
+                <text x="219" y="14" class="StationNameEN">Dongshankou</text>
             </g>
             <g text-anchor="middle">
-                <text x="70" y="-15" class="StationName">Institute<tspan x="70" dy="-12" class="StationName">Peasant Movement</tspan></text>
+                <text x="70" y="-14" class="StationNameEN">Institute<tspan x="70" dy="-12" class="StationNameEN">Movement</tspan><tspan x="70" dy="-12" class="StationNameEN">Peasant</tspan></text>
             </g>
         </g>
-        <g id="GZ13_names_EN">
+        <g id="GZ6_names_EN">
             <g text-anchor="start">
                 
             </g>
             <g text-anchor="middle">
-                <text x="70" y="-85" class="StationName">Road<tspan x="70" dy="-12" class="StationName">Cangbian</tspan></text>
+                <text x="240" y="53" class="StationNameEN">Shuqian<tspan x="240" dy="12" class="StationNameEN">Road</tspan></text>
+            </g>
+        </g>
+        <g id="GZ13_names_EN">
+            <g text-anchor="start">
+                <text x="149" y="-56" class="StationNameEN">Jianshe<tspan x="149" dy="12" class="StationNameEN">6th Road</tspan></text>
+            </g>
+            <g text-anchor="middle">
+                <text x="70" y="-84" class="StationNameEN">Road<tspan x="70" dy="-12" class="StationNameEN">Cangbian</tspan></text>
+                <text x="239" y="-56" class="StationNameEN">Lower<tspan x="239" dy="12" class="StationNameEN">Nonglin</tspan><tspan x="239" dy="12" class="StationNameEN">Road</tspan></text>
+                <text x="319" y="-56" class="StationNameEN">Meidong<tspan x="319" dy="12" class="StationNameEN">Road</tspan></text>
             </g>
         </g>
         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="hidden"/>
@@ -147,11 +186,11 @@ viewBox="-800 -1210 2800 2210"
     <g id="Station_names_ZH" font-size="6.7pt" style="visibility:hidden">
         <g id="GZ1_names_ZH">
             <g text-anchor="start">
-                <text x="9" y="13" class="StationName">公園前</text>
-                <text x="149" y="13" class="StationName">烈士陵園</text>
+                <text x="9" y="14" class="StationNameZH">公園前</text>
+                <text x="149" y="14" class="StationNameZH">烈士陵園</text>
             </g>
             <g text-anchor="middle">
-                <text x="70" y="-15" class="StationName">農講所</text>
+                <text x="70" y="-14" class="StationNameZH">農講所</text>
             </g>
         </g>
         <g id="GZ13_names_ZH">
@@ -159,7 +198,9 @@ viewBox="-800 -1210 2800 2210"
                 
             </g>
             <g text-anchor="middle">
-                <text x="70" y="-85" class="StationName">倉邊路</text>
+                <text x="70" y="-84" class="StationNameZH">倉邊路</text>
+                <text x="239" y="-56" class="StationNameZH">農林下路</text>
+                <text x="319" y="-56" class="StationNameZH">梅東路</text>
             </g>
         </g>
         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="visible"/>
