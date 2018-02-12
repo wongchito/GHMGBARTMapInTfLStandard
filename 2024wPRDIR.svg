@@ -351,8 +351,8 @@ viewBox="-800 -1210 2800 2210"
             </g>
             <g text-anchor="end">
                 <text x="-9" y="-176" class="StationNameEN">Guangzhou</text>
-                <use xlink:href="#chinarail" x="-77" y="-176"/>
-                <use xlink:href="#prdir" x="-89" y="-176"/>
+                <use xlink:href="#chinarail" x="-78" y="-176"/>
+                <use xlink:href="#prdir" x="-90" y="-176"/>
                 <text x="-9" y="-56" class="StationNameEN">Sun Yat-sen<tspan x="-9" dy="12" class="StationNameEN">Memorial Hall</tspan></text>
             </g>
         </g>
