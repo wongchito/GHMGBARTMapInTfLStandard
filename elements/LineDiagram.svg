@@ -98,10 +98,10 @@ viewBox="60 10 295 160">
     <g font-size="8.5pt" text-anchor="middle">
         <text x="90" y="35" class="StationName">Station</text>
         <text x="160" y="65" class="StationName">Station<tspan x="160" dy="12" class="StationName">Name</tspan></text>
-        <text x="230" y="35" alignment-baseline="central">Station</text>
+        <text x="230" y="35" class="StationName">Station</text>
         <use xlink:href="#chinarail" x="255" y="35"/>
         <use xlink:href="#fbenline1" x="230" y="65"/>
-        <text x="300" y="23" alignment-baseline="central">Station<tspan x="300" dy="12" alignment-baseline="central">Name</tspan></text>
+        <text x="300" y="23" class="StationName">Station<tspan x="300" dy="12" class="StationName">Name</tspan></text>
         <use xlink:href="#fbenline11" x="300" y="65"/>
     </g>
 
