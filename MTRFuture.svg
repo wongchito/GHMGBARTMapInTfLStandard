@@ -5,7 +5,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink"
 width="2800" height="2210"
 viewBox="-800 -1210 2800 2210"
 >
-    <title>Guangzhou Metro Map in London Style (2024) with PRDIR</title>
+    <title>MTR and Shenzhen Metro Future Route Map</title>
 
     <style type="text/css">
         .LineDiagram {fill:none;stroke-width:6}
@@ -73,6 +73,7 @@ viewBox="-800 -1210 2800 2210"
         .csz2 {stroke:#DB6D1C}
         .csz3 {stroke:#00A2E1}
         .csz4 {stroke:#DC241F}
+        .csz6 {stroke:#3ABCA8}
         .csz7 {stroke:#0035AD}
         .csz9 {stroke:#846E74}
         .csz10 {stroke:#F8779E}
@@ -104,6 +105,9 @@ viewBox="-800 -1210 2800 2210"
         </g>
         <path id="flagbox" class="FlagBox" d="M -30,0 H 30"/>
 
+        <use xlink:href="#st" id="stsz1" class="csz1"/>
+        <use xlink:href="#st" id="stsz2" class="csz2"/>
+        <use xlink:href="#st" id="stsz3" class="csz3"/>
         <use xlink:href="#st" id="stsz4" class="csz4"/>
         <use xlink:href="#st" id="stsz7" class="csz7"/>
         <use xlink:href="#st" id="stsz9" class="csz9"/>
@@ -155,39 +159,61 @@ viewBox="-800 -1210 2800 2210"
         <!--TextGap:18 LineGap:26-->
         <path id="Shenzhen_River" d="
             M -450,-729
-            H -2
+            H -270 a 21,21 0 0,0 21,-21
+            V -798 a 21,21 0 0,1 21,-21
+            H 0
         "/>
     </g>
     <use xlink:href="#Shenzhen_River" class="RiverFG"/>
 
     <g class="LineDiagram">
         <path id="SZ1_route" class="csz1" d="
-            M -500,-895
+            M -600,-895
             H -369 a 21,21 0 0,0 21,-21
             V -944 a 21,21 0 0,1 21,-21
-            H -200
+            H -167 a 21,21 0 0,0 15,-6
+            L -100,-1023 a 21,21 0 0,1 15,-6
+            H -59 a 21,21 0 0,1 21,21
+            V -845
         "/>
         <path id="SZ2_route" class="csz2" d="
-            M -379,-965
+            M -600,-965
             H -369 a 21,21 0 0,0 15,-6
+            L -342,-983 a 21,21 0 0,1 15,-6
+            H -190 a 21,21 0 0,1 15,6
+            L -163,-971 a 21,21 0 0,0 15,6
+            H 0
+        "/>
+        <path id="SZ3_route" class="csz3" d="
+            M -519,-700
+            V -1014 a 21,21 0 0,1 21,-21
+            H 0
         "/>
         <path id="SZ4_route" class="csz4" d="
             M -379,-755
             H -389 a 21,21 0 0,1 -21,-21
+            V -850
+
+            M -449,-850
+            V -1200
+        "/>
+        <path id="SZ6_route" class="csz6" d="
+            M -223,-965
+            V -1200
         "/>
         <path id="SZ7_route" class="csz7" d="
-            M -410,-794
+            M -600,-794
             H -314 a 21,21 0 0,0 21,-21
-            V -1000
+            V -1200
         "/>
         <path id="SZ9_route" class="csz9" d="
-            M -153,-1000
+            M -153,-1200
             V -916 a 21,21 0 0,0 21,21
             H 0
         "/>
         <path id="SZ10_route" class="csz10" d="
             M -379,-755
-            V -1000
+            V -1200
         "/>
     </g>
 
@@ -214,7 +240,7 @@ viewBox="-800 -1210 2800 2210"
             V 200
         "/>
         <path id="ERL_route" class="cerl" d="
-            M -38,-783
+            M -38,-793
             V -702 a 21,21 0 0,0 6,15
             L 88,-567 a 21,21 0 0,1 6,15
             M 94,-552
@@ -246,10 +272,14 @@ viewBox="-800 -1210 2800 2210"
         "/>
         <g class="cunknown">
             <path id="Guangshen_Railway" d="
-                M 79,-200
+                M -90,-1100
+                V -727 a 21,21 0 0,0 6,15
+                L 73,-555 a 21,21 0 0,1 6,15
                 V 164
             "/>
             <path id="GZ_SZ_HK_Railway" d="
+                M -484,-1500
+                V -700
                 M -187,-200
                 V 119
             "/>
@@ -260,28 +290,61 @@ viewBox="-800 -1210 2800 2210"
 
     <g id="Guangshen_Railway_station_icons">
         <path class="PaidTunnel" d="
+            M -90,-845 H -38
+            M -90,-845 L -38,-793
             M 79,164 L 94,179
         "/>
+        <use xlink:href="#int" x="-90" y="-845" id="Shenzhen"/>
         <use xlink:href="#int" x="79" y="164" id="Kowloon"/>
     </g>
     <g id="GZ_SZ_HK_Railway_station_icons">
         <path class="PaidTunnel" d="
+            M -508,-954 L -449,-895
+            M -519,-895 L -449,-965
             M -236,119 H -138
         "/>
+        <use xlink:href="#int" x="-484" y="-930" id="Futian"/>
         <use xlink:href="#int" x="-187" y="119" id="Kowloon"/>
     </g>
 
     <g id="SZ1_station_icons">
+        <use xlink:href="#int" x="-519" y="-895" id="Shopping_Park"/>
+        <use xlink:href="#int" x="-449" y="-895" id="CEC"/>
         <use xlink:href="#int" x="-379" y="-895" id="Gangxia"/>
+        <path class="PaidTunnel" d="
+            M -317,-965 L -293,-989
+        "/>
         <use xlink:href="#int" x="-317" y="-965" id="Huaqiang_Rd"/>
         <use xlink:href="#int" x="-223" y="-965" id="Science_Museum"/>
         <use xlink:href="#int" x="-138" y="-985" id="Grand_Theatre"/>
-        <use xlink:href="#int" x="-38" y="-835" id="Luohu"/>
+        <use xlink:href="#int" x="-69" y="-1032" id="Laojie"/>
+        <use xlink:href="#int" x="-38" y="-845" id="Luohu"/>
     </g>
     <g id="SZ2_station_icons">
+        <use xlink:href="#int" x="-519" y="-965" id="Futian"/>
+        <use xlink:href="#int" x="-449" y="-965" id="Civic_Centre"/>
         <use xlink:href="#int" x="-379" y="-965" id="Gangxia_North"/>
         <use xlink:href="#int" x="-293" y="-989" id="Huaqiang_North"/>
+        <use xlink:href="#stsz2" transform="translate(-258,-989)rotate(-90)" id="Yannan"/>
         <use xlink:href="#int" x="-138" y="-965" id="Grand_Theatre_SZ2"/>
+        <g class="DumbbellBG">
+            <path id="GrandTheatre_Interchange" d="
+                M -138,-985 V -965
+            "/>
+        </g>
+        <use xlink:href="#GrandTheatre_Interchange" class="DumbbellFG"/>
+        <circle cx="-138" cy="-985" r="6" fill="#fff"/>
+        <circle cx="-138" cy="-965" r="6" fill="#fff"/>
+    </g>
+    <g id="SZ3_station_icons">
+        <use xlink:href="#int" x="-519" y="-794" id="Shixia"/>
+        <!--Shopping Park SZ1-->
+        <!--Futian SZ2-->
+        <use xlink:href="#int" x="-449" y="-1035" id="Childrens_Palace"/>
+        <use xlink:href="#int" x="-379" y="-1035" id="Lianhuacun"/>
+        <use xlink:href="#int" x="-293" y="-1035" id="Huaxin"/>
+        <use xlink:href="#int" x="-223" y="-1035" id="Tongxinling"/>
+        <use xlink:href="#int" x="-153" y="-1035" id="Hongling"/>
     </g>
     <g id="SZ4_station_icons">
         <use xlink:href="#int" x="-410" y="-794" id="Fumin"/>
@@ -291,18 +354,39 @@ viewBox="-800 -1210 2800 2210"
         <use xlink:href="#int" x="-379" y="-755" id="Futian_Checkpoint"/>
     </g>
     <g id="SZ7_station_icons">
+        <!--Shixia SZ7-->
         <use xlink:href="#stsz7" transform="translate(-324,-794)rotate(90)" id="Huanggang_Checkpoint"/>
         <use xlink:href="#stsz7" transform="translate(-293,-825)" id="Fulin"/>
         <use xlink:href="#stsz7" transform="translate(-293,-865)" id="Chiwei"/>
         <use xlink:href="#stsz7" transform="translate(-293,-905)" id="Huaqiang_South"/>
     </g>
     <g id="SZ9_station_icons">
-        <use xlink:href="#stsz9" transform="translate(-153,-950)rotate(180)" id="Hongling_South"/>
+        <!--Hongling SZ3-->
+        <use xlink:href="#stsz9" transform="translate(-153,-926)rotate(180)" id="Hongling_South"/>
         <use xlink:href="#stsz9" transform="translate(-122,-895)rotate(90)" id="Ludancun"/>
-        <use xlink:href="#stsz9" transform="translate(-52,-895)rotate(90)" id="Renmin_South"/>
+        <use xlink:href="#stsz9" transform="translate(-63,-895)rotate(90)" id="Renmin_South"/>
     </g>
     <g id="SZ10_station_icons">
         <use xlink:href="#int" x="-379" y="-825" id="Fumin_SZ10"/>
+        <g class="DumbbellBG">
+            <path id="Fumin_Interchange" d="
+                M -410,-794 L -379,-825
+            "/>
+        </g>
+        <use xlink:href="#Fumin_Interchange" class="DumbbellFG"/>
+        <circle cx="-410" cy="-794" r="6" fill="#fff"/>
+        <circle cx="-379" cy="-825" r="6" fill="#fff"/>
+    </g>
+    <g id="SZ11_station_icons">
+        <use xlink:href="#int" x="-508" y="-954" id="Futian_SZ11"/>
+        <g class="DumbbellBG">
+            <path id="Futian_Interchange" d="
+                M -519,-965 L -508,-954
+            "/>
+        </g>
+        <use xlink:href="#Futian_Interchange" class="DumbbellFG"/>
+        <circle cx="-519" cy="-965" r="6" fill="#fff"/>
+        <circle cx="-508" cy="-954" r="6" fill="#fff"/>
     </g>
 
     <g id="TWL_station_icons">
@@ -315,6 +399,9 @@ viewBox="-800 -1210 2800 2210"
         <use xlink:href="#int" x="0" y="0" id="MKK"/>
         <use xlink:href="#int" x="0" y="60" id="YMT"/>
         <use xlink:href="#sttwl" transform="translate(-3,120)rotate(180)" id="JOR"/>
+        <path class="PaidTunnel" d="
+            M -3,180 L 12,195
+        "/>
         <use xlink:href="#int" x="-3" y="180" id="TST"/>
     </g>
     <g id="KTL_station_icons">
@@ -329,6 +416,9 @@ viewBox="-800 -1210 2800 2210"
     </g>
     <g id="TCL_station_icons">
         <!--NAC WRL-->
+        <path class="PaidTunnel" d="
+            M -236,119 H -258
+        "/>
         <use xlink:href="#int" x="-236" y="119" id="KOW"/>
     </g>
     <g id="AEL_station_icons">
@@ -336,7 +426,7 @@ viewBox="-800 -1210 2800 2210"
     </g>
     <g id="ERL_station_icons">
         <use xlink:href="#int" transform="translate(-379,-703)" id="LMC"/>
-        <use xlink:href="#int" transform="translate(-38,-783)" id="LOW"/>
+        <use xlink:href="#int" transform="translate(-38,-793)" id="LOW"/>
         <use xlink:href="#sterl" transform="translate(-2,-657)rotate(-45)" id="SHS"/>
         <use xlink:href="#sterl" transform="translate(38,-617)rotate(-45)" id="FAN"/>
         <use xlink:href="#sterl" transform="translate(78,-577)rotate(-45)" id="TWO"/>
@@ -357,14 +447,44 @@ viewBox="-800 -1210 2800 2210"
     
 
     <g id="Station_names_EN" font-size="8.5pt" style="visibility:visible">
+        <g id="SZ1_names_EN">
+            <g text-anchor="middle">
+                <text x="-223" y="-949" class="StationNameEN">Science Museum</text>
+            </g>
+            <g text-anchor="end">
+                <text x="-301" y="-949" class="StationNameEN">Huaqiang<tspan x="-301" dy="12" class="StationNameEN">Road</tspan></text>
+            </g>
+        </g>
+        <g id="SZ2_names_EN">
+            <g text-anchor="start">
+                <text x="-138" y="-949" class="StationNameEN">Grand<tspan x="-138" dy="12" class="StationNameEN">Theatre</tspan></text>
+            </g>
+            <g text-anchor="end">
+                <text x="-302" y="-1003" class="StationNameEN">North<tspan x="-302" dy="-12" class="StationNameEN">Huaqiang</tspan></text>
+            </g>
+        </g>
         <g id="SZ4_names_EN">
             <g text-anchor="start">
                 <text x="-368" y="-755" class="StationNameEN">Futian Checkpoint</text>
             </g>
         </g>
         <g id="SZ7_names_EN">
+            <g text-anchor="start">
+                <text x="-282" y="-825" class="StationNameEN">Fulin</text>
+                <text x="-282" y="-865" class="StationNameEN">Chiwei</text>
+                <text x="-282" y="-911" class="StationNameEN">Huaqiang<tspan x="-282" dy="12" class="StationNameEN">South</tspan></text>
+            </g>
             <g text-anchor="middle">
                 <text x="-324" y="-780" class="StationNameEN">Huanggang<tspan x="-324" dy="12" class="StationNameEN">Checkpoint</tspan></text>
+            </g>
+        </g>
+        <g id="SZ9_names_EN">
+            <g text-anchor="middle">
+                <text x="-122" y="-881" class="StationNameEN">Ludan<tspan x="-122" dy="12" class="StationNameEN">Village</tspan></text>
+                <text x="-63" y="-881" class="StationNameEN">Renmin<tspan x="-63" dy="12" class="StationNameEN">South</tspan></text>
+            </g>
+            <g text-anchor="end">
+                <text x="-164" y="-932" class="StationNameEN">Hongling<tspan x="-164" dy="12" class="StationNameEN">South</tspan></text>
             </g>
         </g>
 
