@@ -86,10 +86,11 @@ viewBox="-800 -1210 2800 2210"
         .ctcl {stroke:#F38B00}
         .cdrl {stroke:#E777CB}
         .cael {stroke:#007078}
+        .csil {stroke:#B6BD00}
         .cerl {stroke:#61B4E4}
         .cwrl {stroke:#B6008D}
         .cmol {stroke:#9A3820}
-        .csil {stroke:#B6BD00}
+        .cnol {stroke:#ff0066}
         .c360 {stroke:#94989A}
         .clrl {stroke:#CD9700}
         .cefls {stroke:#000000}
@@ -118,8 +119,12 @@ viewBox="-800 -1210 2800 2210"
         <use xlink:href="#st" id="sttwl" class="ctwl"/>
         <use xlink:href="#st" id="stktl" class="cktl"/>
         <use xlink:href="#term" id="termktl" class="cktl"/>
+        <use xlink:href="#st" id="stisl" class="cisl"/>
+        <use xlink:href="#st" id="sttkl" class="ctkl"/>
+        <use xlink:href="#st" id="sttcl" class="ctcl"/>
         <use xlink:href="#st" id="sterl" class="cerl"/>
         <use xlink:href="#st" id="stmol" class="cmol"/>
+        <use xlink:href="#st" id="stnol" class="cnol"/>
         <g id="chinarail" transform="scale(0.0165) translate(-260,-305)" style="stroke:none;fill:#E60012">
             <path d="
                 M169,273.5c0-19,14.7-34.8,33.7-36.3c18.9-1.5,38.1-2.2,57.4-2.2c19.3,0,38.4,0.8,57.3,2.2
@@ -170,7 +175,10 @@ viewBox="-800 -1210 2800 2210"
     </g>
     <use xlink:href="#Shenzhen_River" class="RiverFG"/>
     <path id="Victoria_Harbour" class="Sea" d="
-        M -100,235
+        M -323,100
+        V 138 a 21,21 0 0,0 21,21
+        H -176 a 21,21 0 0,1 21,21
+        V 214 a 21,21 0 0,0 21,21
         H 221 a 21,21 0 0,0 21,-21
         V 170 a 21,21 0 0,0 -6,-15
         L 206,125 a 21,21 0 0,1 0,-30
@@ -178,6 +186,9 @@ viewBox="-800 -1210 2800 2210"
         L 346,185 a 21,21 0 0,0 30,0
         L 381,180 a 21,21 0 0,0 0,-30
         L 301,70 a 21,21 0 0,1 0,-30
+
+        M 200,295
+        H -200
     "/>
 
     <g class="LineDiagram">
@@ -233,7 +244,8 @@ viewBox="-800 -1210 2800 2210"
 
     <g class="LineDiagram">
         <path id="TWL_route" class="ctwl" d="
-            M -321,-112 a 21,21 0 0,0 21,21
+            M -321,-200
+            V -112 a 21,21 0 0,0 21,21
             M -300,-91
             H -24 a 21,21 0 0,1 21,21
             V 353 a 21,21 0 0,1 -6,15
@@ -254,11 +266,14 @@ viewBox="-800 -1210 2800 2210"
         "/>
         <path id="ISL_route" class="cisl" d="
             M -200,423
-            H 0
+            H 93 a 21,21 0 0,0 15,-6
+            L 184,341 a 21,21 0 0,1 15,-6
+            H 318 a 21,21 0 0,1 15,6
+            L 349,357
         "/>
         <path id="TKL_route" class="ctkl" d="
             M -50,357
-            H 296 a 21,21 0 0,0 15,-6
+            H 359 a 21,21 0 0,0 15,-6
             M 311,351
             L 559,103 a 21,21 0 0,1 15,-6
             M 574,97
@@ -291,11 +306,13 @@ viewBox="-800 -1210 2800 2210"
             L 100,-457 a 21,21 0 0,1 -6,-15
 
             M -12,-667 a 21,21 0 0,0 -15,-6
-            H -358 a 21,21 0 0,1 -21,-21
+            H -355 a 21,21 0 0,1 -21,-21
             V -703
         "/>
         <path id="WRL_route" class="cwrl" d="
-            M -230,-200
+            M -470,-500
+            V -143 a 21,21 0 0,0 21,21
+            H -251 a 21,21 0 0,1 21,21
             V -11 a 21,21 0 0,0 6,15
             L -144,84 a 21,21 0 0,1 6,15
             V 174 a 21,21 0 0,0 21,21
@@ -308,6 +325,17 @@ viewBox="-800 -1210 2800 2210"
             V -100 a 21,21 0 0,0 -6,-15
             L 106,-277 a 21,21 0 0,1 -6,-15
             V -312 a 21,21 0 0,1 21,-21
+        "/>
+        <path id="NOL_route" class="cnol" d="
+            M -464,-433
+            V -553 a 21,21 0 0,1 6,-15
+            L -365,-661 a 21,21 0 0,1 15,-6
+            H -191 a 21,21 0 0,0 15,-6
+            L -126,-723 a 21,21 0 0,1 15,-6
+            H 0
+
+            M -388,-638 a 21,21 0 0,0 6,-15
+            V -703
         "/>
         <g class="cefls">
             <path id="EFLS_route" d="
@@ -330,8 +358,8 @@ viewBox="-800 -1210 2800 2210"
             "/>
             <path id="GZ_SZ_HK_Railway" d="
                 M -484,-1500
-                V -600 a 21,21 0 0,0 6,15
-                L -193,-300 a 21,21 0 0,1 6,15
+                V -550 a 21,21 0 0,0 6,15
+                L -193,-250 a 21,21 0 0,1 6,15
                 V 119
             "/>
         </g>
@@ -482,8 +510,28 @@ viewBox="-800 -1210 2800 2210"
         <use xlink:href="#int" x="135" y="138" id="HOM"/>
         <use xlink:href="#termktl" transform="translate(175,178)rotate(-45)" id="WHA"/>
     </g>
+    <g id="ISL_station_icons">
+        <!--CEN TWL-->
+        <!--ADM TWL-->
+        <use xlink:href="#stisl" transform="translate(13,423)rotate(-90)" id="WAC"/>
+        <use xlink:href="#stisl" transform="translate(83,423)rotate(90)" id="CAB"/>
+        <use xlink:href="#stisl" transform="translate(135,390)rotate(45)" id="TIH"/>
+        <use xlink:href="#stisl" transform="translate(209,335)rotate(-90)" id="FOH"/>
+        <use xlink:href="#int" x="279" y="335" id="NOP"/>
+    </g>
     <g id="TKL_station_icons">
         <use xlink:href="#int" x="57" y="357" id="EXC_TKL"/>
+        <use xlink:href="#sttkl" transform="translate(127,357)rotate(-90)" id="CBN"/>
+        <use xlink:href="#int" x="279" y="357" id="NOP_TKL"/>
+        <g class="DumbbellBG">
+            <path id="NOP_Interchange" d="
+                M 279,357 V 335
+            "/>
+        </g>
+        <use xlink:href="#NOP_Interchange" class="DumbbellFG"/>
+        <circle cx="279" cy="357" r="6" fill="#fff"/>
+        <circle cx="279" cy="335" r="6" fill="#fff"/>
+        <use xlink:href="#int" x="349" y="357" id="QUB"/>
         <!--YAT KTL-->
         <!--TIK KTL-->
     </g>
@@ -492,6 +540,7 @@ viewBox="-800 -1210 2800 2210"
         <path class="PaidTunnel" d="
             M -236,119 H -258
         "/>
+        <use xlink:href="#sttcl" transform="translate(-236,59)rotate(0)" id="OLY"/>
         <use xlink:href="#int" x="-236" y="119" id="KOW"/>
         <use xlink:href="#int" x="-157" y="360" id="HOK"/>
         <g class="DumbbellBG">
@@ -521,6 +570,7 @@ viewBox="-800 -1210 2800 2210"
     </g>
     <g id="ERL_station_icons">
         <use xlink:href="#int" transform="translate(-379,-703)" id="LMC"/>
+        <use xlink:href="#int" x="-201" y="-670" id="KTU"/>
         <use xlink:href="#int" transform="translate(-38,-793)" id="LOW"/>
         <use xlink:href="#sterl" transform="translate(-2,-657)rotate(-45)" id="SHS"/>
         <use xlink:href="#sterl" transform="translate(38,-617)rotate(-45)" id="FAN"/>
@@ -545,6 +595,7 @@ viewBox="-800 -1210 2800 2210"
         <circle cx="57" cy="357" r="6" fill="#fff"/>
     </g>
     <g id="WRL_station_icons">
+        <use xlink:href="#int" x="-467" y="-433" id="KSR"/>
         <use xlink:href="#int" x="-233" y="-21" id="NAC"/>
         <use xlink:href="#int" x="-138" y="119" id="AUS"/>
         <use xlink:href="#int" x="12" y="195" id="ETS"/>
@@ -559,6 +610,14 @@ viewBox="-800 -1210 2800 2210"
         "/>
         <use xlink:href="#int" x="258" y="15" id="KAT"/>
     </g>
+    <g id="NOL_station_icons">
+        <!--KSR WRL-->
+        <use xlink:href="#stnol" transform="translate(-464,-503)rotate(180)" id="AUT"/>
+        <use xlink:href="#stnol" transform="translate(-448,-578)rotate(45)" id="NTM"/>
+        <use xlink:href="#stnol" transform="translate(-398,-628)rotate(45)" id="SAT"/>
+        <!--LMC ERL-->
+        <!--KTU ERL-->
+    </g>
     <g id="EFLS_station_icons">
         <use xlink:href="#int" x="384" y="-30" id="KOB_EFLS"/>
         <use xlink:href="#int" x="273" y="30" id="KAT_EFLS"/>
@@ -567,6 +626,11 @@ viewBox="-800 -1210 2800 2210"
     
 
     <g id="Station_names_EN" font-size="8.5pt" style="visibility:visible">
+        <g id="Guangshen_Railway_names_EN">
+            <g text-anchor="end">
+                <text x="68" y="164" class="StationNameEN">Kowloon</text>
+            </g>
+        </g>
         <g id="GZ_SZ_HK_Railway_names_EN">
             <g text-anchor="middle">
                 <text x="-187" y="135" class="StationNameEN">Hong Kong<tspan x="-187" dy="12" class="StationNameEN">West Kowloon</tspan></text>
@@ -620,6 +684,7 @@ viewBox="-800 -1210 2800 2210"
                 <text x="11" y="-66" class="StationNameEN">Prince<tspan x="11" dy="12" class="StationNameEN">Edward</tspan></text>
             </g>
             <g text-anchor="middle">
+                <text x="-290" y="-104" class="StationNameEN">Lai King</text>
                 <text x="-170" y="-77" class="StationNameEN">Lai Chi Kok</text>
                 <text x="-110" y="-105" class="StationNameEN">Cheung Sha Wan</text>
                 <text x="-50" y="-77" class="StationNameEN">Shum Shui Po</text>
@@ -642,12 +707,43 @@ viewBox="-800 -1210 2800 2210"
                 <text x="34" y="-105" class="StationNameEN">Shek Kip Mei</text>
             </g>
         </g>
+        <g id="ISL_names_EN">
+            <g text-anchor="start">
+                <text x="142" y="402" class="StationNameEN">Tin Hau</text>
+            </g>
+            <g text-anchor="middle">
+                <text x="13" y="409" class="StationNameEN">Wan Chai</text>
+                <text x="83" y="437" class="StationNameEN">Causeway Bay</text>
+                <text x="209" y="321" class="StationNameEN">Fortress Hill</text>
+                <text x="279" y="319" class="StationNameEN">Point<tspan x="279" dy="-12" class="StationNameEN">North</tspan></text>
+            </g>
+        </g>
+        <g id="TKL_names_EN">
+            <g text-anchor="middle">
+                <text x="127" y="341" class="StationNameEN">Bay North<tspan x="127" dy="-12" class="StationNameEN">Causeway</tspan></text>
+            </g>
+        </g>
+        <g id="TCL_names_EN">
+            <g text-anchor="start">
+                <text x="-225" y="59" class="StationNameEN">Olympic</text>
+            </g>
+            <g text-anchor="middle">
+                <text x="-157" y="341" class="StationNameEN">Hong Kong</text>
+                <text x="-50" y="341" class="StationNameEN">Tamar</text>
+            </g>
+        </g>
+        <g id="AEL_names_EN">
+            <g text-anchor="end">
+                <text x="-269" y="119" class="StationNameEN">Kowloon</text>
+            </g>
+        </g>
         <g id="ERL_names_EN">
             <g text-anchor="start">
                 <text x="105" y="-6" class="StationNameEN">Mong Kok<tspan x="105" dy="12" class="StationNameEN">East</tspan></text>
                 <text x="103" y="193" class="StationNameEN">Hung Hom</text>
             </g>
             <g text-anchor="middle">
+                <text x="-201" y="-654" class="StationNameEN">Kwu Tung</text>
                 <text x="57" y="319" class="StationNameEN">Centre<tspan x="57" dy="-12" class="StationNameEN">Exhibition</tspan></text>
             </g>
             <g text-anchor="end">
@@ -656,6 +752,7 @@ viewBox="-800 -1210 2800 2210"
         </g>
         <g id="WRL_names_EN">
             <g text-anchor="start">
+                <text x="-222" y="-27" class="StationNameEN">Nam<tspan x="-222" dy="12" class="StationNameEN">Cheong</tspan></text>
                 <text x="-127" y="119" class="StationNameEN">Austin</text>
                 <text x="6" y="211" class="StationNameEN">East<tspan x="6" dy="12" class="StationNameEN">Tsim Sha Tsui</tspan></text>
             </g>
