@@ -16,6 +16,7 @@ viewBox="-800 -1210 2800 2210"
         .PaidTunnel {fill:none;stroke:#0019A8;stroke-width:2}
         .RiverBG {fill:none;stroke-width:15;stroke:#00ABE7}
         .RiverFG {fill:none;stroke-width:14;stroke:#D4EDFC}
+        .Sea {stroke-width:0.5;stroke:#00ABE7;fill:#D4EDFC}
         .FlagBox {fill:none;stroke-width:8}
         .FlagBoxNameEN {
             font-family:Arial,"Hiragino Mincho ProN","PingFang HK","Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Arial Unicode MS",sans-serif;
@@ -168,6 +169,12 @@ viewBox="-800 -1210 2800 2210"
         "/>
     </g>
     <use xlink:href="#Shenzhen_River" class="RiverFG"/>
+    <path id="Victoria_Harbour" class="Sea" d="
+        M -100,235
+        H 100 a 21,21 0 0,1 21,21
+        v 18 a 21,21 0 0,1 -21,21
+        H -100
+    "/>
 
     <g class="LineDiagram">
         <path id="SZ1_route" class="csz1" d="
@@ -225,7 +232,11 @@ viewBox="-800 -1210 2800 2210"
             M -321,-112 a 21,21 0 0,0 21,21
             M -300,-91
             H -24 a 21,21 0 0,1 21,21
-            V 300
+            V 353 a 21,21 0 0,1 -6,15
+            M -9,368
+            L -52,411 a 21,21 0 0,1 -15,6
+            M -67,417
+            H -153
         "/>
         <path id="KTL_route" class="cktl" d="
             M 644,91
@@ -237,26 +248,36 @@ viewBox="-800 -1210 2800 2210"
             H 110 a 21,21 0 0,1 15,6
             L 175,178
         "/>
+        <path id="ISL_route" class="cisl" d="
+            M -200,423
+            H 0
+        "/>
         <path id="TKL_route" class="ctkl" d="
+            M -50,357
+            H 200
             M 544,97
             H 644
         "/>
         <path id="TCL_route" class="ctcl" d="
             M -400,-85
             H -257 a 21,21 0 0,1 21,21
-            V 200
+            V 336 a 21,21 0 0,0 21,21
+            H -50
         "/>
         <path id="AEL_route" class="cael" d="
             M -400,-70
             H -278 a 21,21 0 0,1 21,21
-            V 200
+            V 342 a 21,21 0 0,0 21,21
+            H -153
         "/>
         <path id="ERL_route" class="cerl" d="
             M -38,-793
             V -702 a 21,21 0 0,0 6,15
             L 88,-567 a 21,21 0 0,1 6,15
             M 94,-552
-            V 300
+            V 314 a 21,21 0 0,1 -21,21
+            H 47 a 21,21 0 0,0 -15,6
+            L -118,491
 
             M 94,-372 a 21,21 0 0,1 6,-15
             L 110,-397 a 21,21 0 0,0 6,-15
@@ -427,6 +448,8 @@ viewBox="-800 -1210 2800 2210"
             M -3,180 L 12,195
         "/>
         <use xlink:href="#int" x="-3" y="180" id="TST"/>
+        <use xlink:href="#int" x="-77" y="420" id="ADM"/>
+        <use xlink:href="#int" x="-157" y="420" id="CEN"/>
     </g>
     <g id="KTL_station_icons">
         <use xlink:href="#int" x="644" y="93" id="TIK"/>
@@ -454,6 +477,7 @@ viewBox="-800 -1210 2800 2210"
         <use xlink:href="#termktl" transform="translate(175,178)rotate(-45)" id="WHA"/>
     </g>
     <g id="TKL_station_icons">
+        <use xlink:href="#int" x="57" y="357" id="EXC_TKL"/>
         <!--YAT KTL-->
         <!--TIK KTL-->
     </g>
@@ -463,9 +487,31 @@ viewBox="-800 -1210 2800 2210"
             M -236,119 H -258
         "/>
         <use xlink:href="#int" x="-236" y="119" id="KOW"/>
+        <use xlink:href="#int" x="-157" y="360" id="HOK"/>
+        <g class="DumbbellBG">
+            <path id="HOK_CEN_Interchange" d="
+                M -157,360 V 420
+            "/>
+        </g>
+        <use xlink:href="#HOK_CEN_Interchange" class="DumbbellFG"/>
+        <circle cx="-157" cy="360" r="6" fill="#fff"/>
+        <circle cx="-157" cy="420" r="6" fill="#fff"/>
+        <use xlink:href="#int" x="-50" y="357" id="TAM"/>
     </g>
     <g id="AEL_station_icons">
         <use xlink:href="#int" x="-258" y="119" id="KOW_AEL"/>
+        <!--HOK TCL-->
+    </g>
+    <g id="SIL_station_icons">
+        <use xlink:href="#int" x="-62" y="435" id="ADM_SIL"/>
+        <g class="DumbbellBG">
+            <path id="ADM_Interchange" d="
+                M -62,435 L -77,420
+            "/>
+        </g>
+        <use xlink:href="#ADM_Interchange" class="DumbbellFG"/>
+        <circle cx="-62" cy="435" r="6" fill="#fff"/>
+        <circle cx="-77" cy="420" r="6" fill="#fff"/>
     </g>
     <g id="ERL_station_icons">
         <use xlink:href="#int" transform="translate(-379,-703)" id="LMC"/>
@@ -482,6 +528,15 @@ viewBox="-800 -1210 2800 2210"
         <!--KOT KTL-->
         <use xlink:href="#sterl" transform="translate(94,0)rotate(0)" id="MKK"/>
         <use xlink:href="#int" x="94" y="179" id="HUH"/>
+        <use xlink:href="#int" x="57" y="335" id="EXC"/>
+        <g class="DumbbellBG">
+            <path id="EXC_Interchange" d="
+                M 57,335 V 357
+            "/>
+        </g>
+        <use xlink:href="#EXC_Interchange" class="DumbbellFG"/>
+        <circle cx="57" cy="335" r="6" fill="#fff"/>
+        <circle cx="57" cy="357" r="6" fill="#fff"/>
     </g>
     <g id="WRL_station_icons">
         <use xlink:href="#int" x="-233" y="-21" id="NAC"/>
@@ -585,6 +640,9 @@ viewBox="-800 -1210 2800 2210"
             <g text-anchor="start">
                 <text x="105" y="-6" class="StationNameEN">Mong Kok<tspan x="105" dy="12" class="StationNameEN">East</tspan></text>
                 <text x="103" y="193" class="StationNameEN">Hung Hom</text>
+            </g>
+            <g text-anchor="middle">
+                <text x="57" y="319" class="StationNameEN">Centre<tspan x="57" dy="-12" class="StationNameEN">Exhibition</tspan></text>
             </g>
             <g text-anchor="end">
                 <text x="86" y="-302" class="StationNameEN">Tai Wai</text>
