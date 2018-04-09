@@ -303,8 +303,8 @@ viewBox="-800 -1210 2800 2210"
             "/>
             <path id="GZ_SZ_HK_Railway" d="
                 M -484,-1500
-                V -700
-                M -187,-200
+                V -600 a 21,21 0 0,0 6,15
+                L -193,-300 a 21,21 0 0,1 6,15
                 V 119
             "/>
         </g>
@@ -555,6 +555,7 @@ viewBox="-800 -1210 2800 2210"
 
         <g id="TWL_names_EN">
             <g text-anchor="start">
+                <text x="-221" y="-105" class="StationNameEN">Mei Foo</text>
                 <text x="11" y="-66" class="StationNameEN">Prince<tspan x="11" dy="12" class="StationNameEN">Edward</tspan></text>
             </g>
             <g text-anchor="middle">
