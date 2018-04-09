@@ -17,6 +17,7 @@ viewBox="-800 -1210 2800 2210"
         .RiverBG {fill:none;stroke-width:15;stroke:#00ABE7}
         .RiverFG {fill:none;stroke-width:14;stroke:#D4EDFC}
         .Sea {stroke-width:0.5;stroke:#00ABE7;fill:#D4EDFC}
+        .Island {stroke-width:0.5;stroke:#00ABE7;fill:#fff}
         .FlagBox {fill:none;stroke-width:8}
         .FlagBoxNameEN {
             font-family:Arial,"Hiragino Mincho ProN","PingFang HK","Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Arial Unicode MS",sans-serif;
@@ -87,10 +88,11 @@ viewBox="-800 -1210 2800 2210"
         .cdrl {stroke:#E777CB}
         .cael {stroke:#007078}
         .csil {stroke:#B6BD00}
+        .cekl {stroke:#00FF00}
         .cerl {stroke:#61B4E4}
         .cwrl {stroke:#B6008D}
         .cmol {stroke:#9A3820}
-        .cnol {stroke:#ff0066}
+        .cnol {stroke:#FF0066}
         .c360 {stroke:#94989A}
         .clrl {stroke:#CD9700}
         .cefls {stroke:#000000}
@@ -121,6 +123,7 @@ viewBox="-800 -1210 2800 2210"
         <use xlink:href="#term" id="termktl" class="cktl"/>
         <use xlink:href="#st" id="stisl" class="cisl"/>
         <use xlink:href="#st" id="sttkl" class="ctkl"/>
+        <use xlink:href="#term" id="termtkl" class="ctkl"/>
         <use xlink:href="#st" id="sttcl" class="ctcl"/>
         <use xlink:href="#st" id="sterl" class="cerl"/>
         <use xlink:href="#st" id="stmol" class="cmol"/>
@@ -167,7 +170,8 @@ viewBox="-800 -1210 2800 2210"
     <g class="RiverBG">
         <!--TextGap:18 LineGap:26-->
         <path id="Shenzhen_River" d="
-            M -450,-729
+            M -405,-700
+            V -708 a 21,21 0 0,1 21,-21
             H -270 a 21,21 0 0,0 21,-21
             V -798 a 21,21 0 0,1 21,-21
             H 0
@@ -175,7 +179,8 @@ viewBox="-800 -1210 2800 2210"
     </g>
     <use xlink:href="#Shenzhen_River" class="RiverFG"/>
     <path id="Victoria_Harbour" class="Sea" d="
-        M -323,100
+        M -700,-127
+        H -364 a 21,21 0 0,1 21,21
         V 138 a 21,21 0 0,0 21,21
         H -176 a 21,21 0 0,1 21,21
         V 214 a 21,21 0 0,0 21,21
@@ -186,9 +191,17 @@ viewBox="-800 -1210 2800 2210"
         L 346,185 a 21,21 0 0,0 30,0
         L 381,180 a 21,21 0 0,0 0,-30
         L 301,70 a 21,21 0 0,1 0,-30
-
-        M 200,295
-        H -200
+    "/>
+    <path id="Hong_Kong_Island" class="Island" d="
+        M -200,295
+        H 200
+    "/>
+    <path id="Tsing_Yi_Island" class="Island" d="
+        M -359,-90
+        V -20 a 21,21 0 0,1 -21,21
+        H -392 a 21,21 0 0,1 -21,-21
+        V -90 a 21,21 0 0,1 21,-21
+        H -380 a 21,21 0 0,1 21,21 Z
     "/>
 
     <g class="LineDiagram">
@@ -277,7 +290,11 @@ viewBox="-800 -1210 2800 2210"
             M 311,351
             L 559,103 a 21,21 0 0,1 15,-6
             M 574,97
-            H 644
+            H 740 a 21,21 0 0,0 21,-21
+            V -14
+
+            M 740,97 a 21,21 0 0,1 21,21
+            V 148
         "/>
         <path id="TCL_route" class="ctcl" d="
             M -400,-85
@@ -286,10 +303,16 @@ viewBox="-800 -1210 2800 2210"
             H -50
         "/>
         <path id="AEL_route" class="cael" d="
-            M -400,-70
+            M -400,-63
             H -278 a 21,21 0 0,1 21,21
             V 342 a 21,21 0 0,0 21,21
             H -153
+        "/>
+        <path id="EKL_route" class="cekl" d="
+            M 274,-91
+            L 324,-141
+            M 600,-14
+            H 761
         "/>
         <path id="ERL_route" class="cerl" d="
             M -38,-793
@@ -310,8 +333,8 @@ viewBox="-800 -1210 2800 2210"
             V -703
         "/>
         <path id="WRL_route" class="cwrl" d="
-            M -470,-500
-            V -143 a 21,21 0 0,0 21,21
+            M -491,-464 a 21,21 0 0,1 21,21
+            V -174 a 21,21 0 0,0 21,21
             H -251 a 21,21 0 0,1 21,21
             V -11 a 21,21 0 0,0 6,15
             L -144,84 a 21,21 0 0,1 6,15
@@ -358,8 +381,8 @@ viewBox="-800 -1210 2800 2210"
             "/>
             <path id="GZ_SZ_HK_Railway" d="
                 M -484,-1500
-                V -550 a 21,21 0 0,0 6,15
-                L -193,-250 a 21,21 0 0,1 6,15
+                V -570 a 21,21 0 0,0 6,15
+                L -193,-270 a 21,21 0 0,1 6,15
                 V 119
             "/>
         </g>
@@ -486,8 +509,8 @@ viewBox="-800 -1210 2800 2210"
         <use xlink:href="#int" x="-157" y="420" id="CEN"/>
     </g>
     <g id="KTL_station_icons">
-        <use xlink:href="#int" x="644" y="93" id="TIK"/>
-        <use xlink:href="#int" x="584" y="93" id="YAT"/>
+        <use xlink:href="#int" x="644" y="94" id="TIK"/>
+        <use xlink:href="#int" x="584" y="94" id="YAT"/>
         <use xlink:href="#stktl" transform="translate(519,75)rotate(-45)" id="LAT"/>
         <path class="PaidTunnel" d="
             M 479,35 L 464,50
@@ -534,8 +557,17 @@ viewBox="-800 -1210 2800 2210"
         <use xlink:href="#int" x="349" y="357" id="QUB"/>
         <!--YAT KTL-->
         <!--TIK KTL-->
+        <use xlink:href="#sttkl" transform="translate(704,97)rotate(90)" id="TKO"/>
+        <use xlink:href="#sttkl" transform="translate(761,46)rotate(0)" id="HAH"/>
+        <use xlink:href="#int" x="761" y="-14" id="POA"/>
+        <use xlink:href="#termtkl" transform="translate(761,148)rotate(0)" id="LHP"/>
     </g>
     <g id="TCL_station_icons">
+        <path class="PaidTunnel" d="
+            M -386,-85 V -63
+        "/>
+        <use xlink:href="#int" transform="translate(-386,-85)" id="TSY"/>
+        <!--LAK TWL-->
         <!--NAC WRL-->
         <path class="PaidTunnel" d="
             M -236,119 H -258
@@ -554,6 +586,7 @@ viewBox="-800 -1210 2800 2210"
         <use xlink:href="#int" x="-50" y="357" id="TAM"/>
     </g>
     <g id="AEL_station_icons">
+        <use xlink:href="#int" transform="translate(-386,-63)" id="TSY_AEL"/>
         <use xlink:href="#int" x="-258" y="119" id="KOW_AEL"/>
         <!--HOK TCL-->
     </g>
@@ -721,6 +754,7 @@ viewBox="-800 -1210 2800 2210"
         <g id="TKL_names_EN">
             <g text-anchor="middle">
                 <text x="127" y="341" class="StationNameEN">Bay North<tspan x="127" dy="-12" class="StationNameEN">Causeway</tspan></text>
+                <text x="704" y="111" class="StationNameEN">Tseung Kwan O</text>
             </g>
         </g>
         <g id="TCL_names_EN">
@@ -733,12 +767,17 @@ viewBox="-800 -1210 2800 2210"
             </g>
         </g>
         <g id="AEL_names_EN">
+            <g text-anchor="middle">
+                <text x="-386" y="-47" class="StationNameEN">Tsing Yi</text>
+            </g>
             <g text-anchor="end">
                 <text x="-269" y="119" class="StationNameEN">Kowloon</text>
             </g>
         </g>
         <g id="ERL_names_EN">
             <g text-anchor="start">
+                <text x="-368" y="-703" class="StationNameEN">Lok Ma Chau</text>
+                <text x="-27" y="-793" class="StationNameEN">Lo Wu</text>
                 <text x="105" y="-6" class="StationNameEN">Mong Kok<tspan x="105" dy="12" class="StationNameEN">East</tspan></text>
                 <text x="103" y="193" class="StationNameEN">Hung Hom</text>
             </g>
@@ -755,6 +794,22 @@ viewBox="-800 -1210 2800 2210"
                 <text x="-222" y="-27" class="StationNameEN">Nam<tspan x="-222" dy="12" class="StationNameEN">Cheong</tspan></text>
                 <text x="-127" y="119" class="StationNameEN">Austin</text>
                 <text x="6" y="211" class="StationNameEN">East<tspan x="6" dy="12" class="StationNameEN">Tsim Sha Tsui</tspan></text>
+            </g>
+        </g>
+        <g id="MOL_names_EN">
+            <g text-anchor="end">
+                <text x="169" y="85" class="StationNameEN">To Kwa Wan</text>
+                <text x="210" y="44" class="StationNameEN">Sung Wong Toi</text>
+                <text x="249" y="1" class="StationNameEN">Kai Tak</text>
+            </g>
+        </g>
+        <g id="NOL_names_EN">
+            <g text-anchor="start">
+                <text x="-441" y="-566" class="StationNameEN">Ngau Tam Mei</text>
+                <text x="-391" y="-616" class="StationNameEN">San Tin</text>
+            </g>
+            <g text-anchor="end">
+                <text x="-475" y="-503" class="StationNameEN">Au Tau</text>
             </g>
         </g>
         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="hidden"/>
