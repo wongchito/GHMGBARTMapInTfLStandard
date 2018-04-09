@@ -120,6 +120,7 @@ viewBox="-800 -1210 2800 2210"
         <use xlink:href="#st" id="stsz10" class="csz10"/>
 
         <use xlink:href="#st" id="sttwl" class="ctwl"/>
+        <use xlink:href="#term" id="termtwl" class="ctwl"/>
         <use xlink:href="#st" id="stktl" class="cktl"/>
         <use xlink:href="#term" id="termktl" class="cktl"/>
         <use xlink:href="#st" id="stisl" class="cisl"/>
@@ -127,6 +128,7 @@ viewBox="-800 -1210 2800 2210"
         <use xlink:href="#term" id="termtkl" class="ctkl"/>
         <use xlink:href="#st" id="sttcl" class="ctcl"/>
         <use xlink:href="#st" id="sterl" class="cerl"/>
+        <use xlink:href="#st" id="stwrl" class="cwrl"/>
         <use xlink:href="#st" id="stmol" class="cmol"/>
         <use xlink:href="#st" id="stnol" class="cnol"/>
         <g id="chinarail" transform="scale(0.0165) translate(-260,-305)" style="stroke:none;fill:#E60012">
@@ -261,7 +263,8 @@ viewBox="-800 -1210 2800 2210"
 
     <g class="LineDiagram">
         <path id="TWL_route" class="ctwl" d="
-            M -321,-200
+            M -432,-264
+            H -342 a 21,21 0 0,1 21,21
             V -112 a 21,21 0 0,0 21,21
             M -300,-91
             H -24 a 21,21 0 0,1 21,21
@@ -498,6 +501,10 @@ viewBox="-800 -1210 2800 2210"
     </g>
 
     <g id="TWL_station_icons">
+        <use xlink:href="#termtwl" transform="translate(-432,-264)rotate(90)" id="TSW"/>
+        <use xlink:href="#sttwl" transform="translate(-372,-264)rotate(-90)" id="TWH"/>
+        <use xlink:href="#sttwl" transform="translate(-321,-233)rotate(0)" id="KWH"/>
+        <use xlink:href="#sttwl" transform="translate(-321,-173)rotate(0)" id="KWF"/>
         <use xlink:href="#int" transform="translate(-290,-88)" id="LAK"/>
         <use xlink:href="#int" x="-230" y="-91" id="MEF"/>
         <use xlink:href="#sttwl" transform="translate(-170,-91)rotate(90)" id="LCK"/>
@@ -635,6 +642,7 @@ viewBox="-800 -1210 2800 2210"
     </g>
     <g id="WRL_station_icons">
         <use xlink:href="#int" x="-467" y="-433" id="KSR"/>
+        <use xlink:href="#stwrl" transform="translate(-392,-153)rotate(-90)" id="TWW"/>
         <use xlink:href="#int" x="-233" y="-21" id="NAC"/>
         <use xlink:href="#int" x="-138" y="119" id="AUS"/>
         <use xlink:href="#int" x="12" y="195" id="ETS"/>
@@ -686,7 +694,7 @@ viewBox="-800 -1210 2800 2210"
         </g>
         <g id="SZ2_names_EN">
             <g text-anchor="start">
-                <text x="-138" y="-949" class="StationNameEN">Grand<tspan x="-138" dy="12" class="StationNameEN">Theatre</tspan></text>
+                <text x="-144" y="-949" class="StationNameEN">Grand<tspan x="-144" dy="12" class="StationNameEN">Theatre</tspan></text>
             </g>
             <g text-anchor="end">
                 <text x="-302" y="-1003" class="StationNameEN">North<tspan x="-302" dy="-12" class="StationNameEN">Huaqiang</tspan></text>
@@ -719,10 +727,14 @@ viewBox="-800 -1210 2800 2210"
 
         <g id="TWL_names_EN">
             <g text-anchor="start">
+                <text x="-310" y="-233" class="StationNameEN">Kwai Hing</text>
+                <text x="-310" y="-173" class="StationNameEN">Kwai Fong</text>
                 <text x="-221" y="-105" class="StationNameEN">Mei Foo</text>
                 <text x="11" y="-66" class="StationNameEN">Prince<tspan x="11" dy="12" class="StationNameEN">Edward</tspan></text>
             </g>
             <g text-anchor="middle">
+                <text x="-432" y="-250" class="StationNameEN">Tseun Wan</text>
+                <text x="-372" y="-278" class="StationNameEN">Tai Wo Hau</text>
                 <text x="-290" y="-104" class="StationNameEN">Lai King</text>
                 <text x="-170" y="-77" class="StationNameEN">Lai Chi Kok</text>
                 <text x="-110" y="-105" class="StationNameEN">Cheung Sha Wan</text>
@@ -800,6 +812,9 @@ viewBox="-800 -1210 2800 2210"
                 <text x="-222" y="-27" class="StationNameEN">Nam<tspan x="-222" dy="12" class="StationNameEN">Cheong</tspan></text>
                 <text x="-127" y="119" class="StationNameEN">Austin</text>
                 <text x="6" y="211" class="StationNameEN">East<tspan x="6" dy="12" class="StationNameEN">Tsim Sha Tsui</tspan></text>
+            </g>
+            <g text-anchor="middle">
+                <text x="-392" y="-167" class="StationNameEN">Tseun Wan West</text>
             </g>
         </g>
         <g id="MOL_names_EN">
