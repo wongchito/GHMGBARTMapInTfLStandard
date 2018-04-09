@@ -113,6 +113,7 @@ viewBox="-800 -1210 2800 2210"
         <use xlink:href="#st" id="stsz1" class="csz1"/>
         <use xlink:href="#st" id="stsz2" class="csz2"/>
         <use xlink:href="#st" id="stsz3" class="csz3"/>
+        <use xlink:href="#term" id="termsz3" class="csz3"/>
         <use xlink:href="#st" id="stsz4" class="csz4"/>
         <use xlink:href="#st" id="stsz7" class="csz7"/>
         <use xlink:href="#st" id="stsz9" class="csz9"/>
@@ -170,7 +171,8 @@ viewBox="-800 -1210 2800 2210"
     <g class="RiverBG">
         <!--TextGap:18 LineGap:26-->
         <path id="Shenzhen_River" d="
-            M -405,-700
+            M -700,-677
+            H -426 a 21,21 0 0,0 21,-21
             V -708 a 21,21 0 0,1 21,-21
             H -270 a 21,21 0 0,0 21,-21
             V -798 a 21,21 0 0,1 21,-21
@@ -223,7 +225,9 @@ viewBox="-800 -1210 2800 2210"
             H 0
         "/>
         <path id="SZ3_route" class="csz3" d="
-            M -519,-700
+            M -449,-703
+            H -498 a 21,21 0 0,1 -21,-21
+            M -519,-724
             V -1014 a 21,21 0 0,1 21,-21
             H 0
         "/>
@@ -439,6 +443,8 @@ viewBox="-800 -1210 2800 2210"
         <circle cx="-138" cy="-965" r="6" fill="#fff"/>
     </g>
     <g id="SZ3_station_icons">
+        <use xlink:href="#termsz3" transform="translate(-449,-703)rotate(90)" id="Fubao"/>
+        <use xlink:href="#stsz3" transform="translate(-519,-734)rotate(0)" id="Yitian"/>
         <use xlink:href="#int" x="-519" y="-794" id="Shixia"/>
         <!--Shopping Park SZ1-->
         <!--Futian SZ2-->
