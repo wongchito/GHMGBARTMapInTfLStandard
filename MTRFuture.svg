@@ -228,13 +228,18 @@ viewBox="-800 -1210 2800 2210"
             V 300
         "/>
         <path id="KTL_route" class="cktl" d="
-            M 569,125
+            M 644,91
+            H 544 a 21,21 0 0,1 -15,-6
             L 359,-85 a 21,21 0 0,0 -15,-6
             H 300
             H 24 a 21,21 0 0,0 -21,21
             V 101 a 21,21 0 0,0 21,21
             H 110 a 21,21 0 0,1 15,6
             L 175,178
+        "/>
+        <path id="TKL_route" class="ctkl" d="
+            M 544,97
+            H 644
         "/>
         <path id="TCL_route" class="ctcl" d="
             M -400,-85
@@ -424,7 +429,8 @@ viewBox="-800 -1210 2800 2210"
         <use xlink:href="#int" x="-3" y="180" id="TST"/>
     </g>
     <g id="KTL_station_icons">
-        <use xlink:href="#int" x="559" y="115" id="YAT"/>
+        <use xlink:href="#int" x="644" y="93" id="TIK"/>
+        <use xlink:href="#int" x="584" y="93" id="YAT"/>
         <use xlink:href="#stktl" transform="translate(519,75)rotate(-45)" id="LAT"/>
         <path class="PaidTunnel" d="
             M 479,35 L 464,50
@@ -446,6 +452,10 @@ viewBox="-800 -1210 2800 2210"
         <!--YMT TWL-->
         <use xlink:href="#int" x="135" y="138" id="HOM"/>
         <use xlink:href="#termktl" transform="translate(175,178)rotate(-45)" id="WHA"/>
+    </g>
+    <g id="TKL_station_icons">
+        <!--YAT KTL-->
+        <!--TIK KTL-->
     </g>
     <g id="TCL_station_icons">
         <!--NAC WRL-->
