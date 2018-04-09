@@ -171,9 +171,13 @@ viewBox="-800 -1210 2800 2210"
     <use xlink:href="#Shenzhen_River" class="RiverFG"/>
     <path id="Victoria_Harbour" class="Sea" d="
         M -100,235
-        H 100 a 21,21 0 0,1 21,21
-        v 18 a 21,21 0 0,1 -21,21
-        H -100
+        H 221 a 21,21 0 0,0 21,-21
+        V 170 a 21,21 0 0,0 -6,-15
+        L 206,125 a 21,21 0 0,1 0,-30
+        L 216,85 a 21,21 0 0,1 30,0
+        L 346,185 a 21,21 0 0,0 30,0
+        L 381,180 a 21,21 0 0,0 0,-30
+        L 301,70 a 21,21 0 0,1 0,-30
     "/>
 
     <g class="LineDiagram">
@@ -254,8 +258,10 @@ viewBox="-800 -1210 2800 2210"
         "/>
         <path id="TKL_route" class="ctkl" d="
             M -50,357
-            H 200
-            M 544,97
+            H 296 a 21,21 0 0,0 15,-6
+            M 311,351
+            L 559,103 a 21,21 0 0,1 15,-6
+            M 574,97
             H 644
         "/>
         <path id="TCL_route" class="ctcl" d="
