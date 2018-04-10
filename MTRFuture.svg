@@ -89,7 +89,8 @@ viewBox="-800 -1500 2800 2500"
         .ctcl {stroke:#F38B00}
         .cdrl {stroke:#E777CB}
         .cael {stroke:#007078}
-        .csil {stroke:#B6BD00}
+        .csile {stroke:#B6BD00}
+        .csilw {stroke:#9182C2}
         .cekl {stroke:#00FF00}
         .cerl {stroke:#61B4E4}
         .cwrl {stroke:#B6008D}
@@ -128,9 +129,12 @@ viewBox="-800 -1500 2800 2500"
         <use xlink:href="#st" id="stktl" class="cktl"/>
         <use xlink:href="#term" id="termktl" class="cktl"/>
         <use xlink:href="#st" id="stisl" class="cisl"/>
+        <use xlink:href="#term" id="termisl" class="cisl"/>
         <use xlink:href="#st" id="sttkl" class="ctkl"/>
         <use xlink:href="#term" id="termtkl" class="ctkl"/>
         <use xlink:href="#st" id="sttcl" class="ctcl"/>
+        <use xlink:href="#st" id="stsile" class="csile"/>
+        <use xlink:href="#st" id="stsilw" class="csilw"/>
         <use xlink:href="#st" id="sterl" class="cerl"/>
         <use xlink:href="#st" id="stwrl" class="cwrl"/>
         <use xlink:href="#st" id="stmol" class="cmol"/>
@@ -203,12 +207,14 @@ viewBox="-800 -1500 2800 2500"
         L 479,168 a 21,21 0 0,0 15,6
         H 800
 
-        V 295
+        V 600
         H -700
     "/>
     <path id="Hong_Kong_Island" class="Island" d="
-        M -200,295
-        H 200
+        M -400,295
+        H 550 a 21,21 0 0,1 15,6
+        L 705,441 a 21,21 0 0,1 6,15
+        V 550
     "/>
     <path id="Tsing_Yi_Island" class="Island" d="
         M -359,-90
@@ -308,18 +314,21 @@ viewBox="-800 -1500 2800 2500"
             L 175,178
         "/>
         <path id="ISL_route" class="cisl" d="
-            M -200,423
+            M -438,335
+            H -308 a 21,21 0 0,1 15,6
+            L -217,417 a 21,21 0 0,0 15,6
             H 93 a 21,21 0 0,0 15,-6
             L 184,341 a 21,21 0 0,1 15,-6
             H 318 a 21,21 0 0,1 15,6
-            L 349,357
+            L 409,417 a 21,21 0 0,0 15,6
+            H 584 a 21,21 0 0,1 21,21
+            V 514
         "/>
         <path id="TKL_route" class="ctkl" d="
             M -50,357
             H 359 a 21,21 0 0,0 15,-6
-            M 311,351
-            L 559,103 a 21,21 0 0,1 15,-6
-            M 574,97
+            L 547,178 a 21,21 0 0,0 6,-15
+            V 118 a 21,21 0 0,1 21,-21
             H 740 a 21,21 0 0,0 21,-21
             V -14
 
@@ -338,9 +347,15 @@ viewBox="-800 -1500 2800 2500"
             V 342 a 21,21 0 0,0 21,21
             H -153
         "/>
-        <path id="SIL_route" class="csil" d="
+        <path id="SILE_route" class="csile" d="
             M -62,435
             L 7,504 a 21,21 0 0,1 6,15
+            V 538 a 21,21 0 0,1 -21,21
+        "/>
+        <path id="SILW_route" class="csilw" d="
+            M -378,341
+            H -388 a 21,21 0 0,0 -21,21
+            V 532 a 21,21 0 0,0 21,21
         "/>
         <path id="EKL_route" class="cekl" d="
             M 274,-91
@@ -598,6 +613,10 @@ viewBox="-800 -1500 2800 2500"
         <use xlink:href="#termktl" transform="translate(175,178)rotate(-45)" id="WHA"/>
     </g>
     <g id="ISL_station_icons">
+        <use xlink:href="#termisl" transform="translate(-438,335)rotate(-90)" id="KET"/>
+        <use xlink:href="#int" x="-378" y="338" id="HKU"/>
+        <use xlink:href="#stisl" transform="translate(-318,335)rotate(-90)" id="SYP"/>
+        <use xlink:href="#stisl" transform="translate(-259,375)rotate(135)" id="SHW"/>
         <!--CEN TWL-->
         <!--ADM TWL-->
         <use xlink:href="#stisl" transform="translate(13,423)rotate(-90)" id="WAC"/>
@@ -605,6 +624,12 @@ viewBox="-800 -1500 2800 2500"
         <use xlink:href="#stisl" transform="translate(135,390)rotate(45)" id="TIH"/>
         <use xlink:href="#stisl" transform="translate(209,335)rotate(-90)" id="FOH"/>
         <use xlink:href="#int" x="279" y="335" id="NOP"/>
+        <use xlink:href="#int" x="349" y="357" id="QUB"/>
+        <use xlink:href="#stisl" transform="translate(434,423)rotate(-90)" id="TAK"/>
+        <use xlink:href="#stisl" transform="translate(494,423)rotate(90)" id="SWH"/>
+        <use xlink:href="#stisl" transform="translate(554,423)rotate(-90)" id="SKW"/>
+        <use xlink:href="#stisl" transform="translate(605,454)rotate(0)" id="HFC"/>
+        <use xlink:href="#termisl" transform="translate(605,514)rotate(0)" id="CHW"/>
     </g>
     <g id="TKL_station_icons">
         <use xlink:href="#int" x="57" y="357" id="EXC_TKL"/>
@@ -618,7 +643,7 @@ viewBox="-800 -1500 2800 2500"
         <use xlink:href="#NOP_Interchange" class="DumbbellFG"/>
         <circle cx="279" cy="357" r="6" fill="#fff"/>
         <circle cx="279" cy="335" r="6" fill="#fff"/>
-        <use xlink:href="#int" x="349" y="357" id="QUB"/>
+        <!--QUB ISL-->
         <!--YAT KTL-->
         <!--TIK KTL-->
         <use xlink:href="#sttkl" transform="translate(704,97)rotate(-90)" id="TKO"/>
@@ -654,8 +679,8 @@ viewBox="-800 -1500 2800 2500"
         <use xlink:href="#int" x="-258" y="119" id="KOW_AEL"/>
         <!--HOK TCL-->
     </g>
-    <g id="SIL_station_icons">
-        <use xlink:href="#int" x="-62" y="435" id="ADM_SIL"/>
+    <g id="SILE_station_icons">
+        <use xlink:href="#int" x="-62" y="435" id="ADM_SILE"/>
         <g class="DumbbellBG">
             <path id="ADM_Interchange" d="
                 M -62,435 L -77,420
@@ -664,6 +689,12 @@ viewBox="-800 -1500 2800 2500"
         <use xlink:href="#ADM_Interchange" class="DumbbellFG"/>
         <circle cx="-62" cy="435" r="6" fill="#fff"/>
         <circle cx="-77" cy="420" r="6" fill="#fff"/>
+    </g>
+    <g id="SILW_station_icons">
+        <!--HKU ISL-->
+        <use xlink:href="#stsilw" transform="translate(-409,402)rotate(180)" id="QMH"/>
+        <use xlink:href="#stsilw" transform="translate(-409,462)rotate(180)" id="CYB"/>
+        <use xlink:href="#stsilw" transform="translate(-409,522)rotate(180)" id="WAF"/>
     </g>
     <g id="ERL_station_icons">
         <use xlink:href="#int" transform="translate(-379,-703)" id="LMC"/>
@@ -830,12 +861,24 @@ viewBox="-800 -1500 2800 2500"
         <g id="ISL_names_EN">
             <g text-anchor="start">
                 <text x="142" y="402" class="StationNameEN">Tin Hau</text>
+                <text x="616" y="454" class="StationNameEN">Heng Fa Cheun</text>
+                <text x="616" y="514" class="StationNameEN">Chai Wan</text>
             </g>
             <g text-anchor="middle">
+                <text x="-438" y="321" class="StationNameEN">Town<tspan x="-438" dy="-12" class="StationNameEN">Kennedy</tspan></text>
+                <text x="-378" y="354" class="StationNameEN">HKU</text>
+                <text x="-318" y="321" class="StationNameEN">Sai Ying Pun</text>
                 <text x="13" y="409" class="StationNameEN">Wan Chai</text>
                 <text x="83" y="437" class="StationNameEN">Causeway Bay</text>
                 <text x="209" y="321" class="StationNameEN">Fortress Hill</text>
                 <text x="279" y="319" class="StationNameEN">Point<tspan x="279" dy="-12" class="StationNameEN">North</tspan></text>
+                <text x="434" y="409" class="StationNameEN">Tai Koo</text>
+                <text x="494" y="437" class="StationNameEN">Sai Wan Ho</text>
+                <text x="554" y="409" class="StationNameEN">Shau Kei Wan</text>
+            </g>
+            <g text-anchor="end">
+                <text x="-266" y="387" class="StationNameEN">Sheung Wan</text>
+                <text x="355" y="373" class="StationNameEN">Quarry Bay</text>
             </g>
         </g>
         <g id="TKL_names_EN">
