@@ -1193,13 +1193,29 @@ viewBox="-1000 -1500 3000 2500"
     </g>
 
     <g id="Station_names_ZH" font-size="6.7pt" style="visibility:hidden">
-        <g id="GZ1_names_ZH">
+        <g id="ERL_names_ZH">
             <g text-anchor="start">
-                <text x="9" y="14" class="StationNameZH">公園前</text>
-                <text x="149" y="14" class="StationNameZH">烈士陵園</text>
+                <text x="-368" y="-703" class="StationNameZH">落馬洲</text>
+                <text x="-27" y="-793" class="StationNameZH">羅湖</text>
+                <text x="5" y="-669" class="StationNameZH">上水</text>
+                <text x="45" y="-629" class="StationNameZH">粉嶺</text>
+                <text x="85" y="-589" class="StationNameZH">太和</text>
+                <text x="127" y="-397" class="StationNameZH">馬場</text>
+                <text x="105" y="0" class="StationNameZH">旺角東</text>
+                <text x="103" y="193" class="StationNameZH">紅磡</text>
             </g>
             <g text-anchor="middle">
-                <text x="70" y="-14" class="StationNameZH">農講所</text>
+                <text x="-201" y="-654" class="StationNameZH">古洞</text>
+                <text x="57" y="319" class="StationNameZH">會展</text>
+                <text x="-183" y="491" class="StationNameZH">中環南</text>
+            </g>
+            <g text-anchor="end">
+                <text x="71" y="-542" class="StationNameZH">大埔墟</text>
+                <text x="71" y="-502" class="StationNameZH">白石角</text>
+                <text x="71" y="-462" class="StationNameZH">大學</text>
+                <text x="71" y="-382" class="StationNameZH">火炭</text>
+                <text x="71" y="-342" class="StationNameZH">沙田</text>
+                <text x="71" y="-302" class="StationNameZH">大圍</text>
             </g>
         </g>
         <g id="MOL_names_ZH">
