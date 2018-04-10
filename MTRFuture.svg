@@ -226,8 +226,9 @@ viewBox="-1000 -1500 3000 2500"
         H -490 a 21,21 0 0,1 -21,-21
         V 346 a 21,21 0 0,1 6,-15
         L -475,301 a 21,21 0 0,1 15,-6
-        H 550 a 21,21 0 0,1 15,6
-        L 705,441 a 21,21 0 0,1 6,15
+
+        H 560 a 21,21 0 0,1 15,6
+        L 745,471 a 21,21 0 0,1 6,15
         V 661 a 21,21 0 0,1 -21,21
         H -50 a 21,21 0 0,1 -15,-6
         L -144,597 a 21,21 0 0,0 -15,-6 Z
@@ -375,7 +376,10 @@ viewBox="-1000 -1500 3000 2500"
             H 318 a 21,21 0 0,1 15,6
             L 409,417 a 21,21 0 0,0 15,6
             H 584 a 21,21 0 0,1 21,21
-            V 514
+            V 574
+
+            M 605,484 a 21,21 0 0,0 21,21
+            H 696
         "/>
         <path id="TKL_route" class="ctkl" d="
             M -50,357
@@ -743,7 +747,8 @@ viewBox="-1000 -1500 3000 2500"
         <use xlink:href="#stisl" transform="translate(494,423)rotate(90)" id="SWH"/>
         <use xlink:href="#stisl" transform="translate(554,423)rotate(-90)" id="SKW"/>
         <use xlink:href="#stisl" transform="translate(605,454)rotate(0)" id="HFC"/>
-        <use xlink:href="#termisl" transform="translate(605,514)rotate(0)" id="CHW"/>
+        <use xlink:href="#termisl" transform="translate(605,574)rotate(0)" id="CHW"/>
+        <use xlink:href="#termisl" transform="translate(696,505)rotate(90)" id="SSW"/>
     </g>
     <g id="TKL_station_icons">
         <use xlink:href="#int" x="57" y="357" id="EXC_TKL"/>
@@ -1044,7 +1049,7 @@ viewBox="-1000 -1500 3000 2500"
             <g text-anchor="start">
                 <text x="142" y="402" class="StationNameEN">Tin Hau</text>
                 <text x="616" y="454" class="StationNameEN">Heng Fa Cheun</text>
-                <text x="616" y="514" class="StationNameEN">Chai Wan</text>
+                <text x="616" y="574" class="StationNameEN">Chai Wan</text>
             </g>
             <g text-anchor="middle">
                 <text x="-438" y="321" class="StationNameEN">Town<tspan x="-438" dy="-12" class="StationNameEN">Kennedy</tspan></text>
@@ -1057,6 +1062,7 @@ viewBox="-1000 -1500 3000 2500"
                 <text x="434" y="409" class="StationNameEN">Tai Koo</text>
                 <text x="494" y="437" class="StationNameEN">Sai Wan Ho</text>
                 <text x="554" y="409" class="StationNameEN">Shau Kei Wan</text>
+                <text x="696" y="519" class="StationNameEN">Siu Sai Wan</text>
             </g>
             <g text-anchor="end">
                 <text x="-266" y="387" class="StationNameEN">Sheung Wan</text>
