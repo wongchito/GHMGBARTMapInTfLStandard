@@ -140,6 +140,7 @@ viewBox="-800 -1500 2800 2500"
         <use xlink:href="#term" id="termerl" class="cerl"/>
         <use xlink:href="#st" id="stwrl" class="cwrl"/>
         <use xlink:href="#st" id="stmol" class="cmol"/>
+        <use xlink:href="#term" id="termmol" class="cmol"/>
         <use xlink:href="#st" id="stnol" class="cnol"/>
         <g id="chinarail" transform="scale(0.0165) translate(-260,-305)" style="stroke:none;fill:#E60012">
             <path d="
@@ -180,18 +181,6 @@ viewBox="-800 -1500 2800 2500"
 		attributeName="opacity" attributeType="CSS" values="0; 1" keyTimes="0; 1" dur="0.5s" fill="freeze"/>
 	</g>
 
-    <g class="RiverBG">
-        <!--TextGap:18 LineGap:26-->
-        <path id="Shenzhen_River" d="
-            M -700,-677
-            H -426 a 21,21 0 0,0 21,-21
-            V -708 a 21,21 0 0,1 21,-21
-            H -270 a 21,21 0 0,0 21,-21
-            V -798 a 21,21 0 0,1 21,-21
-            H 0
-        "/>
-    </g>
-    <use xlink:href="#Shenzhen_River" class="RiverFG"/>
     <path id="Victoria_Harbour" class="Sea" d="
         M -700,-127
         H -364 a 21,21 0 0,1 21,21
@@ -207,10 +196,20 @@ viewBox="-800 -1500 2800 2500"
         L 301,70 a 21,21 0 0,1 0,-30
         L 311,30 a 21,21 0 0,1 30,0
         L 479,168 a 21,21 0 0,0 15,6
-        H 800
+        H 830 a 21,21 0 0,0 21,-21
+        V -560 a 21,21 0 0,0 -21,-21
+        H 275 a 21,21 0 0,0 -21,21
+        V -380 a 21,21 0 0,1 -21,21
+        H 223 a 21,21 0 0,1 -21,-21
+        V -440 a 21,21 0 0,0 -21,-21
+        H 141 a 21,21 0 0,1 -21,-21
+        V -590 a 21,21 0 0,1 21,-21
+        H 830 a 21,21 0 0,0 21,-21
+        V -826.25
 
-        V 700
-        H -700
+        H 900
+        V 750
+        H -500
     "/>
     <path id="Hong_Kong_Island" class="Island" d="
         M -300,591
@@ -236,6 +235,18 @@ viewBox="-800 -1500 2800 2500"
         V -90 a 21,21 0 0,1 21,-21
         H -380 a 21,21 0 0,1 21,21 Z
     "/>
+    <g class="RiverBG">
+        <!--TextGap:18 LineGap:26-->
+        <path id="Shenzhen_River" d="
+            M -700,-677
+            H -426 a 21,21 0 0,0 21,-21
+            V -708 a 21,21 0 0,1 21,-21
+            H -270 a 21,21 0 0,0 21,-21
+            V -798 a 21,21 0 0,1 21,-21
+            H 852
+        "/>
+    </g>
+    <use xlink:href="#Shenzhen_River" class="RiverFG"/>
 
     <g class="LineDiagram">
         <path id="SZ1_route" class="csz1" d="
@@ -390,10 +401,10 @@ viewBox="-800 -1500 2800 2500"
             L -98,471 a 21,21 0 0,1 -15,6
             H -183
 
-            M 94,-372 a 21,21 0 0,1 6,-15
-            L 110,-397 a 21,21 0 0,0 6,-15
-            V -432 a 21,21 0 0,0 -6,-15
-            L 100,-457 a 21,21 0 0,1 -6,-15
+            M 94,-352 a 21,21 0 0,1 6,-15
+            L 110,-377 a 21,21 0 0,0 6,-15
+            V -402 a 21,21 0 0,0 -6,-15
+            L 100,-427 a 21,21 0 0,1 -6,-15
 
             M -12,-667 a 21,21 0 0,0 -15,-6
             H -355 a 21,21 0 0,1 -21,-21
@@ -415,6 +426,9 @@ viewBox="-800 -1500 2800 2500"
             V -100 a 21,21 0 0,0 -6,-15
             L 106,-277 a 21,21 0 0,1 -6,-15
             V -312 a 21,21 0 0,1 21,-21
+            H 259 a 21,21 0 0,0 21,-21
+            V -534 a 21,21 0 0,1 21,-21
+            H 401
         "/>
         <path id="NOL_route" class="cnol" d="
             M -464,-433
@@ -729,10 +743,11 @@ viewBox="-800 -1500 2800 2500"
         <use xlink:href="#sterl" transform="translate(38,-617)rotate(-45)" id="FAN"/>
         <use xlink:href="#sterl" transform="translate(78,-577)rotate(-45)" id="TWO"/>
         <use xlink:href="#sterl" transform="translate(94,-542)rotate(180)" id="TAP"/>
-        <use xlink:href="#sterl" transform="translate(94,-492)rotate(180)" id="UNI"/>
-        <use xlink:href="#sterl" transform="translate(116,-422)" id="RAC"/>
-        <use xlink:href="#sterl" transform="translate(94,-402)rotate(180)" id="FOT"/>
-        <use xlink:href="#sterl" transform="translate(94,-352)rotate(180)" id="SHT"/>
+        <use xlink:href="#sterl" transform="translate(94,-502)rotate(180)" id="PAS"/>
+        <use xlink:href="#sterl" transform="translate(94,-462)rotate(180)" id="UNI"/>
+        <use xlink:href="#sterl" transform="translate(116,-397)" id="RAC"/>
+        <use xlink:href="#sterl" transform="translate(94,-382)rotate(180)" id="FOT"/>
+        <use xlink:href="#sterl" transform="translate(94,-342)rotate(180)" id="SHT"/>
         <use xlink:href="#int" x="97" y="-302" id="TAW"/>
         <!--KOT KTL-->
         <use xlink:href="#sterl" transform="translate(94,0)rotate(0)" id="MKK"/>
@@ -764,6 +779,15 @@ viewBox="-800 -1500 2800 2500"
             M 258,15 L 273,30
         "/>
         <use xlink:href="#int" x="258" y="15" id="KAT"/>
+        <!--TAW ERL-->
+        <use xlink:href="#stmol" transform="translate(190,-333)rotate(90)" id="CKT"/>
+        <use xlink:href="#stmol" transform="translate(280,-364)rotate(0)" id="STW"/>
+        <use xlink:href="#stmol" transform="translate(280,-404)rotate(0)" id="CIO"/>
+        <use xlink:href="#stmol" transform="translate(280,-444)rotate(0)" id="SHM"/>
+        <use xlink:href="#stmol" transform="translate(280,-484)rotate(0)" id="TSH"/>
+        <use xlink:href="#stmol" transform="translate(280,-524)rotate(0)" id="HEO"/>
+        <use xlink:href="#stmol" transform="translate(331,-555)rotate(-90)" id="MOS"/>
+        <use xlink:href="#termmol" transform="translate(401,-555)rotate(-90)" id="WKS"/>
     </g>
     <g id="NOL_station_icons">
         <!--KSR WRL-->
@@ -958,6 +982,7 @@ viewBox="-800 -1500 2800 2500"
             <g text-anchor="start">
                 <text x="-368" y="-703" class="StationNameEN">Lok Ma Chau</text>
                 <text x="-27" y="-793" class="StationNameEN">Lo Wu</text>
+                <text x="127" y="-397" class="StationNameEN">Racecourse</text>
                 <text x="105" y="-6" class="StationNameEN">Mong Kok<tspan x="105" dy="12" class="StationNameEN">East</tspan></text>
                 <text x="103" y="193" class="StationNameEN">Hung Hom</text>
             </g>
@@ -981,6 +1006,18 @@ viewBox="-800 -1500 2800 2500"
             </g>
         </g>
         <g id="MOL_names_EN">
+            <g text-anchor="start">
+                <text x="291" y="-364" class="StationNameEN">Sha Tin Wai</text>
+                <text x="291" y="-404" class="StationNameEN">City One</text>
+                <text x="291" y="-444" class="StationNameEN">Shek Mun</text>
+                <text x="291" y="-484" class="StationNameEN">Tai Shui Hang</text>
+                <text x="291" y="-524" class="StationNameEN">Heng On</text>
+            </g>
+            <g text-anchor="middle">
+                <text x="190" y="-319" class="StationNameEN">Che Kung<tspan x="190" dy="12" class="StationNameEN">Temple</tspan></text>
+                <text x="331" y="-569" class="StationNameEN">Ma On Shan</text>
+                <text x="401" y="-541" class="StationNameEN">Wu Kai Sha</text>
+            </g>
             <g text-anchor="end">
                 <text x="169" y="85" class="StationNameEN">To Kwa Wan</text>
                 <text x="210" y="44" class="StationNameEN">Sung Wong Toi</text>
