@@ -1202,14 +1202,29 @@ viewBox="-1000 -1500 3000 2500"
                 <text x="70" y="-14" class="StationNameZH">農講所</text>
             </g>
         </g>
-        <g id="GZ13_names_ZH">
+        <g id="MOL_names_ZH">
             <g text-anchor="start">
-                
+                <text x="197" y="-205" class="StationNameZH">顯徑</text>
+                <text x="291" y="-364" class="StationNameZH">沙田圍</text>
+                <text x="291" y="-404" class="StationNameZH">第一城</text>
+                <text x="291" y="-444" class="StationNameZH">石門</text>
+                <text x="291" y="-484" class="StationNameZH">大水坑</text>
+                <text x="291" y="-524" class="StationNameZH">恆安</text>
             </g>
             <g text-anchor="middle">
-                <text x="70" y="-84" class="StationNameZH">倉邊路</text>
-                <text x="239" y="-56" class="StationNameZH">農林下路</text>
-                <text x="319" y="-56" class="StationNameZH">梅東路</text>
+                <text x="190" y="-319" class="StationNameZH">車公廟</text>
+                <text x="331" y="-569" class="StationNameZH">馬鞍山</text>
+                <text x="401" y="-541" class="StationNameZH">鳥溪沙</text>
+            </g>
+            <g text-anchor="end">
+                <text x="169" y="85" class="StationNameZH">土瓜灣</text>
+                <text x="210" y="44" class="StationNameZH">宋皇臺</text>
+                <text x="249" y="1" class="StationNameZH">啓德</text>
+            </g>
+        </g>
+        <g id="360_names_ZH">
+            <g text-anchor="start">
+                <text x="-856" y="320" class="StationNameZH">昂坪</text>
             </g>
         </g>
         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="visible"/>
