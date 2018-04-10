@@ -195,6 +195,12 @@ viewBox="-800 -1210 2800 2210"
         L 346,185 a 21,21 0 0,0 30,0
         L 381,180 a 21,21 0 0,0 0,-30
         L 301,70 a 21,21 0 0,1 0,-30
+        L 311,30 a 21,21 0 0,1 30,0
+        L 479,168 a 21,21 0 0,0 15,6
+        H 800
+
+        V 295
+        H -700
     "/>
     <path id="Hong_Kong_Island" class="Island" d="
         M -200,295
@@ -314,6 +320,10 @@ viewBox="-800 -1210 2800 2210"
             H -278 a 21,21 0 0,1 21,21
             V 342 a 21,21 0 0,0 21,21
             H -153
+        "/>
+        <path id="SIL_route" class="csil" d="
+            M -62,435
+            L 7,504 a 21,21 0 0,1 6,15
         "/>
         <path id="EKL_route" class="cekl" d="
             M 274,-91
@@ -524,7 +534,7 @@ viewBox="-800 -1210 2800 2210"
     <g id="KTL_station_icons">
         <use xlink:href="#int" x="644" y="94" id="TIK"/>
         <use xlink:href="#int" x="584" y="94" id="YAT"/>
-        <use xlink:href="#stktl" transform="translate(519,75)rotate(-45)" id="LAT"/>
+        <use xlink:href="#stktl" transform="translate(519,75)rotate(135)" id="LAT"/>
         <path class="PaidTunnel" d="
             M 479,35 L 464,50
         "/>
@@ -536,7 +546,7 @@ viewBox="-800 -1210 2800 2210"
         <use xlink:href="#int" x="399" y="-45" id="KOB"/>
         <use xlink:href="#stktl" transform="translate(334,-91)rotate(-90)" id="CHH"/>
         <use xlink:href="#int" x="274" y="-91" id="DIH"/>
-        <use xlink:href="#stktl" transform="translate(214,-91)rotate(-90)" id="WTS"/>
+        <use xlink:href="#stktl" transform="translate(214,-91)rotate(90)" id="WTS"/>
         <use xlink:href="#stktl" transform="translate(154,-91)rotate(-90)" id="LOF"/>
         <use xlink:href="#int" x="94" y="-91" id="KOT"/>
         <use xlink:href="#stktl" transform="translate(34,-91)rotate(-90)" id="SKM"/>
@@ -570,7 +580,7 @@ viewBox="-800 -1210 2800 2210"
         <use xlink:href="#int" x="349" y="357" id="QUB"/>
         <!--YAT KTL-->
         <!--TIK KTL-->
-        <use xlink:href="#sttkl" transform="translate(704,97)rotate(90)" id="TKO"/>
+        <use xlink:href="#sttkl" transform="translate(704,97)rotate(-90)" id="TKO"/>
         <use xlink:href="#sttkl" transform="translate(761,46)rotate(0)" id="HAH"/>
         <use xlink:href="#int" x="761" y="-14" id="POA"/>
         <use xlink:href="#termtkl" transform="translate(761,148)rotate(0)" id="LHP"/>
@@ -739,6 +749,8 @@ viewBox="-800 -1210 2800 2210"
                 <text x="-170" y="-77" class="StationNameEN">Lai Chi Kok</text>
                 <text x="-110" y="-105" class="StationNameEN">Cheung Sha Wan</text>
                 <text x="-50" y="-77" class="StationNameEN">Shum Shui Po</text>
+                <text x="-77" y="404" class="StationNameEN">Admiralty</text>
+                <text x="-157" y="436" class="StationNameEN">Central</text>
             </g>
             <g text-anchor="end">
                 <text x="-11" y="0" class="StationNameEN">Mong Kok</text>
@@ -749,13 +761,24 @@ viewBox="-800 -1210 2800 2210"
         </g>
         <g id="KTL_names_EN">
             <g text-anchor="start">
+                <text x="488" y="21" class="StationNameEN">Kwun Tong</text>
+                <text x="446" y="-17" class="StationNameEN">Ngau Tau Kok</text>
+                <text x="408" y="-59" class="StationNameEN">Kowloon Bay</text>
+                <text x="283" y="-77" class="StationNameEN">Diamond<tspan x="283" dy="12" class="StationNameEN">Hill</tspan></text>
                 <text x="103" y="-77" class="StationNameEN">Kowloon<tspan x="103" dy="12" class="StationNameEN">Tong</tspan></text>
                 <text x="146" y="138" class="StationNameEN">Ho Man Tin</text>
                 <text x="182" y="190" class="StationNameEN">Whampoa</text>
             </g>
             <g text-anchor="middle">
+                <text x="644" y="110" class="StationNameEN">Tiu Keng Leng</text>
+                <text x="584" y="78" class="StationNameEN">Yau Tong</text>
+                <text x="334" y="-105" class="StationNameEN">Choi Hung</text>
+                <text x="214" y="-77" class="StationNameEN">Wong Tai Sin</text>
                 <text x="154" y="-105" class="StationNameEN">Lok Fu</text>
                 <text x="34" y="-105" class="StationNameEN">Shek Kip Mei</text>
+            </g>
+            <g text-anchor="end">
+                <text x="512" y="87" class="StationNameEN">Lam Tin</text>
             </g>
         </g>
         <g id="ISL_names_EN">
@@ -770,9 +793,14 @@ viewBox="-800 -1210 2800 2210"
             </g>
         </g>
         <g id="TKL_names_EN">
+            <g text-anchor="start">
+                <text x="772" y="46" class="StationNameEN">Hang Hau</text>
+                <text x="772" y="-14" class="StationNameEN">Po Lam</text>
+                <text x="772" y="142" class="StationNameEN">LOHAS<tspan x="772" dy="12" class="StationNameEN">Park</tspan></text>
+            </g>
             <g text-anchor="middle">
                 <text x="127" y="341" class="StationNameEN">Bay North<tspan x="127" dy="-12" class="StationNameEN">Causeway</tspan></text>
-                <text x="704" y="111" class="StationNameEN">Tseung Kwan O</text>
+                <text x="704" y="83" class="StationNameEN">Tseung Kwan O</text>
             </g>
         </g>
         <g id="TCL_names_EN">
