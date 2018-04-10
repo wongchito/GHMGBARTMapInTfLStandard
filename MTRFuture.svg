@@ -134,6 +134,7 @@ viewBox="-800 -1500 2800 2500"
         <use xlink:href="#term" id="termtkl" class="ctkl"/>
         <use xlink:href="#st" id="sttcl" class="ctcl"/>
         <use xlink:href="#st" id="stsile" class="csile"/>
+        <use xlink:href="#term" id="termsile" class="csile"/>
         <use xlink:href="#st" id="stsilw" class="csilw"/>
         <use xlink:href="#st" id="sterl" class="cerl"/>
         <use xlink:href="#st" id="stwrl" class="cwrl"/>
@@ -207,14 +208,25 @@ viewBox="-800 -1500 2800 2500"
         L 479,168 a 21,21 0 0,0 15,6
         H 800
 
-        V 600
+        V 700
         H -700
     "/>
     <path id="Hong_Kong_Island" class="Island" d="
-        M -400,295
+        M -300,591
+        H -500 a 21,21 0 0,1 -21,-21
+        V 316 a 21,21 0 0,1 21,-21
         H 550 a 21,21 0 0,1 15,6
         L 705,441 a 21,21 0 0,1 6,15
-        V 550
+        V 661 a 21,21 0 0,1 -21,21
+        H -50 a 21,21 0 0,1 -15,-6
+        L -144,597 a 21,21 0 0,0 -15,-6 Z
+    "/>
+    <path id="Ap_Lei_Chau" class="Island" d="
+        M -250,682
+        H -289 a 21,21 0 0,1 -21,-21
+        V 627 a 21,21 0 0,1 21,-21
+        H -170 a 21,21 0 0,1 15,6
+        L -121,646 a 21,21 0 0,1 -15,36 Z
     "/>
     <path id="Tsing_Yi_Island" class="Island" d="
         M -359,-90
@@ -351,11 +363,15 @@ viewBox="-800 -1500 2800 2500"
             M -62,435
             L 7,504 a 21,21 0 0,1 6,15
             V 538 a 21,21 0 0,1 -21,21
+            H -88 a 21,21 0 0,0 -15,6
+            L -176,638 a 21,21 0 0,1 -15,6
+            H -261
         "/>
         <path id="SILW_route" class="csilw" d="
             M -378,341
             H -388 a 21,21 0 0,0 -21,21
             V 532 a 21,21 0 0,0 21,21
+            H -78
         "/>
         <path id="EKL_route" class="cekl" d="
             M 274,-91
@@ -689,12 +705,17 @@ viewBox="-800 -1500 2800 2500"
         <use xlink:href="#ADM_Interchange" class="DumbbellFG"/>
         <circle cx="-62" cy="435" r="6" fill="#fff"/>
         <circle cx="-77" cy="420" r="6" fill="#fff"/>
+        <use xlink:href="#stsile" transform="translate(-18,559)rotate(90)" id="OCP"/>
+        <use xlink:href="#int" x="-78" y="556" id="WCH"/>
+        <use xlink:href="#stsile" transform="translate(-201,644)rotate(90)" id="LET"/>
+        <use xlink:href="#termsile" transform="translate(-261,644)rotate(90)" id="SOH"/>
     </g>
     <g id="SILW_station_icons">
         <!--HKU ISL-->
         <use xlink:href="#stsilw" transform="translate(-409,402)rotate(180)" id="QMH"/>
         <use xlink:href="#stsilw" transform="translate(-409,462)rotate(180)" id="CYB"/>
         <use xlink:href="#stsilw" transform="translate(-409,522)rotate(180)" id="WAF"/>
+        <!--WCH SILE-->
     </g>
     <g id="ERL_station_icons">
         <use xlink:href="#int" transform="translate(-379,-703)" id="LMC"/>
@@ -907,6 +928,13 @@ viewBox="-800 -1500 2800 2500"
             </g>
             <g text-anchor="end">
                 <text x="-269" y="119" class="StationNameEN">Kowloon</text>
+            </g>
+        </g>
+        <g id="SILE_names_EN">
+            <g text-anchor="middle">
+                <text x="-18" y="573" class="StationNameEN">Ocean<tspan x="-18" dy="12" class="StationNameEN">Park</tspan></text>
+                <text x="-201" y="658" class="StationNameEN">Lei Tung</text>
+                <text x="-261" y="630" class="StationNameEN">Horizons<tspan x="-261" dy="-12" class="StationNameEN">South</tspan></text>
             </g>
         </g>
         <g id="ERL_names_EN">
