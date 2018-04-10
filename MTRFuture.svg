@@ -197,13 +197,15 @@ viewBox="-800 -1500 2800 2500"
         L 311,30 a 21,21 0 0,1 30,0
         L 479,168 a 21,21 0 0,0 15,6
         H 830 a 21,21 0 0,0 21,-21
+
         V -560 a 21,21 0 0,0 -21,-21
         H 275 a 21,21 0 0,0 -21,21
         V -380 a 21,21 0 0,1 -21,21
         H 223 a 21,21 0 0,1 -21,-21
         V -440 a 21,21 0 0,0 -21,-21
-        H 141 a 21,21 0 0,1 -21,-21
+        H 151 a 21,21 0 0,1 -21,-21
         V -590 a 21,21 0 0,1 21,-21
+
         H 830 a 21,21 0 0,0 21,-21
         V -826.25
 
@@ -983,6 +985,9 @@ viewBox="-800 -1500 2800 2500"
             <g text-anchor="start">
                 <text x="-368" y="-703" class="StationNameEN">Lok Ma Chau</text>
                 <text x="-27" y="-793" class="StationNameEN">Lo Wu</text>
+                <text x="5" y="-669" class="StationNameEN">Sheung Shui</text>
+                <text x="45" y="-629" class="StationNameEN">Fanling</text>
+                <text x="85" y="-589" class="StationNameEN">Tai Wo</text>
                 <text x="127" y="-397" class="StationNameEN">Racecourse</text>
                 <text x="105" y="-6" class="StationNameEN">Mong Kok<tspan x="105" dy="12" class="StationNameEN">East</tspan></text>
                 <text x="103" y="193" class="StationNameEN">Hung Hom</text>
@@ -993,7 +998,12 @@ viewBox="-800 -1500 2800 2500"
                 <text x="-183" y="491" class="StationNameEN">Central<tspan x="-183" dy="12" class="StationNameEN">South</tspan></text>
             </g>
             <g text-anchor="end">
-                <text x="86" y="-302" class="StationNameEN">Tai Wai</text>
+                <text x="71" y="-542" class="StationNameEN">Tai Po Market</text>
+                <text x="71" y="-502" class="StationNameEN">Pak Shek Kok</text>
+                <text x="71" y="-462" class="StationNameEN">University</text>
+                <text x="71" y="-382" class="StationNameEN">Fo Tan</text>
+                <text x="71" y="-342" class="StationNameEN">Sha Tin</text>
+                <text x="71" y="-302" class="StationNameEN">Tai Wai</text>
             </g>
         </g>
         <g id="WRL_names_EN">
