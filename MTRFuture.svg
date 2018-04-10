@@ -779,6 +779,7 @@ viewBox="-800 -1500 2800 2500"
             M 258,15 L 273,30
         "/>
         <use xlink:href="#int" x="258" y="15" id="KAT"/>
+        <use xlink:href="#stmol" transform="translate(190,-193)rotate(-45)" id="HIK"/>
         <!--TAW ERL-->
         <use xlink:href="#stmol" transform="translate(190,-333)rotate(90)" id="CKT"/>
         <use xlink:href="#stmol" transform="translate(280,-364)rotate(0)" id="STW"/>
@@ -1007,6 +1008,7 @@ viewBox="-800 -1500 2800 2500"
         </g>
         <g id="MOL_names_EN">
             <g text-anchor="start">
+                <text x="197" y="-205" class="StationNameEN">Hin Keng</text>
                 <text x="291" y="-364" class="StationNameEN">Sha Tin Wai</text>
                 <text x="291" y="-404" class="StationNameEN">City One</text>
                 <text x="291" y="-444" class="StationNameEN">Shek Mun</text>
