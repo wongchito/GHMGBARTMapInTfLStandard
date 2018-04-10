@@ -140,6 +140,7 @@ viewBox="-1000 -1500 3000 2500"
         <use xlink:href="#st" id="stsile" class="csile"/>
         <use xlink:href="#term" id="termsile" class="csile"/>
         <use xlink:href="#st" id="stsilw" class="csilw"/>
+        <use xlink:href="#st" id="stekl" class="cekl"/>
         <use xlink:href="#st" id="sterl" class="cerl"/>
         <use xlink:href="#term" id="termerl" class="cerl"/>
         <use xlink:href="#st" id="stwrl" class="cwrl"/>
@@ -426,8 +427,9 @@ viewBox="-1000 -1500 3000 2500"
         "/>
         <path id="EKL_route" class="cekl" d="
             M 274,-91
-            L 324,-141
-            M 600,-14
+            L 328,-145 a 21,21 0 0,1 15,-6
+            H 443 a 21,21 0 0,1 15,6
+            L 583,-20 a 21,21 0 0,0 15,6
             H 761
         "/>
         <path id="ERL_route" class="cerl" d="
@@ -829,6 +831,14 @@ viewBox="-1000 -1500 3000 2500"
         <use xlink:href="#stsilw" transform="translate(-189,553)rotate(90)" id="ABE"/>
         <!--WCH SILE-->
     </g>
+    <g id="EKL_station_icons">
+        <!--DIH KTL-->
+        <use xlink:href="#stekl" transform="translate(393,-151)rotate(-90)" id="CWA"/>
+        <use xlink:href="#stekl" transform="translate(488,-115)rotate(-45)" id="STI"/>
+        <use xlink:href="#stekl" transform="translate(553,-50)rotate(-45)" id="SMP"/>
+        <use xlink:href="#stekl" transform="translate(653,-14)rotate(90)" id="POT"/>
+        <!--POL TKL-->
+    </g>
     <g id="ERL_station_icons">
         <use xlink:href="#int" transform="translate(-379,-703)" id="LMC"/>
         <use xlink:href="#int" x="-201" y="-670" id="KTU"/>
@@ -1108,6 +1118,16 @@ viewBox="-1000 -1500 3000 2500"
                 <text x="-420" y="396" class="StationNameEN">Queen Mary<tspan x="-420" dy="12" class="StationNameEN">Hospital</tspan></text>
                 <text x="-420" y="462" class="StationNameEN">Cyberport</text>
                 <text x="-420" y="522" class="StationNameEN">Wah Fu</text>
+            </g>
+        </g>
+        <g id="EKL_station_icons">
+            <g text-anchor="start">
+                <text x="495" y="-127" class="StationNameEN">Shun Tin</text>
+                <text x="560" y="-62" class="StationNameEN">Sau Mau Ping</text>
+            </g>
+            <g text-anchor="middle">
+                <text x="393" y="-165" class="StationNameEN">Choi Wan</text>
+                <text x="653" y="0" class="StationNameEN">Po Tat</text>
             </g>
         </g>
         <g id="ERL_names_EN">
