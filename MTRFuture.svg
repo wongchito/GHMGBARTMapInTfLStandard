@@ -396,6 +396,18 @@ viewBox="-1200 -1500 3200 2500"
             M -67,417
             H -153
         "/>
+        <g class="cktl">
+            <path id="KTLSCT_KTL" d="
+                M 519,75 L 547,103
+            "/>
+        </g>
+        <g class="ctkl">
+            <path id="KTLSCT_TKL" d="
+                M 547,103 a 21,21 0 0,1 6,15
+            "/>
+        </g>
+        <use xlink:href="#KTLSCT_KTL" class="NonGZMTR"/>
+        <use xlink:href="#KTLSCT_TKL" class="NonGZMTR"/>
         <path id="KTL_route" class="cktl" d="
             M 644,91
             H 544 a 21,21 0 0,1 -15,-6
