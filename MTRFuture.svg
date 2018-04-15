@@ -416,6 +416,11 @@ viewBox="-1400 -1500 3400 2500"
             V -1145 a 21,21 0 0,1 21,-21
             H -100
         "/>
+        <path id="SZ17_route" class="cunknown" d="
+            M -103,-1200
+            V -893 a 21,21 0 0,0 6,15
+            L -64,-845
+        "/>
     </g>
 
     <g class="LineDiagram">
@@ -680,7 +685,7 @@ viewBox="-1400 -1500 3400 2500"
         <use xlink:href="#int" x="-313" y="-919" id="Huaqiang_Rd"/>
         <use xlink:href="#int" x="-223" y="-943" id="Science_Museum"/>
         <use xlink:href="#int" x="-138" y="-985" id="Grand_Theatre"/>
-        <use xlink:href="#int" x="-69" y="-1032" id="Laojie"/>
+        <use xlink:href="#int" x="-77" y="-1032" id="Laojie"/>
         <use xlink:href="#stsz1" transform="translate(-38,-930)rotate(0)" id="Guomao"/>
         <use xlink:href="#int" x="-38" y="-845" id="Luohu"/>
     </g>
@@ -772,6 +777,7 @@ viewBox="-1400 -1500 3400 2500"
         <use xlink:href="#int" x="-296" y="-1085" id="Huangmugang"/>
         <use xlink:href="#int" x="-254" y="-1135" id="Bagualing"/>
         <use xlink:href="#int" x="-153" y="-1135" id="Hongling_North"/>
+        <use xlink:href="#int" x="-103" y="-1135" id="Sungang"/>
     </g>
     <g id="SZ8_station_icons">
         <!--Liantang SZ2-->
@@ -874,6 +880,26 @@ viewBox="-1400 -1500 3400 2500"
         <use xlink:href="#Houhai_Interchange" class="DumbbellFG"/>
         <circle cx="-1256" cy="-886" r="6" fill="#fff"/>
         <circle cx="-1287" cy="-917" r="6" fill="#fff"/>
+    </g>
+    <g id="SZ17_station_icons">
+        <use xlink:href="#int" x="-103" y="-1058" id="Laojie_SZ17"/>
+        <g class="DumbbellBG">
+            <path id="Laojie_Interchange" d="
+                M -103,-1058 L -77,-1032
+            "/>
+        </g>
+        <use xlink:href="#Laojie_Interchange" class="DumbbellFG"/>
+        <circle cx="-103" cy="-1058" r="6" fill="#fff"/>
+        <circle cx="-77" cy="-1032" r="6" fill="#fff"/>
+        <use xlink:href="#int" x="-64" y="-845" id="Luohu_SZ17"/>
+        <g class="DumbbellBG">
+            <path id="Luohu_Interchange" d="
+                M -64,-845 H -38
+            "/>
+        </g>
+        <use xlink:href="#Luohu_Interchange" class="DumbbellFG"/>
+        <circle cx="-64" cy="-845" r="6" fill="#fff"/>
+        <circle cx="-38" cy="-845" r="6" fill="#fff"/>
     </g>
 
     <g id="TWL_station_icons">
