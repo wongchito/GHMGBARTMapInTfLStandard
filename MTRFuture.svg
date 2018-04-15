@@ -576,7 +576,7 @@ viewBox="-1400 -1500 3400 2500"
             H -191 a 21,21 0 0,0 15,-6
             L -126,-723 a 21,21 0 0,1 15,-6
             H 217 a 21,21 0 0,0 21,-21
-            V -963
+            V -1002
 
             M -388,-638 a 21,21 0 0,0 6,-15
             V -703
@@ -708,11 +708,11 @@ viewBox="-1400 -1500 3400 2500"
         <use xlink:href="#int" x="-138" y="-963" id="Grand_Theatre_SZ2"/>
         <use xlink:href="#stsz2" transform="translate(7,-963)rotate(90)" id="Hubei"/>
         <use xlink:href="#int" x="63" y="-963" id="Huangbeiling"/>
-        <use xlink:href="#stsz2" transform="translate(133,-963)rotate(-90)" id="Xinxiu"/>
+        <use xlink:href="#stsz2" transform="translate(133,-963)rotate(90)" id="Xinxiu"/>
         <path class="PaidTunnel" d="
-            M 186,-1015 L 238,-963
+            M 186,-1002 H 238
         "/>
-        <use xlink:href="#int" transform="translate(186,-1015)rotate(180)" id="Liantang_Checkpoint"/>
+        <use xlink:href="#int" transform="translate(186,-1002)rotate(180)" id="Liantang_Checkpoint"/>
         <use xlink:href="#stsz2" transform="translate(247,-1080)rotate(90)" id="Xianhu_Road"/>
         <use xlink:href="#int" x="317" y="-1080" id="Liantang"/>
     </g>
@@ -1141,7 +1141,7 @@ viewBox="-1400 -1500 3400 2500"
         <!--KTU ERL-->
         <use xlink:href="#stnol" transform="translate(150,-729)rotate(90)" id="PIC"/>
         <use xlink:href="#stnol" transform="translate(238,-780)rotate(0)" id="TKL"/>
-        <use xlink:href="#int" x="238" y="-963" id="HYW"/>
+        <use xlink:href="#int" x="238" y="-1002" id="HYW"/>
     </g>
     <g id="LRL_station_icons">
         <use xlink:href="#int" x="-687" y="-188" id="TMS_LRL"/>
@@ -1202,16 +1202,15 @@ viewBox="-1400 -1500 3400 2500"
             </g>
             <g text-anchor="middle">
                 <text x="-258" y="-1003" class="StationNameEN">Yannan</text>
-                <text x="7" y="-979" class="StationNameEN">Hubei</text>
-                <text x="63" y="-952" class="StationNameEN">Huangbeiling</text>
-                <text x="133" y="-979" class="StationNameEN">Xinxiu</text>
+                <text x="7" y="-949" class="StationNameEN">Hubei</text>
+                <text x="133" y="-949" class="StationNameEN">Xinxiu</text>
                 <text x="247" y="-1066" class="StationNameEN">Xianhu<tspan x="247" dy="12" class="StationNameEN">Road</tspan></text>
                 <text x="317" y="-1064" class="StationNameEN">Liantang</text>
             </g>
             <g text-anchor="end">
                 <text x="-561" y="-1031" class="StationNameEN">Lianhua<tspan x="-561" dy="12" class="StationNameEN">West</tspan></text>
                 <text x="-302" y="-1003" class="StationNameEN">North<tspan x="-302" dy="-12" class="StationNameEN">Huaqiang</tspan></text>
-                <text x="175" y="-1021" class="StationNameEN">Liantang<tspan x="175" dy="12" class="StationNameEN">Checkpoint</tspan></text>
+                <text x="175" y="-1008" class="StationNameEN">Liantang<tspan x="175" dy="12" class="StationNameEN">Checkpoint</tspan></text>
             </g>
         </g>
         <g id="SZ3_names_EN">
@@ -1237,6 +1236,11 @@ viewBox="-1400 -1500 3400 2500"
             <g text-anchor="start">
                 <text x="-438" y="-1116" class="StationNameEN">Lianhua<tspan x="-438" dy="12" class="StationNameEN">North</tspan></text>
                 <text x="-368" y="-755" class="StationNameEN">Futian Checkpoint</text>
+            </g>
+        </g>
+        <g id="SZ5_names_EN">
+            <g text-anchor="middle">
+                <text x="52" y="-990" class="StationNameEN">Huangbeiling</text>
             </g>
         </g>
         <g id="SZ6_names_EN">
@@ -1509,7 +1513,7 @@ viewBox="-1400 -1500 3400 2500"
                 <text x="-441" y="-566" class="StationNameEN">Ngau Tam Mei</text>
                 <text x="-391" y="-616" class="StationNameEN">San Tin</text>
                 <text x="249" y="-780" class="StationNameEN">Ta Kwu Ling</text>
-                <text x="249" y="-963" class="StationNameEN">Heung Yuen Wai</text>
+                <text x="249" y="-1002" class="StationNameEN">Heung Yuen Wai</text>
             </g>
             <g text-anchor="middle">
                 <text x="150" y="-715" class="StationNameEN">Ping Che</text>
