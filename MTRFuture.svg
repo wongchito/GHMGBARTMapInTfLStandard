@@ -432,7 +432,8 @@ viewBox="-1400 -1500 3400 2500"
         </g>
         <g class="ctkl">
             <path id="KTLSCT_TKL" d="
-                M 547,103 a 21,21 0 0,1 6,15
+                M 545,101
+                L 547,103 a 21,21 0 0,1 6,15
             "/>
         </g>
         <use xlink:href="#KTLSCT_KTL" class="NonGZMTR"/>
