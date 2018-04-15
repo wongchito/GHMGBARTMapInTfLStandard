@@ -137,6 +137,7 @@ viewBox="-1400 -1500 3400 2500"
         <use xlink:href="#st" id="stsz11" class="csz11"/>
         <use xlink:href="#st" id="stsz12" class="csz12"/>
         <use xlink:href="#st" id="stsz13" class="csz13"/>
+        <use xlink:href="#term" id="termsz13" class="csz13"/>
         <use xlink:href="#st" id="stsz14" class="csz14"/>
         <use xlink:href="#st" id="stsz17" class="cunknown"/>
 
@@ -205,7 +206,9 @@ viewBox="-1400 -1500 3400 2500"
 	</g>
 
     <path id="Victoria_Harbour" class="Sea" d="
-        M -1100,-855
+        M -1135,-700
+        V -834 a 21,21 0 0,1 21,-21
+
         H -849 a 21,21 0 0,1 15,6
         L -834,-849
         L -734,-749 a 21,21 0 0,1 6,15
@@ -246,7 +249,7 @@ viewBox="-1400 -1500 3400 2500"
 
         H 1000
         V 750
-        H -1100 Z
+        H -1300 Z
     "/>
     <path id="Hong_Kong_Island" class="Island" d="
         M -300,591
@@ -412,7 +415,8 @@ viewBox="-1400 -1500 3400 2500"
         "/>
         <path id="SZ13_route" class="csz13" d="
             M -1256,-1500
-            V -700
+            V -776 a 21,21 0 0,0 21,21
+            H -1186
         "/>
         <path id="SZ14_route" class="csz14" d="
             M -379,-965
@@ -885,6 +889,8 @@ viewBox="-1400 -1500 3400 2500"
         <use xlink:href="#Houhai_Interchange" class="DumbbellFG"/>
         <circle cx="-1256" cy="-886" r="6" fill="#fff"/>
         <circle cx="-1287" cy="-917" r="6" fill="#fff"/>
+        <use xlink:href="#stsz13" transform="translate(-1256,-816)rotate(0)" id="Dengliang_East"/>
+        <use xlink:href="#termsz13" transform="translate(-1186,-755)rotate(90)" id="Shenzhen_Bay_Checkpoint"/>
     </g>
     <g id="SZ17_station_icons">
         <use xlink:href="#int" x="-103" y="-1058" id="Laojie_SZ17"/>
@@ -1183,8 +1189,8 @@ viewBox="-1400 -1500 3400 2500"
 
         <g id="SZ1_names_EN">
             <g text-anchor="start">
+                <text x="-1054" y="-1029" class="StationNameEN">Window of<tspan x="-1054" dy="12" class="StationNameEN">the World</tspan></text>
                 <text x="-440" y="-909" class="StationNameEN">CEC</text>
-                
                 <text x="-336" y="-900" class="StationNameEN">Hua-<tspan x="-336" dy="12" class="StationNameEN">qiang</tspan><tspan x="-336" dy="12" class="StationNameEN">Road</tspan></text>
                 <text x="-83" y="-1016" class="StationNameEN">Laojie</text>
                 <text x="-27" y="-930" class="StationNameEN">Guomao</text>
@@ -1313,6 +1319,14 @@ viewBox="-1400 -1500 3400 2500"
                 <text x="-762" y="-940" class="StationNameEN">Chegong<tspan x="-762" dy="12" class="StationNameEN">Temple</tspan></text>
                 <text x="-502" y="-938" class="StationNameEN">Futian</text>
                 <text x="-387" y="-938" class="StationNameEN">Gangxia<tspan x="-387" dy="12" class="StationNameEN">North</tspan></text>
+            </g>
+        </g>
+        <g id="SZ13_names_EN">
+            <g text-anchor="start">
+                <text x="-1245" y="-822" class="StationNameEN">Dengliang<tspan x="-1245" dy="12" class="StationNameEN">East</tspan></text>
+            </g>
+            <g text-anchor="middle">
+                <text x="-1186" y="-741" class="StationNameEN">Shenzhen Bay<tspan x="-1186" dy="12" class="StationNameEN">Checkpoint</tspan></text>
             </g>
         </g>
         <g id="SZ17_names_EN">
