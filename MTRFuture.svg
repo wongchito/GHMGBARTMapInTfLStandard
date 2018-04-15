@@ -313,9 +313,9 @@ viewBox="-1400 -1500 3400 2500"
             M -998,-965
             H -617 a 21,21 0 0,1 15,6
             L -544,-901 a 21,21 0 0,0 15,6
-            H -369 a 21,21 0 0,0 21,-21
-            V -944 a 21,21 0 0,1 21,-21
-            H -167 a 21,21 0 0,0 15,-6
+            H -369 a 21,21 0 0,0 15,-6
+            L -338,-913 a 21,21 0 0,1 15,-6
+            H -213 a 21,21 0 0,0 15,-6
             L -100,-1023 a 21,21 0 0,1 15,-6
             H -59 a 21,21 0 0,1 21,21
             V -845
@@ -360,7 +360,7 @@ viewBox="-1400 -1500 3400 2500"
             H -127
         "/>
         <path id="SZ6_route" class="csz6" d="
-            M -223,-965
+            M -223,-919
             V -1095 a 21,21 0 0,0 -6,-15
             L -329,-1210
         "/>
@@ -675,11 +675,8 @@ viewBox="-1400 -1500 3400 2500"
         <use xlink:href="#int" x="-519" y="-895" id="Shopping_Park"/>
         <use xlink:href="#int" x="-449" y="-895" id="CEC"/>
         <use xlink:href="#int" x="-379" y="-895" id="Gangxia"/>
-        <path class="PaidTunnel" d="
-            M -317,-965 L -293,-989
-        "/>
-        <use xlink:href="#int" x="-317" y="-965" id="Huaqiang_Rd"/>
-        <use xlink:href="#int" x="-223" y="-965" id="Science_Museum"/>
+        <use xlink:href="#int" x="-313" y="-919" id="Huaqiang_Rd"/>
+        <use xlink:href="#int" x="-223" y="-919" id="Science_Museum"/>
         <use xlink:href="#int" x="-138" y="-985" id="Grand_Theatre"/>
         <use xlink:href="#int" x="-69" y="-1032" id="Laojie"/>
         <use xlink:href="#stsz1" transform="translate(-38,-930)rotate(0)" id="Guomao"/>
