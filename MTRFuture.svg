@@ -314,8 +314,8 @@ viewBox="-1400 -1500 3400 2500"
             H -617 a 21,21 0 0,1 15,6
             L -544,-901 a 21,21 0 0,0 15,6
             H -369 a 21,21 0 0,0 15,-6
-            L -338,-913 a 21,21 0 0,1 15,-6
-            H -213 a 21,21 0 0,0 15,-6
+            L -314,-937 a 21,21 0 0,1 15,-6
+            H -189 a 21,21 0 0,0 15,-6
             L -100,-1023 a 21,21 0 0,1 15,-6
             H -59 a 21,21 0 0,1 21,21
             V -845
@@ -330,8 +330,8 @@ viewBox="-1400 -1500 3400 2500"
             V -986 a 21,21 0 0,0 21,21
             H -369 a 21,21 0 0,0 15,-6
             L -342,-983 a 21,21 0 0,1 15,-6
-            H -190 a 21,21 0 0,1 15,6
-            L -163,-971 a 21,21 0 0,0 15,6
+            H -192 a 21,21 0 0,1 15,6
+            L -163,-969 a 21,21 0 0,0 15,6
             H 165 a 21,21 0 0,0 21,-21
             V -1059 a 21,21 0 0,1 21,-21
             H 317
@@ -356,11 +356,11 @@ viewBox="-1400 -1500 3400 2500"
             M -1300,-1455
             H -1000
             M 104,-1200
-            V -975 a 21,21 0 0,1 -21,21
+            V -995 a 21,21 0 0,1 -21,21
             H -127
         "/>
         <path id="SZ6_route" class="csz6" d="
-            M -223,-919
+            M -223,-943 
             V -1095 a 21,21 0 0,0 -6,-15
             L -329,-1210
         "/>
@@ -398,7 +398,9 @@ viewBox="-1400 -1500 3400 2500"
             V -1200
         "/>
         <path id="SZ11_route" class="csz11" d="
-            M -127,-954
+            M -127,-974
+            H -170 a 21,21 0 0,0 -15,6
+            L -193,-960 a 21,21 0 0,1 -15,6
             H -900 a 21,21 0 0,0 -15,6
             L -956,-907 a 21,21 0 0,1 -15,6
             H -1262 a 21,21 0 0,1 -15,-6
@@ -676,7 +678,7 @@ viewBox="-1400 -1500 3400 2500"
         <use xlink:href="#int" x="-449" y="-895" id="CEC"/>
         <use xlink:href="#int" x="-379" y="-895" id="Gangxia"/>
         <use xlink:href="#int" x="-313" y="-919" id="Huaqiang_Rd"/>
-        <use xlink:href="#int" x="-223" y="-919" id="Science_Museum"/>
+        <use xlink:href="#int" x="-223" y="-943" id="Science_Museum"/>
         <use xlink:href="#int" x="-138" y="-985" id="Grand_Theatre"/>
         <use xlink:href="#int" x="-69" y="-1032" id="Laojie"/>
         <use xlink:href="#stsz1" transform="translate(-38,-930)rotate(0)" id="Guomao"/>
@@ -698,10 +700,10 @@ viewBox="-1400 -1500 3400 2500"
         <use xlink:href="#int" x="-379" y="-965" id="Gangxia_North"/>
         <use xlink:href="#int" x="-293" y="-989" id="Huaqiang_North"/>
         <use xlink:href="#stsz2" transform="translate(-258,-989)rotate(-90)" id="Yannan"/>
-        <use xlink:href="#int" x="-138" y="-965" id="Grand_Theatre_SZ2"/>
-        <use xlink:href="#stsz2" transform="translate(7,-965)rotate(-90)" id="Hubei"/>
-        <use xlink:href="#int" x="63" y="-965" id="Huangbeiling"/>
-        <use xlink:href="#stsz2" transform="translate(133,-965)rotate(-90)" id="Xinxiu"/>
+        <use xlink:href="#int" x="-138" y="-963" id="Grand_Theatre_SZ2"/>
+        <use xlink:href="#stsz2" transform="translate(7,-963)rotate(90)" id="Hubei"/>
+        <use xlink:href="#int" x="63" y="-963" id="Huangbeiling"/>
+        <use xlink:href="#stsz2" transform="translate(133,-963)rotate(-90)" id="Xinxiu"/>
         <path class="PaidTunnel" d="
             M 186,-1015 L 238,-963
         "/>
@@ -740,6 +742,15 @@ viewBox="-1400 -1500 3400 2500"
     <g id="SZ5_station_icons">
         <use xlink:href="#int" x="-1256" y="-1455" id="Liuxiandong"/>
         <use xlink:href="#int" x="101" y="-1176" id="Taian"/>
+        <use xlink:href="#int" x="52" y="-974" id="Huangbeiling_SZ5"/>
+        <g class="DumbbellBG">
+            <path id="Huangbeiling_Interchange" d="
+                M 52,-974 L 63,-963
+            "/>
+        </g>
+        <use xlink:href="#Huangbeiling_Interchange" class="DumbbellFG"/>
+        <circle cx="52" cy="-974" r="6" fill="#fff"/>
+        <circle cx="63" cy="-963" r="6" fill="#fff"/>
     </g>
     <g id="SZ6_station_icons">
         <use xlink:href="#stsz6" transform="translate(-223,-1085)rotate(0)" id="Sports_Centre"/>
@@ -833,17 +844,18 @@ viewBox="-1400 -1500 3400 2500"
         <use xlink:href="#Gangxia_North_Interchange" class="DumbbellFG"/>
         <circle cx="-390" cy="-954" r="6" fill="#fff"/>
         <circle cx="-379" cy="-965" r="6" fill="#fff"/>
-        <use xlink:href="#int" x="-127" y="-954" id="Grand_Theatre_SZ11"/>
+        <use xlink:href="#int" x="-127" y="-974" id="Grand_Theatre_SZ11"/>
         <g class="DumbbellBG">
             <path id="GrandTheatre_Interchange" d="
-                M -138,-985 V -965
-                M -138,-965 L -127,-954
+                M -138,-985 V -963
+                M -138,-985 L -127,-974
+                M -138,-963 L -127,-974
             "/>
         </g>
         <use xlink:href="#GrandTheatre_Interchange" class="DumbbellFG"/>
         <circle cx="-138" cy="-985" r="6" fill="#fff"/>
-        <circle cx="-138" cy="-965" r="6" fill="#fff"/>
-        <circle cx="-127" cy="-954" r="6" fill="#fff"/>
+        <circle cx="-138" cy="-963" r="6" fill="#fff"/>
+        <circle cx="-127" cy="-974" r="6" fill="#fff"/>
     </g>
     <g id="SZ13_station_icons">
         <use xlink:href="#stsz13" transform="translate(-1256,-1385)rotate(0)" id="Shigu"/>
