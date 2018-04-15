@@ -73,19 +73,23 @@ viewBox="-1400 -1500 3400 2500"
 
         .cfs11 {stroke:#6600CC}
         
-        .csz1 {stroke:#00AB39}
-        .csz2 {stroke:#DB6D1C}
-        .csz3 {stroke:#00A2E1}
-        .csz4 {stroke:#DC241F}
-        .csz5 {stroke:#9950B2}
-        .csz6 {stroke:#3ABCA8}
-        .csz7 {stroke:#0035AD}
-        .csz8 {stroke:#E653BC}
-        .csz9 {stroke:#846E74}
-        .csz10 {stroke:#F8779E}
-        .csz11 {stroke:#6A1D44}
-        .csz13 {stroke:#E47F00}
-        .csz14 {stroke:#99A3A6}
+        .csz1 {stroke:#00B140}
+        .csz2 {stroke:#B94700}
+        .csz3 {stroke:#00A9E0}
+        .csz4 {stroke:#DA291C}
+        .csz5 {stroke:#A05EB5}
+        .csz6 {stroke:#00C7B1}
+        .csz7 {stroke:#0033A0}
+        .csz8 {stroke:#E45DBF}
+        .csz9 {stroke:#7B6469}
+        .csz10 {stroke:#0092BC}
+        .csz11 {stroke:#672146}
+        .csz12 {stroke:#A192B2}
+        .csz13 {stroke:#DE7C00}
+        .csz14 {stroke:#919D9D}
+        .csz15 {stroke:#84BD00}
+        .csz16 {stroke:#F67599}
+        .csz20 {stroke:#FFD700}
 
         .ctwl {stroke:#E2231A}
         .cktl {stroke:#00AF41}
@@ -352,8 +356,8 @@ viewBox="-1400 -1500 3400 2500"
             M -1300,-1455
             H -1000
             M 104,-1200
-            V -992 a 21,21 0 0,1 -21,21
-            H 63
+            V -975 a 21,21 0 0,1 -21,21
+            H -127
         "/>
         <path id="SZ6_route" class="csz6" d="
             M -223,-965
@@ -394,7 +398,7 @@ viewBox="-1400 -1500 3400 2500"
             V -1200
         "/>
         <path id="SZ11_route" class="csz11" d="
-            M -390,-954
+            M -127,-954
             H -900 a 21,21 0 0,0 -15,6
             L -956,-907 a 21,21 0 0,1 -15,6
             H -1262 a 21,21 0 0,1 -15,-6
@@ -698,16 +702,8 @@ viewBox="-1400 -1500 3400 2500"
         <use xlink:href="#int" x="-293" y="-989" id="Huaqiang_North"/>
         <use xlink:href="#stsz2" transform="translate(-258,-989)rotate(-90)" id="Yannan"/>
         <use xlink:href="#int" x="-138" y="-965" id="Grand_Theatre_SZ2"/>
-        <g class="DumbbellBG">
-            <path id="GrandTheatre_Interchange" d="
-                M -138,-985 V -965
-            "/>
-        </g>
-        <use xlink:href="#GrandTheatre_Interchange" class="DumbbellFG"/>
-        <circle cx="-138" cy="-985" r="6" fill="#fff"/>
-        <circle cx="-138" cy="-965" r="6" fill="#fff"/>
         <use xlink:href="#stsz2" transform="translate(7,-965)rotate(-90)" id="Hubei"/>
-        <use xlink:href="#int" x="63" y="-968" id="Huangbeiling"/>
+        <use xlink:href="#int" x="63" y="-965" id="Huangbeiling"/>
         <use xlink:href="#stsz2" transform="translate(133,-965)rotate(-90)" id="Xinxiu"/>
         <path class="PaidTunnel" d="
             M 186,-1015 L 238,-963
@@ -840,6 +836,17 @@ viewBox="-1400 -1500 3400 2500"
         <use xlink:href="#Gangxia_North_Interchange" class="DumbbellFG"/>
         <circle cx="-390" cy="-954" r="6" fill="#fff"/>
         <circle cx="-379" cy="-965" r="6" fill="#fff"/>
+        <use xlink:href="#int" x="-127" y="-954" id="Grand_Theatre_SZ11"/>
+        <g class="DumbbellBG">
+            <path id="GrandTheatre_Interchange" d="
+                M -138,-985 V -965
+                M -138,-965 L -127,-954
+            "/>
+        </g>
+        <use xlink:href="#GrandTheatre_Interchange" class="DumbbellFG"/>
+        <circle cx="-138" cy="-985" r="6" fill="#fff"/>
+        <circle cx="-138" cy="-965" r="6" fill="#fff"/>
+        <circle cx="-127" cy="-954" r="6" fill="#fff"/>
     </g>
     <g id="SZ13_station_icons">
         <use xlink:href="#stsz13" transform="translate(-1256,-1385)rotate(0)" id="Shigu"/>
