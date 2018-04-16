@@ -366,7 +366,7 @@ viewBox="-1400 -1900 3400 2900"
             L -443,-846 a 21,21 0 0,1 -6,-15
             V -1329 a 21,21 0 0,0 -6,-15
             M -455,-1344
-            L -726,-1615
+            L -776,-1665 a 21,21 0 0,1 0,-30
         "/>
         <path id="SZ5_route" class="csz5" d="
             M -1300,-1435
@@ -681,8 +681,8 @@ viewBox="-1400 -1900 3400 2900"
                 V 164
             "/>
             <path id="Pingnan_Railway" d="
-                M -1242,-1280
-                H -1120 a 21,21 0 0,0 15,-6
+                M -1242,-1283
+                H -1117 a 21,21 0 0,0 15,-6
                 L -984,-1407 a 21,21 0 0,1 15,-6
                 H -679 a 21,21 0 0,0 15,-6
                 L -521,-1562 a 21,21 0 0,1 15,-6
@@ -705,8 +705,13 @@ viewBox="-1400 -1900 3400 2900"
                 L -193,-270 a 21,21 0 0,1 6,15
                 V 119
             "/>
+            <path id="Yanhai_Railway" d="
+                M -1242,-1277
+                H -1100
+            "/>
         </g>
         <use xlink:href="#GZ_SZ_HK_Railway" class="Railway"/>
+        <use xlink:href="#Yanhai_Railway" class="Railway"/>
     </g>
 
     <g id="Guangshen_Railway_station_icons">
