@@ -9,7 +9,7 @@ viewBox="-1400 -1700 3400 2700"
 
     <style type="text/css">
         .LineDiagram {fill:none;stroke-width:6}
-        .NonGZMTR {stroke:#fff;stroke-width:2}
+        .NonMetro {stroke:#fff;stroke-width:2}
         .Railway {stroke-dasharray:8,14;stroke-width:3.5;stroke:#fff}
         .DumbbellBG {stroke:#000;stroke-width:9}
         .DumbbellFG {stroke:#fff;stroke-width:3}
@@ -468,8 +468,8 @@ viewBox="-1400 -1700 3400 2700"
                 L 547,103 a 21,21 0 0,1 6,15
             "/>
         </g>
-        <use xlink:href="#KTLSCT_KTL" class="NonGZMTR"/>
-        <use xlink:href="#KTLSCT_TKL" class="NonGZMTR"/>
+        <use xlink:href="#KTLSCT_KTL" class="NonMetro"/>
+        <use xlink:href="#KTLSCT_TKL" class="NonMetro"/>
         <path id="KTL_route" class="cktl" d="
             M 644,91
             H 544 a 21,21 0 0,1 -15,-6
@@ -630,7 +630,7 @@ viewBox="-1400 -1700 3400 2700"
             M -761,-243 H -687
             "/>
         </g>
-        <use xlink:href="#LRL_route" class="NonGZMTR"/>
+        <use xlink:href="#LRL_route" class="NonMetro"/>
         <g class="cefls">
             <path id="EFLS_route" d="
             M 384,-30
@@ -642,7 +642,7 @@ viewBox="-1400 -1700 3400 2700"
             L 464,50
             "/>
         </g>
-        <use xlink:href="#EFLS_route" class="NonGZMTR"/>
+        <use xlink:href="#EFLS_route" class="NonMetro"/>
         <g class="c360">
             <path id="360_route" d="
             M -726,179
@@ -652,7 +652,7 @@ viewBox="-1400 -1700 3400 2700"
             V 320
             "/>
         </g>
-        <use xlink:href="#360_route" class="NonGZMTR"/>
+        <use xlink:href="#360_route" class="NonMetro"/>
         <g class="cunknown">
             <path id="Guangshen_Railway" d="
                 M -90,-1500
@@ -666,9 +666,14 @@ viewBox="-1400 -1700 3400 2700"
                 L -193,-270 a 21,21 0 0,1 6,15
                 V 119
             "/>
+            <path id="Xiashen_Railway" d="
+                M -236,-1300
+                V -1600
+            "/>
         </g>
         <use xlink:href="#Guangshen_Railway" class="Railway"/>
         <use xlink:href="#GZ_SZ_HK_Railway" class="Railway"/>
+        <use xlink:href="#Xiashen_Railway" class="Railway"/>
     </g>
 
     <g id="Guangshen_Railway_station_icons">
@@ -774,7 +779,7 @@ viewBox="-1400 -1700 3400 2700"
         <use xlink:href="#int" x="-379" y="-1533" id="Wuhe"/>
         <use xlink:href="#stsz5" transform="translate(-322,-1533)rotate(90)" id="Bantian"/>
         <use xlink:href="#stsz5" transform="translate(-265,-1533)rotate(90)" id="Yangmei"/>
-        <use xlink:href="#stsz5" transform="translate(-208,-1533)rotate(90)" id="Shangshuijing"/>
+        <use xlink:href="#stsz5" transform="translate(-207,-1533)rotate(90)" id="Shangshuijing"/>
         <use xlink:href="#stsz5" transform="translate(-148,-1517)rotate(135)" id="Xiashuijing"/>
         <use xlink:href="#stsz5" transform="translate(-118,-1487)rotate(135)" id="Changlong"/>
         <!--Buji SZ3-->
