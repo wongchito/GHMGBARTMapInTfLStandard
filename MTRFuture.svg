@@ -669,7 +669,8 @@ viewBox="-1400 -1700 3400 2700"
                 L -510,-1573
             "/>
             <path id="Xiashen_Railway" d="
-                M -236,-1300
+                M -484,-1270 a 21,21 0 0,0 21,21
+                H -257 a 21,21 0 0,0 21,-21
                 V -1600
             "/>
         </g>
@@ -814,6 +815,8 @@ viewBox="-1400 -1700 3400 2700"
         <circle cx="63" cy="-963" r="6" fill="#fff"/>
     </g>
     <g id="SZ6_station_icons">
+        <!--Shenzhen North Railway Station SZ4-->
+        <use xlink:href="#stsz6" transform="translate(-429,-1310)rotate(-45)" id="Meilinguan"/>
         <use xlink:href="#stsz6" transform="translate(-223,-1085)rotate(0)" id="Sports_Centre"/>
         <!--Tongxinling SZ3-->
         <!--Science Museum SZ1-->
