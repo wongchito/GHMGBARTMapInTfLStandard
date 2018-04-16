@@ -2,8 +2,8 @@
 <svg
 xmlns="http://www.w3.org/2000/svg"
 xmlns:xlink="http://www.w3.org/1999/xlink"
-width="3400" height="2700"
-viewBox="-1400 -1700 3400 2700"
+width="3400" height="2900"
+viewBox="-1400 -1900 3400 2900"
 >
     <title>MTR and Shenzhen Metro Future Route Map</title>
 
@@ -131,6 +131,7 @@ viewBox="-1400 -1700 3400 2700"
         <use xlink:href="#st" id="stsz5" class="csz5"/>
         <use xlink:href="#st" id="stsz6" class="csz6"/>
         <use xlink:href="#st" id="stsz7" class="csz7"/>
+        <use xlink:href="#term" id="termsz7" class="csz7"/>
         <use xlink:href="#st" id="stsz8" class="csz8"/>
         <use xlink:href="#st" id="stsz9" class="csz9"/>
         <use xlink:href="#term" id="termsz9" class="csz9"/>
@@ -365,7 +366,7 @@ viewBox="-1400 -1700 3400 2700"
             L -443,-846 a 21,21 0 0,1 -6,-15
             V -1329 a 21,21 0 0,0 -6,-15
             M -455,-1344
-            L -626,-1515
+            L -726,-1615
         "/>
         <path id="SZ5_route" class="csz5" d="
             M -1300,-1435
@@ -379,12 +380,14 @@ viewBox="-1400 -1700 3400 2700"
         <path id="SZ6_route" class="csz6" d="
             M -223,-943 
             V -1095 a 21,21 0 0,0 -6,-15
-            L -629,-1510
+            L -679,-1560 a 21,21 0 0,1 -6,-15
+            V -1700
         "/>
         <path id="SZ7_route" class="csz7" d="
             M -1186,-1500
-            V -1355 a 21,21 0 0,0 6,15
-            M -894,-1085
+            V -1345 a 21,21 0 0,0 21,21
+            H -1106 a 21,21 0 0,1 15,6
+            L -900,-1127 a 21,21 0 0,1 6,15
             V -1056 a 21,21 0 0,0 21,21
             H -778 a 21,21 0 0,1 21,21
             V -930 a 21,21 0 0,0 6,15
@@ -393,6 +396,9 @@ viewBox="-1400 -1700 3400 2700"
             V -1114 a 21,21 0 0,1 21,-21
             H 77 a 21,21 0 0,0 21,-21
             V -1176
+
+            M -945,-1172 a 21,21 0 0,0 -15,-6
+            H -1030
         "/>
         <path id="SZ8_route" class="csz8" d="
             M 317,-1080
@@ -414,7 +420,7 @@ viewBox="-1400 -1700 3400 2700"
         "/>
         <path id="SZ10_route" class="csz10" d="
             M -379,-755
-            V -1700
+            V -1823 a 21,21 0 0,1 21,-21
         "/>
         <path id="SZ11_route" class="csz11" d="
             M -127,-974
@@ -426,7 +432,7 @@ viewBox="-1400 -1700 3400 2700"
             L -1387,-1017
         "/>
         <path id="SZ13_route" class="csz13" d="
-            M -1256,-1500
+            M -1256,-1700
             V -776 a 21,21 0 0,0 21,21
             H -1186
         "/>
@@ -675,8 +681,12 @@ viewBox="-1400 -1700 3400 2700"
                 V 164
             "/>
             <path id="Pingnan_Railway" d="
-                M -710,-1373
-                L -510,-1573
+                M -1242,-1280
+                H -1120 a 21,21 0 0,0 15,-6
+                L -984,-1407 a 21,21 0 0,1 15,-6
+                H -679 a 21,21 0 0,0 15,-6
+                L -521,-1562 a 21,21 0 0,1 15,-6
+                H -300
             "/>
             <path id="Xiashen_Railway" d="
                 M -484,-1300 a 21,21 0 0,0 21,21
@@ -684,6 +694,9 @@ viewBox="-1400 -1700 3400 2700"
                 V -1600
             "/>
         </g>
+        <use xlink:href="#Guangshen_Railway" class="Railway"/>
+        <use xlink:href="#Pingnan_Railway" class="Railway"/>
+        <use xlink:href="#Xiashen_Railway" class="Railway"/>
         <g class="chsr">
             <path id="GZ_SZ_HK_Railway" d="
                 M -710,-1573
@@ -693,9 +706,6 @@ viewBox="-1400 -1700 3400 2700"
                 V 119
             "/>
         </g>
-        <use xlink:href="#Guangshen_Railway" class="Railway"/>
-        <use xlink:href="#Pingnan_Railway" class="Railway"/>
-        <use xlink:href="#Xiashen_Railway" class="Railway"/>
         <use xlink:href="#GZ_SZ_HK_Railway" class="Railway"/>
     </g>
 
@@ -711,6 +721,9 @@ viewBox="-1400 -1700 3400 2700"
         <use xlink:href="#int" x="79" y="164" id="Kowloon"/>
     </g>
     <g id="Pingnan_Railway_station_icons">
+        <path class="PaidTunnel" d="
+            M -1242,-1280 L -1256,-1295
+        "/>
         <use xlink:href="#int" x="-1242" y="-1280" id="Xili"/>
     </g>
     <g id="GZ_SZ_HK_Railway_station_icons">
@@ -791,6 +804,8 @@ viewBox="-1400 -1700 3400 2700"
         <use xlink:href="#int" x="-68" y="-1437" id="Buji"/>
     </g>
     <g id="SZ4_station_icons">
+        <use xlink:href="#stsz4" transform="translate(-726,-1615)rotate(-45)" id="Shangtang"/>
+        <use xlink:href="#int" x="-658" y="-1543" id="Hongshan"/>
         <use xlink:href="#int" x="-588" y="-1473" id="Shenzhen_North_Railway_Station"/>
         <use xlink:href="#stsz4" transform="translate(-449,-1305)rotate(180)" id="Minle"/>
         <use xlink:href="#int" x="-449" y="-1185" id="Shangmeilin"/>
@@ -838,6 +853,11 @@ viewBox="-1400 -1700 3400 2700"
     <g id="SZ7_station_icons">
         <!--Xili SZ5-->
         <use xlink:href="#stsz7" transform="translate(-1186,-1365)rotate(0)" id="Chaguang"/>
+        <use xlink:href="#stsz7" transform="translate(-1126,-1324)rotate(90)" id="Zhuguang"/>
+        <use xlink:href="#stsz7" transform="translate(-1050,-1277)rotate(-45)" id="Longjing"/>
+        <use xlink:href="#stsz7" transform="translate(-990,-1217)rotate(-45)" id="Taoyuancun"/>
+        <use xlink:href="#termsz7" transform="translate(-1030,-1178)rotate(90)" id="Wenti_Park"/>
+        <use xlink:href="#stsz7" transform="translate(-930,-1157)rotate(-45)" id="Shenyun"/>
         <!--Antuo Hill SZ2-->
         <use xlink:href="#stsz7" transform="translate(-824,-1035)rotate(90)" id="Nonglin"/>
         <!--Chegongmao SZ1-->
@@ -884,6 +904,10 @@ viewBox="-1400 -1700 3400 2700"
         <use xlink:href="#termsz9" transform="translate(77,-895)rotate(90)" id="Wenjin"/>
     </g>
     <g id="SZ10_station_icons">
+        <use xlink:href="#stsz10" transform="translate(-379,-1813)rotate(0)" id="Gangtou"/>
+        <use xlink:href="#stsz10" transform="translate(-379,-1743)rotate(0)" id="Huawei"/>
+        <use xlink:href="#stsz10" transform="translate(-379,-1673)rotate(0)" id="Beier_Road"/>
+        <use xlink:href="#stsz10" transform="translate(-379,-1603)rotate(0)" id="Jihua"/>
         <!--Wuhe SZ5-->
         <use xlink:href="#stsz10" transform="translate(-379,-1473)rotate(0)" id="Guangyayuan"/>
         <use xlink:href="#stsz10" transform="translate(-379,-1413)rotate(0)" id="Nankeng"/>
