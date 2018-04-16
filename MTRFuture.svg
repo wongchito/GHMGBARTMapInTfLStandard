@@ -167,6 +167,8 @@ viewBox="-1400 -1700 3400 2700"
         <use xlink:href="#st" id="stnol" class="cnol"/>
         <use xlink:href="#term" id="termnol" class="cnol"/>
         <use xlink:href="#term" id="term360" class="c360"/>
+
+        <use xlink:href="#term" id="termunknown" class="cunknown"/>
         <g id="chinarail" transform="scale(0.0165) translate(-260,-305)" style="stroke:none;fill:#E60012">
             <path d="
                 M169,273.5c0-19,14.7-34.8,33.7-36.3c18.9-1.5,38.1-2.2,57.4-2.2c19.3,0,38.4,0.8,57.3,2.2
@@ -381,7 +383,7 @@ viewBox="-1400 -1700 3400 2700"
         "/>
         <path id="SZ7_route" class="csz7" d="
             M -1186,-1500
-            V -1400
+            V -1355 a 21,21 0 0,0 6,15
             M -894,-1085
             V -1056 a 21,21 0 0,0 21,21
             H -778 a 21,21 0 0,1 21,21
@@ -560,7 +562,7 @@ viewBox="-1400 -1700 3400 2700"
             M 94,-552
             V 314 a 21,21 0 0,1 -21,21
             H 47 a 21,21 0 0,0 -15,6
-            L -98,471 a 21,21 0 0,1 -15,6
+            L -78,451 a 21,21 0 0,1 -15,6
             H -183
 
             M 94,-352 a 21,21 0 0,1 6,-15
@@ -658,6 +660,14 @@ viewBox="-1400 -1700 3400 2700"
         </g>
         <use xlink:href="#360_route" class="NonMetro"/>
         <g class="cunknown">
+            <path id="PeakTram_route" d="
+                M -123,472
+                V 497 a 21,21 0 0,1 -21,21
+                H -213
+            "/>
+        </g>
+        <use xlink:href="#PeakTram_route" class="NonMetro"/>
+        <g class="cunknown">
             <path id="Guangshen_Railway" d="
                 M -90,-1500
                 V -727 a 21,21 0 0,0 6,15
@@ -669,7 +679,7 @@ viewBox="-1400 -1700 3400 2700"
                 L -510,-1573
             "/>
             <path id="Xiashen_Railway" d="
-                M -484,-1270 a 21,21 0 0,0 21,21
+                M -484,-1300 a 21,21 0 0,0 21,21
                 H -257 a 21,21 0 0,0 21,-21
                 V -1600
             "/>
@@ -699,6 +709,9 @@ viewBox="-1400 -1700 3400 2700"
         <use xlink:href="#int" x="-90" y="-1437" id="Shenzhen_East"/>
         <use xlink:href="#int" x="-90" y="-845" id="Shenzhen"/>
         <use xlink:href="#int" x="79" y="164" id="Kowloon"/>
+    </g>
+    <g id="Pingnan_Railway_station_icons">
+        <use xlink:href="#int" x="-1242" y="-1280" id="Xili"/>
     </g>
     <g id="GZ_SZ_HK_Railway_station_icons">
         <path class="PaidTunnel" d="
@@ -779,6 +792,7 @@ viewBox="-1400 -1700 3400 2700"
     </g>
     <g id="SZ4_station_icons">
         <use xlink:href="#int" x="-588" y="-1473" id="Shenzhen_North_Railway_Station"/>
+        <use xlink:href="#stsz4" transform="translate(-449,-1305)rotate(180)" id="Minle"/>
         <use xlink:href="#int" x="-449" y="-1185" id="Shangmeilin"/>
         <use xlink:href="#stsz4" transform="translate(-449,-1110)rotate(0)" id="Lianhua_North"/>
         <!--Childrens Place SZ3-->
@@ -816,12 +830,15 @@ viewBox="-1400 -1700 3400 2700"
     </g>
     <g id="SZ6_station_icons">
         <!--Shenzhen North Railway Station SZ4-->
-        <use xlink:href="#stsz6" transform="translate(-429,-1310)rotate(-45)" id="Meilinguan"/>
+        <use xlink:href="#stsz6" transform="translate(-419,-1300)rotate(-45)" id="Meilinguan"/>
         <use xlink:href="#stsz6" transform="translate(-223,-1085)rotate(0)" id="Sports_Centre"/>
         <!--Tongxinling SZ3-->
         <!--Science Museum SZ1-->
     </g>
     <g id="SZ7_station_icons">
+        <!--Xili SZ5-->
+        <use xlink:href="#stsz7" transform="translate(-1186,-1365)rotate(0)" id="Chaguang"/>
+        <!--Antuo Hill SZ2-->
         <use xlink:href="#stsz7" transform="translate(-824,-1035)rotate(90)" id="Nonglin"/>
         <!--Chegongmao SZ1-->
         <use xlink:href="#stsz7" transform="translate(-706,-870)rotate(-45)" id="Shangsha"/>
@@ -867,6 +884,10 @@ viewBox="-1400 -1700 3400 2700"
         <use xlink:href="#termsz9" transform="translate(77,-895)rotate(90)" id="Wenjin"/>
     </g>
     <g id="SZ10_station_icons">
+        <!--Wuhe SZ5-->
+        <use xlink:href="#stsz10" transform="translate(-379,-1473)rotate(0)" id="Guangyayuan"/>
+        <use xlink:href="#stsz10" transform="translate(-379,-1413)rotate(0)" id="Nankeng"/>
+        <use xlink:href="#stsz10" transform="translate(-379,-1353)rotate(0)" id="Yabao"/>
         <!--Maling SZ9-->
         <use xlink:href="#stsz10" transform="translate(-379,-1110)rotate(0)" id="Donggualing"/>
         <!--Lianhuacun SZ3-->
@@ -1159,7 +1180,7 @@ viewBox="-1400 -1700 3400 2700"
         <use xlink:href="#EXC_Interchange" class="DumbbellFG"/>
         <circle cx="57" cy="335" r="6" fill="#fff"/>
         <circle cx="57" cy="357" r="6" fill="#fff"/>
-        <use xlink:href="#termerl" transform="translate(-183,477)rotate(90)" id="CES"/>
+        <use xlink:href="#termerl" transform="translate(-183,457)rotate(90)" id="CES"/>
     </g>
     <g id="WRL_station_icons">
         <path class="PaidTunnel" d="
@@ -1230,6 +1251,10 @@ viewBox="-1400 -1700 3400 2700"
     <g id="360_station_icons">
         <use xlink:href="#int" x="-726" y="179" id="TUC_360"/>
         <use xlink:href="#term360" transform="translate(-867,320)rotate(0)" id="NGP"/>
+    </g>
+    <g id="PeakTram_station_icons">
+        <use xlink:href="#termunknown" transform="translate(-123,472)rotate(0)" id="GAR"/>
+        <use xlink:href="#termunknown" transform="translate(-213,518)rotate(90)" id="THP"/>
     </g>
     
 
@@ -1315,6 +1340,9 @@ viewBox="-1400 -1700 3400 2700"
                 <text x="-438" y="-1116" class="StationNameEN">Lianhua<tspan x="-438" dy="12" class="StationNameEN">North</tspan></text>
                 <text x="-368" y="-755" class="StationNameEN">Futian Checkpoint</text>
             </g>
+            <g text-anchor="end">
+                <text x="-460" y="-1305" class="StationNameEN">Minle</text>
+            </g>
         </g>
         <g id="SZ5_names_EN">
             <g text-anchor="start">
@@ -1326,6 +1354,7 @@ viewBox="-1400 -1700 3400 2700"
         </g>
         <g id="SZ6_names_EN">
             <g text-anchor="start">
+                <text x="-412" y="-1312" class="StationNameEN">Checkpoint<tspan x="-412" dy="-12" class="StationNameEN">Meilin</tspan></text>
                 <text x="-212" y="-1091" class="StationNameEN">Sports<tspan x="-212" dy="12" class="StationNameEN">Centre</tspan></text>
             </g>
         </g>
@@ -1555,7 +1584,6 @@ viewBox="-1400 -1700 3400 2700"
             <g text-anchor="middle">
                 <text x="-201" y="-654" class="StationNameEN">Kwu Tung</text>
                 <text x="57" y="319" class="StationNameEN">Centre<tspan x="57" dy="-12" class="StationNameEN">Exhibition</tspan></text>
-                <text x="-183" y="491" class="StationNameEN">Central<tspan x="-183" dy="12" class="StationNameEN">South</tspan></text>
             </g>
             <g text-anchor="end">
                 <text x="71" y="-542" class="StationNameEN">Tai Po Market</text>
@@ -1564,6 +1592,7 @@ viewBox="-1400 -1700 3400 2700"
                 <text x="71" y="-382" class="StationNameEN">Fo Tan</text>
                 <text x="71" y="-342" class="StationNameEN">Sha Tin</text>
                 <text x="71" y="-302" class="StationNameEN">Tai Wai</text>
+                <text x="-190" y="451" class="StationNameEN">Central<tspan x="-190" dy="12" class="StationNameEN">South</tspan></text>
             </g>
         </g>
         <g id="WRL_names_EN">
@@ -1623,6 +1652,14 @@ viewBox="-1400 -1700 3400 2700"
         <g id="360_names_EN">
             <g text-anchor="start">
                 <text x="-856" y="320" class="StationNameEN">Ngong Ping</text>
+            </g>
+        </g>
+        <g id="PeakTram_names_EN">
+            <g text-anchor="start">
+                <text x="-112" y="472" class="StationNameEN">Garden Road</text>
+            </g>
+            <g text-anchor="middle">
+                <text x="-213" y="504" class="StationNameEN">The Peak</text>
             </g>
         </g>
         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="hidden"/>
