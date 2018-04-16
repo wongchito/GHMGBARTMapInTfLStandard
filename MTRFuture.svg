@@ -2,8 +2,8 @@
 <svg
 xmlns="http://www.w3.org/2000/svg"
 xmlns:xlink="http://www.w3.org/1999/xlink"
-width="3400" height="2500"
-viewBox="-1400 -1500 3400 2500"
+width="3400" height="2700"
+viewBox="-1400 -1700 3400 2700"
 >
     <title>MTR and Shenzhen Metro Future Route Map</title>
 
@@ -365,7 +365,9 @@ viewBox="-1400 -1500 3400 2500"
         <path id="SZ5_route" class="csz5" d="
             M -1300,-1455
             H -1000
-            M -102,-1471
+            M -470,-1461
+            L -404,-1527 a 21,21 0 0,1 15,-6
+            H -173 a 21,21 0 0,1 15,6
             L 98,-1271 a 21,21 0 0,1 6,15
             V -995 a 21,21 0 0,1 -21,21
             H -127
@@ -406,7 +408,7 @@ viewBox="-1400 -1500 3400 2500"
         "/>
         <path id="SZ10_route" class="csz10" d="
             M -379,-755
-            V -1500
+            V -1700
         "/>
         <path id="SZ11_route" class="csz11" d="
             M -127,-974
@@ -769,6 +771,13 @@ viewBox="-1400 -1500 3400 2500"
     </g>
     <g id="SZ5_station_icons">
         <use xlink:href="#int" x="-1256" y="-1455" id="Liuxiandong"/>
+        <use xlink:href="#int" x="-379" y="-1533" id="Wuhe"/>
+        <use xlink:href="#stsz5" transform="translate(-322,-1533)rotate(90)" id="Bantian"/>
+        <use xlink:href="#stsz5" transform="translate(-265,-1533)rotate(90)" id="Yangmei"/>
+        <use xlink:href="#stsz5" transform="translate(-208,-1533)rotate(90)" id="Shangshuijing"/>
+        <use xlink:href="#stsz5" transform="translate(-148,-1517)rotate(135)" id="Xiashuijing"/>
+        <use xlink:href="#stsz5" transform="translate(-118,-1487)rotate(135)" id="Changlong"/>
+        <!--Buji SZ3-->
         <use xlink:href="#int" x="12" y="-1357" id="Baigelong"/>
         <use xlink:href="#stsz5" transform="translate(104,-1246)rotate(0)" id="Buxin"/>
         <use xlink:href="#int" x="101" y="-1176" id="Taian"/>
