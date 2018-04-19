@@ -17,7 +17,21 @@ The thickness of the route line equals to x-height. Non metro lines would be sho
 </style>
 ```
 
-Turning radius: 21
+Station ticks are $2x/3=4$ squared. This object can be definded as
+
+```xml
+<defs>
+    <path id="st" class="StationTick" d="M 2,0 H 7"/>
+    <path id="term" class="StationTick" d="M -7,0 H 7"/>
+</defs>
+```
+
+## Interchange Circles
+
+## Radii and Angles
+The line must be drawn at an angle of 45&deg; or 90&deg; where a change of direction is necessary. $3x=18$ is applied to the innermost curve where lines run adjacent. 
+
+The arc takes two arguments for x-radius and y-radius (same as it's arc of a circle). Considering the line thickness, these two arguments should be $\displaystyle rx=ry=18+6/2=21$. This is also called turning radius. 
 
 | DIRECTION | PATH CODE |
 |:---:|---|
