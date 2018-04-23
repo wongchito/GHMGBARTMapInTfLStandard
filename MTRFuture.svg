@@ -2,8 +2,8 @@
 <svg
 xmlns="http://www.w3.org/2000/svg"
 xmlns:xlink="http://www.w3.org/1999/xlink"
-width="3700" height="2900"
-viewBox="-1700 -1900 3700 2900"
+width="3700" height="3100"
+viewBox="-1700 -2100 3700 3100"
 >
     <title>MTR and Shenzhen Metro Future Route Map</title>
 
@@ -434,7 +434,8 @@ viewBox="-1700 -1900 3700 2900"
             H -456 a 21,21 0 0,0 15,-6
             L -385,-765 a 21,21 0 0,0 6,-15
             V -1823 a 21,21 0 0,1 21,-21
-            H 0
+            H -109 a 21,21 0 0,0 21,-21
+            V -2100
         "/>
         <path id="SZ11_route" class="csz11" d="
             M -127,-974
@@ -478,7 +479,9 @@ viewBox="-1700 -1900 3700 2900"
             V -800
         "/>
         <path id="SZ17_route" class="cunknown" d="
-            M -101,-1800
+            M 0,-1906
+            H -61 a 21,21 0 0,0 -21,21
+            V -1790 a 21,21 0 0,0 6,15
             L 117,-1582 a 21,21 0 0,1 6,15
             V -1378 a 21,21 0 0,1 -21,21
             H -142 a 21,21 0 0,0 -21,21
@@ -502,9 +505,8 @@ viewBox="-1700 -1900 3700 2900"
             H -850
             M -555,-1361 a 21,21 0 0,0 15,-6
             L -490,-1417 a 21,21 0 0,1 15,-6
-            H -150
-            M -207,-1533
-            L 93,-1833
+            H -326 a 21,21 0 0,0 15,-6
+            L -157,-1583 a 21,21 0 0,0 6,-15
         "/>
         <path id="SZ22_route" class="cunknown" d="
             M -443,-1500
@@ -738,7 +740,7 @@ viewBox="-1700 -1900 3700 2900"
         <use xlink:href="#PeakTram_route" class="NonMetro"/>
         <g class="cunknown">
             <path id="Guangshen_Railway" d="
-                M 82,-1900
+                M 82,-2100
                 V -1746 a 21,21 0 0,1 -6,15
                 L -84,-1571 a 21,21 0 0,0 -6,15
                 V -727 a 21,21 0 0,0 6,15
@@ -751,7 +753,9 @@ viewBox="-1700 -1900 3700 2900"
                 L -984,-1407 a 21,21 0 0,1 15,-6
                 H -679 a 21,21 0 0,0 15,-6
                 L -521,-1562 a 21,21 0 0,1 15,-6
-                H -300
+                H -300 a 21,21 0 0,0 21,-21
+                V -1904 a 21,21 0 0,1 21,-21
+                H 61 a 21,21 0 0,0 21,-21
             "/>
             <path id="Xiashen_Railway" d="
                 M -484,-1300 a 21,21 0 0,0 21,21
@@ -989,6 +993,11 @@ viewBox="-1700 -1900 3700 2900"
         <use xlink:href="#termsz9" transform="translate(77,-895)rotate(90)" id="Wenjin"/>
     </g>
     <g id="SZ10_station_icons">
+        <use xlink:href="#stsz10" transform="translate(-88,-1945)rotate(0)" id="Mugu"/>
+        <use xlink:href="#int" transform="translate(-85,-1875)rotate(0)" id="Shanglilang"/>
+        <use xlink:href="#stsz10" transform="translate(-148,-1844)rotate(-90)" id="Liangmao_Hill"/>
+        <use xlink:href="#stsz10" transform="translate(-218,-1844)rotate(-90)" id="Gankeng"/>
+        <use xlink:href="#stsz10" transform="translate(-328,-1844)rotate(-90)" id="Xuexiang"/>
         <use xlink:href="#stsz10" transform="translate(-379,-1813)rotate(0)" id="Gangtou"/>
         <use xlink:href="#stsz10" transform="translate(-379,-1743)rotate(0)" id="Huawei"/>
         <use xlink:href="#stsz10" transform="translate(-379,-1673)rotate(0)" id="Beier_Road"/>
