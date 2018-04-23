@@ -2,8 +2,8 @@
 <svg
 xmlns="http://www.w3.org/2000/svg"
 xmlns:xlink="http://www.w3.org/1999/xlink"
-width="3700" height="2900"
-viewBox="-1700 -1900 3700 2900"
+width="1850" height="1800"
+viewBox="-950 -1050 1850 1800"
 >
     <title>MTR and Shenzhen Metro Future Route Map</title>
 
@@ -74,23 +74,23 @@ viewBox="-1700 -1900 3700 2900"
 
         .cfs11 {stroke:#6600CC}
         
-        .csz1 {stroke:#00B140}
-        .csz2 {stroke:#B94700}
-        .csz3 {stroke:#00A9E0}
-        .csz4 {stroke:#DA291C}
-        .csz5 {stroke:#A05EB5}
-        .csz6 {stroke:#00C7B1}
-        .csz7 {stroke:#0033A0}
-        .csz8 {stroke:#E45DBF}
-        .csz9 {stroke:#7B6469}
-        .csz10 {stroke:#0092BC}
-        .csz11 {stroke:#672146}
-        .csz12 {stroke:#A192B2}
-        .csz13 {stroke:#DE7C00}
-        .csz14 {stroke:#919D9D}
-        .csz15 {stroke:#84BD00}
-        .csz16 {stroke:#F67599}
-        .csz20 {stroke:#FFD700}
+        .csz1 {stroke:#999999}
+        .csz2 {stroke:#999999}
+        .csz3 {stroke:#999999}
+        .csz4 {stroke:#999999}
+        .csz5 {stroke:#999999}
+        .csz6 {stroke:#999999}
+        .csz7 {stroke:#999999}
+        .csz8 {stroke:#999999}
+        .csz9 {stroke:#999999}
+        .csz10 {stroke:#999999}
+        .csz11 {stroke:#999999}
+        .csz12 {stroke:#999999}
+        .csz13 {stroke:#999999}
+        .csz14 {stroke:#999999}
+        .csz15 {stroke:#999999}
+        .csz16 {stroke:#999999}
+        .csz20 {stroke:#999999}
 
         .ctwl {stroke:#E2231A}
         .cktl {stroke:#00AF41}
@@ -187,6 +187,8 @@ viewBox="-1700 -1900 3700 2900"
             <path d="m 157.1558,160.72798 c -47.99747,-5.97319 -97.153016,0.93741 -142.205315,20.66035 L 0,187.93277 13.088864,217.83374 28.039371,211.2893 c 55.633098,-24.35505 118.334389,-26.46483 175.385289,-6.20773 -2.72531,-2.05645 -5.44858,-4.11594 -8.0852,-6.26617 -3.46574,-2.82628 -6.85428,-5.73346 -10.163,-8.71565 -3.30877,-2.98217 -6.53736,-6.03921 -9.68506,-9.17031 -3.14766,-3.13109 -6.2139,-6.33465 -9.19632,-9.60797 -2.98233,-3.27329 -5.88147,-6.61643 -8.69438,-10.02492 -0.15331,-0.18587 -0.29217,-0.38243 -0.44495,-0.5685 z"/>
         </g>
     </defs>
+
+    <rect x="-950" y="-1050" width="1850" height="1800" style="fill:#fff"/>
 
     <g id="cht_switch" style="opacity:0;cursor:pointer">
 		<g id="cht_switch_base">
@@ -499,10 +501,8 @@ viewBox="-1700 -1900 3700 2900"
         "/>
         <path id="SZ22_route" class="cunknown" d="
             M -443,-1500
-            V -1260 a 21,21 0 0,1 -21,21
-            H -528 a 21,21 0 0,0 -21,21
-            V -1156 a 21,21 0 0,1 -21,21
-            H -625 a 21,21 0 0,0 -15,6
+            V -1200
+            M -625,-1135 a 21,21 0 0,0 -15,6
             L -684,-1085
             L -710,-1059 a 21,21 0 0,0 -6,15
             V -815 a 21,21 0 0,0 6,15
@@ -781,16 +781,20 @@ viewBox="-1700 -1900 3700 2900"
         <use xlink:href="#int" x="-1242" y="-1277" id="Xili"/>
     </g>
     <g id="GZ_SZ_HK_Railway_station_icons">
-        <path class="PaidTunnel" d="
+        <path stroke="#555555" stroke-width="2" d="
             M -610,-1473 H -588
             M -508,-954 L -449,-895
             M -519,-895 L -449,-965
+        "/>
+        <path class="PaidTunnel" d="
+            
             M -236,119 H -138
         "/>
         <use xlink:href="#int" x="-610" y="-1473" id="Shenzhen_North"/>
         <use xlink:href="#int" x="-484" y="-930" id="Futian"/>
         <use xlink:href="#int" x="-187" y="119" id="West_Kowloon"/>
     </g>
+    
 
     <g id="SZ1_station_icons">
         <use xlink:href="#int" x="-1256" y="-1088" id="Shenzhen_University"/>
@@ -954,8 +958,6 @@ viewBox="-1700 -1900 3700 2900"
         <use xlink:href="#stsz9" transform="translate(-684,-1035)rotate(90)" id="Xiangmei"/>
         <!--Jingtian SZ1-->
         <use xlink:href="#int" x="-614" y="-1135" id="Meijing"/>
-        <use xlink:href="#stsz9" transform="translate(-583,-1185)rotate(-90)" id="Xiameilin"/>
-        <use xlink:href="#stsz9" transform="translate(-515,-1185)rotate(-90)" id="Meicun"/>
         <!--Shangmeilin SZ4-->
         <use xlink:href="#int" x="-379" y="-1185" id="Maling"/>
         <use xlink:href="#int" x="-304" y="-1185" id="Yinhu"/>
@@ -1371,7 +1373,7 @@ viewBox="-1700 -1900 3700 2900"
     <g id="Station_names_EN" font-size="8.5pt" style="visibility:visible">
         <g id="Guangshen_Railway_names_EN">
             <g text-anchor="end">
-                <text x="-101" y="-845" class="StationNameEN">Shenzhen</text>
+                <text x="-101" y="-845" fill="#555555" font-family="Arial" font-weight="bold" alignment-baseline="middle">Shenzhen</text>
                 <text x="68" y="164" class="StationNameEN">Kowloon</text>
             </g>
         </g>
@@ -1381,170 +1383,10 @@ viewBox="-1700 -1900 3700 2900"
             </g>
         </g>
 
-        <g id="SZ1_names_EN">
-            <g text-anchor="start">
-                <text x="-1054" y="-1019" class="StationNameEN">the World<tspan x="-1054" dy="-12" class="StationNameEN">Window of</tspan></text>
-                <text x="-440" y="-909" class="StationNameEN">CEC</text>
-                <text x="-336" y="-900" class="StationNameEN">Hua-<tspan x="-336" dy="12" class="StationNameEN">qiang</tspan><tspan x="-336" dy="12" class="StationNameEN">Road</tspan></text>
-                <text x="-83" y="-1016" class="StationNameEN">Laojie</text>
-                <text x="-27" y="-930" class="StationNameEN">Guomao</text>
-                <text x="-27" y="-845" class="StationNameEN">Luohu</text>
-            </g>
-            <g text-anchor="middle">
-                <text x="-988" y="-979" class="StationNameEN">OCT</text>
-                <text x="-911" y="-979" class="StationNameEN">OCT East</text>
-                <text x="-834" y="-979" class="StationNameEN">Zhuzilin</text>
-                <text x="-684" y="-979" class="StationNameEN">Lake<tspan x="-684" dy="-12" class="StationNameEN">Xiangmi</tspan></text>
-                <text x="-223" y="-959" class="StationNameEN">Science Museum</text>
-            </g>
-            <g text-anchor="end">
-                <text x="-528" y="-881" class="StationNameEN">Shopping<tspan x="-528" dy="12" class="StationNameEN">Park</tspan></text>
-                <text x="-388" y="-881" class="StationNameEN">Gangxia</text>
-            </g>
-        </g>
-        <g id="SZ2_names_EN">
-            <g text-anchor="start">
-                <text x="-1247" y="-945" class="StationNameEN">Keyuan</text>
-                <text x="-440" y="-979" class="StationNameEN">Centre<tspan x="-440" dy="-12" class="StationNameEN">Civic</tspan></text>
-                <text x="-144" y="-947" class="StationNameEN">Grand<tspan x="-144" dy="12" class="StationNameEN">Theatre</tspan></text>
-            </g>
-            <g text-anchor="middle">
-                <text x="-1034" y="-1099" class="StationNameEN">OCT North</text>
-                <text x="-964" y="-1071" class="StationNameEN">Shenkang</text>
-                <text x="-824" y="-1071" class="StationNameEN">Qiaoxiang</text>
-                <text x="-754" y="-1071" class="StationNameEN">Xiangmi</text>
-                <text x="-258" y="-1003" class="StationNameEN">Yannan</text>
-                <text x="7" y="-949" class="StationNameEN">Hubei</text>
-                <text x="133" y="-949" class="StationNameEN">Xinxiu</text>
-                <text x="247" y="-1066" class="StationNameEN">Xianhu<tspan x="247" dy="12" class="StationNameEN">Road</tspan></text>
-                <text x="317" y="-1064" class="StationNameEN">Liantang</text>
-            </g>
-            <g text-anchor="end">
-                <text x="-675" y="-1101" class="StationNameEN">North<tspan x="-675" dy="-12" class="StationNameEN">Xiangmei</tspan></text>
-                <text x="-561" y="-1031" class="StationNameEN">Lianhua<tspan x="-561" dy="12" class="StationNameEN">West</tspan></text>
-                <text x="-302" y="-1003" class="StationNameEN">North<tspan x="-302" dy="-12" class="StationNameEN">Huaqiang</tspan></text>
-                <text x="175" y="-1008" class="StationNameEN">Liantang<tspan x="175" dy="12" class="StationNameEN">Checkpoint</tspan></text>
-            </g>
-        </g>
-        <g id="SZ3_names_EN">
-            <g text-anchor="start">
-                <text x="-440" y="-1049" class="StationNameEN">Palace<tspan x="-440" dy="-12" class="StationNameEN">Children's</tspan></text>
-                <text x="-370" y="-1049" class="StationNameEN">Village<tspan x="-370" dy="-12" class="StationNameEN">Lianhua</tspan></text>
-                <text x="-284" y="-1049" class="StationNameEN">Huaxin</text>
-                <text x="-214" y="-1021" class="StationNameEN">Tongxin-<tspan x="-214" dy="12" class="StationNameEN">ling</tspan></text>
-                <text x="-22" y="-1044" class="StationNameEN">Shaibu</text>
-                <text x="13" y="-1079" class="StationNameEN">Cuizhu</text>
-            </g>
-            <g text-anchor="middle">
-                <text x="-500" y="-742" class="StationNameEN">Trade Zone<tspan x="-500" dy="-12" class="StationNameEN">Futian Free</tspan></text>
-                
-            </g>
-            <g text-anchor="end">
-                <text x="-552" y="-791" class="StationNameEN">Yitian</text>
-                <text x="-528" y="-810" class="StationNameEN">Shixia</text>
-                <text x="-162" y="-1049" class="StationNameEN">Hongling</text>
-            </g>
-        </g>
-        <g id="SZ4_names_EN">
-            <g text-anchor="start">
-                <text x="-438" y="-1116" class="StationNameEN">Lianhua<tspan x="-438" dy="12" class="StationNameEN">North</tspan></text>
-                <text x="-368" y="-790" class="StationNameEN">Futian Checkpoint</text>
-            </g>
-            <g text-anchor="end">
-                <text x="-457" y="-1305" class="StationNameEN">Minle</text>
-            </g>
-        </g>
-        <g id="SZ5_names_EN">
-            <g text-anchor="start">
-                <text x="115" y="-1075" class="StationNameEN">Yijing</text>
-            </g>
-            <g text-anchor="middle">
-                <text x="52" y="-990" class="StationNameEN">Huangbeiling</text>
-            </g>
-        </g>
-        <g id="SZ6_names_EN">
-            <g text-anchor="start">
-                <text x="-412" y="-1312" class="StationNameEN">Checkpoint<tspan x="-412" dy="-12" class="StationNameEN">Meilin</tspan></text>
-                <text x="-212" y="-1091" class="StationNameEN">Sports<tspan x="-212" dy="12" class="StationNameEN">Centre</tspan></text>
-            </g>
-        </g>
-        <g id="SZ7_names_EN">
-            <g text-anchor="start">
-                <text x="-707" y="-894" class="StationNameEN">Shangsha</text>
-                <text x="-282" y="-855" class="StationNameEN">Fulin</text>
-                <text x="-282" y="-885" class="StationNameEN">Chiwei</text>
-                <text x="-282" y="-921" class="StationNameEN">Huaqiang<tspan x="-282" dy="12" class="StationNameEN">South</tspan></text>
-                <text x="-285" y="-1091" class="StationNameEN">Huangmu-<tspan x="-285" dy="12" class="StationNameEN">gang</tspan></text>
-                <text x="-260" y="-1151" class="StationNameEN">Bagualing</text>
-            </g>
-            <g text-anchor="middle">
-                <text x="-824" y="-1021" class="StationNameEN">Nonglin</text>
-                <text x="-616" y="-838" class="StationNameEN">Shawei</text>
-                <text x="-449" y="-810" class="StationNameEN">Huanggang<tspan x="-449" dy="12" class="StationNameEN">Village</tspan></text>
-                <text x="-334" y="-840" class="StationNameEN">Huanggang<tspan x="-334" dy="-12" class="StationNameEN">Checkpoint</tspan></text>
-            </g>
-            <g text-anchor="end">
-                <text x="-162" y="-1121" class="StationNameEN">Hongling<tspan x="-162" dy="12" class="StationNameEN">North</tspan></text>
-            </g>
-        </g>
-        <g id="SZ8_names_EN">
-            <g text-anchor="start">
-                <text x="389" y="-1052" class="StationNameEN">Mount Wutong<tspan x="389" dy="12" class="StationNameEN">South</tspan></text>
-            </g>
-            <g text-anchor="middle">
-                <text x="734" y="-1001" class="StationNameEN">Shatoujiao</text>
-            </g>
-        </g>
-        <g id="SZ9_names_EN">
-            <g text-anchor="start">
-                <text x="-142" y="-1085" class="StationNameEN">Yuanling</text>
-            </g>
-            <g text-anchor="middle">
-                <text x="-1186" y="-1008" class="StationNameEN">Hi-Tech<tspan x="-1186" dy="12" class="StationNameEN">Park South</tspan></text>
-                <text x="-1065" y="-881" class="StationNameEN">Hongshu<tspan x="-1065" dy="12" class="StationNameEN">Bay South</tspan></text>
-                <text x="-988" y="-881" class="StationNameEN">Shenwan</text>
-                <text x="-911" y="-881" class="StationNameEN">Shenzhen<tspan x="-911" dy="12" class="StationNameEN">Bay Park</tspan></text>
-                <text x="-834" y="-881" class="StationNameEN">Xiasha</text>
-                <text x="-684" y="-1021" class="StationNameEN">Xiangmei</text>
-                <text x="-122" y="-881" class="StationNameEN">Ludan<tspan x="-122" dy="12" class="StationNameEN">Village</tspan></text>
-                <text x="-63" y="-881" class="StationNameEN">Renmin<tspan x="-63" dy="12" class="StationNameEN">South</tspan></text>
-                <text x="7" y="-881" class="StationNameEN">Xiangxi<tspan x="7" dy="12" class="StationNameEN">Village</tspan></text>
-                <text x="77" y="-881" class="StationNameEN">Wenjin</text>
-            </g>
-            <g text-anchor="end">
-                <text x="-164" y="-932" class="StationNameEN">Hongling<tspan x="-164" dy="12" class="StationNameEN">South</tspan></text>
-            </g>
-        </g>
-        <g id="SZ10_names_EN">
-            <g text-anchor="start">
-                <text x="-368" y="-1110" class="StationNameEN">Donggualing</text>
-                <text x="-419" y="-840" class="StationNameEN">Fumin</text>
-            </g>
-        </g>
-        <g id="SZ11_names_EN">
-            <g text-anchor="middle">
-                <text x="-338" y="-940" class="StationNameEN">Shanghai<tspan x="-338" dy="12" class="StationNameEN">Hotel</tspan></text>
-            </g>
-            <g text-anchor="end">
-                <text x="-765" y="-937" class="StationNameEN">Chegong<tspan x="-765" dy="12" class="StationNameEN">Temple</tspan></text>
-                <text x="-502" y="-938" class="StationNameEN">Futian</text>
-                <text x="-387" y="-938" class="StationNameEN">Gangxia<tspan x="-387" dy="12" class="StationNameEN">North</tspan></text>
-            </g>
-        </g>
-        <g id="SZ13_names_EN">
-            <g text-anchor="start">
-                <text x="-1245" y="-886" class="StationNameEN">Houhai</text>
-                <text x="-1245" y="-822" class="StationNameEN">Dengliang<tspan x="-1245" dy="12" class="StationNameEN">East</tspan></text>
-            </g>
-            <g text-anchor="middle">
-                <text x="-1186" y="-741" class="StationNameEN">Shenzhen Bay<tspan x="-1186" dy="12" class="StationNameEN">Checkpoint</tspan></text>
-            </g>
-        </g>
-        <g id="SZ17_names_EN">
-            <g text-anchor="start">
-                <text x="-92" y="-915" class="StationNameEN">Shangjian</text>
-            </g>
-        </g>
+        <text x="-495" y="-930" text-anchor="end" fill="#555555" font-family="Arial" font-weight="bold" alignment-baseline="middle">Futian</text>
+        <text x="-27" y="-845" text-anchor="start" fill="#555555" font-family="Arial" font-weight="bold" alignment-baseline="middle">Luohu</text>
+        <text x="-368" y="-790" text-anchor="start" fill="#555555" font-family="Arial" font-weight="bold" alignment-baseline="middle">Futian Checkpoint</text>
+        <text x="175" y="-1008" text-anchor="end" fill="#555555" font-family="Arial" font-weight="bold" alignment-baseline="middle">Liantang<tspan x="175" dy="12" alignment-baseline="middle">Checkpoint</tspan></text>
 
         <g id="TWL_names_EN">
             <g text-anchor="start">
