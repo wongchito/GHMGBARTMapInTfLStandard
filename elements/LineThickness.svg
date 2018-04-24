@@ -37,9 +37,9 @@ viewBox="80 35 120 85">
         M 123,53 H 189
     "/>
     
-    <g dominant-baseline="middle" text-anchor="middle">
-        <text class="StationName" font-size="8.5pt" x="119" y="70">Exhibition<tspan x="119" dy="12">Centre</tspan></text>
-        <text class="CorporateGrey" font-family="Arial,sans-serif" font-weight="bold" font-size="8.5pt" x="152" y="70">x<tspan x="152" dy="6">x</tspan><tspan x="152" dy="6">x</tspan></text>
+    <g  text-anchor="middle">
+        <text class="StationName" font-size="8.5pt" x="119" y="70" dominant-baseline="middle">Exhibition<tspan x="119" dy="12">Centre</tspan></text>
+        <text class="CorporateGrey" font-family="Arial,sans-serif" font-weight="bold" font-size="8.5pt" x="152" y="70" dominant-baseline="middle">x<tspan x="152" dy="6">x</tspan><tspan x="152" dy="6">x</tspan></text>
     </g>
 
     <path stroke-width="0.1" stroke="#000" d="
