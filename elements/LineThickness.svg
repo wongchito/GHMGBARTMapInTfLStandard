@@ -28,19 +28,20 @@ viewBox="80 35 120 85">
     
     <path stroke-width="6" class="cerl" d="M 90,50 H 120"/>
     <use xlink:href="#sterl" transform="translate(105,50)rotate(-90)"/>
-    <text class="StationName" font-size="8.5pt" x="125" y="50" alignment-baseline="middle">Admiralty</text>
+    <text class="StationName" font-size="8.5pt" x="125" y="50" dominant-baseline="middle">Admiralty</text>
 
-    <text class="CorporateGrey" font-family="Arial,sans-serif" font-weight="bold" font-size="8.5pt" x="183" y="50" alignment-baseline="middle" text-anchor="middle">x</text>
+    <text class="CorporateGrey" font-family="Arial,sans-serif" font-weight="bold" font-size="8.5pt" x="183" y="50" dominant-baseline="middle" text-anchor="middle">x</text>
     
     <path stroke-width="0.1" stroke="#000" d="
         M 123,47 H 189
         M 123,53 H 189
     "/>
-
-    <text class="StationName" font-size="8.5pt" x="119" y="70" alignment-baseline="middle" text-anchor="middle">Exhibition<tspan x="119" dy="12" alignment-baseline="middle">Centre</tspan></text>
-
-    <text class="CorporateGrey" font-family="Arial,sans-serif" font-weight="bold" font-size="8.5pt" x="152" y="70" alignment-baseline="middle" text-anchor="middle">x<tspan x="152" dy="6" alignment-baseline="middle">x</tspan><tspan x="152" dy="6" alignment-baseline="middle">x</tspan></text>
     
+    <g dominant-baseline="middle" text-anchor="middle">
+        <text class="StationName" font-size="8.5pt" x="119" y="70">Exhibition<tspan x="119" dy="12">Centre</tspan></text>
+        <text class="CorporateGrey" font-family="Arial,sans-serif" font-weight="bold" font-size="8.5pt" x="152" y="70">x<tspan x="152" dy="6">x</tspan><tspan x="152" dy="6">x</tspan></text>
+    </g>
+
     <path stroke-width="0.1" stroke="#000" d="
         M 90,67 H 157
         M 90,73 H 157
