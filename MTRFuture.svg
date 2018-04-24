@@ -318,7 +318,8 @@ viewBox="-2100 -2100 4100 3100"
 
     <g class="LineDiagram">
         <path id="SZ1_route" class="csz1" d="
-            M -1745,-1300
+            M -1843,-1261
+            L -1751,-1169 a 21,21 0 0,1 6,15
             V -1046 a 21,21 0 0,0 21,21
             H -1344 a 21,21 0 0,0 15,-6
             L -1284,-1079 a 21,21 0 0,1 15,-6
@@ -381,8 +382,10 @@ viewBox="-2100 -2100 4100 3100"
             M -1873,-849
             L -1763,-959 a 21,21 0 0,0 6,-15
             V -1134 a 21,21 0 0,0 -21,-21
-            H -1848
-            M -1300,-1435
+            H -1848 a 21,21 0 0,1 -21,-21
+            V -1226 a 21,21 0 0,1 6,-15
+            L -1863,-1241
+            L -1675,-1429 a 21,21 0 0,1 15,-6
             H -635 a 21,21 0 0,0 15,-6
             L -534,-1527 a 21,21 0 0,1 15,-6
             H -173 a 21,21 0 0,1 15,6
@@ -455,7 +458,8 @@ viewBox="-2100 -2100 4100 3100"
             H -1262 a 21,21 0 0,1 -15,-6
             L -1323,-953 a 21,21 0 0,0 -15,-6
             H -1730 a 21,21 0 0,1 -21,-21
-            V -1300
+            V -1101 a 21,21 0 0,0 -6,-15
+            L -1857,-1216
         "/>
         <path id="SZ12_route" class="csz12" d="
             M -1466,-1200
@@ -503,7 +507,8 @@ viewBox="-2100 -2100 4100 3100"
             L -64,-845
         "/>
         <path id="SZ20_route" class="csz20" d="
-            M -1500,-1091
+            M -1785,-1319
+            L -1563,-1097 a 21,21 0 0,0 15,6
             H -1150 a 21,21 0 0,1 15,6
             L -1004,-954 a 21,21 0 0,0 15,6
             H -696 a 21,21 0 0,1 15,6
@@ -932,6 +937,11 @@ viewBox="-2100 -2100 4100 3100"
         <circle cx="-1757" cy="-1091" r="6" fill="#fff"/>
         <circle cx="-1745" cy="-1091" r="6" fill="#fff"/>
         <use xlink:href="#stsz5" transform="translate(-1828,-1155)rotate(90)" id="Linhai"/>
+        <use xlink:href="#stsz5" transform="translate(-1869,-1186)rotate(180)" id="Baohua"/>
+        <use xlink:href="#int" x="-1843" y="-1261" id="Baoan_Centre"/>
+        <use xlink:href="#stsz5" transform="translate(-1793,-1311)rotate(-135)" id="Fanshen"/>
+        <use xlink:href="#int" x="-1735" y="-1369" id="Lingzhi"/>
+        <use xlink:href="#int" x="-1685" y="-1419" id="Honglang_North"/>
         <use xlink:href="#int" x="-1256" y="-1435" id="Liuxiandong"/>
         <use xlink:href="#int" x="-1186" y="-1435" id="Xili"/>
         <use xlink:href="#int" x="-379" y="-1533" id="Wuhe"/>
