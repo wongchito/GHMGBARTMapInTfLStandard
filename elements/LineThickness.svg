@@ -37,9 +37,10 @@ viewBox="80 35 120 85">
         M 123,53 H 189
     "/>
 
-    <text class="StationName" font-size="8.5pt" x="119" y="70" alignment-baseline="middle" text-anchor="middle">Exhibition<tspan x="119" dy="12" alignment-baseline="middle">Centre</tspan></text>
-
-    <text class="CorporateGrey" font-family="Arial,sans-serif" font-weight="bold" font-size="8.5pt" x="152" y="70" alignment-baseline="middle" text-anchor="middle">x<tspan x="152" dy="6" alignment-baseline="middle">x</tspan><tspan x="152" dy="6" alignment-baseline="middle">x</tspan></text>
+    <g text-anchor="middle">
+        <text class="StationName" font-size="8.5pt" x="119" y="70" alignment-baseline="middle">Exhibition<tspan x="119" dy="12" alignment-baseline="middle">Centre</tspan></text>
+        <text class="CorporateGrey" font-family="Arial,sans-serif" font-weight="bold" font-size="8.5pt" x="152" y="70" alignment-baseline="middle">x<tspan x="152" dy="6" alignment-baseline="middle">x</tspan><tspan x="152" dy="6" alignment-baseline="middle">x</tspan></text>
+    </g>
     
     <path stroke-width="0.1" stroke="#000" d="
         M 90,67 H 157
