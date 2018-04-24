@@ -220,9 +220,9 @@ viewBox="-2100 -2100 4100 3100"
         V -705.25 a 21,21 0 0,0 21,21
         h 2 v 14.5 h -2 a 21,21 0 0,0 -21,21
 
-        V -620 a 21,21 0 0,1 -6,15
-        L -854,-485 a 21,21 0 0,0 -6,15
-
+        V -620 a 21,21 0 0,1 -21,21
+        H -856 a 21,21 0 0,0 -15,6
+        L -1171,-293 a 21,21 0 0,0 -6,15
         V -148 a 21,21 0 0,0 21,21
         H -364 a 21,21 0 0,1 21,21
         V 138 a 21,21 0 0,0 21,21
@@ -673,7 +673,7 @@ viewBox="-2100 -2100 4100 3100"
             V -703
         "/>
         <path id="WRL_route" class="cwrl" d="
-            M -709,-188
+            M -829,-188
             V -443 a 21,21 0 0,1 21,-21
             H -491 a 21,21 0 0,1 21,21
             V -174 a 21,21 0 0,0 21,21
@@ -708,30 +708,30 @@ viewBox="-2100 -2100 4100 3100"
         "/>
         <g class="clrl">
             <path id="LRL_route" d="
-            M -538,-442
+            M -578,-442
             V -404 a 21,21 0 0,1 -21,21
-            H -703 a 21,21 0 0,0 -21,21
+            H -823 a 21,21 0 0,0 -21,21
             V -243
 
-            M -673,-383
+            M -773,-383
             V -479
 
-            M -643,-479
-            H -603 a 21,21 0 0,0 21,-21
+            M -743,-479
+            H -703 a 21,21 0 0,0 21,-21
             V -530 a 21,21 0 0,0 -21,-21
-            H -683 a 21,21 0 0,0 -21,21
+            H -783 a 21,21 0 0,0 -21,21
             V -500 a 21,21 0 0,0 21,21 Z
 
-            M -704,-515 H -582
+            M -804,-515 H -682
 
-            M -724,-343
-            H -708 a 21,21 0 0,1 21,21
+            M -844,-343
+            H -828 a 21,21 0 0,1 21,21
             V -174 a 21,21 0 0,1 -21,21
-            H -740 a 21,21 0 0,1 -21,-21
+            H -860 a 21,21 0 0,1 -21,-21
             V -322 a 21,21 0 0,1 21,-21 Z
 
-            M -761,-293 H -724
-            M -761,-243 H -687
+            M -881,-293 H -844
+            M -881,-243 H -807
             "/>
         </g>
         <use xlink:href="#LRL_route" class="NonMetro"/>
@@ -799,9 +799,9 @@ viewBox="-2100 -2100 4100 3100"
         <use xlink:href="#Xiashen_Railway" class="Railway"/>
         <g class="cprdir">
             <path id="Shenzhen_Huizhou_IC" d="
-                M -1772,-1096
-                V -1106 a 21,21 0 0,1 6,-15
-                L -1616,-1271 a 21,21 0 0,1 15,-6
+                M -1772,-1066
+                V -1086 a 21,21 0 0,1 6,-15
+                L -1596,-1271 a 21,21 0 0,1 15,-6
                 H -1123 a 21,21 0 0,0 15,-6
                 L -984,-1407 a 21,21 0 0,1 15,-6
                 H -679 a 21,21 0 0,0 15,-6
@@ -842,10 +842,10 @@ viewBox="-2100 -2100 4100 3100"
     </g>
     <g id="Shenzhen_Huizhou_IC_station_icons">
         <path class="PaidTunnel" d="
-            M -1772,-1096 L -1757,-1081
+            M -1772,-1066 L -1757,-1081
             M -1242,-1277 L -1259,-1295
         "/>
-        <use xlink:href="#int" x="-1772" y="-1096" id="Qianhaiwan"/>
+        <use xlink:href="#int" x="-1772" y="-1066" id="Qianhaiwan"/>
         <use xlink:href="#int" x="-1242" y="-1277" id="Xili"/>
     </g>
     <g id="GZ_SZ_HK_XRL_station_icons">
@@ -1432,20 +1432,20 @@ viewBox="-2100 -2100 4100 3100"
     </g>
     <g id="WRL_station_icons">
         <path class="PaidTunnel" d="
-            M -709,-188 H -687
-            M -709,-258 L -724,-243
-            M -709,-328 L -724,-343
-            M -709,-398 L -694,-383
-            M -658,-464 L -643,-479
-            M -538,-464 V -442
+            M -829,-188 H -807
+            M -829,-258 L -844,-243
+            M -829,-328 L -844,-343
+            M -829,-398 L -814,-383
+            M -758,-464 L -743,-479
+            M -578,-464 V -442
         "/>
-        <use xlink:href="#int" x="-709" y="-188" id="TMS"/>
-        <use xlink:href="#int" x="-709" y="-258" id="TUM"/>
-        <use xlink:href="#int" x="-709" y="-328" id="SIH"/>
-        <use xlink:href="#int" transform="translate(-709,-398)rotate(0)" id="HSK"/>
-        <use xlink:href="#int" x="-658" y="-464" id="TSW"/>
-        <use xlink:href="#stwrl" transform="translate(-598,-464)rotate(90)" id="LOP"/>
-        <use xlink:href="#int" x="-538" y="-464" id="YUL"/>
+        <use xlink:href="#int" x="-829" y="-188" id="TMS"/>
+        <use xlink:href="#int" x="-829" y="-258" id="TUM"/>
+        <use xlink:href="#int" x="-829" y="-328" id="SIH"/>
+        <use xlink:href="#int" transform="translate(-829,-398)rotate(0)" id="HSK"/>
+        <use xlink:href="#int" x="-758" y="-464" id="TIS"/>
+        <use xlink:href="#stwrl" transform="translate(-668,-464)rotate(90)" id="LOP"/>
+        <use xlink:href="#int" x="-578" y="-464" id="YUL"/>
         <use xlink:href="#int" x="-467" y="-433" id="KSR"/>
         <use xlink:href="#stwrl" transform="translate(-392,-153)rotate(-90)" id="TWW"/>
         <use xlink:href="#int" x="-233" y="-21" id="NAC"/>
@@ -1484,12 +1484,12 @@ viewBox="-2100 -2100 4100 3100"
         <use xlink:href="#int" x="238" y="-1002" id="HYW"/>
     </g>
     <g id="LRL_station_icons">
-        <use xlink:href="#int" x="-687" y="-188" id="TMS_LRL"/>
-        <use xlink:href="#int" x="-724" y="-243" id="TUM_LRL"/>
-        <use xlink:href="#int" x="-724" y="-343" id="SIH_LRL"/>
-        <use xlink:href="#int" x="-694" y="-383" id="HSK_LRL"/>
-        <use xlink:href="#int" x="-643" y="-479" id="TSW_LRL"/>
-        <use xlink:href="#int" x="-538" y="-442" id="YUL_LRL"/>
+        <use xlink:href="#int" x="-807" y="-188" id="TMS_LRL"/>
+        <use xlink:href="#int" x="-844" y="-243" id="TUM_LRL"/>
+        <use xlink:href="#int" x="-844" y="-343" id="SIH_LRL"/>
+        <use xlink:href="#int" x="-814" y="-383" id="HSK_LRL"/>
+        <use xlink:href="#int" x="-743" y="-479" id="TIS_LRL"/>
+        <use xlink:href="#int" x="-578" y="-442" id="YUL_LRL"/>
     </g>
     <g id="EFLS_station_icons">
         <use xlink:href="#int" x="384" y="-30" id="KOB_EFLS"/>
@@ -1906,22 +1906,22 @@ viewBox="-2100 -2100 4100 3100"
         </g>
         <g id="WRL_names_EN">
             <g text-anchor="start">
-                <text x="-676" y="-194" class="StationNameEN">Tuen Mun<tspan x="-676" dy="12" class="StationNameEN">South</tspan></text>
-                <text x="-676" y="-258" class="StationNameEN">Tuen Mun</text>
-                <text x="-676" y="-328" class="StationNameEN">Siu Hong</text>
+                <text x="-796" y="-194" class="StationNameEN">Tuen Mun<tspan x="-796" dy="12" class="StationNameEN">South</tspan></text>
+                <text x="-796" y="-258" class="StationNameEN">Tuen Mun</text>
+                <text x="-796" y="-328" class="StationNameEN">Siu Hong</text>
                 <text x="-456" y="-439" class="StationNameEN">Kam Sheung<tspan x="-456" dy="12" class="StationNameEN">Road</tspan></text>
                 <text x="-222" y="-27" class="StationNameEN">Nam<tspan x="-222" dy="12" class="StationNameEN">Cheong</tspan></text>
                 <text x="-127" y="119" class="StationNameEN">Austin</text>
                 <text x="6" y="211" class="StationNameEN">East<tspan x="6" dy="12" class="StationNameEN">Tsim Sha Tsui</tspan></text>
             </g>
             <g text-anchor="middle">
-                <text x="-658" y="-448" class="StationNameEN">Tin Shui Wai</text>
-                <text x="-598" y="-450" class="StationNameEN">Long<tspan x="-598" dy="12" class="StationNameEN">Ping</tspan></text>
-                <text x="-538" y="-480" class="StationNameEN">Yuen Long</text>
+                <text x="-758" y="-448" class="StationNameEN">Tin Shui Wai</text>
+                <text x="-668" y="-450" class="StationNameEN">Long<tspan x="-668" dy="12" class="StationNameEN">Ping</tspan></text>
+                <text x="-578" y="-480" class="StationNameEN">Yuen Long</text>
                 <text x="-392" y="-167" class="StationNameEN">Tseun Wan West</text>
             </g>
             <g text-anchor="end">
-                <text x="-720" y="-398" class="StationNameEN">Hung Shui Kiu</text>
+                <text x="-840" y="-398" class="StationNameEN">Hung Shui Kiu</text>
             </g>
         </g>
         <g id="MOL_names_EN">
