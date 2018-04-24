@@ -211,7 +211,8 @@ viewBox="-2100 -2100 4100 3100"
 	</g>
 
     <path id="Victoria_Harbour" class="Sea" d="
-        M -1135,-700
+        M -1341,-444
+        L -1141,-644 a 21,21 0 0,0 6,-15
         V -834 a 21,21 0 0,1 21,-21
 
         H -849 a 21,21 0 0,1 15,6
@@ -224,6 +225,7 @@ viewBox="-2100 -2100 4100 3100"
         H -856 a 21,21 0 0,0 -15,6
         L -1171,-293 a 21,21 0 0,0 -6,15
         V -148 a 21,21 0 0,0 21,21
+
         H -364 a 21,21 0 0,1 21,21
         V 138 a 21,21 0 0,0 21,21
         H -176 a 21,21 0 0,1 21,21
@@ -276,21 +278,23 @@ viewBox="-2100 -2100 4100 3100"
         L -121,646 a 21,21 0 0,1 -15,36 Z
     "/>
     <path id="Tsing_Yi_Island" class="Island" d="
-        M -359,-90
+        M -379,-90
         V -20 a 21,21 0 0,1 -21,21
-        H -392 a 21,21 0 0,1 -21,-21
+        H -412 a 21,21 0 0,1 -21,-21
         V -90 a 21,21 0 0,1 21,-21
-        H -380 a 21,21 0 0,1 21,21 Z
+        H -400 a 21,21 0 0,1 21,21 Z
     "/>
     <path id="Lantau_Island" class="Island" d="
-        M -771,185 a 21,21 0 0,0 15,-6
-        L -551,-26 a 21,21 0 0,1 30,0
-        L -426,69 a 21,21 0 0,1 6,15
-        V 132 a 21,21 0 0,1 -21,21
-        H -471 a 21,21 0 0,0 -15,6
-        L -766,439 a 21,21 0 0,1 -15,6
-        H -879 a 21,21 0 0,1 -21,-21
-        V 206 a 21,21 0 0,1 21,-21 Z
+        M -1000,682
+        H -650 a 21,21 0 0,0 21,-21
+        V 174 a 21,21 0 0,1 21,-21
+        H -441 a 21,21 0 0,0 21,-21
+        V 84 a 21,21 0 0,0 -6,-15
+        L -541,-46 a 21,21 0 0,0 -30,0
+        L -871,254 a 21,21 0 0,1 -15,6
+        H -1176 a 21,21 0 0,0 -15,6
+        L -1441,516 a 21,21 0 0,0 -6,15
+        V 661 a 21,21 0 0,0 21,21 Z
     "/>
     <path id="Chek_Lap_Kok" class="Island" d="
         M -766,159
@@ -610,26 +614,26 @@ viewBox="-2100 -2100 4100 3100"
             V 148
         "/>
         <path id="TCL_route" class="ctcl" d="
-            M -761,244
-            L -438,-79 a 21,21 0 0,1 15,-6
+            M -901,364
+            L -458,-79 a 21,21 0 0,1 15,-6
             H -257 a 21,21 0 0,1 21,21
             V 336 a 21,21 0 0,0 21,21
             H -50
         "/>
         <path id="AEL_route" class="cael" d="
-            M -761,11
-            V 101 a 21,21 0 0,0 21,21
-            H -678 a 21,21 0 0,0 15,-6
-            L -490,-57 a 21,21 0 0,1 15,-6
+            M -901,131
+            V 221 a 21,21 0 0,0 21,21
+            H -818 a 21,21 0 0,0 15,-6
+            L -510,-57 a 21,21 0 0,1 15,-6
             H -278 a 21,21 0 0,1 21,21
             V 342 a 21,21 0 0,0 21,21
             H -153
         "/>
         <path id="DRL_route" class="cdrl" d="
-            M -558,49
-            L -548,39 a 21,21 0 0,1 15,-6
+            M -558,29
+            L -548,19 a 21,21 0 0,1 15,-6
             H -523 a 21,21 0 0,1 21,21
-            V 94 a 21,21 0 0,0 21,21
+            V 74 a 21,21 0 0,0 21,21
             H -471
         "/>
         <path id="SILE_route" class="csile" d="
@@ -749,11 +753,11 @@ viewBox="-2100 -2100 4100 3100"
         <use xlink:href="#EFLS_route" class="NonMetro"/>
         <g class="c360">
             <path id="360_route" d="
-            M -726,179
-            L -761,144 a 21,21 0 0,0 -15,-6
-            H -786 a 21,21 0 0,0 -15,6
-            L -861,204 a 21,21 0 0,0 -6,15
-            V 320
+            M -866,299
+            L -901,264 a 21,21 0 0,0 -15,-6
+            H -926 a 21,21 0 0,0 -15,6
+            L -1001,324 a 21,21 0 0,0 -6,15
+            V 440
             "/>
         </g>
         <use xlink:href="#360_route" class="NonMetro"/>
@@ -1329,18 +1333,18 @@ viewBox="-2100 -2100 4100 3100"
         <use xlink:href="#termtkl" transform="translate(761,148)rotate(0)" id="LHP"/>
     </g>
     <g id="TCL_station_icons">
-        <use xlink:href="#termtcl" transform="translate(-761,244)rotate(45)" id="TCW"/>
+        <use xlink:href="#termtcl" transform="translate(-901,364)rotate(45)" id="TCW"/>
         <path class="PaidTunnel" d="
-            M -711,194 L -726,179
+            M -851,314 L -866,299
         "/>
-        <use xlink:href="#int" transform="translate(-711,194)rotate(45)" id="TUC"/>
-        <use xlink:href="#sttcl" transform="translate(-661,144)rotate(45)" id="TCE"/>
-        <use xlink:href="#int" transform="translate(-559.5,46.5)" id="SUN"/>
+        <use xlink:href="#int" transform="translate(-851,314)rotate(45)" id="TUC"/>
+        <use xlink:href="#sttcl" transform="translate(-801,264)rotate(45)" id="TCE"/>
+        <use xlink:href="#int" transform="translate(-559.5,26.5)" id="SUN"/>
         <!--Original -561,44-->
         <path class="PaidTunnel" d="
-            M -386,-85 V -63
+            M -406,-85 V -63
         "/>
-        <use xlink:href="#int" transform="translate(-386,-85)" id="TSY"/>
+        <use xlink:href="#int" transform="translate(-406,-85)" id="TSY"/>
         <!--LAK TWL-->
         <!--NAC WRL-->
         <path class="PaidTunnel" d="
@@ -1360,15 +1364,15 @@ viewBox="-2100 -2100 4100 3100"
         <use xlink:href="#int" x="-50" y="357" id="TAM"/>
     </g>
     <g id="AEL_station_icons">
-        <use xlink:href="#termael" transform="translate(-761,11)rotate(0)" id="AWE"/>
-        <use xlink:href="#stael" transform="translate(-761,71)rotate(180)" id="AIR"/>
-        <use xlink:href="#int" transform="translate(-386,-63)" id="TSY_AEL"/>
+        <use xlink:href="#termael" transform="translate(-901,131)rotate(0)" id="AWE"/>
+        <use xlink:href="#stael" transform="translate(-901,191)rotate(180)" id="AIR"/>
+        <use xlink:href="#int" transform="translate(-406,-63)" id="TSY_AEL"/>
         <use xlink:href="#int" x="-258" y="119" id="KOW_AEL"/>
         <!--HOK TCL-->
     </g>
     <g id="DRL_station_icons">
         <!--SUN TCL-->
-        <use xlink:href="#termdrl" transform="translate(-471,115)rotate(90)" id="DIS"/>
+        <use xlink:href="#termdrl" transform="translate(-471,95)rotate(90)" id="DIS"/>
     </g>
     <g id="SILE_station_icons">
         <use xlink:href="#int" x="-62" y="435" id="ADM_SILE"/>
@@ -1497,8 +1501,8 @@ viewBox="-2100 -2100 4100 3100"
         <use xlink:href="#int" x="464" y="50" id="KWT_EFLS"/>
     </g>
     <g id="360_station_icons">
-        <use xlink:href="#int" x="-726" y="179" id="TUC_360"/>
-        <use xlink:href="#term360" transform="translate(-867,320)rotate(0)" id="NGP"/>
+        <use xlink:href="#int" x="-866" y="299" id="TUC_360"/>
+        <use xlink:href="#term360" transform="translate(-1007,440)rotate(0)" id="NGP"/>
     </g>
     <g id="PeakTram_station_icons">
         <use xlink:href="#termunknown" transform="translate(-123,472)rotate(0)" id="GAR"/>
@@ -1824,10 +1828,10 @@ viewBox="-2100 -2100 4100 3100"
         </g>
         <g id="TCL_names_EN">
             <g text-anchor="start">
-                <text x="-754" y="256" class="StationNameEN">Tung Chung West</text>
-                <text x="-702" y="208" class="StationNameEN">Tung Chung</text>
-                <text x="-654" y="156" class="StationNameEN">Tung Chung East</text>
-                <text x="-565.5" y="62.5" class="StationNameEN">Sunny Bay</text>
+                <text x="-894" y="376" class="StationNameEN">Tung Chung West</text>
+                <text x="-842" y="328" class="StationNameEN">Tung Chung</text>
+                <text x="-794" y="276" class="StationNameEN">Tung Chung East</text>
+                <text x="-565.5" y="42.5" class="StationNameEN">Sunny Bay</text>
                 <text x="-225" y="59" class="StationNameEN">Olympic</text>
             </g>
             <g text-anchor="middle">
@@ -1837,7 +1841,7 @@ viewBox="-2100 -2100 4100 3100"
         </g>
         <g id="AEL_names_EN">
             <g text-anchor="middle">
-                <text x="-386" y="-47" class="StationNameEN">Tsing Yi</text>
+                <text x="-406" y="-47" class="StationNameEN">Tsing Yi</text>
             </g>
             <g text-anchor="end">
                 <text x="-772" y="11" class="StationNameEN">AsiaWorld-Expo</text>
@@ -1847,7 +1851,7 @@ viewBox="-2100 -2100 4100 3100"
         </g>
         <g id="DRL_names_EN">
             <g text-anchor="middle">
-                <text x="-471" y="129" class="StationNameEN">Disneyland<tspan x="-471" dy="12" class="StationNameEN">Resort</tspan></text>
+                <text x="-471" y="109" class="StationNameEN">Disneyland<tspan x="-471" dy="12" class="StationNameEN">Resort</tspan></text>
             </g>
         </g>
         <g id="SILE_names_EN">
@@ -1960,7 +1964,7 @@ viewBox="-2100 -2100 4100 3100"
         </g>
         <g id="360_names_EN">
             <g text-anchor="start">
-                <text x="-856" y="320" class="StationNameEN">Ngong Ping</text>
+                <text x="-996" y="440" class="StationNameEN">Ngong Ping</text>
             </g>
         </g>
         <g id="PeakTram_names_EN">
