@@ -291,18 +291,19 @@ viewBox="-2100 -2100 4100 3100"
         H -441 a 21,21 0 0,0 21,-21
         V 84 a 21,21 0 0,0 -6,-15
         L -541,-46 a 21,21 0 0,0 -30,0
-        L -871,254 a 21,21 0 0,1 -15,6
-        H -1176 a 21,21 0 0,0 -15,6
+        L -891,274 a 21,21 0 0,1 -15,6
+        H -1196 a 21,21 0 0,0 -15,6
         L -1441,516 a 21,21 0 0,0 -6,15
         V 661 a 21,21 0 0,0 21,21 Z
     "/>
     <path id="Chek_Lap_Kok" class="Island" d="
-        M -766,159
-        L -736,129 a 21,21 0 0,0 6,-15
-        V 6 a 21,21 0 0,0 -21,-21
-        H -860 a 21,21 0 0,0 -21,21
-        V 144 a 21,21 0 0,0 21,21
-        H -781 a 21,21 0 0,0 15,-6 Z
+        M -1020,265
+        H -916 a 21,21 0 0,0 15,-6
+        L -881,239 a 21,21 0 0,0 6,-15
+        V 100 a 21,21 0 0,0 -21,-21
+        H -1070 a 21,21 0 0,0 -15,6
+        L -1195,196 a 21,21 0 0,0 -6,15
+        V 244 a 21,21 0 0,0 21,21 Z
     "/>
     <g class="RiverBG">
         <!--TextGap:18 LineGap:26-->
@@ -621,9 +622,9 @@ viewBox="-2100 -2100 4100 3100"
             H -50
         "/>
         <path id="AEL_route" class="cael" d="
-            M -901,131
-            V 221 a 21,21 0 0,0 21,21
-            H -818 a 21,21 0 0,0 15,-6
+            M -901,105
+            V 221 a 21,21 0 0,0 6,15
+            L -864,267 a 21,21 0 0,0 30,0
             L -510,-57 a 21,21 0 0,1 15,-6
             H -278 a 21,21 0 0,1 21,21
             V 342 a 21,21 0 0,0 21,21
@@ -754,10 +755,10 @@ viewBox="-2100 -2100 4100 3100"
         <g class="c360">
             <path id="360_route" d="
             M -866,299
-            L -901,264 a 21,21 0 0,0 -15,-6
-            H -926 a 21,21 0 0,0 -15,6
-            L -1001,324 a 21,21 0 0,0 -6,15
-            V 440
+            L -911,254 a 21,21 0 0,0 -15,-6
+            H -936 a 21,21 0 0,0 -15,6
+            L -1141,444 a 21,21 0 0,0 -6,15
+            V 500
             "/>
         </g>
         <use xlink:href="#360_route" class="NonMetro"/>
@@ -1364,8 +1365,8 @@ viewBox="-2100 -2100 4100 3100"
         <use xlink:href="#int" x="-50" y="357" id="TAM"/>
     </g>
     <g id="AEL_station_icons">
-        <use xlink:href="#termael" transform="translate(-901,131)rotate(0)" id="AWE"/>
-        <use xlink:href="#stael" transform="translate(-901,191)rotate(180)" id="AIR"/>
+        <use xlink:href="#termael" transform="translate(-901,105)rotate(0)" id="AWE"/>
+        <use xlink:href="#stael" transform="translate(-901,155)rotate(180)" id="AIR"/>
         <use xlink:href="#int" transform="translate(-406,-63)" id="TSY_AEL"/>
         <use xlink:href="#int" x="-258" y="119" id="KOW_AEL"/>
         <!--HOK TCL-->
@@ -1502,7 +1503,7 @@ viewBox="-2100 -2100 4100 3100"
     </g>
     <g id="360_station_icons">
         <use xlink:href="#int" x="-866" y="299" id="TUC_360"/>
-        <use xlink:href="#term360" transform="translate(-1007,440)rotate(0)" id="NGP"/>
+        <use xlink:href="#term360" transform="translate(-1147,500)rotate(0)" id="NGP"/>
     </g>
     <g id="PeakTram_station_icons">
         <use xlink:href="#termunknown" transform="translate(-123,472)rotate(0)" id="GAR"/>
@@ -1844,8 +1845,8 @@ viewBox="-2100 -2100 4100 3100"
                 <text x="-406" y="-47" class="StationNameEN">Tsing Yi</text>
             </g>
             <g text-anchor="end">
-                <text x="-772" y="11" class="StationNameEN">AsiaWorld-Expo</text>
-                <text x="-772" y="71" class="StationNameEN">Airport</text>
+                <text x="-912" y="105" class="StationNameEN">AsiaWorld-Expo</text>
+                <text x="-912" y="155" class="StationNameEN">Airport</text>
                 <text x="-269" y="119" class="StationNameEN">Kowloon</text>
             </g>
         </g>
@@ -1964,7 +1965,7 @@ viewBox="-2100 -2100 4100 3100"
         </g>
         <g id="360_names_EN">
             <g text-anchor="start">
-                <text x="-996" y="440" class="StationNameEN">Ngong Ping</text>
+                <text x="-1136" y="500" class="StationNameEN">Ngong Ping</text>
             </g>
         </g>
         <g id="PeakTram_names_EN">
