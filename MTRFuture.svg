@@ -628,7 +628,8 @@ viewBox="-2700 -2500 4700 3500"
             M -901,364
             L -458,-79 a 21,21 0 0,1 15,-6
             H -257 a 21,21 0 0,1 21,21
-            V 336 a 21,21 0 0,0 21,21
+            V 298 a 21,21 0 0,0 6,15
+            L -192,351 a 21,21 0 0,0 15,6
             H -50
         "/>
         <path id="AEL_route" class="cael" d="
@@ -637,8 +638,9 @@ viewBox="-2700 -2500 4700 3500"
             L -864,267 a 21,21 0 0,0 30,0
             L -510,-57 a 21,21 0 0,1 15,-6
             H -278 a 21,21 0 0,1 21,21
-            V 342 a 21,21 0 0,0 21,21
-            H -153
+            V 307 a 21,21 0 0,0 6,15
+            L -207,366 a 21,21 0 0,0 15,6
+            H -172
         "/>
         <path id="DRL_route" class="cdrl" d="
             M -558,29
@@ -1412,19 +1414,20 @@ viewBox="-2700 -2500 4700 3500"
         <use xlink:href="#int" transform="translate(-406,-85)" id="TSY"/>
         <!--LAK TWL-->
         <!--NAC WRL-->
+        <use xlink:href="#sttcl" transform="translate(-236,59)rotate(0)" id="OLY"/>
         <path class="PaidTunnel" d="
             M -236,119 H -258
+            M -157,357 L -172,372
         "/>
-        <use xlink:href="#sttcl" transform="translate(-236,59)rotate(0)" id="OLY"/>
         <use xlink:href="#int" x="-236" y="119" id="KOW"/>
-        <use xlink:href="#int" x="-157" y="360" id="HOK"/>
+        <use xlink:href="#int" x="-157" y="357" id="HOK"/>
         <g class="DumbbellBG">
             <path id="HOK_CEN_Interchange" d="
-                M -157,360 V 420
+                M -157,357 V 420
             "/>
         </g>
         <use xlink:href="#HOK_CEN_Interchange" class="DumbbellFG"/>
-        <circle cx="-157" cy="360" r="6" fill="#fff"/>
+        <circle cx="-157" cy="357" r="6" fill="#fff"/>
         <circle cx="-157" cy="420" r="6" fill="#fff"/>
         <use xlink:href="#int" x="-50" y="357" id="TAM"/>
     </g>
@@ -1433,7 +1436,7 @@ viewBox="-2700 -2500 4700 3500"
         <use xlink:href="#stael" transform="translate(-901,155)rotate(180)" id="AIR"/>
         <use xlink:href="#int" transform="translate(-406,-63)" id="TSY_AEL"/>
         <use xlink:href="#int" x="-258" y="119" id="KOW_AEL"/>
-        <!--HOK TCL-->
+        <use xlink:href="#int" x="-172" y="372" id="HOK_AEL"/>
     </g>
     <g id="DRL_station_icons">
         <!--SUN TCL-->
