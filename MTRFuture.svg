@@ -11,6 +11,7 @@ viewBox="-2700 -2500 4700 3500"
         .LineDiagram {fill:none;stroke-width:6}
         .NonMetro {stroke:#fff;stroke-width:2}
         .Railway {stroke-dasharray:8,14;stroke-width:3.5;stroke:#fff}
+        .Branch {stroke-dasharray:3.5,3.5;stroke-width:3.5;stroke:#fff}
         .DumbbellBG {stroke:#000;stroke-width:9}
         .DumbbellFG {stroke:#fff;stroke-width:3}
         .PaidTunnel {fill:none;stroke:#0019A8;stroke-width:2}
@@ -681,6 +682,15 @@ viewBox="-2700 -2500 4700 3500"
             L 583,-20 a 21,21 0 0,0 15,6
             H 761
         "/>
+        <g class="cerl">
+            <path id="RAC_Branch" d="
+                M 94,-352 a 21,21 0 0,1 6,-15
+                L 110,-377 a 21,21 0 0,0 6,-15
+                V -402 a 21,21 0 0,0 -6,-15
+                L 100,-427 a 21,21 0 0,1 -6,-15
+            "/>
+        </g>
+        <use xlink:href="#RAC_Branch" class="Branch"/>
         <path id="ERL_route" class="cerl" d="
             M -38,-793
             V -702 a 21,21 0 0,0 6,15
@@ -690,11 +700,6 @@ viewBox="-2700 -2500 4700 3500"
             H 47 a 21,21 0 0,0 -15,6
             L -78,451 a 21,21 0 0,1 -15,6
             H -183
-
-            M 94,-352 a 21,21 0 0,1 6,-15
-            L 110,-377 a 21,21 0 0,0 6,-15
-            V -402 a 21,21 0 0,0 -6,-15
-            L 100,-427 a 21,21 0 0,1 -6,-15
 
             M -12,-667 a 21,21 0 0,0 -15,-6
             H -355 a 21,21 0 0,1 -21,-21
