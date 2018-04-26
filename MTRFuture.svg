@@ -145,6 +145,7 @@ viewBox="-2700 -2500 4700 3500"
         <use xlink:href="#st" id="stsz14" class="csz14"/>
         <use xlink:href="#st" id="stsz15" class="csz15"/>
         <use xlink:href="#st" id="stsz17" class="cunknown"/>
+        <use xlink:href="#st" id="stsz20" class="csz20"/>
 
         <use xlink:href="#st" id="sttwl" class="ctwl"/>
         <use xlink:href="#term" id="termtwl" class="ctwl"/>
@@ -213,8 +214,26 @@ viewBox="-2700 -2500 4700 3500"
 	</g>
 
     <path id="Victoria_Harbour" class="Sea" d="
-        M -1381,-444
-        L -1141,-684 a 21,21 0 0,0 6,-15
+        M -2398,-1665
+        L -2204,-1471 a 21,21 0 0,1 6,15
+        V -1039 a 21,21 0 0,0 6,15
+
+        L -2062,-894 a 21,21 0 0,0 30,0
+        L -1982,-944 a 21,21 0 0,0 0,-30
+        L -2105,-1097 a 21,21 0 0,1 0,-30
+        L -2025,-1207 a 21,21 0 0,1 30,0
+        L -1885,-1097 a 21,21 0 0,0 15,6
+        H -1848 a 21,21 0 0,1 21,21
+        V -1006 a 21,21 0 0,1 -6,15
+        L -1954,-870 a 21,21 0 0,0 -6,15
+        V -745 a 21,21 0 0,0 6,15
+        L -1954,-730
+
+        L -1699,-475 a 21,21 0 0,0 15,6
+        H -1455 a 21,21 0 0,0 21,-21
+        V -600 a 21,21 0 0,1 21,-21
+        H -1252 a 21,21 0 0,0 15,-6
+        L -1141,-723 a 21,21 0 0,0 6,-15
         V -834 a 21,21 0 0,1 21,-21
 
         H -849 a 21,21 0 0,1 15,6
@@ -258,7 +277,7 @@ viewBox="-2700 -2500 4700 3500"
 
         H 1200
         V 750
-        H -1700 Z
+        H -2500 Z
     "/>
     <path id="Hong_Kong_Island" class="Island" d="
         M -300,591
@@ -326,7 +345,9 @@ viewBox="-2700 -2500 4700 3500"
 
     <g class="LineDiagram">
         <path id="SZ1_route" class="csz1" d="
-            M -2043,-1461
+            M -2278,-1804
+            L -2178,-1704 a 21,21 0 0,1 6,15
+            V -1599 a 21,21 0 0,0 6,15
             L -1751,-1169 a 21,21 0 0,1 6,15
             V -1046 a 21,21 0 0,0 21,21
             H -1344 a 21,21 0 0,0 15,-6
@@ -510,7 +531,7 @@ viewBox="-2700 -2500 4700 3500"
             H 200
         "/>
         <path id="SZ15_route" class="csz15" d="
-            M -2025,-1259
+            M -2166,-1118
             L -1790,-1494 a 21,21 0 0,1 30,0
             L -1637,-1371 a 21,21 0 0,0 15,6
             H -1283 a 21,21 0 0,1 21,21
@@ -520,9 +541,10 @@ viewBox="-2700 -2500 4700 3500"
             L -1390,-939 a 21,21 0 0,0 -6,15
             V -780 a 21,21 0 0,1 -21,21
             H -1726 a 21,21 0 0,0 -15,6
-            L -1818,-676 a 21,21 0 0,1 -15,6
-            H -1899 a 21,21 0 0,1 -21,-21
-            V -800
+            L -1798,-696 a 21,21 0 0,1 -15,6
+            H -1879 a 21,21 0 0,1 -21,-21
+            V -813 a 21,21 0 0,0 -6,-15
+            L -2166,-1088 a 21,21 0 0,1 0,-30 Z
         "/>
         <path id="SZ17_route" class="cunknown" d="
             M 23,-2215
@@ -550,7 +572,7 @@ viewBox="-2700 -2500 4700 3500"
             H -469
         "/>
         <path id="SZ21_route" class="cunknown" d="
-            M -1898,-768
+            M -1900,-768
             H -1853 a 21,21 0 0,0 15,-6
             L -1672,-940 a 21,21 0 0,0 6,-15
             V -1134 a 21,21 0 0,1 21,-21
@@ -832,6 +854,14 @@ viewBox="-2700 -2500 4700 3500"
         <use xlink:href="#Pingnan_Railway" class="Railway"/>
         <use xlink:href="#Xiashen_Railway" class="Railway"/>
         <g class="cprdir">
+            <path id="GZ_DG_SZ_IC" d="
+                M -2505,-2000
+                V -1833 a 21,21 0 0,0 6,15
+                L -1890,-1209 a 21,21 0 0,1 6,15
+                V -1138 a 21,21 0 0,0 21,21
+                H -1793 a 21,21 0 0,1 21,21
+                V -1066
+            "/>
             <path id="Shenzhen_Huizhou_IC" d="
                 M -1772,-1066
                 V -1086 a 21,21 0 0,1 6,-15
@@ -847,6 +877,7 @@ viewBox="-2700 -2500 4700 3500"
                 L 68,-2238
             "/>
         </g>
+        <use xlink:href="#GZ_DG_SZ_IC" class="Railway"/>
         <use xlink:href="#Shenzhen_Huizhou_IC" class="Railway"/>
         <g class="chsr">
             <path id="GZ_SZ_HK_XRL" d="
@@ -887,6 +918,12 @@ viewBox="-2700 -2500 4700 3500"
         <use xlink:href="#int" x="-90" y="-845" id="Shenzhen"/>
         <use xlink:href="#int" x="79" y="164" id="Kowloon"/>
     </g>
+    <g id="GZ_DG_SZ_IC_station_icons">
+        <path class="PaidTunnel" d="
+            M -2372,-1691 L -2357,-1706
+        "/>
+        <use xlink:href="#int" x="-2372" y="-1691" id="Airport"/>
+    </g>
     <g id="Shenzhen_Huizhou_IC_station_icons">
         <path class="PaidTunnel" d="
             M -1772,-1066 L -1757,-1081
@@ -919,6 +956,13 @@ viewBox="-2700 -2500 4700 3500"
 
     <g id="SZ1_station_icons">
         <use xlink:href="#int" x="-2278" y="-1804" id="Airport_East_SZ1"/>
+        <use xlink:href="#stsz1" transform="translate(-2203,-1729)rotate(135)" id="Hourui"/>
+        <use xlink:href="#stsz1" transform="translate(-2139,-1556)rotate(-45)" id="Gushu"/>
+        <use xlink:href="#stsz1" transform="translate(-1978,-1396)rotate(-45)" id="Xixiang"/>
+        <use xlink:href="#int" x="-1933" y="-1351" id="Pingzhou"/>
+        <use xlink:href="#stsz1" transform="translate(-1888,-1305)rotate(-45)" id="Baoan_Stadium"/>
+        <use xlink:href="#int" x="-1843" y="-1261" id="Baoan_Centre"/>
+        <use xlink:href="#stsz1" transform="translate(-1788,-1206)rotate(-45)" id="Xinan"/>
         <use xlink:href="#int" x="-1745" y="-1081" id="Qianhaiwan_SZ1"/>
         <use xlink:href="#int" x="-1666" y="-1025" id="Liyumen"/>
         <use xlink:href="#stsz1" transform="translate(-1566,-1025)rotate(-90)" id="Daxin"/>
@@ -1038,8 +1082,8 @@ viewBox="-2700 -2500 4700 3500"
         <circle cx="-1745" cy="-1081" r="6" fill="#fff"/>
         <use xlink:href="#stsz5" transform="translate(-1828,-1155)rotate(90)" id="Linhai"/>
         <use xlink:href="#stsz5" transform="translate(-1869,-1186)rotate(180)" id="Baohua"/>
-        <use xlink:href="#int" x="-1843" y="-1261" id="Baoan_Centre"/>
-        <use xlink:href="#stsz5" transform="translate(-1793,-1311)rotate(-135)" id="Fanshen"/>
+        <!--Baoan_Centre-->
+        <use xlink:href="#stsz5" transform="translate(-1803,-1301)rotate(45)" id="Fanshen"/>
         <use xlink:href="#int" x="-1735" y="-1369" id="Lingzhi"/>
         <use xlink:href="#int" x="-1685" y="-1419" id="Honglang_North"/>
         <use xlink:href="#stsz5" transform="translate(-1466,-1435)rotate(-90)" id="Xingdong"/>
@@ -1181,6 +1225,7 @@ viewBox="-2700 -2500 4700 3500"
     </g>
     <g id="SZ11_station_icons">
         <use xlink:href="#int" x="-2476" y="-1825" id="Airport_North"/>
+        <use xlink:href="#int" x="-2357" y="-1706" id="Airport"/>
         <!--Qianhaiwan SZ1 SZ5-->
         <use xlink:href="#int" x="-1466" y="-959" id="Nanshan"/>
         <use xlink:href="#int" x="-768" y="-951" id="Chegongmiao_SZ11"/>
@@ -1236,6 +1281,7 @@ viewBox="-2700 -2500 4700 3500"
         <use xlink:href="#int" x="-1825" y="-1459" id="Liutang"/>
         <use xlink:href="#stsz12" transform="translate(-1780,-1414)rotate(-45)" id="Shangchuan"/>
         <!--Linzhi SZ5-->
+        <use xlink:href="#stsz12" transform="translate(-1680,-1314)rotate(-45)" id="Xinan_Park"/>
         <use xlink:href="#int" x="-1466" y="-1155" id="Zhongshan_Park"/>
         <use xlink:href="#int" x="-1466" y="-1091" id="Nantou_Ancient_City"/>
         <!--Taoyuan SZ1-->
@@ -1281,7 +1327,11 @@ viewBox="-2700 -2500 4700 3500"
         <use xlink:href="#int" transform="translate(44,-1655)rotate(-45)" id="Shiyaling"/>
     </g>
     <g id="SZ15_station_icons">
+        <use xlink:href="#stsz15" transform="translate(-2013,-1271)rotate(-135)" id="Haicheng"/>
+        <!--Pingzhou SZ1-->
         <use xlink:href="#int" x="-1875" y="-1409" id="Xixiang_Park"/>
+        <!--Liutang SZ12-->
+        <use xlink:href="#stsz15" transform="translate(-1730,-1464)rotate(-45)" id="Baoan_Park"/>
         <use xlink:href="#stsz15" transform="translate(-1356,-1365)rotate(90)" id="Yuncheng"/>
         <!--Xili Railway Station SZ13-->
         <use xlink:href="#stsz15" transform="translate(-1356,-1225)rotate(0)" id="Langshan"/>
@@ -1292,6 +1342,9 @@ viewBox="-2700 -2500 4700 3500"
         <use xlink:href="#stsz15" transform="translate(-1396,-810)rotate(0)" id="Dongbin_Road"/>
         <!--Sihai SZ12-->
         <!--Railway Park SZ5-->
+        <use xlink:href="#int" x="-1900" y="-768" id="Qianbao"/>
+        <use xlink:href="#stsz15" transform="translate(-1926,-848)rotate(-45)" id="Tinghai"/>
+        <use xlink:href="#stsz15" transform="translate(-2042,-964)rotate(135)" id="Dachanwan"/>
     </g>
     <g id="SZ17_station_icons">
         <use xlink:href="#int" x="-66" y="-1765" id="Xialilang"/>
@@ -1325,6 +1378,7 @@ viewBox="-2700 -2500 4700 3500"
         <!--Airport North SZ11-->
         <use xlink:href="#int" x="-2275" y="-1809" id="Airport_East_temp"/>
         <!--Xixiang Park SZ15-->
+        <use xlink:href="#stsz20" transform="translate(-1830,-1364)rotate(-45)" id="Haihua"/>
         <use xlink:href="#int" x="-1621" y="-1155" id="Nantouguan"/>
         <!--Nantou Gucheng SZ12-->
         <!--Shenzhen University North SZ15-->
@@ -1625,6 +1679,10 @@ viewBox="-2700 -2500 4700 3500"
 
         <g id="SZ1_names_EN">
             <g text-anchor="start">
+                <text x="-1922" y="-1351" class="StationNameEN">Pingzhou</text>
+                <text x="-1881" y="-1317" class="StationNameEN">Stadium<tspan x="-1881" dy="-12" class="StationNameEN">Bao'an</tspan></text>
+                <text x="-1832" y="-1261" class="StationNameEN">Bao'an Centre</text>
+                <text x="-1781" y="-1218" class="StationNameEN">Xin'an</text>
                 <text x="-1657" y="-1011" class="StationNameEN">Liyumen</text>
                 <text x="-1247" y="-1071" class="StationNameEN">Shenzhen<tspan x="-1247" dy="12" class="StationNameEN">University</tspan></text>
                 <text x="-1054" y="-1019" class="StationNameEN">the World<tspan x="-1054" dy="-12" class="StationNameEN">Window of</tspan></text>
@@ -1714,11 +1772,22 @@ viewBox="-2700 -2500 4700 3500"
         </g>
         <g id="SZ5_names_EN">
             <g text-anchor="start">
+                <text x="-1707" y="-682" class="StationNameEN">Liwan</text>
+                <text x="-1758" y="-725" class="StationNameEN">Railway Park</text>
+                <text x="-1817" y="-784" class="StationNameEN">Mawan</text>
+                <text x="-1796" y="-1289" class="StationNameEN">Fanshen</text>
+                <text x="-1724" y="-1369" class="StationNameEN">Lingzhi</text>
+                <text x="-1674" y="-1419" class="StationNameEN">Honglang North</text>
                 <text x="115" y="-1075" class="StationNameEN">Yijing</text>
             </g>
             <g text-anchor="middle">
                 <text x="-1528" y="-493" class="StationNameEN">Taizi Bay</text>
+                <text x="-1828" y="-1141" class="StationNameEN">Linhai</text>
                 <text x="52" y="-990" class="StationNameEN">Huangbeiling</text>
+            </g>
+            <g text-anchor="end">
+                <text x="-1768" y="-1014" class="StationNameEN">Guiwan</text>
+                <text x="-1892" y="-1186" class="StationNameEN">Baohua</text>
             </g>
         </g>
         <g id="SZ6_names_EN">
@@ -1816,6 +1885,9 @@ viewBox="-2700 -2500 4700 3500"
         </g>
         <g id="SZ12_names_EN">
             <g text-anchor="start">
+                <text x="-1814" y="-1459" class="StationNameEN">Liutang</text>
+                <text x="-1773" y="-1426" class="StationNameEN">Shangchuan</text>
+                <text x="-1673" y="-1326" class="StationNameEN">Xin'an Park</text>
                 <text x="-1457" y="-1141" class="StationNameEN">Zhongshan<tspan x="-1457" dy="12" class="StationNameEN">Park</tspan></text>
                 <text x="-1457" y="-1077" class="StationNameEN">Nantou<tspan x="-1457" dy="12" class="StationNameEN">Ancient City</tspan></text>
                 <text x="-1457" y="-745" class="StationNameEN">Sihai</text>
@@ -1841,19 +1913,31 @@ viewBox="-2700 -2500 4700 3500"
         </g>
         <g id="SZ15_names_EN">
             <g text-anchor="start">
+                <text x="-1859" y="-1415" class="StationNameEN">Xixiang<tspan x="-1859" dy="12" class="StationNameEN">Park</tspan></text>
+                <text x="-1723" y="-1476" class="StationNameEN">Bao'an Park</text>
                 <text x="-1345" y="-1225" class="StationNameEN">Langshan</text>
                 <text x="-1347" y="-1141" class="StationNameEN">Yuquan<tspan x="-1347" dy="12" class="StationNameEN">Road</tspan></text>
                 <text x="-1347" y="-1077" class="StationNameEN">SZU North</text>
                 <text x="-1385" y="-886" class="StationNameEN">Chuangye<tspan x="-1385" dy="12" class="StationNameEN">Road East</tspan></text>
                 <text x="-1385" y="-816" class="StationNameEN">Dongbin<tspan x="-1385" dy="12" class="StationNameEN">Road</tspan></text>
+                <text x="-1919" y="-860" class="StationNameEN">Tinghai</text>
             </g>
             <g text-anchor="middle">
                 <text x="-1356" y="-1351" class="StationNameEN">Yuncheng</text>
+            </g>
+            <g text-anchor="end">
+                <text x="-2049" y="-952" class="StationNameEN">Dachan<tspan x="-2049" dy="12" class="StationNameEN">Bay</tspan></text>
             </g>
         </g>
         <g id="SZ17_names_EN">
             <g text-anchor="start">
                 <text x="-92" y="-915" class="StationNameEN">Shangjian</text>
+            </g>
+        </g>
+        <g id="SZ20_names_EN">
+            <g text-anchor="start">
+                <text x="-1823" y="-1376" class="StationNameEN">Haihua</text>
+                <text x="-1627" y="-1171" class="StationNameEN">Checkpoint<tspan x="-1627" dy="-12" class="StationNameEN">Nantou</tspan></text>
             </g>
         </g>
 
