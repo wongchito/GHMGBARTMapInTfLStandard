@@ -413,10 +413,12 @@ viewBox="-2700 -2500 4700 3500"
         <path id="SZ5_route" class="csz5" d="
             M -1528,-509
             L -1556,-537 a 21,21 0 0,0 -15,-6
-            H -1677 a 21,21 0 0,1 -21,-21
-            V -645 a 21,21 0 0,0 -6,-15
-            L -1868,-824 a 21,21 0 0,1 0,-30
-            L -1763,-959 a 21,21 0 0,0 6,-15
+            H -1637 a 21,21 0 0,1 -21,-21
+            V -605 a 21,21 0 0,0 -6,-15
+            L -1818,-774 a 21,21 0 0,1 0,-30
+
+            M -1818,-804
+            L -1693,-929 a 21,21 0 0,0 6,-15
             V -1134 a 21,21 0 0,0 -21,-21
             H -1848 a 21,21 0 0,1 -21,-21
             V -1226 a 21,21 0 0,1 6,-15
@@ -462,8 +464,8 @@ viewBox="-2700 -2500 4700 3500"
             V -1200
         "/>
         <path id="SZ9_route" class="csz9" d="
-            M -1773,-949
-            L -1628,-804 a 21,21 0 0,0 15,6
+            M -1733,-949
+            L -1588,-804 a 21,21 0 0,0 15,6
             H -1461 a 21,21 0 0,0 21,-21
             V -899 a 21,21 0 0,1 6,-15
             L -1332,-1016 a 21,21 0 0,1 15,-6
@@ -539,8 +541,8 @@ viewBox="-2700 -2500 4700 3500"
             V -982 a 21,21 0 0,1 -6,15
             L -1380,-949 a 21,21 0 0,0 -6,15
             V -780 a 21,21 0 0,1 -21,21
-            H -1726 a 21,21 0 0,0 -15,6
-            L -1798,-696 a 21,21 0 0,1 -15,6
+            H -1666 a 21,21 0 0,0 -15,6
+            L -1738,-696 a 21,21 0 0,1 -15,6
             H -1879 a 21,21 0 0,1 -21,-21
             V -813 a 21,21 0 0,0 -6,-15
             L -2166,-1088 a 21,21 0 0,1 0,-30 Z
@@ -1068,7 +1070,8 @@ viewBox="-2700 -2500 4700 3500"
         <use xlink:href="#int" x="-1769" y="-725" id="Railway_Park"/>
         <use xlink:href="#int" x="-1828" y="-784" id="Mawan"/>
         <use xlink:href="#stsz5" transform="translate(-1828,-894)rotate(-135)" id="Qianhai_Park"/>
-        <use xlink:href="#int" x="-1773" y="-949" id="Qianwan"/>
+        <use xlink:href="#int" x="-1703" y="-919" id="Qianwan"/>
+        <!--Qianwan right 70 down 30-->
         <use xlink:href="#stsz5" transform="translate(-1757,-1014)rotate(180)" id="Guiwan"/>
         <use xlink:href="#int" x="-1757" y="-1081" id="Qianhaiwan_SZ5"/>
         <g class="DumbbellBG">
@@ -1154,8 +1157,9 @@ viewBox="-2700 -2500 4700 3500"
     </g>
     <g id="SZ9_station_icons">
         <!--Qianwan SZ5-->
-        <use xlink:href="#int" x="-1718" y="-894" id="Menghai"/>
-        <use xlink:href="#stsz9" transform="translate(-1663,-839)rotate(-45)" id="Yihai"/>
+        <use xlink:href="#int" x="-1658" y="-874" id="Menghai"/>
+        <!--Menghai right 60 down 20-->
+        <use xlink:href="#stsz9" transform="translate(-1613,-829)rotate(-45)" id="Yihai"/>
         <use xlink:href="#stsz9" transform="translate(-1563,-798)rotate(90)" id="Lilin"/>
         <!--Lilin move 40-->
         <use xlink:href="#stsz9" transform="translate(-1503,-798)rotate(-90)" id="Nanyou_West"/>
