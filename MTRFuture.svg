@@ -2,8 +2,8 @@
 <svg
 xmlns="http://www.w3.org/2000/svg"
 xmlns:xlink="http://www.w3.org/1999/xlink"
-width="5000" height="3900"
-viewBox="-3000 -2900 5000 3900"
+width="5200" height="3900"
+viewBox="-3200 -2900 5200 3900"
 >
     <title>MTR and Shenzhen Metro Future Route Map</title>
 
@@ -137,6 +137,7 @@ viewBox="-3000 -2900 5000 3900"
 
         <use xlink:href="#st" id="stdg2" class="cdg2"/>
         <use xlink:href="#st" id="stdg3" class="cdg3"/>
+        <use xlink:href="#term" id="termdg3" class="cdg3"/>
 
         <use xlink:href="#st" id="stsz1" class="csz1"/>
         <use xlink:href="#st" id="stsz2" class="csz2"/>
@@ -210,12 +211,12 @@ viewBox="-3000 -2900 5000 3900"
 
     <g id="cht_switch" style="opacity:0;cursor:pointer">
 		<g id="cht_switch_base">
-			<rect x="-1090" y="-1240" width="10" height="10" style="fill:#fff;stroke:#000;stroke-width:1"/>
-			<text x="-1075" y="-1230" font-size="14px" class="stname">Traditional Chinese</text>
+			<rect x="-1090" y="-1235" width="10" height="10" style="fill:#fff;stroke:#000;stroke-width:1"/>
+			<text x="-1075" y="-1230" font-size="14px" class="StnNameEN">Traditional Chinese</text>
 		</g>
 		<g id="cht_switch_over" style="visibility:hidden;opacity:0">
-            <use xlink:href="#enabled" x="-1090" y="-1240"/>
-			<text x="-1075" y="-1230" style="stroke:#243588;stroke-width:0.5;font-size:14px" class="stname">Traditional Chinese</text>
+            <use xlink:href="#enabled" x="-1090" y="-1235"/>
+			<text x="-1075" y="-1230" style="stroke:#243588;stroke-width:0.5;font-size:14px" class="StnNameEN">Traditional Chinese</text>
 			<set
 			begin="cht_switch_base.click"
 			end="cht_switch_over.click"
@@ -230,7 +231,7 @@ viewBox="-3000 -2900 5000 3900"
 	</g>
 
     <path id="Victoria_Harbour" class="Sea" d="
-        M -2998,-2325
+        M -3398,-2725
         L -2134,-1461 a 21,21 0 0,1 6,15
         V -1039 a 21,21 0 0,0 6,15
 
@@ -364,7 +365,7 @@ viewBox="-3000 -2900 5000 3900"
             H -2608 a 21,21 0 0,0 15,-6
             L -2087,-2776
         "/>
-        <path id="SZ_HK_Boundary" d="
+        <path id="HK_Boundary" d="
             M -1000,-677
             H -426 a 21,21 0 0,0 21,-21
             V -708 a 21,21 0 0,1 21,-21
@@ -374,17 +375,19 @@ viewBox="-3000 -2900 5000 3900"
             V -1007 a 21,21 0 0,1 21,-21
             H 331 a 21,21 0 0,1 21,21
             V -982 a 21,21 0 0,0 21,21
-            H 830
+            H 900
         "/>
     </g>
 
     <g class="LineDiagram">
         <path id="DG2_route" class="cdg2" d="
             M -2756,-2389
-            L -2956,-2589
+            L -2776,-2409 a 21,21 0 0,0 -15,-6
+            H -2911 a 21,21 0 0,1 -21,-21
+            V -3000
         "/>
         <path id="DG3_route" class="cdg3" d="
-            M -2756,-2389
+            M -2811,-2334
             L -2684,-2461 a 21,21 0 0,0 6,-15
             V -2605 a 21,21 0 0,1 21,-21
             H -2425 a 21,21 0 0,0 21,-21
@@ -950,7 +953,8 @@ viewBox="-3000 -2900 5000 3900"
         <use xlink:href="#Xiashen_Railway" class="Railway"/>
         <g class="cprdir">
             <path id="GZ_DG_SZ_IC" d="
-                M -2900,-2541
+                M -2858,-2657
+                L -2758,-2547 a 21,21 0 0,0 15,6
                 H -2456 a 21,21 0 0,1 21,21
                 V -1833 a 21,21 0 0,0 6,15
                 L -1820,-1209 a 21,21 0 0,1 6,15
@@ -958,7 +962,7 @@ viewBox="-3000 -2900 5000 3900"
                 H -1723 a 21,21 0 0,1 21,21
                 V -1066
             "/>
-            <path id="Shenzhen_Huizhou_IC" d="
+            <path id="SZ_HZ_IC" d="
                 M -1702,-1066
                 V -1086 a 21,21 0 0,1 6,-15
                 L -1526,-1271 a 21,21 0 0,1 15,-6
@@ -974,9 +978,11 @@ viewBox="-3000 -2900 5000 3900"
             "/>
         </g>
         <use xlink:href="#GZ_DG_SZ_IC" class="Railway"/>
-        <use xlink:href="#Shenzhen_Huizhou_IC" class="Railway"/>
+        <use xlink:href="#SZ_HZ_IC" class="Railway"/>
         <g class="chsr">
             <path id="GZ_SZ_HK_XRL" d="
+                M -3300,-2891
+                H -2700
                 M -1156,-2300
                 V -2028 a 21,21 0 0,0 6,15
                 L -490,-1353 a 21,21 0 0,1 6,15
@@ -988,8 +994,11 @@ viewBox="-3000 -2900 5000 3900"
                 V -1988 a 21,21 0 0,1 -6,15
                 L -1275,-1860 a 21,21 0 0,1 -15,6
             "/>
-            <path id="Shenzhen_Zhanjiang_HSR" d="
-                M -2601,-2500
+            <path id="SZ_ZJ_HSR" d="
+                M -3000,-2541
+                H -2780 a 21,21 0 0,1 15,6
+                L -2665,-2435
+                L -2607,-2377 a 21,21 0 0,1 6,15
                 V -1980 a 21,21 0 0,0 6,15
                 L -2490,-1860 a 21,21 0 0,0 15,6
                 H -1866
@@ -1007,7 +1016,7 @@ viewBox="-3000 -2900 5000 3900"
             "/>
         </g>
         <use xlink:href="#GZ_SZ_HK_XRL" class="Railway"/>
-        <use xlink:href="#Shenzhen_Zhanjiang_HSR" class="Railway"/>
+        <use xlink:href="#SZ_ZJ_HSR" class="Railway"/>
     </g>
 
     <g id="Guangshen_Railway_station_icons">
@@ -1027,12 +1036,13 @@ viewBox="-3000 -2900 5000 3900"
             M -2450,-2013 L -2435,-1998
             M -2302,-1691 L -2287,-1706
         "/>
+        <use xlink:href="#stprdir" transform="translate(-2733,-2541)rotate(-90)" id="Changan_Xiabian"/>
         <use xlink:href="#int" x="-2663" y="-2541" id="Changan_Jinsha"/>
         <use xlink:href="#stprdir" transform="translate(-2435,-2334)rotate(0)" id="Waterland_Resort"/>
         <use xlink:href="#int" x="-2435" y="-1998" id="Heping"/>
         <use xlink:href="#int" x="-2302" y="-1691" id="SZX_T3"/>
     </g>
-    <g id="Shenzhen_Huizhou_IC_station_icons">
+    <g id="SZ_HZ_IC_station_icons">
         <path class="PaidTunnel" d="
             M -1702,-1066 L -1687,-1081
             M -1242,-1277 L -1259,-1295
@@ -1044,30 +1054,42 @@ viewBox="-3000 -2900 5000 3900"
     </g>
     <g id="GZ_SZ_HK_XRL_station_icons">
         <path class="PaidTunnel" d="
+            M -2917,-2891 L -2932,-2876
             M -1156,-2264 H -1178
             M -610,-1473 H -588
             M -508,-954 L -449,-895
             M -519,-895 L -449,-965
             M -236,119 H -138
         "/>
+        <use xlink:href="#int" x="-2917" y="-2891" id="Humen"/>
         <use xlink:href="#int" x="-1156" y="-2264" id="Guangmingcheng"/>
         <use xlink:href="#int" x="-610" y="-1473" id="Shenzhen_North"/>
         <use xlink:href="#int" x="-484" y="-930" id="Futian"/>
         <use xlink:href="#int" x="-187" y="119" id="West_Kowloon"/>
     </g>
-    <g id="Shenzhen_Zhanjiang_HSR_station_icons">
+    <g id="SZ_ZJ_HSR_station_icons">
         <path class="PaidTunnel" d="
+            M -2917,-2541 L -2932,-2526
             M -2435,-1854 L -2406,-1825
             M -2223,-1789 L -2208,-1804
         "/>
+        <use xlink:href="#int" x="-2917" y="-2541" id="Humen_South"/>
         <use xlink:href="#int" x="-2435" y="-1854" id="SZX_T4"/>
         <use xlink:href="#int" x="-2223" y="-1789" id="SZX_TABD"/>
     </g>
 
     <g id="DG2_station_icons">
         <!--Changan New District SZ20-->
+        <use xlink:href="#stdg2" transform="translate(-2811,-2415)rotate(-90)" id="Changan_New_District_West"/>
+        <use xlink:href="#int" x="-2932" y="-2526" id="Humen_South"/>
+        <use xlink:href="#stdg2" transform="translate(-2932,-2596)rotate(0)" id="Humen_Guangming_Road"/>
+        <use xlink:href="#stdg2" transform="translate(-2932,-2666)rotate(0)" id="Humen_Jinjie_Road"/>
+        <use xlink:href="#stdg2" transform="translate(-2932,-2736)rotate(0)" id="Humen_Avenue"/>
+        <use xlink:href="#stdg2" transform="translate(-2932,-2806)rotate(0)" id="Humen_North"/>
+        <use xlink:href="#int" x="-2932" y="-2876" id="Humen"/>
     </g>
     <g id="DG3_station_icons">
+        <use xlink:href="#termdg3" transform="translate(-2811,-2334)rotate(45)" id="Changan_New_District_South"/>
         <!--Changan New District SZ20-->
         <use xlink:href="#stdg3" transform="translate(-2701,-2444)rotate(45)" id="Changan_New_District_North"/>
         <use xlink:href="#stdg3" transform="translate(-2678,-2486)rotate(0)" id="Changan_Jianan_Road"/>
