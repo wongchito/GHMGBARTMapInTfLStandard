@@ -2,20 +2,23 @@
 <svg
 xmlns="http://www.w3.org/2000/svg"
 xmlns:xlink="http://www.w3.org/1999/xlink"
-width="2800" height="2210"
-viewBox="-800 -1210 2800 2210"
+width="5700" height="4500"
+viewBox="-2700 -2500 5700 5500"
 >
     <title>Guangzhou Metro Map in London Style (2024) with PRDIR</title>
 
     <style type="text/css">
         .LineDiagram {fill:none;stroke-width:6}
-        .NonGZMTR {stroke:#fff;stroke-width:2}
+        .NonMetro {stroke:#fff;stroke-width:2}
         .Railway {stroke-dasharray:8,14;stroke-width:3.5;stroke:#fff}
+        .Branch {stroke-dasharray:3.5,3.5;stroke-width:3.5;stroke:#fff}
         .DumbbellBG {stroke:#000;stroke-width:9}
         .DumbbellFG {stroke:#fff;stroke-width:3}
         .PaidTunnel {fill:none;stroke:#0019A8;stroke-width:2}
         .RiverBG {fill:none;stroke-width:15;stroke:#00ABE7}
         .RiverFG {fill:none;stroke-width:14;stroke:#D4EDFC}
+        .Sea {stroke-width:0.5;stroke:#00ABE7;fill:#D4EDFC}
+        .Island {stroke-width:0.5;stroke:#00ABE7;fill:#fff}
         .FlagBox {fill:none;stroke-width:8}
         .FlagBoxNameEN {
             font-family:Arial,"Hiragino Mincho ProN","PingFang HK","Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Arial Unicode MS",sans-serif;
@@ -65,9 +68,49 @@ viewBox="-800 -1210 2800 2210"
         .cgf {stroke:#C4D600}
         .cgzapm {stroke:#00B5E2}
         .cgzthz1 {stroke:#44A729}
-        .cfs11 {stroke:#6600CC}
+        
         .cunknown {stroke:#999999}
+        .chsr {stroke:#F47920}
         .cprdir {stroke:#2F8072}
+
+        .cfs11 {stroke:#6600CC}
+        
+        .csz1 {stroke:#00B140}
+        .csz2 {stroke:#B94700}
+        .csz3 {stroke:#00A9E0}
+        .csz4 {stroke:#DA291C}
+        .csz5 {stroke:#A05EB5}
+        .csz6 {stroke:#00C7B1}
+        .csz7 {stroke:#0033A0}
+        .csz8 {stroke:#E45DBF}
+        .csz9 {stroke:#7B6469}
+        .csz10 {stroke:#0092BC}
+        .csz11 {stroke:#672146}
+        .csz12 {stroke:#A192B2}
+        .csz13 {stroke:#DE7C00}
+        .csz14 {stroke:#919D9D}
+        .csz15 {stroke:#84BD00}
+        .csz16 {stroke:#F67599}
+        .csz20 {stroke:#FFD700}
+
+        .ctwl {stroke:#E2231A}
+        .cktl {stroke:#00AF41}
+        .cisl {stroke:#0071CE}
+        .ctkl {stroke:#A35EB5}
+        .ctcl {stroke:#F38B00}
+        .cdrl {stroke:#E777CB}
+        .cael {stroke:#007078}
+        .csile {stroke:#B6BD00}
+        .csilw {stroke:#9182C2}
+        .cekl {stroke:#00FF00}
+        .cerl {stroke:#61B4E4}
+        .cwrl {stroke:#B6008D}
+        .cmol {stroke:#9A3820}
+        .cnol {stroke:#FF0066}
+        .c360 {stroke:#94989A}
+        .clrl {stroke:#CD9700}
+        .cefls {stroke:#000000}
+
         .TfLLU {fill:#0019A8}
         .CorporateGrey {fill:#868F98}
     </style>
@@ -80,6 +123,7 @@ viewBox="-800 -1210 2800 2210"
             <circle cx="0" cy="0" r="6" fill="#fff"/>
         </g>
         <path id="flagbox" class="FlagBox" d="M -30,0 H 30"/>
+
         <use xlink:href="#st" id="stgz1" class="cgz1"/>
         <use xlink:href="#st" id="stgz2" class="cgz2"/>
         <use xlink:href="#st" id="stgz3" class="cgz3"/>
@@ -94,6 +138,56 @@ viewBox="-800 -1210 2800 2210"
         <use xlink:href="#st" id="stgz14" class="cgz14"/>
         <use xlink:href="#st" id="stgz18" class="cgz18"/>
         <use xlink:href="#st" id="stgz19" class="cgz19"/>
+
+        <use xlink:href="#st" id="stsz1" class="csz1"/>
+        <use xlink:href="#st" id="stsz2" class="csz2"/>
+        <use xlink:href="#st" id="stsz3" class="csz3"/>
+        <use xlink:href="#term" id="termsz3" class="csz3"/>
+        <use xlink:href="#st" id="stsz4" class="csz4"/>
+        <use xlink:href="#st" id="stsz5" class="csz5"/>
+        <use xlink:href="#st" id="stsz6" class="csz6"/>
+        <use xlink:href="#st" id="stsz7" class="csz7"/>
+        <use xlink:href="#term" id="termsz7" class="csz7"/>
+        <use xlink:href="#st" id="stsz8" class="csz8"/>
+        <use xlink:href="#st" id="stsz9" class="csz9"/>
+        <use xlink:href="#term" id="termsz9" class="csz9"/>
+        <use xlink:href="#st" id="stsz10" class="csz10"/>
+        <use xlink:href="#st" id="stsz11" class="csz11"/>
+        <use xlink:href="#st" id="stsz12" class="csz12"/>
+        <use xlink:href="#term" id="termsz12" class="csz12"/>
+        <use xlink:href="#st" id="stsz13" class="csz13"/>
+        <use xlink:href="#term" id="termsz13" class="csz13"/>
+        <use xlink:href="#st" id="stsz14" class="csz14"/>
+        <use xlink:href="#st" id="stsz15" class="csz15"/>
+        <use xlink:href="#st" id="stsz17" class="cunknown"/>
+        <use xlink:href="#st" id="stsz20" class="csz20"/>
+
+        <use xlink:href="#st" id="sttwl" class="ctwl"/>
+        <use xlink:href="#term" id="termtwl" class="ctwl"/>
+        <use xlink:href="#st" id="stktl" class="cktl"/>
+        <use xlink:href="#term" id="termktl" class="cktl"/>
+        <use xlink:href="#st" id="stisl" class="cisl"/>
+        <use xlink:href="#term" id="termisl" class="cisl"/>
+        <use xlink:href="#st" id="sttkl" class="ctkl"/>
+        <use xlink:href="#term" id="termtkl" class="ctkl"/>
+        <use xlink:href="#st" id="sttcl" class="ctcl"/>
+        <use xlink:href="#term" id="termtcl" class="ctcl"/>
+        <use xlink:href="#st" id="stael" class="cael"/>
+        <use xlink:href="#term" id="termael" class="cael"/>
+        <use xlink:href="#term" id="termdrl" class="cdrl"/>
+        <use xlink:href="#st" id="stsile" class="csile"/>
+        <use xlink:href="#term" id="termsile" class="csile"/>
+        <use xlink:href="#st" id="stsilw" class="csilw"/>
+        <use xlink:href="#st" id="stekl" class="cekl"/>
+        <use xlink:href="#st" id="sterl" class="cerl"/>
+        <use xlink:href="#term" id="termerl" class="cerl"/>
+        <use xlink:href="#st" id="stwrl" class="cwrl"/>
+        <use xlink:href="#st" id="stmol" class="cmol"/>
+        <use xlink:href="#term" id="termmol" class="cmol"/>
+        <use xlink:href="#st" id="stnol" class="cnol"/>
+        <use xlink:href="#term" id="termnol" class="cnol"/>
+        <use xlink:href="#term" id="term360" class="c360"/>
+
         <g id="chinarail" transform="scale(0.0165) translate(-260,-305)" style="stroke:none;fill:#E60012">
             <path d="
                 M169,273.5c0-19,14.7-34.8,33.7-36.3c18.9-1.5,38.1-2.2,57.4-2.2c19.3,0,38.4,0.8,57.3,2.2
@@ -132,6 +226,9 @@ viewBox="-800 -1210 2800 2210"
 		<animate
 		attributeName="opacity" attributeType="CSS" values="0; 1" keyTimes="0; 1" dur="0.5s" fill="freeze"/>
 	</g>
+    <g transform="translate(2000,2000)">
+        <!--Sea of SZ and HK-->
+    </g>
 
     <g class="RiverBG">
         <g id="Pearl_River">
