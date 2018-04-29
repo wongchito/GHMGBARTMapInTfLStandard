@@ -2,8 +2,8 @@
 <svg
 xmlns="http://www.w3.org/2000/svg"
 xmlns:xlink="http://www.w3.org/1999/xlink"
-width="5700" height="4500"
-viewBox="-2700 -2500 5700 5500"
+width="3700" height="4500"
+viewBox="-700 -1500 3700 4500"
 >
     <title>Guangzhou Metro Map in London Style (2024) with PRDIR</title>
 
@@ -35,13 +35,13 @@ viewBox="-2700 -2500 5700 5500"
             font-size:3.7pt;
         }
         .StationTick {fill:none;stroke-width:4}
-        .StationNameEN {
+        .StnNameEN {
             font-family:Arial,"Hiragino Mincho ProN","PingFang HK","Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Arial Unicode MS",sans-serif;
             fill:#0019A8;
             font-weight:bold;
             alignment-baseline:middle;
         }
-        .StationNameZH {
+        .StnNameZH {
             font-family:Arial,"Hiragino Mincho ProN","PingFang HK","Meiryo UI",Meiryo,"Microsoft Jhenghei UI","Arial Unicode MS",sans-serif;
             fill:#0019A8;
             font-weight:bold;
@@ -240,9 +240,8 @@ viewBox="-2700 -2500 5700 5500"
                 H 500
             "/>
             <path id="Houhangdao" d="
-                M -198,164 a 21,21 0 0,1 15,6
-                L 12,365 a 21,21 0 0,1 6,15
-                V 448 a 21,21 0 0,0 21,21
+                M -200,164 a 21,21 0 0,1 15,6
+                L 205,560 a 21,21 0 0,0 15,6
                 H 500
             "/>
         </g>
@@ -255,7 +254,7 @@ viewBox="-2700 -2500 5700 5500"
             V 21 a 21,21 0 0,1 21,-21
             H 350 a 21,21 0 0,0 15,-6
             L 423,-64 a 21,21 0 0,1 15,-6
-            H 566 a 21,21 0 0,0 21,-21
+            H 529 a 21,21 0 0,0 21,-21
             V -179 a 21,21 0 0,0 -21,-21
             H 448
         "/>
@@ -263,12 +262,13 @@ viewBox="-2700 -2500 5700 5500"
             M 94,-377
             L 6,-289 a 21,21 0 0,0 -6,15
             V 102 a 21,21 0 0,0 6,15
-            L 287,398 a 21,21 0 0,1 6,15
-            V 423
+            L 305,416 a 21,21 0 0,1 6,15
+            V 585 a 21,21 0 0,1 -6,15
+            L 295,610
         "/>
         <path id="GZ3_route" class="cgz3" d="
             M 442,-325 a 21,21 0 0,1 6,15
-            V 400
+            V 600
         "/>
         <path id="GZ5_route" class="cgz5" d="
             M -89,-190
@@ -295,12 +295,18 @@ viewBox="-2700 -2500 5700 5500"
             V 142 a 21,21 0 0,0 6,15
             L 70,341 a 21,21 0 0,0 30,0
             L 175,266 a 21,21 0 0,1 15,-6
-            H 500
+            H 303 a 21,21 0 0,0 15,-6
+            L 329,243 a 21,21 0 0,1 15,-6
+            H 528 a 21,21 0 0,0 15,-6
+            L 547,227 a 21,21 0 0,1 15,-6
+            H 700
         "/>
         <path id="GZ10_route" class="cgz10" d="
-            M -203,441
-            L -155,489 a 21,21 0 0,0 15,6
-            H 161 a 21,21 0 0,0 15,-6
+            M -197.5,439.5
+            L -103,534 a 21,21 0 0,0 15,6
+            H 222 a 21,21 0 0,0 21,-21
+            M 243,519
+            V 431 a 21,21 0 0,1 6,-15
             L 287,378 a 21,21 0 0,0 6,-15
             V 100
             M 179,100
@@ -318,7 +324,9 @@ viewBox="-2700 -2500 5700 5500"
             L -21,401 a 21,21 0 0,0 15,6
             H 145 a 21,21 0 0,0 15,-6
             L 235,326 a 21,21 0 0,1 15,-6
-            H 500
+            H 360 a 21,21 0 0,1 15,6
+            L 413,364 a 21,21 0 0,0 15,6
+            H 600
         "/>
         <path id="GZ12_route" class="cgz12" d="
             M -111,-367
@@ -328,6 +336,8 @@ viewBox="-2700 -2500 5700 5500"
             V 22 a 21,21 0 0,0 6,15
             L 189,80 a 21,21 0 0,0 15,6
             H 300
+            M 468,187
+            L 568,287
         "/>
         <path id="GZ13_route" class="cgz13" d="
             M -195,-126
@@ -357,15 +367,24 @@ viewBox="-2700 -2500 5700 5500"
             L 65,156 a 21,21 0 0,1 15,-6
             H 200
         "/>
+        <path id="GZ22_route" class="cgz22" d="
+            M -201.5,444.5
+            L -90,556 a 21,21 0 0,0 15,6
+            H 100
+        "/>
         <path id="GZAPM_route" class="cgzapm" d="
             M 494,-140
             V 167
         "/>
         <path id="GF_route" class="cgf" d="
-            M -200,441 a 21,21 0 0,0 15,-6
-            L -76,326 a 21,21 0 0,1 15,-6
+            M -300,441
+            H -190 a 21,21 0 0,0 15,-6
+            L -64,326 a 21,21 0 0,1 15,-6
             H 32 a 21,21 0 0,1 15,6
-            L 138,417 a 21,21 0 0,0 15,6
+            L 156,435 a 21,21 0 0,0 15,6
+            H 321 a 21,21 0 0,1 15,6
+            L 336,447
+            L 423,534 a 21,21 0 0,0 15,6
             H 448
         "/>
         <g class="cgzthz1">
@@ -373,14 +392,13 @@ viewBox="-2700 -2500 5700 5500"
                 M 471,144 H 550
             "/>
         </g>
-        <use xlink:href="#GZTHZ1_route" class="NonGZMTR"/>
-        <g class="cfs11">
-            <path id="FS11_route" d="
-                M -31,391
-                V 500
-            "/>
-        </g>
-        <use xlink:href="#FS11_route" class="NonGZMTR"/>
+        <use xlink:href="#GZTHZ1_route" class="NonMetro"/>
+
+        <path id="FS11_route" class="cfs11" d="
+            M -31,391
+            V 600
+        "/>
+
         <g class="cunknown">
             <path id="Guangshen_Railway" d="
                 M -15,-202
@@ -419,7 +437,7 @@ viewBox="-2700 -2500 5700 5500"
         <use xlink:href="#int" x="474" y="-226" id="Guangzhoudong"/>
     </g>
     <g id="GZ1_station_icons">
-        <use xlink:href="#int" x="-203" y="441" id="Xilang"/>
+        <use xlink:href="#int" x="-200" y="441" id="Xilang"/>
         <use xlink:href="#int" x="-200" y="222" id="Fangcun"/>
         <use xlink:href="#int" x="-120" y="0" id="Chen_Clan_Academy"/>
         <use xlink:href="#stgz1" transform="translate(-60,0)rotate(-90)" id="Ximenkou"/>
@@ -446,7 +464,8 @@ viewBox="-2700 -2500 5700 5500"
         <use xlink:href="#int" transform="translate(165,276)" id="Changgang"/>
         <use xlink:href="#int" transform="translate(225,336)" id="Jiangtai_Lu"/>
         <use xlink:href="#int" transform="translate(277,388)" id="Dongxiaonan"/>
-        <use xlink:href="#int" transform="translate(293,423)" id="Nanzhou"/>
+        <use xlink:href="#int" transform="translate(311,441)" id="Nanzhou"/>
+        <use xlink:href="#stgz2" transform="translate(295,610)rotate(45)" id="Luoxi"/>
     </g>
     <g id="GZ3_station_icons">
         <use xlink:href="#stgz3" transform="translate(448,-300)" id="Meihuayuan"/>
@@ -464,8 +483,9 @@ viewBox="-2700 -2500 5700 5500"
         "/>
         <use xlink:href="#int" x="448" y="167" id="Canton_Tower"/>
         <!--Kecun GZ8-->
-        <use xlink:href="#int" x="448" y="320" id="Datang"/>
-        <use xlink:href="#int" transform="translate(448,423)" id="Lijiao"/>
+        <use xlink:href="#int" x="448" y="370" id="Datang"/>
+        <use xlink:href="#int" transform="translate(448,540)" id="Lijiao"/>
+        <use xlink:href="#stgz3" transform="translate(448,610)" id="Xiajiao"/>
     </g>
     <g id="GZ5_station_icons">
         <use xlink:href="#stgz5" transform="translate(90,-174)rotate(135)" id="Xiaobei"/>
@@ -479,7 +499,8 @@ viewBox="-2700 -2500 5700 5500"
         <use xlink:href="#int" x="-120" y="120" id="Cultural_Park"/>
         <use xlink:href="#int" x="179" y="70" id="Donghu"/>
         <use xlink:href="#stgz6" transform="translate(255,-132)rotate(-90)" id="Huanghuagang"/>
-        <use xlink:href="#stgz6" transform="translate(408,-244)rotate(-135)" id="Shaheding"/>
+        <!--Shahe GZ11-->
+        <use xlink:href="#stgz6" transform="translate(408,-244)rotate(-135)" id="Tianpingjia"/>
     </g>
     <g id="GZ8_station_icons">
         <use xlink:href="#int" transform="translate(-171,-367)" id="Dekang"/>
@@ -492,11 +513,16 @@ viewBox="-2700 -2500 5700 5500"
         <use xlink:href="#int" x="58.5" y="333.5" id="Shayuan"/>
         <use xlink:href="#stgz8" transform="translate(202,260)rotate(-90)" id="Xiaogang"/>
         <use xlink:href="#stgz8" transform="translate(284,260)rotate(-90)" id="SYSU"/>
-        <use xlink:href="#stgz8" transform="translate(366,260)rotate(-90)" id="Lujiang"/>
-        <use xlink:href="#int" x="448" y="260" id="Kecun"/>
+        <use xlink:href="#stgz8" transform="translate(366,237)rotate(-90)" id="Lujiang"/>
+        <use xlink:href="#int" x="448" y="237" id="Kecun"/>
+        <use xlink:href="#int" transform="translate(518,237)rotate(-90)" id="Chigang"/>
+        <path class="PaidTunnel" d="
+            M 588,221 L 603,206
+        "/>
+        <use xlink:href="#int" x="588" y="221" id="Modiesha"/>
     </g>
     <g id="GZ10_station_icons">
-        <use xlink:href="#int" x="-31" y="495" id="GISE_New_Town"/>
+        <use xlink:href="#int" x="-31" y="540" id="GISE_New_Town"/>
         <use xlink:href="#stgz10" transform="translate(216,449)rotate(-135)" id="Daganwei"/>
         <!--Shixi GF-->
         <use xlink:href="#stgz10" transform="translate(293,290)" id="SYSU_South_Entrance"/>
@@ -526,7 +552,7 @@ viewBox="-2700 -2500 5700 5500"
         <use xlink:href="#stgz11" transform="translate(335,320)rotate(90)" id="Yijing_Lu"/>
         <use xlink:href="#int" transform="translate(293,320)" id="Wufeng"/>
         <!--Yangang GF-->
-        <use xlink:href="#stgz11" transform="translate(68,407)rotate(-90)" id="Nanshi_Lu"/>
+        <use xlink:href="#stgz11" transform="translate(72,407)rotate(-90)" id="Nanshi_Lu"/>
         <use xlink:href="#int" transform="translate(-31,391)" id="Hedongdong"/>
         <use xlink:href="#stgz11" transform="translate(-138,284)rotate(135)" id="Fangcundadaodong"/>
     </g>
@@ -587,6 +613,7 @@ viewBox="-2700 -2500 5700 5500"
         <circle cx="459" cy="-211" r="6" fill="#fff"/>
         <circle cx="448" cy="-200" r="6" fill="#fff"/>
         <use xlink:href="#int" x="556" y="0" id="Xiancun"/>
+        <use xlink:href="#int" x="603" y="206" id="Pazhou_Xiqu"/>
     </g>
     <g id="GZ19_station_icons">
         <use xlink:href="#stgz19" transform="translate(15,206)rotate(-135)" id="Hoi_Tong_Monastery"/>
@@ -597,9 +624,11 @@ viewBox="-2700 -2500 5700 5500"
         <use xlink:href="#int" x="494" y="167" id="Canton_Tower_APM"/>
     </g>
     <g id="GF_station_icons">
-        <use xlink:href="#int" x="-86" y="336" id="Shachong"/>
+        <use xlink:href="#int" x="-81" y="341" id="Shachong"/>
         <use xlink:href="#int" x="128" y="407" id="Yangang"/>
-        <use xlink:href="#int" x="242" y="423" id="Shixi"/>
+        <use xlink:href="#int" x="243" y="441" id="Shixi"/>
+        <!--Nanzhou GZ2-->
+        <!--Lijiao GZ3-->
     </g>
     <g id="GZTHZ1_station_icons">
         <use xlink:href="#int" x="471" y="144" id="Canton_Tower_THZ1"/>
@@ -609,155 +638,155 @@ viewBox="-2700 -2500 5700 5500"
     <g id="Station_names_EN" font-size="8.5pt" style="visibility:visible">
         <g id="GZ1_names_EN">
             <g text-anchor="start">
-                <text x="-189" y="54" class="StationNameEN">Changshou<tspan x="-189" dy="12" class="StationNameEN">Road</tspan></text>
-                <text x="-111" y="14" class="StationNameEN">Chen Clan<tspan x="-111" dy="12" class="StationNameEN">Academy</tspan></text>
-                <text x="9" y="14" class="StationNameEN">People's<tspan x="9" dy="12" class="StationNameEN">Park</tspan></text>
-                <text x="149" y="14" class="StationNameEN">Martyrs'<tspan x="149" dy="12" class="StationNameEN">Park</tspan></text>
-                <text x="219" y="14" class="StationNameEN">Dongshankou</text>
+                <text x="-189" y="54" class="StnNameEN">Changshou<tspan x="-189" dy="12" class="StnNameEN">Road</tspan></text>
+                <text x="-111" y="14" class="StnNameEN">Chen Clan<tspan x="-111" dy="12" class="StnNameEN">Academy</tspan></text>
+                <text x="9" y="14" class="StnNameEN">People's<tspan x="9" dy="12" class="StnNameEN">Park</tspan></text>
+                <text x="149" y="14" class="StnNameEN">Martyrs'<tspan x="149" dy="12" class="StnNameEN">Park</tspan></text>
+                <text x="219" y="14" class="StnNameEN">Dongshankou</text>
             </g>
             <g text-anchor="middle">
-                <text x="-60" y="-14" class="StationNameEN">West Gate<tspan x="-60" dy="-12" class="StationNameEN">Large</tspan></text>
-                <text x="70" y="-14" class="StationNameEN">Institute<tspan x="70" dy="-12" class="StationNameEN">Movement</tspan><tspan x="70" dy="-12" class="StationNameEN">Peasant</tspan></text>
+                <text x="-60" y="-14" class="StnNameEN">West Gate<tspan x="-60" dy="-12" class="StnNameEN">Large</tspan></text>
+                <text x="70" y="-14" class="StnNameEN">Institute<tspan x="70" dy="-12" class="StnNameEN">Movement</tspan><tspan x="70" dy="-12" class="StnNameEN">Peasant</tspan></text>
             </g>
             <g text-anchor="end">
-                <text x="331" y="-14" class="StationNameEN">Yangji</text>
-                <text x="439" y="-84" class="StationNameEN">Road<tspan x="439" dy="-12" class="StationNameEN">Tiyu West</tspan></text>
+                <text x="331" y="-14" class="StnNameEN">Yangji</text>
+                <text x="439" y="-84" class="StnNameEN">Road<tspan x="439" dy="-12" class="StnNameEN">Tiyu West</tspan></text>
             </g>
         </g>
         <g id="GZ2_names_EN">
             <g text-anchor="start">
-                <text x="61" y="-325" class="StationNameEN">Baiyun<tspan x="61" dy="12" class="StationNameEN">Park</tspan></text>
-                <text x="27" y="-291" class="StationNameEN">Feixiang<tspan x="27" dy="12" class="StationNameEN">Park</tspan></text>
-                <text x="11" y="-250" class="StationNameEN">Sanyuanli</text>
-                <text x="11" y="-136" class="StationNameEN">Yuexiu<tspan x="11" dy="12" class="StationNameEN">Park</tspan></text>
-                <text x="11" y="86" class="StationNameEN">Haizhu<tspan x="11" dy="12" class="StationNameEN">Square</tspan></text>
-                <text x="72" y="160" class="StationNameEN">The 2nd Workers'<tspan x="72" dy="12" class="StationNameEN">Cultural Palace</tspan></text>
-                <text x="117" y="197" class="StationNameEN">Jiangnan<tspan x="117" dy="12" class="StationNameEN">West</tspan></text>
+                <text x="61" y="-325" class="StnNameEN">Baiyun<tspan x="61" dy="12" class="StnNameEN">Park</tspan></text>
+                <text x="27" y="-291" class="StnNameEN">Feixiang<tspan x="27" dy="12" class="StnNameEN">Park</tspan></text>
+                <text x="11" y="-250" class="StnNameEN">Sanyuanli</text>
+                <text x="11" y="-136" class="StnNameEN">Yuexiu<tspan x="11" dy="12" class="StnNameEN">Park</tspan></text>
+                <text x="11" y="86" class="StnNameEN">Haizhu<tspan x="11" dy="12" class="StnNameEN">Square</tspan></text>
+                <text x="72" y="160" class="StnNameEN">The 2nd Workers'<tspan x="72" dy="12" class="StnNameEN">Cultural Palace</tspan></text>
+                <text x="117" y="197" class="StnNameEN">Jiangnan<tspan x="117" dy="12" class="StnNameEN">West</tspan></text>
             </g>
             <g text-anchor="end">
-                <text x="-9" y="-176" class="StationNameEN">Guangzhou</text>
-                <text x="-9" y="-56" class="StationNameEN">Sun Yat-sen<tspan x="-9" dy="12" class="StationNameEN">Memorial Hall</tspan></text>
-                <text x="208" y="330" class="StationNameEN">Jiangtai<tspan x="208" dy="12" class="StationNameEN">Road</tspan></text>
+                <text x="-9" y="-176" class="StnNameEN">Guangzhou</text>
+                <text x="-9" y="-56" class="StnNameEN">Sun Yat-sen<tspan x="-9" dy="12" class="StnNameEN">Memorial Hall</tspan></text>
+                <text x="208" y="330" class="StnNameEN">Jiangtai<tspan x="208" dy="12" class="StnNameEN">Road</tspan></text>
             </g>
         </g>
         <g id="GZ3_names_EN">
             <g text-anchor="end">
-                <text x="439" y="56" class="StationNameEN">New Town<tspan x="439" dy="-12" class="StationNameEN">Zhujiang</tspan></text>
+                <text x="439" y="56" class="StnNameEN">New Town<tspan x="439" dy="-12" class="StnNameEN">Zhujiang</tspan></text>
             </g>
         </g>
         <g id="GZ5_names_EN">
             <g text-anchor="start">
-                <text x="151" y="-124" class="StationNameEN">Taojin</text>
-                <text x="219" y="-87" class="StationNameEN">Ouzhuang</text>
+                <text x="151" y="-124" class="StnNameEN">Taojin</text>
+                <text x="219" y="-87" class="StnNameEN">Ouzhuang</text>
             </g>
             <g text-anchor="middle">
-                <text x="309" y="-115" class="StationNameEN">Zoo</text>
-                <text x="371" y="84" class="StationNameEN">Wuyang<tspan x="371" dy="12" class="StationNameEN">Estate</tspan></text>
+                <text x="309" y="-115" class="StnNameEN">Zoo</text>
+                <text x="371" y="84" class="StnNameEN">Wuyang<tspan x="371" dy="12" class="StnNameEN">Estate</tspan></text>
             </g>
         </g>
         <g id="GZ6_names_EN">
             <g text-anchor="start">
-                <text x="-111" y="134" class="StationNameEN">Cultural<tspan x="-111" dy="12" class="StationNameEN">Park</tspan></text>
+                <text x="-111" y="134" class="StnNameEN">Cultural<tspan x="-111" dy="12" class="StnNameEN">Park</tspan></text>
             </g>
             <g text-anchor="middle">
-                <text x="255" y="-146" class="StationNameEN">Huanghuagang</text>
+                <text x="255" y="-146" class="StnNameEN">Huanghuagang</text>
             </g>
             <g text-anchor="end">
-                <text x="401" y="-256" class="StationNameEN">Shaheding</text>
+                <text x="401" y="-256" class="StnNameEN">Tianpingjia</text>
             </g>
         </g>
         <g id="GZ8_names_EN">
             <g text-anchor="start">
-                <text x="8" y="248" class="StationNameEN">Fenghuang<tspan x="8" dy="12" class="StationNameEN">Estate</tspan></text>
+                <text x="8" y="248" class="StnNameEN">Fenghuang<tspan x="8" dy="12" class="StnNameEN">Estate</tspan></text>
             </g>
             <g text-anchor="end">
-                <text x="-129" y="-56" class="StationNameEN">Caihong<tspan x="-131" dy="12" class="StationNameEN">Bridge</tspan></text>
-                <text x="-58" y="236" class="StationNameEN">Tongfu<tspan x="-58" dy="12" class="StationNameEN">West</tspan></text>
-                <text x="47.5" y="333.5" class="StationNameEN">Shayuan</text>
-                <text x="202" y="246" class="StationNameEN">Xiaogang</text>
-                <text x="284" y="246" class="StationNameEN">University<tspan x="284" dy="-12" class="StationNameEN">Sun Yat-sen</tspan></text>
+                <text x="-129" y="-56" class="StnNameEN">Caihong<tspan x="-131" dy="12" class="StnNameEN">Bridge</tspan></text>
+                <text x="-58" y="236" class="StnNameEN">Tongfu<tspan x="-58" dy="12" class="StnNameEN">West</tspan></text>
+                <text x="47.5" y="333.5" class="StnNameEN">Shayuan</text>
+                <text x="202" y="246" class="StnNameEN">Xiaogang</text>
+                <text x="284" y="246" class="StnNameEN">University<tspan x="284" dy="-12" class="StnNameEN">Sun Yat-sen</tspan></text>
             </g>
         </g>
         <g id="GZ10_names_EN">
             <g text-anchor="start">
-                <text x="302" y="278" class="StationNameEN">Sun Yat-sen<tspan x="302" dy="12" class="StationNameEN">University</tspan><tspan x="302" dy="12" class="StationNameEN">South Entrance</tspan></text>
-                <text x="382" y="2" class="StationNameEN">Guangzhou<tspan x="382" dy="12" class="StationNameEN">Avenue Middle</tspan></text>
+                <text x="302" y="278" class="StnNameEN">Sun Yat-sen<tspan x="302" dy="12" class="StnNameEN">University</tspan><tspan x="302" dy="12" class="StnNameEN">South Entrance</tspan></text>
+                <text x="382" y="2" class="StnNameEN">Guangzhou<tspan x="382" dy="12" class="StnNameEN">Avenue Middle</tspan></text>
             </g>
             <g text-anchor="middle">
-                <text x="240" y="53" class="StationNameEN">Shuqian<tspan x="240" dy="12" class="StationNameEN">Road</tspan></text>
-                <text x="304" y="53" class="StationNameEN">Siyou<tspan x="304" dy="12" class="StationNameEN">New Road</tspan></text>
+                <text x="240" y="53" class="StnNameEN">Shuqian<tspan x="240" dy="12" class="StnNameEN">Road</tspan></text>
+                <text x="304" y="53" class="StnNameEN">Siyou<tspan x="304" dy="12" class="StnNameEN">New Road</tspan></text>
             </g>
             <g text-anchor="end">
-                <text x="209" y="437" class="StationNameEN">Daganwei</text>
-                <text x="479" y="-117" class="StationNameEN">Tianhe Road</text>
+                <text x="209" y="437" class="StnNameEN">Daganwei</text>
+                <text x="479" y="-117" class="StnNameEN">Tianhe Road</text>
             </g>
         </g>
         <g id="GZ11_names_EN">
             <g text-anchor="start">
-                <text x="124" y="-225" class="StationNameEN">Estate<tspan x="124" dy="-12" class="StationNameEN">Guangyuan</tspan></text>
-                <text x="384" y="-197" class="StationNameEN">Shahe</text>
+                <text x="124" y="-225" class="StnNameEN">Estate<tspan x="124" dy="-12" class="StnNameEN">Guangyuan</tspan></text>
+                <text x="369" y="-195" class="StnNameEN">Shahe</text>
             </g>
             <g text-anchor="middle">
-                <text x="62" y="-225" class="StationNameEN">Ziyuangang</text>
-                <text x="180" y="-197" class="StationNameEN">Dajinzhong</text>
-                <text x="245" y="-225" class="StationNameEN">Garden<tspan x="245" dy="-12" class="StationNameEN">Yuntai</tspan></text>
-                <text x="310" y="-225" class="StationNameEN">Village<tspan x="310" dy="-12" class="StationNameEN">Tianxin</tspan></text>
-                <text x="406" y="334" class="StationNameEN">Shangchong<tspan x="406" dy="12" class="StationNameEN">Park</tspan></text>
-                <text x="335" y="334" class="StationNameEN">Yijing<tspan x="335" dy="12" class="StationNameEN">Road</tspan></text>
-                <text x="68" y="393" class="StationNameEN">Road<tspan x="68" dy="-12" class="StationNameEN">Nanshi</tspan></text>
+                <text x="62" y="-225" class="StnNameEN">Ziyuangang</text>
+                <text x="180" y="-197" class="StnNameEN">Dajinzhong</text>
+                <text x="245" y="-225" class="StnNameEN">Garden<tspan x="245" dy="-12" class="StnNameEN">Yuntai</tspan></text>
+                <text x="310" y="-225" class="StnNameEN">Village<tspan x="310" dy="-12" class="StnNameEN">Tianxin</tspan></text>
+                <text x="406" y="334" class="StnNameEN">Shangchong<tspan x="406" dy="12" class="StnNameEN">Park</tspan></text>
+                <text x="335" y="334" class="StnNameEN">Yijing<tspan x="335" dy="12" class="StnNameEN">Road</tspan></text>
+                <text x="72" y="393" class="StnNameEN">Road<tspan x="72" dy="-12" class="StnNameEN">Nanshi</tspan></text>
             </g>
             <g text-anchor="end">
-                <text x="284" y="306" class="StationNameEN">Wufeng</text>
-                <text x="-40" y="405" class="StationNameEN">Hedong<tspan x="-40" dy="12" class="StationNameEN">East</tspan></text>
-                <text x="-145" y="296" class="StationNameEN">Fangcun<tspan x="-145" dy="12" class="StationNameEN">Avenue</tspan><tspan x="-145" dy="12" class="StationNameEN">East</tspan></text>
+                <text x="284" y="306" class="StnNameEN">Wufeng</text>
+                <text x="-40" y="405" class="StnNameEN">Hedong<tspan x="-40" dy="12" class="StnNameEN">East</tspan></text>
+                <text x="-145" y="296" class="StnNameEN">Fangcun<tspan x="-145" dy="12" class="StnNameEN">Avenue</tspan><tspan x="-145" dy="12" class="StnNameEN">East</tspan></text>
             </g>
         </g>
         <g id="GZ12_names_EN">
             <g text-anchor="start">
-                <text x="126" y="-336" class="StationNameEN">Yunxi Park</text>
-                <text x="126" y="-296" class="StationNameEN">Xiaojinzhong</text>
-                <text x="126" y="-256" class="StationNameEN">Jingyun Road</text>
-                <text x="126" y="-179" class="StationNameEN">Hengfu Road</text>
+                <text x="126" y="-336" class="StnNameEN">Yunxi Park</text>
+                <text x="126" y="-296" class="StnNameEN">Xiaojinzhong</text>
+                <text x="126" y="-256" class="StnNameEN">Jingyun Road</text>
+                <text x="126" y="-179" class="StnNameEN">Hengfu Road</text>
             </g>
             <g text-anchor="middle">
-                <text x="-51" y="-381" class="StationNameEN">Estate<tspan x="-51" dy="-12" class="StationNameEN">CSAir</tspan></text>
+                <text x="-51" y="-381" class="StnNameEN">Estate<tspan x="-51" dy="-12" class="StnNameEN">CSAir</tspan></text>
             </g>
         </g>
         <g id="GZ13_names_EN">
             <g text-anchor="start">
-                <text x="149" y="-56" class="StationNameEN">Jianshe<tspan x="149" dy="12" class="StationNameEN">6th Road</tspan></text>
+                <text x="149" y="-56" class="StnNameEN">Jianshe<tspan x="149" dy="12" class="StnNameEN">6th Road</tspan></text>
             </g>
             <g text-anchor="middle">
-                <text x="70" y="-84" class="StationNameEN">Road<tspan x="70" dy="-12" class="StationNameEN">Cangbian</tspan></text>
-                <text x="239" y="-56" class="StationNameEN">Lower<tspan x="239" dy="12" class="StationNameEN">Nonglin</tspan><tspan x="239" dy="12" class="StationNameEN">Road</tspan></text>
-                <text x="309" y="-56" class="StationNameEN">Meidong<tspan x="309" dy="12" class="StationNameEN">Road</tspan></text>
+                <text x="70" y="-84" class="StnNameEN">Road<tspan x="70" dy="-12" class="StnNameEN">Cangbian</tspan></text>
+                <text x="239" y="-56" class="StnNameEN">Lower<tspan x="239" dy="12" class="StnNameEN">Nonglin</tspan><tspan x="239" dy="12" class="StnNameEN">Road</tspan></text>
+                <text x="309" y="-56" class="StnNameEN">Meidong<tspan x="309" dy="12" class="StnNameEN">Road</tspan></text>
             </g>
             <g text-anchor="end">
-                <text x="474" y="-28" class="StationNameEN">Huacheng<tspan x="474" dy="12" class="StationNameEN">Square North</tspan></text>
+                <text x="474" y="-28" class="StnNameEN">Huacheng<tspan x="474" dy="12" class="StnNameEN">Square North</tspan></text>
             </g>
         </g>
         <g id="GZ14_names_EN">
             <g text-anchor="end">
-                <text x="-37" y="-279" class="StationNameEN">Lejia<tspan x="-37" dy="12" class="StationNameEN">Road</tspan></text>
-                <text x="-17" y="-345" class="StationNameEN">Gangbei</text>
-                <text x="15" y="-381" class="StationNameEN">Market<tspan x="15" dy="-12" class="StationNameEN">Xinshi</tspan></text>
+                <text x="-37" y="-279" class="StnNameEN">Lejia<tspan x="-37" dy="12" class="StnNameEN">Road</tspan></text>
+                <text x="-17" y="-345" class="StnNameEN">Gangbei</text>
+                <text x="15" y="-381" class="StnNameEN">Market<tspan x="15" dy="-12" class="StnNameEN">Xinshi</tspan></text>
             </g>
         </g>
         <g id="GZ19_names_EN">
             <g text-anchor="end">
-                <text x="8" y="182" class="StationNameEN">Hoi Tong<tspan x="8" dy="12" class="StationNameEN">Monastery</tspan></text>
+                <text x="8" y="182" class="StnNameEN">Hoi Tong<tspan x="8" dy="12" class="StnNameEN">Monastery</tspan></text>
             </g>
         </g>
         <g id="GZAPM_names_EN">
             <g text-anchor="start">
-                <text x="505" y="-30" class="StationNameEN">Huangpu<tspan x="505" dy="12" class="StationNameEN">Avenue</tspan></text>
+                <text x="505" y="-30" class="StnNameEN">Huangpu<tspan x="505" dy="12" class="StnNameEN">Avenue</tspan></text>
             </g>
         </g>
         <g id="GF_names_EN">
             <g text-anchor="end">
-                <text x="-97" y="336" class="StationNameEN">Shachong</text>
-                <text x="119" y="421" class="StationNameEN">Yangang</text>
-                <text x="233" y="409" class="StationNameEN">Shixi</text>
+                <text x="-92" y="341" class="StnNameEN">Shachong</text>
+                <text x="134" y="423" class="StnNameEN">Yangang</text>
+                <text x="233" y="409" class="StnNameEN">Shixi</text>
             </g>
         </g>
         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="hidden"/>
@@ -766,11 +795,11 @@ viewBox="-2700 -2500 5700 5500"
     <g id="Station_names_ZH" font-size="6.7pt" style="visibility:hidden">
         <g id="GZ1_names_ZH">
             <g text-anchor="start">
-                <text x="9" y="14" class="StationNameZH">公園前</text>
-                <text x="149" y="14" class="StationNameZH">烈士陵園</text>
+                <text x="9" y="14" class="StnNameZH">公園前</text>
+                <text x="149" y="14" class="StnNameZH">烈士陵園</text>
             </g>
             <g text-anchor="middle">
-                <text x="70" y="-14" class="StationNameZH">農講所</text>
+                <text x="70" y="-14" class="StnNameZH">農講所</text>
             </g>
         </g>
         <g id="GZ13_names_ZH">
@@ -778,9 +807,9 @@ viewBox="-2700 -2500 5700 5500"
                 
             </g>
             <g text-anchor="middle">
-                <text x="70" y="-84" class="StationNameZH">倉邊路</text>
-                <text x="239" y="-56" class="StationNameZH">農林下路</text>
-                <text x="319" y="-56" class="StationNameZH">梅東路</text>
+                <text x="70" y="-84" class="StnNameZH">倉邊路</text>
+                <text x="239" y="-56" class="StnNameZH">農林下路</text>
+                <text x="319" y="-56" class="StnNameZH">梅東路</text>
             </g>
         </g>
         <set begin="cht_switch_base.click" end="cht_switch_over.click" attributeName="visibility" attributeType="CSS" to="visible"/>
