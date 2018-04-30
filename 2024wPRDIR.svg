@@ -262,7 +262,7 @@ viewBox="-700 -1500 3700 4500"
             H 350 a 21,21 0 0,0 15,-6
             L 423,-64 a 21,21 0 0,1 15,-6
             H 529 a 21,21 0 0,0 21,-21
-            V -179 a 21,21 0 0,0 -21,-21
+            V -188 a 21,21 0 0,0 -21,-21
             H 448
         "/>
         <path id="GZ2_route" class="cgz2" d="
@@ -293,8 +293,8 @@ viewBox="-700 -1500 3700 4500"
             L 10,76 a 21,21 0 0,1 15,-6
             H 189 a 21,21 0 0,0 21,-21
             V -111 a 21,21 0 0,1 21,-21
-            H 287 a 21,21 0 0,0 15,-6
-            L 418,-254 a 21,21 0 0,1 15,-6
+            H 268 a 21,21 0 0,0 15,-6
+            L 418,-273 a 21,21 0 0,1 15,-6
             H 448
         "/>
         <path id="GZ7_route" class="cgz7" d="
@@ -329,12 +329,15 @@ viewBox="-700 -1500 3700 4500"
             H 600
         "/>
         <path id="GZ11_route" class="cgz11" d="
-            M -195,-70 a 21,21 0 0,1 15,-6
+            M -213,-71
+            L -212,-70 a 21,21 0 0,1 15,-6
             H -101 a 21,21 0 0,0 15,-6
-            L 37,-205 a 21,21 0 0,1 15,-6
+            L 46,-214 a 21,21 0 0,1 15,-6
             H 500
 
-            M -301,204 a 21,21 0 0,0 21,21
+            M -212,-70
+            L -295,13 a 21,21 0 0,0 -6,15
+            V 204 a 21,21 0 0,0 21,21
             H -190 a 21,21 0 0,1 15,6
             L -5,401 a 21,21 0 0,0 15,6
             H 145 a 21,21 0 0,0 15,-6
@@ -372,9 +375,9 @@ viewBox="-700 -1500 3700 4500"
             L 54,-397
         "/>
         <path id="GZ18_route" class="cgz18" d="
-            M 459,-211
-            V -201 a 21,21 0 0,0 6,15
-            L 550,-100 a 21,21 0 0,1 6,15
+            M 459,-220
+            V -210 a 21,21 0 0,0 6,15
+            L 550,-109 a 21,21 0 0,1 6,15
             V 131 a 21,21 0 0,0 6,15
             L 597,181 a 21,21 0 0,1 6,15
             V 500
@@ -429,24 +432,24 @@ viewBox="-700 -1500 3700 4500"
 
         <g class="cunknown">
             <path id="Guangshen_Railway" d="
-                M -15,-202
-                H 69 a 21,21 0 0,1 15,6
+                M -15,-205
+                H 66 a 21,21 0 0,1 15,6
                 L 112,-168 a 21,21 0 0,0 15,6
-                H 284 a 21,21 0 0,0 15,-6
-                L 351,-221 a 21,21 0 0,1 15,-6
+                H 283 a 21,21 0 0,0 15,-6
+                L 358,-229 a 21,21 0 0,1 15,-6
                 H 500
             "/>
             <path id="Guangmao_Railway" d="
-                M -15,-202
+                M -15,-205
                 H -60 a 21,21 0 0,0 -15,6
-                L -225,-46
+                L -225,-49
             "/>
         </g>
         <use xlink:href="#Guangshen_Railway" class="Railway"/>
         <use xlink:href="#Guangmao_Railway" class="Railway"/>
         <g class="cprdir">
             <path id="Guangqing_IC" d="
-                M -15,-208
+                M -15,-205
                 H -75 a 21,21 0 0,1 -21,-21
                 V -400
             "/>
@@ -476,11 +479,11 @@ viewBox="-700 -1500 3700 4500"
         <path class="PaidTunnel" d="
             M -111,-367 L -96,-352
             M -15,-205 L 0,-190
-            M 474,-226 L 459,-211
+            M 474,-235 L 459,-220
         "/>
         <use xlink:href="#int" transform="translate(-96,-352)" id="Tangxi"/>
         <use xlink:href="#int" x="-15" y="-205" id="Guangzhou"/>
-        <use xlink:href="#int" x="474" y="-226" id="Guangzhoudong"/>
+        <use xlink:href="#int" x="474" y="-235" id="Guangzhoudong"/>
     </g>
     <g id="GZ_FS_Circle_Line_station_icons">
         <path class="PaidTunnel" d="
@@ -501,7 +504,7 @@ viewBox="-700 -1500 3700 4500"
         <use xlink:href="#int" x="210" y="0" id="Dongshankou"/>
         <use xlink:href="#int" x="340" y="0" id="Yangji"/>
         <use xlink:href="#int" x="448" y="-70" id="Tiyu_Xilu"/>
-        <use xlink:href="#int" x="448" y="-200" id="Guangzhou_East_Railway_Station"/>
+        <use xlink:href="#int" x="448" y="-209" id="Guangzhou_East_Railway_Station"/>
     </g>
     <g id="GZ2_station_icons">
         <use xlink:href="#int" x="84" y="-367" id="Baiyun_Cultural_Square"/>
@@ -527,7 +530,7 @@ viewBox="-700 -1500 3700 4500"
     </g>
     <g id="GZ3_station_icons">
         <use xlink:href="#stgz3" transform="translate(448,-300)" id="Meihuayuan"/>
-        <use xlink:href="#int" x="448" y="-260" id="Yantang"/>
+        <use xlink:href="#int" x="448" y="-279" id="Yantang"/>
         <!--Guangzhou East Railway Station GZ1-->
         <path class="PaidTunnel" d="
             M 448,-140 H 494
@@ -547,6 +550,7 @@ viewBox="-700 -1500 3700 4500"
         <use xlink:href="#int" transform="translate(448,735)" id="Dashi"/>
     </g>
     <g id="GZ5_station_icons">
+        <use xlink:href="#int" x="-286" y="0" id="Zhongshanba"/>
         <use xlink:href="#stgz5" transform="translate(90,-174)rotate(135)" id="Xiaobei"/>
         <use xlink:href="#int" x="140" y="-124" id="Taojin"/>
         <use xlink:href="#int" x="210" y="-101" id="Ouzhuang"/>
@@ -557,7 +561,7 @@ viewBox="-700 -1500 3700 4500"
     <g id="GZ6_station_icons">
         <use xlink:href="#int" x="-120" y="120" id="Cultural_Park"/>
         <use xlink:href="#int" x="179" y="70" id="Donghu"/>
-        <use xlink:href="#stgz6" transform="translate(255,-132)rotate(-90)" id="Huanghuagang"/>
+        <use xlink:href="#stgz6" transform="translate(241,-132)rotate(-90)" id="Huanghuagang"/>
         <!--Shahe GZ11-->
         <use xlink:href="#stgz6" transform="translate(408,-244)rotate(-135)" id="Tianpingjia"/>
     </g>
@@ -601,11 +605,11 @@ viewBox="-700 -1500 3700 4500"
         <use xlink:href="#GuangzhouRailwayStation_Interchange" class="DumbbellFG"/>
         <circle cx="11" cy="-179" r="6" fill="#fff"/>
         <circle cx="0" cy="-190" r="6" fill="#fff"/>
-        <use xlink:href="#stgz11" transform="translate(62,-211)rotate(-90)" id="Ziyuangang"/>
-        <use xlink:href="#int" x="115" y="-211" id="Guangyuan_Xincun"/>
-        <use xlink:href="#stgz11" transform="translate(180,-211)rotate(90)" id="Dajinzhong"/>
-        <use xlink:href="#stgz11" transform="translate(245,-211)rotate(-90)" id="Yuntai_Garden"/>
-        <use xlink:href="#stgz11" transform="translate(310,-211)rotate(-90)" id="Tianxincun"/>
+        <use xlink:href="#stgz11" transform="translate(71,-220)rotate(-90)" id="Ziyuangang"/>
+        <use xlink:href="#int" x="115" y="-220" id="Guangyuan_Xincun"/>
+        <use xlink:href="#stgz11" transform="translate(180,-220)rotate(90)" id="Dajinzhong"/>
+        <use xlink:href="#stgz11" transform="translate(245,-220)rotate(-90)" id="Yuntai_Garden"/>
+        <use xlink:href="#stgz11" transform="translate(310,-220)rotate(-90)" id="Tianxincun"/>
         <use xlink:href="#int" transform="translate(375,-211)" id="Shahe"/>
         <use xlink:href="#stgz11" transform="translate(406,320)rotate(90)" id="Shangchong_Park"/>
         <use xlink:href="#stgz11" transform="translate(335,320)rotate(90)" id="Yijing_Lu"/>
@@ -665,15 +669,15 @@ viewBox="-700 -1500 3700 4500"
         <use xlink:href="#int" x="24" y="-367" id="Xinshixu"/>
     </g>
     <g id="GZ18_station_icons">
-        <use xlink:href="#int" x="459" y="-211" id="Guangzhou_East_Railway_Station_18"/>
+        <use xlink:href="#int" x="459" y="-220" id="Guangzhou_East_Railway_Station_18"/>
         <g class="DumbbellBG">
             <path id="GuangzhouEastRailwayStation_Interchange" d="
-                M 459,-211 L 448,-200
+                M 459,-220 L 448,-209
             "/>
         </g>
         <use xlink:href="#GuangzhouEastRailwayStation_Interchange" class="DumbbellFG"/>
-        <circle cx="459" cy="-211" r="6" fill="#fff"/>
-        <circle cx="448" cy="-200" r="6" fill="#fff"/>
+        <circle cx="459" cy="-220" r="6" fill="#fff"/>
+        <circle cx="448" cy="-209" r="6" fill="#fff"/>
         <use xlink:href="#int" x="556" y="0" id="Xiancun"/>
         <use xlink:href="#int" x="603" y="206" id="Pazhou_Xiqu"/>
         <use xlink:href="#stgz19" transform="translate(603,610)rotate(0)" id="Shaxi"/>
@@ -764,7 +768,7 @@ viewBox="-700 -1500 3700 4500"
                 <text x="-111" y="134" class="StnNameEN">Cultural<tspan x="-111" dy="12" class="StnNameEN">Park</tspan></text>
             </g>
             <g text-anchor="middle">
-                <text x="255" y="-146" class="StnNameEN">Huanghuagang</text>
+                <text x="241" y="-146" class="StnNameEN">Huanghuagang</text>
             </g>
             <g text-anchor="end">
                 <text x="401" y="-256" class="StnNameEN">Tianpingjia</text>
@@ -798,11 +802,11 @@ viewBox="-700 -1500 3700 4500"
         </g>
         <g id="GZ11_names_EN">
             <g text-anchor="start">
-                <text x="124" y="-225" class="StnNameEN">Estate<tspan x="124" dy="-12" class="StnNameEN">Guangyuan</tspan></text>
+                <text x="124" y="-234" class="StnNameEN">Estate<tspan x="124" dy="-12" class="StnNameEN">Guangyuan</tspan></text>
                 <text x="369" y="-195" class="StnNameEN">Shahe</text>
             </g>
             <g text-anchor="middle">
-                <text x="62" y="-225" class="StnNameEN">Ziyuangang</text>
+                <text x="71" y="-234" class="StnNameEN">Ziyuangang</text>
                 <text x="180" y="-197" class="StnNameEN">Dajinzhong</text>
                 <text x="245" y="-225" class="StnNameEN">Garden<tspan x="245" dy="-12" class="StnNameEN">Yuntai</tspan></text>
                 <text x="310" y="-225" class="StnNameEN">Village<tspan x="310" dy="-12" class="StnNameEN">Tianxin</tspan></text>
