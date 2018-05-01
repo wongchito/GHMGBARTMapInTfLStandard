@@ -301,7 +301,9 @@ viewBox="-700 -1500 3700 4500"
             H 448
         "/>
         <path id="GZ7_route" class="cgz7" d="
-            M -115,1212
+            M -141,1200
+            V 1029 a 21,21 0 0,1 21,-21
+            H 80 a 21,21 0 0,0 15,-6
             L 220,877 a 21,21 0 0,1 30,0
             L 323,950 a 21,21 0 0,0 15,6
             H 438 a 21,21 0 0,0 15,-6
@@ -470,7 +472,8 @@ viewBox="-700 -1500 3700 4500"
                 L 618,1007
             "/>
             <path id="GZ_FS_Circle_Line" d="
-                M 53,1062
+                M -300,1030
+                H 76 a 21,21 0 0,0 15,-6
                 L 389,726 a 21,21 0 0,1 15,-6
                 H 500
             "/>
@@ -590,7 +593,8 @@ viewBox="-700 -1500 3700 4500"
         <use xlink:href="#stgz6" transform="translate(408,-244)rotate(-135)" id="Tianpingjia"/>
     </g>
     <g id="GZ7_station_icons">
-        <use xlink:href="#int" x="-25" y="1122" id="Chencun_Bei"/>
+        <use xlink:href="#int" x="-141" y="1045" id="Chencun"/>
+        <use xlink:href="#int" x="-25" y="1008" id="Chencun_Bei"/>
         <!--Guangzhou South Railway Station GZ2-->
         <!--Shibi GZ2-->
         <use xlink:href="#stgz7" transform="translate(313,940)rotate(135)" id="Xiecun"/>
@@ -748,6 +752,7 @@ viewBox="-700 -1500 3700 4500"
     </g>
 
     <g id="FS2_station_icons">
+        <use xlink:href="#int" x="-141" y="885" id="Linyue_Xi"/>
         <use xlink:href="#int" x="-25" y="885" id="Linyue_Dong"/>
         <!--Guangzhou South Railway Station GZ2-->
     </g>
