@@ -436,8 +436,9 @@ viewBox="-700 -1500 3700 4500"
             L 515,-144 a 21,21 0 0,1 6,15
             V 96 a 21,21 0 0,0 6,15
             L 597,181 a 21,21 0 0,1 6,15
-            V 705 a 21,21 0 0,0 6,15
-            L 916,1027 a 21,21 0 0,1 6,15
+            V 713 a 21,21 0 0,0 6,15
+            L 642.5,759.5
+            L 916,1033 a 21,21 0 0,1 6,15
             V 1300
         "/>
         <path id="GZ19_route" class="cgz19" d="
@@ -496,12 +497,18 @@ viewBox="-700 -1500 3700 4500"
         "/>
         <path id="FS4_route" class="cfs4" d="
             M -200,815
-            H -25
+            H 170 a 21,21 0 0,0 15,-6
+            L 253,741 a 21,21 0 0,1 15,-6
+            H 601 a 21,21 0 0,1 15,6
+            L 639.5,764.5
         "/>
         <path id="FS11_route" class="cfs11" d="
             M -25,381
+            V 1018 a 21,21 0 0,0 6,15
+            L 38,1090 a 21,21 0 0,1 6,15
             V 1215 a 21,21 0 0,0 6,15
-            L -9,1240
+            L 60,1240
+            L 202,1382 a 21,21 0 0,1 6,15
         "/>
         <g class="cunknown">
             <path id="NHTram_route" d="
@@ -629,7 +636,7 @@ viewBox="-700 -1500 3700 4500"
         <use xlink:href="#int" transform="translate(311,441)" id="Nanzhou"/>
         <use xlink:href="#stgz2" transform="translate(295,610)rotate(45)" id="Luoxi"/>
         <use xlink:href="#stgz2" transform="translate(240,665)rotate(45)" id="Nanpu"/>
-        <use xlink:href="#stgz2" transform="translate(224,770)rotate(0)" id="Huijiang"/>
+        <use xlink:href="#int" transform="translate(224,770)rotate(0)" id="Huijiang"/>
         <use xlink:href="#int" transform="translate(208,885)" id="Shibi"/>
         <use xlink:href="#int" transform="translate(153,940)" id="Guangzhou_South_Railway_Station"/>
     </g>
@@ -699,7 +706,7 @@ viewBox="-700 -1500 3700 4500"
         <use xlink:href="#stgz7" transform="translate(313,940)rotate(135)" id="Xiecun"/>
         <use xlink:href="#stgz7" transform="translate(428,956)rotate(90)" id="Zhongcun"/>
         <!--Hanxi Changlong GZ3-->
-        <use xlink:href="#int" x="646" y="757" id="Nancun_Wanbo"/>
+        <use xlink:href="#int" x="641" y="762" id="Nancun_Wanbo"/>
     </g>
     <g id="GZ8_station_icons">
         <use xlink:href="#int" transform="translate(-171,-367)" id="Dekang"/>
@@ -904,8 +911,8 @@ viewBox="-700 -1500 3700 4500"
         <!--Gangkou Lu FS4-->
         <!--Linyue Dong FS2-->
         <!--Chencun Bei GZ7-->
-        <use xlink:href="#stfs11" transform="translate(-25,1115)rotate(0)" id="Chencun_Dong"/>
-        <use xlink:href="#stfs11" transform="translate(-9,1240)rotate(-45)" id="Bijiang"/>
+        <use xlink:href="#stfs11" transform="translate(44,1115)rotate(0)" id="Chencun_Dong"/>
+        <use xlink:href="#stfs11" transform="translate(60,1240)rotate(-45)" id="Bijiang"/>
     </g>
     <g id="NHTram_station_icons">
         <use xlink:href="#int" x="-187" y="800" id="Sanshan_New_Town_S_NHTram"/>
